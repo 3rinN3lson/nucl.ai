@@ -15,9 +15,11 @@
     - Claudia Doppioslash
   room: masterclass
 
-- title: "Introduction to BeHavior Language (Evolution of practical BT application)"
+- title: "Seamless Merging of Behavior Trees and Imperative Code"
   description: >
-    Behaviour Trees(BT) is a convenient pattern for implementing agents coordination logic. There are 2 common approaches for BT representation, either using a visual nodes builder or a specialised programming language. We are proponents of the latter. In our opinion, BT declarative syntax can be both expressive and powerful.
-    In order to simplify BT coding we developed a specialised BeHaviour Language(BHL). BHL is a typed language which allows to mix both declarative BT style with familiar imperative programming style. In fact, BHL just adds a thin imperative gluing layer over a BT pattern. Apart from having a clear syntax BHL also helps to get rid of some drawbacks adherent to BT.
+    Behaviour Trees (BT) are a convenient pattern for implementing agents coordination logic. There are 2 common approaches for BT representation, either using a visual nodes builder or a specialised programming language. We are proponents of the latter. In our opinion, BT declarative syntax can be both expressive and powerful.
+    In order to simplify BT coding we developed a specialised BeHaviour Language (BHL). BHL is a typed language which allows to mix both declarative BT style with familiar imperative programming style. In fact, BHL just adds a thin imperative gluing layer over a BT pattern. Apart from having a clear syntax BHL also helps to get rid of some drawbacks adherent to BT.
     This talk will include not only an introduction to BHL but also our usage experience alongside with best practices, tips and tricks.
+  speakers:
+    - Pavel Shevaev
   room: masterclass

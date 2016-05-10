@@ -49,7 +49,7 @@
     he has been to art school, and love to torture himself with how to bridge between the programming & art worlds.
 
 - name: Heather Stark
-  role: [track, speaker]
+  role: track
   confirmed: true
   tracks: [analytics]
   twitter: hastark
@@ -89,7 +89,7 @@
     He has specialized in both game AI and animation technology for games.
 
 - name: Noor Shaker
-  role: [track, speaker]
+  role: track
   tracks: [procedural]
   twitter: noorshak
   affiliation: 
@@ -188,27 +188,27 @@
   bio: >
     Prof. Helmut Hlavacs studied Technical Mathematics at the Technical University of Vienna, and received a PhD in 2001. He joined the University of Vienna as researcher for the EU projects BISANTE and later CODIS, and received habilitation in 2004, also being promoted to Associated Professor. He was guest professor in Spain and France, and initiated numerous projects on national and international level. He was vice chair and grant holder of the COST action IC0804, leader of industry projects with Rohde&Schwarz, Kapsch Carrier Com, T-Systems, Telekom Austria/A1, ASFINAG, member of the Research Center Telecommunications Vienna, etc., and successfully closed several basic research projects in the area of mobile video, task virtualization, energy efficiency, and traffic status measurement. Prof. Hlavacs co-authored over 150 peer-reviewed publications, published at international conferences or journals, resulting in an Erdös-Number of 4. He is author of one book, and guest editor of numerous special journal issues, one being currently reviewed. Furthermore, he has received eight best paper and distinguished paper awards at international conferences so far. He was also advisor of eight finished PhD students so far, two of whom have been awarded with prestigious PhD awards.
 
-- name: Andre Arsenault
-  role: speaker
-  confirmed: true
-  affiliation: 
-    position: Lead Battle AI Programmer
-    name: Creative Assembly
-    url: http://www.creative-assembly.com/
-  bio: >
-    Andre is a 21-year veteran of the games industry having filled many programming, design, production and leadership 
-    roles over the years. His career focused mainly on gameplay programming for various RTS and MMORPG titles at Westwood 
-    Studios, Electronic Arts, Petroglyph, and Sony Online Entertainment before moving into production roles. He joined 
-    Creative Assembly in 2014 and is currently responsible for Battle AI on the Total War series of strategy games.
+# - name: Andre Arsenault
+#   role: speaker
+#   confirmed: true
+#   affiliation: 
+#     position: Lead Battle AI Programmer
+#     name: Creative Assembly
+#     url: http://www.creative-assembly.com/
+#   bio: >
+#     Andre is a 21-year veteran of the games industry having filled many programming, design, production and leadership 
+#     roles over the years. His career focused mainly on gameplay programming for various RTS and MMORPG titles at Westwood 
+#     Studios, Electronic Arts, Petroglyph, and Sony Online Entertainment before moving into production roles. He joined 
+#     Creative Assembly in 2014 and is currently responsible for Battle AI on the Total War series of strategy games.
 
-- name: Andy Bray
-  role: speaker
-  confirmed: false
-  affiliation: 
-    position: Lead AI Programmer
-    name: Creative Assembly
-  bio: >
-    Andy is a Lead AI Programmer at Creative Assembly. He worked on the Xenomorph behavior for Alien: Isolation. 
+# - name: Andy Bray
+#   role: speaker
+#   confirmed: false
+#   affiliation: 
+#     position: Lead AI Programmer
+#     name: Creative Assembly
+#   bio: >
+#     Andy is a Lead AI Programmer at Creative Assembly. He worked on the Xenomorph behavior for Alien: Isolation. 
 
 - name: Ali Helmy
   role: speaker
@@ -380,15 +380,15 @@
   bio: >
     Santiago Murillo, Data Scientist at Social Point. He holds an Industrial Engineering Degree and a title of researcher in computer science from the Polytechnic University of Catalonia (UPC). He has more than 10 years’ experience working with technologic solutions and innovations in various industrial sectors. In the last years he has led the development of machine learning tools for marketing technology field and also a number of R&D projects supported by the Spanish Ministry of Science and Innovation, which focused in developing technology for data mining and artificial intelligent applied in digital advertising industry.
 
-- name: Christian Rothe
-  role: speaker
-  confirmed: true
-  affiliation:
+# - name: Christian Rothe
+#   role: speaker
+#   confirmed: true
+#   affiliation:
 #    position: Data Scientist
-    name: Creative Assembly
-    url: http://www.creative-assembly.com/
-  bio: >
-    Christian is currently working at Creative Assembly on the upcoming Total War: Arena title. His main interest lies with highly scalable online systems, but he also enjoys all kinds of other challenges (which brings him to nucl.ai). Prior to joining Creative Assembly, Christian worked as a freelancer on a variety of game and non-game projects, co-founded a startup and worked at SAP.
+#     name: Creative Assembly
+#     url: http://www.creative-assembly.com/
+#   bio: >
+#     Christian is currently working at Creative Assembly on the upcoming Total War: Arena title. His main interest lies with highly scalable online systems, but he also enjoys all kinds of other challenges (which brings him to nucl.ai). Prior to joining Creative Assembly, Christian worked as a freelancer on a variety of game and non-game projects, co-founded a startup and worked at SAP.
 
 - name: Kate Compton
   role: speaker
@@ -397,7 +397,6 @@
     url: http://www.galaxykate.com/
   bio: >
     Kate Compton is a long-time Procedural Content Generation (PCG) practitioner.  She wrote the first paper on procedural platformer levels, generated the planets for Spore, and wrote the latest SimCity fire system.  She is now a PhD candidate at UC Santa Cruz developing artificial intelligence to augment human creativity with generative art.  She likes laser cutting, 3D printing, founding companies, and baking.
-
 
 - name: Niels Justesen
   role: speaker
@@ -411,7 +410,7 @@
   role: speaker
   confirmed: true
   affiliation:
-    position: CTO
+    position: Chief Technology Officer
     name: BIT.GAMES
     url: http://bitdotgames.com/
   bio: >
