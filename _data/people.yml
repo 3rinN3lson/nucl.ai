@@ -415,3 +415,23 @@
     url: http://bitdotgames.com/
   bio: >
      8+ years of game dev. Skills range from PHP dirty hacking to C++ servers coding. Walked a thorny path from an OOP zealot to an admirer of simple solutions for complicated problems.
+
+- name: Jason Schroder
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior Programmer
+    name: Io-Interactive
+    url: http://www.ioi.dk
+  bio: >
+    Jason joined the Australian games industry in 2001. Starting as a generalist game programmer at Krome Studios, where he soon found his passion as an AI programmer. Jason was responsible for designing and developing AI solutions for several AAA titles over a number of years at Krome. He later joined the Hitman team at IO Interactive in 2011. Starting with Hitman: Absolution and continuing with this year’s HITMAN. His primary role has been to develop AI systems and behaviors for both titles.
+
+- name: Thomas Petersen
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior Programmer
+    name: Io-Interactive
+    url: http://www.ioi.dk
+  bio: >
+    Thomas has a been working in most areas of game related programming since late 97, from audio over platform, to gameplay and AI. He’s currently working at IO Interactive on the AI team, helping deliver new feature content and maintain the live HITMAN game.
