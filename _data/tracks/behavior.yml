@@ -24,7 +24,7 @@
     - Pavel Shevaev
   room: masterclass
 
-- title: "Bodyguards and VIPs: A look at ambient, alert and evacuation AI behavior in HITMAN"
+- title: "Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN"
   description: >
     In the latest instalment of the HITMAN series, contract targets are often high profile figures protected by their own personal security. To fit the fantasy and to provide new gameplay challenges, we've introduced a number of VIP and bodyguard behaviors to differentiate them from other NPCs.
     The talk will begin with an overview of the core HITMAN AI systems and the agent states we call situations. Providing an insight into what makes the inhabitants of HITMAN tick, before transitioning into the solutions undertaken to simulate the roles of bodyguards and VIPs within a dynamic environment.
