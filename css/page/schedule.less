@@ -1,12 +1,12 @@
 @COLOR_TRACK_RECOGNITION: #fedd2c;
-@COLOR_TRACK_SYSTEMS: #00ffd8;
+@COLOR_TRACK_SYSTEMIC: #00ffd8;
 @COLOR_TRACK_PROCEDUREAL: #00789f;
 @COLOR_TRACK_BEHAVIOR: #e31977;
 @COLOR_TRACK_ANALYTICS: #ccff00;
 @COLOR_TRACK_DECISIONS: #9656d1;
 @COLOR_TRACK_STORYTELLING: #5cb214;
 @COLOR_TRACK_ANIMATION: #ff0031;
-@COLOR_TRACK_UNDERSTANDING: #e0e0e0;
+@COLOR_TRACK_COGNITIVE: #e0e0e0;
 @COLOR_TRACK_DEFAULT: #a18d75;
 
 @LIGHTEN_BLUE: lighten(@BLUE, 20%);
@@ -147,15 +147,16 @@ section.program-schedule {
             
             .track { .track-color(@COLOR_TRACK_DEFAULT); }
             .track.recognition { .track-color(@COLOR_TRACK_RECOGNITION); }
-            .track.systems { .track-color(@COLOR_TRACK_SYSTEMS); }
+            .track.systemic { .track-color(@COLOR_TRACK_SYSTEMIC); }
             .track.procedural { .track-color(@COLOR_TRACK_PROCEDUREAL); }
             .track.behavior { .track-color(@COLOR_TRACK_BEHAVIOR); }
             .track.analytics { .track-color(@COLOR_TRACK_ANALYTICS); }
             .track.decisions { .track-color( @COLOR_TRACK_DECISIONS); }
             .track.storytelling { .track-color(@COLOR_TRACK_STORYTELLING); }
             .track.animation { .track-color(@COLOR_TRACK_ANIMATION); }
-            .track.understanding { .track-color(@COLOR_TRACK_UNDERSTANDING); }
-            .track.break { .track-color(@COLOR_TRACK_UNDERSTANDING); }
+            .track.cognitive { .track-color(@COLOR_TRACK_COGNITIVE); }
+            .track.break { .track-color(@COLOR_TRACK_COGNITIVE); }
+            .track.noroomdefined > a { background-color: red !important; }
 
         }
 
@@ -311,14 +312,14 @@ section.program-schedule {
                     }
                     &.hovered {
                         &.track.recognition { .track-hovered(@COLOR_TRACK_RECOGNITION, @DARK_GREY); }
-                        &.track.systems { .track-hovered(@COLOR_TRACK_SYSTEMS, @DARK_GREY); }
+                        &.track.systemic { .track-hovered(@COLOR_TRACK_SYSTEMIC, @DARK_GREY); }
                         &.track.procedural { .track-hovered(@COLOR_TRACK_PROCEDUREAL, @WHITE); }
                         &.track.behavior { .track-hovered(@COLOR_TRACK_BEHAVIOR, @DARK_BLUE); }
                         &.track.analytics { .track-hovered(@COLOR_TRACK_ANALYTICS, @DARK_BLUE); }
                         &.track.decisions { .track-hovered(@COLOR_TRACK_DECISIONS, @WHITE); }
                         &.track.storytelling { .track-hovered(@COLOR_TRACK_STORYTELLING, @WHITE); }
                         &.track.animation { .track-hovered(@COLOR_TRACK_ANIMATION, @DARK_GREY); }
-                        &.track.understanding { .track-hovered(@COLOR_TRACK_UNDERSTANDING, @DARK_GREY); }
+                        &.track.cognitive { .track-hovered(@COLOR_TRACK_COGNITIVE, @DARK_GREY); }
                         &.track.day3, &.track.day2, &.track.day1 { .track-hovered(@COLOR_TRACK_DEFAULT, @DARK_GREY); }
                         &.track.break {
                             .track-hovered(@LIGHTEN_GREY, initial); 

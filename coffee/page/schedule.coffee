@@ -42,8 +42,13 @@ $ ->
           ## HARDCODED HACK FOR PUBLISHIN SCHEDULE WITH NOT COMPLETED DATA
           if $(@).attr("room") == "" || $(@).attr("room") == "??"
             $(@).attr("room", available_rooms[Math.floor(Math.random()*available_rooms.length)];)
+            $(@).addClass("noroomdefined")
+
+          talk_starttime = talks_order[$(@).attr("room")]
           talks_order[$(@).attr("room")]++
-          h_start = if talks_order[$(@).attr("room")] < 10 then "0" + (talks_order[$(@).attr("room")] - 1) + ":00" else (talks_order[$(@).attr("room")] - 1) + ":00"
+          if $(@).attr("room") == "laboratories" then talks_order[$(@).attr("room")]++ # workshops higher
+
+          h_start = if talks_order[$(@).attr("room")] < 10 then "0" + talk_starttime + ":00" else talk_starttime + ":00"
           h_end = if talks_order[$(@).attr("room")] < 10  then "0" + talks_order[$(@).attr("room")] + ":00" else talks_order[$(@).attr("room")] + ":00"
           $(@).attr("time-start", h_start)
           $(@).attr("time-finish", h_end)

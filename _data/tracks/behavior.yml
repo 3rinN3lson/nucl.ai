@@ -1,16 +1,3 @@
-
-#- title: "Not Just Planning: STRIPs for Ambient NPC Interactions in Final Fantasy XV"
-#  description: >
-#    Ambient characters are part of many current game titles. Yet, the intrinsic necessity and difficulty to model interactions of these characters with the environment and with each other is not easily overcome. The well-known smart object semantics introduced in The Sims has been widely adapted for its flexibility and scalability. However, classic smart objects lack the ability to deal with multiple characters, and thus are not adequate to fully bring characters to life.
-#    We present an interaction-centric approach, in which smart objects instruct multiple characters by means of adaptive scripts formulated based on STRIPs-like rules. Instead of inferring possible world-states as is done in planning, the rules are used to communicate changed attitudes and circumstances between characters via a blackboard. The resulting scripting language constitutes a simple yet powerful way to express multi-character interactions situated in the environment.
-#    This approach has been employed to model ambient interactions in Final Fantasy XV: Episode Duscae and is being extended for Final Fantasy XV. Drawing examples from this game, we show the flexibility and expressiveness of the resulting scripting system.
-#  speakers:
-#    - Hendrik Skubch
-#  room: amphitheatre
-#  time:
-#    start: "17:00"
-#    finish: "17:45"
-
 - title: "Late to the Party! A Story of Adding Player Bots to a Humans-Only Game"
   description: >
     Paragon is the latest MOBA game from Epic Games. Late in production a decision has been made to add player bots to support single-player and practice matches. The talk is going to describe how adding reasonable bot players to a game build around human players has been achieved. The approach taken consisted of both using stock UE4 AI parts as well as creating performant, game-specific AI subsystems, so there's going to be something interesting for everybody!
@@ -25,5 +12,24 @@
     FRP makes Time Travelling debuggers much cheaper to implement, making them viable for actual game development.
     In this talk we'll look at how to use FRP and time travelling debuggers to make agent-based games.
   speakers:
-    Claudia Doppioslash
+    - Claudia Doppioslash
   room: masterclass
+
+- title: "Seamless Merging of Behavior Trees and Imperative Code"
+  description: >
+    Behaviour Trees (BT) are a convenient pattern for implementing agents coordination logic. There are 2 common approaches for BT representation, either using a visual nodes builder or a specialised programming language. We are proponents of the latter. In our opinion, BT declarative syntax can be both expressive and powerful.
+    In order to simplify BT coding we developed a specialised BeHaviour Language (BHL). BHL is a typed language which allows to mix both declarative BT style with familiar imperative programming style. In fact, BHL just adds a thin imperative gluing layer over a BT pattern. Apart from having a clear syntax BHL also helps to get rid of some drawbacks adherent to BT.
+    This talk will include not only an introduction to BHL but also our usage experience alongside with best practices, tips and tricks.
+  speakers:
+    - Pavel Shevaev
+  room: masterclass
+
+- title: "Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN"
+  description: >
+    In the latest instalment of the HITMAN series, contract targets are often high profile figures protected by their own personal security. To fit the fantasy and to provide new gameplay challenges, we've introduced a number of VIP and bodyguard behaviors to differentiate them from other NPCs.
+    The talk will begin with an overview of the core HITMAN AI systems and the agent states we call situations. Providing an insight into what makes the inhabitants of HITMAN tick, before transitioning into the solutions undertaken to simulate the roles of bodyguards and VIPs within a dynamic environment.
+    The talk will cover changes at the ambient and alert level, then delve into details on the various components that comprise the evacuation state: group coordination, group navigation, route evaluation, threat management and evacuation behaviours.
+  speakers:
+    - Jason Schroder
+    - Thomas Petersen
+  room: amphitheatre

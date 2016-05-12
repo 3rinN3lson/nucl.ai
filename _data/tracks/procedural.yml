@@ -1,10 +1,8 @@
-#- title: "Building A Galaxy: Procedural Generation in No Man's Sky"
-#  description: >
-#    <p>No Man's Sky is a science-fiction game about exploration and survival set in a vast procedurally generated galaxy. This case study summarises the numerous challenges we have faced in creating a dynamic game world which is not only varied and interesting but also consistent and artist-driven.</p>
-#    <p>This talk will discuss our approach to on-the-fly procedural content generation, from the scale of a solar system down to tiny planetary details. We'll explain how overlapping systems can work in concert, demonstrating the effectiveness of straightforward generation techniques as well as highlighting areas where more tailored approaches have proved effective.</p>
-#  speakers:
-#    - Hazel McKendrick
-#  room: amphitheatre
-#  time:
-#    start: "15:00"
-#    finish: "15:45"
+- title: "Image Synthesis with Convolutional Neural Networks [Workshop]"
+  description: >
+    In this hands-on workshop, you'll learn about and experiment with algorithms that use convolutional neural networks to generate images: from photo-realistic textures, to style transfer on portraits, or even up-sampling pixel art. You'll learn about the underlying neural architectures,
+    how they are trained, and how you can modify them to get the results you want too!
+  speakers:
+    - Noor Shaker
+    - Alex J. Champandard
+  room: laboratories

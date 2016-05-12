@@ -10,6 +10,12 @@
     start: "??:??"
     finish: "??:??"
     
-- title: "Bots for Everyone! A Tracery Tutorial"
+- title: "Generative Bots for Everyone! A Tracery Tutorial [Workshop]"
   description: >
     Tracery is a popular and well-loved language for making generative text accessible to artists and poets as well as programmers.  This workshop will introduce you to the basics of making generative text, and much more, with Tracery.  Everyone will leave this class with their very own code to make a twitterbot, a generative adventure game, and a music generator.  No coding experience required!
+  speakers:
+    - Kate Compton
+  room: laboratories
+  time:
+    start: "??:??"
+    finish: "??:??"

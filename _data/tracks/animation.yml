@@ -1,40 +1,41 @@
+- title: "Creating Digital Doubles, The Character Pipeline in Quantum Break"
+  description: >
+    In this talk we will guide you through the processes used to create the highly believable top tier digital doubles in Remedy's latest 3rd person action game, Quantum Break. We will discuss the character pipeline as a whole at Remedy and the challenges we faced during Quantum Break's development focusing on the 4D Facial Surface Capture technology and an in-depth look in to the Runtime Pose Based deformation system and Animation pipeline.
+  speakers:
+    - Kristof Minnaert
+  room: amphitheatre
+#  time:
+#    start: "??:??"
+#    finish: "??:??"
+
 - title: "Climbing in VR and Reaching New Heights with Procedural Animation"
   description: >
     <p>The Climb is a VR experience and presents entirely new challenges in terms of the freedom of movement of players. What are the things game systems can or cannot get away with in Virtual Reality?  Character animation in particular requires developers to take a step back and think about how to provide the player with the same precision, freedom of movement and responsiveness that are all essential for immersion in VR.</p>
     <p>This talk will present how we, at Crytek, had to rethink everything we've learnt over the years, the systems we've had to create and, most importantly, the lessons we've learnt along the way that have come to form an internal "Guideline" of creating comfortable, and fun VR climbing experiences.</p>
   speakers:
     - Ali Helmy
-  room: ??
+  room: amphitheatre
   time:
     start: "??:??"
     finish: "??:??"
 
-#- title: "Programming an Animator's Brain"
-#  description: >
-#    <p>In this session Vegard Myklebust presents some of the results of their automatic character generation and animation processes developed for their game in production: Ludus. The results are reasonably high fidelity characters that are automatically generated, rigged, and animated at runtime from a relatively small amount of artist input, providing a high amount of flexibility, variation and good quality at a low production cost. By looking at what decisions an animator makes during the process of creating keyframed animation, and figuring out ways of making those decisions as a set of parameters up front, the method presented can take over the process of generating keyframes that create plausible, motivated motion in the same way that an animator would.</p>
-#  speakers:
-#    - Vegard Myklebust
-#  room: ??
+- title: "Bringing a Hero from Paragon to Life"
+  description: >
+    See how Epic Games brings a Hero from Paragon to life: With a programming focus, this talk will show and explain all the pieces involved in animating a real time character in Paragon. We’ll present our trade-offs, detail our locomotion system, the various layers used and the processing done to support the Hero design.
+    Attendees will leave with an understanding of how Characters are animated in real time in the video game Paragon from Epic Games, as well as seeing how the Unreal Engine 4 is used in that context.
+  speakers:
+    - Laurent Delayen
+  room: masterclass
 #  time:
 #    start: "??:??"
 #    finish: "??:??"
 
-#- title: "Bringing a Hero from Paragon to life"
-#  description: >
-#    <p>See how Epic Games brings a Hero from Paragon to life: With a programming focus, this talk will show and explain all the pieces involved in animating a real time character in Paragon. We’ll present our trade-offs, detail our locomotion system, the various layers used and the processing done to support the Hero design.</p><p>Takeaway - Attendees will leave with an understanding of how Characters are animated in real time in the video game Paragon from Epic Games, as well as seeing how the Unreal Engine 4 is used in that context.</p><p>Intended Audience - Animation Programmers, Animators, Unreal Engine hobbyist and anyone interested in Character Animation and real time animation #techniques and systems.</p>
-#  speakers:
-#    - Laurent Delayen
-#  room: ??
-#  time:
-#    start: "??:??"
-#    finish: "??:??"
-
-#- title: "Creating Digital Doubles, The Character Pipeline in Quantum Break"
-#  description: >
-#    <p>In this talk we will guide you through the processes used to create the highly believable top tier digital doubles in Remedy's latest 3rd person action game, Quantum Break. We will discuss the character pipeline as a whole at Remedy and the challenges we faced during Quantum Break's development; focusing on the 4D Facial Surface Capture technology and an in-depth look in to the Runtime Pose Based deformation system and Animation pipeline.</p>
-#  speakers:
-#    - Kristof Minnaert
-#  room: ??
+# - title: "Programming an Animator's Brain"
+#   description: >
+#     <p>In this session Vegard Myklebust presents some of the results of their automatic character generation and animation processes developed for their game in production: Ludus. The results are reasonably high fidelity characters that are automatically generated, rigged, and animated at runtime from a relatively small amount of artist input, providing a high amount of flexibility, variation and good quality at a low production cost. By looking at what decisions an animator makes during the process of creating keyframed animation, and figuring out ways of making those decisions as a set of parameters up front, the method presented can take over the process of generating keyframes that create plausible, motivated motion in the same way that an animator would.</p>
+#   speakers:
+#     - Vegard Myklebust
+#   room: masterclass
 #  time:
 #    start: "??:??"
 #    finish: "??:??"

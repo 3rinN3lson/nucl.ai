@@ -30,7 +30,7 @@
 
 - name: Michaël Rouillé
   role: track
-  tracks: [systems]
+  tracks: [systemic]
   twitter: michaelrouille
   affiliation: 
     position: "CTO"
@@ -49,7 +49,7 @@
     he has been to art school, and love to torture himself with how to bridge between the programming & art worlds.
 
 - name: Heather Stark
-  role: [track, speaker]
+  role: track
   confirmed: true
   tracks: [analytics]
   twitter: hastark
@@ -89,7 +89,7 @@
     He has specialized in both game AI and animation technology for games.
 
 - name: Noor Shaker
-  role: [track, speaker]
+  role: track
   tracks: [procedural]
   twitter: noorshak
   affiliation: 
@@ -128,7 +128,7 @@
 
 - name: Petra Champandard-Pail
   role: org
-  tracks: [decisions, behavior, animation, systems]
+  tracks: [decisions, behavior, animation, systemic]
   affiliation:
     position: "Conference Director & Co-Founder"
     name: AiGameDev.com
@@ -188,27 +188,27 @@
   bio: >
     Prof. Helmut Hlavacs studied Technical Mathematics at the Technical University of Vienna, and received a PhD in 2001. He joined the University of Vienna as researcher for the EU projects BISANTE and later CODIS, and received habilitation in 2004, also being promoted to Associated Professor. He was guest professor in Spain and France, and initiated numerous projects on national and international level. He was vice chair and grant holder of the COST action IC0804, leader of industry projects with Rohde&Schwarz, Kapsch Carrier Com, T-Systems, Telekom Austria/A1, ASFINAG, member of the Research Center Telecommunications Vienna, etc., and successfully closed several basic research projects in the area of mobile video, task virtualization, energy efficiency, and traffic status measurement. Prof. Hlavacs co-authored over 150 peer-reviewed publications, published at international conferences or journals, resulting in an Erdös-Number of 4. He is author of one book, and guest editor of numerous special journal issues, one being currently reviewed. Furthermore, he has received eight best paper and distinguished paper awards at international conferences so far. He was also advisor of eight finished PhD students so far, two of whom have been awarded with prestigious PhD awards.
 
-- name: Andre Arsenault
-  role: speaker
-  confirmed: true
-  affiliation: 
-    position: Lead Battle AI Programmer
-    name: Creative Assembly
-    url: http://www.creative-assembly.com/
-  bio: >
-    Andre is a 21-year veteran of the games industry having filled many programming, design, production and leadership 
-    roles over the years. His career focused mainly on gameplay programming for various RTS and MMORPG titles at Westwood 
-    Studios, Electronic Arts, Petroglyph, and Sony Online Entertainment before moving into production roles. He joined 
-    Creative Assembly in 2014 and is currently responsible for Battle AI on the Total War series of strategy games.
+# - name: Andre Arsenault
+#   role: speaker
+#   confirmed: true
+#   affiliation: 
+#     position: Lead Battle AI Programmer
+#     name: Creative Assembly
+#     url: http://www.creative-assembly.com/
+#   bio: >
+#     Andre is a 21-year veteran of the games industry having filled many programming, design, production and leadership 
+#     roles over the years. His career focused mainly on gameplay programming for various RTS and MMORPG titles at Westwood 
+#     Studios, Electronic Arts, Petroglyph, and Sony Online Entertainment before moving into production roles. He joined 
+#     Creative Assembly in 2014 and is currently responsible for Battle AI on the Total War series of strategy games.
 
-- name: Andy Bray
-  role: speaker
-  confirmed: false
-  affiliation: 
-    position: Lead AI Programmer
-    name: Creative Assembly
-  bio: >
-    Andy is a Lead AI Programmer at Creative Assembly. He worked on the Xenomorph behavior for Alien: Isolation. 
+# - name: Andy Bray
+#   role: speaker
+#   confirmed: false
+#   affiliation: 
+#     position: Lead AI Programmer
+#     name: Creative Assembly
+#   bio: >
+#     Andy is a Lead AI Programmer at Creative Assembly. He worked on the Xenomorph behavior for Alien: Isolation. 
 
 - name: Ali Helmy
   role: speaker
@@ -220,35 +220,35 @@
   bio: >
    Ali Helmy is the Animation Programmer at Crytek in charge of all character animation systems on Crytek’s VR focused research & development team. He has been involved with the current generation of VR hardware from very early on and has been in charge of all character animation systems in Crytek’s VR efforts. From Dinosaur demos & VR Benchmarks to full games like The Climb & Robinson: The Journey, he has been involved with every aspect of making animations work for the entirely new realm that is VR.
    
-#- name: Vegard Myklebust
-#  role: speaker
-#  confirmed: true
-#  affiliation: 
-#    position: Technical Director
-#    name: useful slug
-#    url: http://www.usefulslug.com/
-#  bio: >
-#   Vegard is an Illustrator turned Animator turned Rigger turned Programmer which according to him sums up to Technical Director. He has worked on audiovisual productions around the world in advertising, film, music videos, TV series and games. He says his claim to fame is that he helped make a music video for Iron Maiden, though his previous client list includes BBC / Canal+ / Network Rail as well as constantly being involved in independent productions. He runs a company called useful slug that provides freelance Technical Direction services for audiovisual productions and is currently developing Ludus part time while working full time as a Technical Director on Kickstarter funded The Mandate.
+- name: Vegard Myklebust
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Technical Director
+    name: useful slug
+    url: http://www.usefulslug.com/
+  bio: >
+    Vegard is an Illustrator turned Animator turned Rigger turned Programmer which according to him sums up to Technical Director. He has worked on audiovisual productions around the world in advertising, film, music videos, TV series and games. He says his claim to fame is that he helped make a music video for Iron Maiden, though his previous client list includes BBC / Canal+ / Network Rail as well as constantly being involved in independent productions. He runs a company called useful slug that provides freelance Technical Direction services for audiovisual productions and is currently developing Ludus part time while working full time as a Technical Director on Kickstarter funded The Mandate.
    
-#- name: Laurent Delayen
-#  role: speaker
-#  confirmed: true
-#  affiliation: 
-#    position: Programmer
-#    name: Epic Games Inc.
-#    url: https://www.epicgames.com/
-#  bio: >
-#   Laurent has been working in the game industry since 2001, and the past 13 years at Epic Games on games such as the Gears of War trilogy and Paragon, where he has specialized in real time Character Animation.
+- name: Laurent Delayen
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Programmer
+    name: "Epic Games, Inc."
+    url: https://www.epicgames.com/
+  bio: >
+    Laurent has been working in the game industry since 2001, and the past 13 years at Epic Games on games such as the Gears of War trilogy and Paragon, where he has specialized in real time Character Animation.
 
-#- name: Kristof Minnaert
-#  role: speaker
-#  confirmed: true
-#  affiliation: 
-#    position: Senior Character Technical Artist
-#    name: Remedy Entertainment
-#    url: http://www.remedygames.com/
-#  bio: >
-#   Kristof Minnaert is a Senior Character Technical Artist at Remedy Entertainment, where he focuses on the character and animation tools and pipelines. He has been part of Remedy Entertainment since 2013 and has been working in the games industry since 2006.
+- name: Kristof Minnaert
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior Character Technical Artist
+    name: Remedy Entertainment
+    url: http://www.remedygames.com/
+  bio: >
+    Kristof Minnaert is a Senior Character Technical Artist at Remedy Entertainment, where he focuses on the character and animation tools and pipelines. He has been part of Remedy Entertainment since 2013 and has been working in the games industry since 2006.
 
 - name: Memo Akten
   role: speaker
@@ -296,7 +296,7 @@
   confirmed: true
   affiliation:
     position: Lead AI Programmer
-    name: Epic Games
+    name: "Epic Games, Inc."
     url: https://www.epicgames.com
   bio: >
     Epic Games' Lead AI Programmer Mieszko Zielinski has been developing games for over a decade now. He found his game industry calling in 2003, when he joined a little known studio, Aidem Media, to get his foot in the industry's door. Since then, Zielinski has worked at CD Projekt Red, Crytek and People Can Fly, where he developed the AI system for "Bulletstorm" almost from scratch, with a team of great programmers. Currently his attention is split between leading efforts to implement generic AI system for Epic Games' Unreal Engine 4 and developing AI bots for Epic's latest game, Paragon.
@@ -307,7 +307,7 @@
   affiliation:
     url: http://blog.doppioslash.com
   bio: >
-    Claudia Doppioslash is a Functional Programmer and a gamedev. Having learned many languages, she ended up preferring strongly typed functional languages though she's still a moderately smug LISP weenie.
+    Claudia Doppioslash is a Functional Programmer and a gamedev. Having learned many languages, she ended up preferring strongly typed functional languages though she's still a moderately smug LISP weenie.
 
 - name: Maxim Zaks
   role: speaker
@@ -348,7 +348,7 @@
     name: Digital Creativity Labs
     url: http://www.digitalcreativity.ac.uk/
   bio: >
-    Dr Sam Devlin (http://www-users.cs.york.ac.uk/~devlin/) received an MEng degree in Computer Systems and Software Engineering from the University of York, UK, in 2009. In 2013, he completed his PhD on multi-agent reinforcement learning at the University of York and visited Oregon State University funded by a Santander International Connections Award. His research interests are focussed on artificial intelligence, data mining and machine learning. He was a Research Associate on the EPSRC funded New Economic Models and Opportunities for digital Games (NEMOG) project from 2013-2015, working on data mining for collective game intelligence. He now holds a full academic role as a transitional fellow in the Digital Creativity Labs.
+    Dr Sam Devlin (http://www-users.cs.york.ac.uk/~devlin/) received an MEng degree in Computer Systems and Software Engineering from the University of York, UK, in 2009. In 2013, he completed his PhD on multi-agent reinforcement learning at the University of York and visited Oregon State University funded by a Santander International Connections Award. His research interests are focussed on artificial intelligence, data mining and machine learning. He was a Research Associate on the EPSRC funded New Economic Models and Opportunities for digital Games (NEMOG) project from 2013-2015, working on data mining for collective game intelligence. He now holds a full academic role as a transitional fellow in the Digital Creativity Labs.
 
 - name: Pierre Gutierrez
   role: speaker
@@ -380,15 +380,15 @@
   bio: >
     Santiago Murillo, Data Scientist at Social Point. He holds an Industrial Engineering Degree and a title of researcher in computer science from the Polytechnic University of Catalonia (UPC). He has more than 10 years’ experience working with technologic solutions and innovations in various industrial sectors. In the last years he has led the development of machine learning tools for marketing technology field and also a number of R&D projects supported by the Spanish Ministry of Science and Innovation, which focused in developing technology for data mining and artificial intelligent applied in digital advertising industry.
 
-- name: Christian Rothe
-  role: speaker
-  confirmed: true
-  affiliation:
+# - name: Christian Rothe
+#   role: speaker
+#   confirmed: true
+#   affiliation:
 #    position: Data Scientist
-    name: Creative Assembly
-    url: http://www.creative-assembly.com/
-  bio: >
-    Christian is currently working at Creative Assembly on the upcoming Total War: Arena title. His main interest lies with highly scalable online systems, but he also enjoys all kinds of other challenges (which brings him to nucl.ai). Prior to joining Creative Assembly, Christian worked as a freelancer on a variety of game and non-game projects, co-founded a startup and worked at SAP.
+#     name: Creative Assembly
+#     url: http://www.creative-assembly.com/
+#   bio: >
+#     Christian is currently working at Creative Assembly on the upcoming Total War: Arena title. His main interest lies with highly scalable online systems, but he also enjoys all kinds of other challenges (which brings him to nucl.ai). Prior to joining Creative Assembly, Christian worked as a freelancer on a variety of game and non-game projects, co-founded a startup and worked at SAP.
 
 - name: Kate Compton
   role: speaker
@@ -398,3 +398,50 @@
   bio: >
     Kate Compton is a long-time Procedural Content Generation (PCG) practitioner.  She wrote the first paper on procedural platformer levels, generated the planets for Spore, and wrote the latest SimCity fire system.  She is now a PhD candidate at UC Santa Cruz developing artificial intelligence to augment human creativity with generative art.  She likes laser cutting, 3D printing, founding companies, and baking.
 
+- name: Niels Justesen
+  role: speaker
+  confirmed: true
+  affiliation:
+    name: IT University Copenhagen
+  bio: >
+    Niels Justesen holds a B.Sc. in Software Development and just recently finished his M.Sc. in Games Technology at the IT University in Copenhagen. Here he pursued his interests in Game AI and has two peer-reviewed conference publications about game playing algorithms in strategy games. Now he works as a software developer at IT-Minds building intelligent applications for their clients. 
+
+- name: Pavel Shevaev
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Chief Technology Officer
+    name: BIT.GAMES
+    url: http://bitdotgames.com/
+  bio: >
+     8+ years of game dev. Skills range from PHP dirty hacking to C++ servers coding. Walked a thorny path from an OOP zealot to an admirer of simple solutions for complicated problems.
+
+- name: Jason Schroder
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior Programmer
+    name: Io-Interactive
+    url: http://www.ioi.dk
+  bio: >
+    Jason joined the Australian games industry in 2001. Starting as a generalist game programmer at Krome Studios, where he soon found his passion as an AI programmer. Jason was responsible for designing and developing AI solutions for several AAA titles over a number of years at Krome. He later joined the Hitman team at IO Interactive in 2011. Starting with Hitman: Absolution and continuing with this year’s HITMAN. His primary role has been to develop AI systems and behaviors for both titles.
+
+- name: Thomas Petersen
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior Programmer
+    name: Io-Interactive
+    url: http://www.ioi.dk
+  bio: >
+    Thomas has a been working in most areas of game related programming since late 97, from audio over platform, to gameplay and AI. He’s currently working at IO Interactive on the AI team, helping deliver new feature content and maintain the live HITMAN game.
+
+- name: Gwennael Gaté
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Co-founder
+    name: Angus.ai
+    url: http://www.angus.ai
+  bio: >
+    After 5 years at Aldebaran Robotics (SoftBank group), where he led the teams of software engineers developing NAO’s and Pepper's artificial brains, Gwennael Gate is now the co-founder of Angus.ai, an AI company offering a suite of APIs making it easy for developers to build machines that can perceive their environment.

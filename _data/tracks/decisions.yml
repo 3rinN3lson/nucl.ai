@@ -22,13 +22,27 @@
     details about efficient data serialisation, how to implement deterministic simulations and much more.
   speakers:
     - Maxim Zaks
+  room: masterclass
     
-- title: "Attacking Walled Cities in Total War: Warhammer"
+# - title: "Attacking Walled Cities in Total War: Warhammer"
+#   description: >
+#     A city siege battle is a complex machine of roles, responsibilities, and reactions on a large scale, 
+#     involving armies of hundreds or even thousands of individual men. This talk will cover the AI 
+#     architecture used in Total War: Warhammer to deal with the inherent complexities of this particular 
+#     battle type. We will cover the general Battle AI architecture before diving deep into specific examples 
+#     of the attacking Siege Battle AI. Finally, we will share some hard-earned development advice for AI programmers.
+#   speakers:
+#     - Andre Arsenault
+
+- title: "Online Evolution for Hero Academy and Multi-Action Games"
   description: >
-    A city siege battle is a complex machine of roles, responsibilities, and reactions on a large scale, 
-    involving armies of hundreds or even thousands of individual men. This talk will cover the AI 
-    architecture used in Total War: Warhammer to deal with the inherent complexities of this particular 
-    battle type. We will cover the general Battle AI architecture before diving deep into specific examples 
-    of the attacking Siege Battle AI. Finally, we will share some hard-earned development advice for AI programmers.
+    Tree-search algorithms are widely used for decision making in turn-based strategy games. These algorithms 
+    do however not perform well for games with millions of possible moves each turn. This talk will explain 
+    and show how an evolutionary algorithm, that we call Online Evolution, is used to make a game-playing 
+    agent for Hero Academy; a game with around 1 billion possible moves each turn. Online Evolution searches 
+    the space of possible action sequences that make up a single turn of the game using a genetic algorithm. 
+    This approach looks very promising for this class of game and has been shown to outperform several 
+    standard tree-search algorithms. 
   speakers:
-    - Andre Arsenault
+    - Niels Justesen
+  room: masterclass
