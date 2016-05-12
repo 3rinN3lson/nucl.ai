@@ -416,6 +416,16 @@
   bio: >
      8+ years of game dev. Skills range from PHP dirty hacking to C++ servers coding. Walked a thorny path from an OOP zealot to an admirer of simple solutions for complicated problems.
 
+- name: Ramon Viladomat
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior Gameplay Programmer
+    name: Crytek
+    url: http://www.crytek.com
+  bio: >
+    Ramon Viladomat is a Senior Gameplay Programmer at Crytek in charge of the main character, weapons, input and camera systems. In the past, he was involved in games like 'Ryse: Son of Rome' or the 'Invizimals' Series, developed 'WAAR' (Wide Area Augmented Reality) for PlayStation Vita SDK and coded the 'Reactable' (tangible musical synthesizer). Currently trying to push game engine technologies to new standards and always up for new challenges.
+
 - name: Jason Schroder
   role: speaker
   confirmed: true
@@ -445,3 +455,4 @@
     url: http://www.angus.ai
   bio: >
     After 5 years at Aldebaran Robotics (SoftBank group), where he led the teams of software engineers developing NAO’s and Pepper's artificial brains, Gwennael Gate is now the co-founder of Angus.ai, an AI company offering a suite of APIs making it easy for developers to build machines that can perceive their environment.
+

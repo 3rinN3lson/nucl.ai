@@ -33,3 +33,11 @@
     - Jason Schroder
     - Thomas Petersen
   room: amphitheatre
+
+- title: "Shooting for DataDriven&sup2;! Evolution of a Modular Weapon System"
+  description: >
+    When building gameplay systems flexibility and simplicity are king. In this talk we will present a full slice of a modular weapon system from a programmer point of view, showing how classic AI techniques can be used in unconventional grounds and introducing the new Action Trees and the DataDriven&sup2; paradigm. Attendees will leave with a practical example on how to evolve a system while keeping your building blocks simple to reach quick iterations, fast feature creation, real-time tweaks and improved data scalability when the game goes big.
+  speakers:
+    - Ramon Viladomat
+  room: masterclass
+
