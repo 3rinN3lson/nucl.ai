@@ -24,9 +24,20 @@
     - Pavel Shevaev
   room: masterclass
 
+- title: "Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN"
+  description: >
+    In the latest instalment of the HITMAN series, contract targets are often high profile figures protected by their own personal security. To fit the fantasy and to provide new gameplay challenges, we've introduced a number of VIP and bodyguard behaviors to differentiate them from other NPCs.
+    The talk will begin with an overview of the core HITMAN AI systems and the agent states we call situations. Providing an insight into what makes the inhabitants of HITMAN tick, before transitioning into the solutions undertaken to simulate the roles of bodyguards and VIPs within a dynamic environment.
+    The talk will cover changes at the ambient and alert level, then delve into details on the various components that comprise the evacuation state: group coordination, group navigation, route evaluation, threat management and evacuation behaviours.
+  speakers:
+    - Jason Schroder
+    - Thomas Petersen
+  room: amphitheatre
+
 - title: "Shooting for DataDriven&sup2;! Evolution of a Modular Weapon System"
   description: >
     When building gameplay systems flexibility and simplicity are king. In this talk we will present a full slice of a modular weapon system from a programmer point of view, showing how classic AI techniques can be used in unconventional grounds and introducing the new Action Trees and the DataDriven&sup2; paradigm. Attendees will leave with a practical example on how to evolve a system while keeping your building blocks simple to reach quick iterations, fast feature creation, real-time tweaks and improved data scalability when the game goes big.
   speakers:
     - Ramon Viladomat
   room: masterclass
+

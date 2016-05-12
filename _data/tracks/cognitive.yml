@@ -15,3 +15,13 @@
     - Clodéric Mars
     - Alex J. Champandard
   room: laboratories
+
+- title: "Making interactive agents work in the real world : the things I learned from deploying Pepper in Japan"
+  description: >
+    Gwennael had the chance to deploy and interactive robot in front of real people, as one of the main software leads working on Pepper. In this talk, he’ll describe the key technical things he learnt about AI in the process: how critical it is to back the whole AI stack on a robust perception layer, why building that robust perception layer can only be achieved by merging several sensor inputs (2D vision, 3D vision, audio), how critical but difficult it is to be able to assess performance on such AI-powered systems and more !
+  speakers:
+    - Gwennael Gaté
+#  room: amphitheatre
+#  time:
+#    start: "16:45"
+#    finish: "17:45"
