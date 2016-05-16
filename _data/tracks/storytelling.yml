@@ -10,12 +10,22 @@
     start: "??:??"
     finish: "??:??"
     
-- title: "Generative Bots for Everyone! A Tracery Tutorial [Workshop]"
+- title: "Bots for Everyone! A Tracery Tutorial"
   description: >
     Tracery is a popular and well-loved language for making generative text accessible to artists and poets as well as programmers.  This workshop will introduce you to the basics of making generative text, and much more, with Tracery.  Everyone will leave this class with their very own code to make a twitterbot, a generative adventure game, and a music generator.  No coding experience required!
   speakers:
-    - Kate Compton
-  room: laboratories
+   - Kate Compton
+  room:
+  time:
+    start: "??:??"
+    finish: "??:??"
+    
+- title: "  Computational Narrative Intelligence"
+  description: >
+    Storytelling is a pervasive part of the human experience--we as humans tell stories to communicate, inform, entertain, and educate. Mark believes that narrative intelligence, the ability to understand, create, and respond affectively to narratives, can make it easier for artificial intelligence systems to understand humans and make it easier for humans to understand the behavior of artificial intelligence system. In this talk, Mark presents research on machine learning approaches to story understanding, the creation of novel narrative structures, and using natural language stories to program robots. Concluding with a roadmap for the ways in which computational narrative intelligence can facilitate the creation of intelligent applications that benefit humans and facilitate human-agent interaction.
+  speakers:
+   - Mark Riedl
+  room:
   time:
     start: "??:??"
     finish: "??:??"
