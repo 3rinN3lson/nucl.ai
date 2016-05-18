@@ -49,7 +49,7 @@
     he has been to art school, and love to torture himself with how to bridge between the programming & art worlds.
 
 - name: Heather Stark
-  role: [track, speaker]
+  role: track
   confirmed: true
   tracks: [analytics]
   twitter: hastark
@@ -89,7 +89,7 @@
     He has specialized in both game AI and animation technology for games.
 
 - name: Noor Shaker
-  role: [track, speaker]
+  role: track
   tracks: [procedural]
   twitter: noorshak
   affiliation: 
@@ -188,27 +188,27 @@
   bio: >
     Prof. Helmut Hlavacs studied Technical Mathematics at the Technical University of Vienna, and received a PhD in 2001. He joined the University of Vienna as researcher for the EU projects BISANTE and later CODIS, and received habilitation in 2004, also being promoted to Associated Professor. He was guest professor in Spain and France, and initiated numerous projects on national and international level. He was vice chair and grant holder of the COST action IC0804, leader of industry projects with Rohde&Schwarz, Kapsch Carrier Com, T-Systems, Telekom Austria/A1, ASFINAG, member of the Research Center Telecommunications Vienna, etc., and successfully closed several basic research projects in the area of mobile video, task virtualization, energy efficiency, and traffic status measurement. Prof. Hlavacs co-authored over 150 peer-reviewed publications, published at international conferences or journals, resulting in an Erdös-Number of 4. He is author of one book, and guest editor of numerous special journal issues, one being currently reviewed. Furthermore, he has received eight best paper and distinguished paper awards at international conferences so far. He was also advisor of eight finished PhD students so far, two of whom have been awarded with prestigious PhD awards.
 
-- name: Andre Arsenault
-  role: speaker
-  confirmed: true
-  affiliation: 
-    position: Lead Battle AI Programmer
-    name: Creative Assembly
-    url: http://www.creative-assembly.com/
-  bio: >
-    Andre is a 21-year veteran of the games industry having filled many programming, design, production and leadership 
-    roles over the years. His career focused mainly on gameplay programming for various RTS and MMORPG titles at Westwood 
-    Studios, Electronic Arts, Petroglyph, and Sony Online Entertainment before moving into production roles. He joined 
-    Creative Assembly in 2014 and is currently responsible for Battle AI on the Total War series of strategy games.
+# - name: Andre Arsenault
+#   role: speaker
+#   confirmed: true
+#   affiliation: 
+#     position: Lead Battle AI Programmer
+#     name: Creative Assembly
+#     url: http://www.creative-assembly.com/
+#   bio: >
+#     Andre is a 21-year veteran of the games industry having filled many programming, design, production and leadership 
+#     roles over the years. His career focused mainly on gameplay programming for various RTS and MMORPG titles at Westwood 
+#     Studios, Electronic Arts, Petroglyph, and Sony Online Entertainment before moving into production roles. He joined 
+#     Creative Assembly in 2014 and is currently responsible for Battle AI on the Total War series of strategy games.
 
-- name: Andy Bray
-  role: speaker
-  confirmed: false
-  affiliation: 
-    position: Lead AI Programmer
-    name: Creative Assembly
-  bio: >
-    Andy is a Lead AI Programmer at Creative Assembly. He worked on the Xenomorph behavior for Alien: Isolation. 
+# - name: Andy Bray
+#   role: speaker
+#   confirmed: false
+#   affiliation: 
+#     position: Lead AI Programmer
+#     name: Creative Assembly
+#   bio: >
+#     Andy is a Lead AI Programmer at Creative Assembly. He worked on the Xenomorph behavior for Alien: Isolation. 
 
 - name: Ali Helmy
   role: speaker
@@ -380,15 +380,15 @@
   bio: >
     Santiago Murillo, Data Scientist at Social Point. He holds an Industrial Engineering Degree and a title of researcher in computer science from the Polytechnic University of Catalonia (UPC). He has more than 10 years’ experience working with technologic solutions and innovations in various industrial sectors. In the last years he has led the development of machine learning tools for marketing technology field and also a number of R&D projects supported by the Spanish Ministry of Science and Innovation, which focused in developing technology for data mining and artificial intelligent applied in digital advertising industry.
 
-- name: Christian Rothe
-  role: speaker
-  confirmed: true
-  affiliation:
+# - name: Christian Rothe
+#   role: speaker
+#   confirmed: true
+#   affiliation:
 #    position: Data Scientist
-    name: Creative Assembly
-    url: http://www.creative-assembly.com/
-  bio: >
-    Christian is currently working at Creative Assembly on the upcoming Total War: Arena title. His main interest lies with highly scalable online systems, but he also enjoys all kinds of other challenges (which brings him to nucl.ai). Prior to joining Creative Assembly, Christian worked as a freelancer on a variety of game and non-game projects, co-founded a startup and worked at SAP.
+#     name: Creative Assembly
+#     url: http://www.creative-assembly.com/
+#   bio: >
+#     Christian is currently working at Creative Assembly on the upcoming Total War: Arena title. His main interest lies with highly scalable online systems, but he also enjoys all kinds of other challenges (which brings him to nucl.ai). Prior to joining Creative Assembly, Christian worked as a freelancer on a variety of game and non-game projects, co-founded a startup and worked at SAP.
 
 - name: Kate Compton
   role: speaker
@@ -397,7 +397,6 @@
     url: http://www.galaxykate.com/
   bio: >
     Kate Compton is a long-time Procedural Content Generation (PCG) practitioner.  She wrote the first paper on procedural platformer levels, generated the planets for Spore, and wrote the latest SimCity fire system.  She is now a PhD candidate at UC Santa Cruz developing artificial intelligence to augment human creativity with generative art.  She likes laser cutting, 3D printing, founding companies, and baking.
-
 
 - name: Niels Justesen
   role: speaker
@@ -411,8 +410,84 @@
   role: speaker
   confirmed: true
   affiliation:
-    position: CTO
+    position: Chief Technology Officer
     name: BIT.GAMES
     url: http://bitdotgames.com/
   bio: >
      8+ years of game dev. Skills range from PHP dirty hacking to C++ servers coding. Walked a thorny path from an OOP zealot to an admirer of simple solutions for complicated problems.
+
+- name: Ramon Viladomat
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior Gameplay Programmer
+    name: Crytek
+    url: http://www.crytek.com
+  bio: >
+    Ramon Viladomat is a Senior Gameplay Programmer at Crytek in charge of the main character, weapons, input and camera systems. In the past, he was involved in games like 'Ryse: Son of Rome' or the 'Invizimals' Series, developed 'WAAR' (Wide Area Augmented Reality) for PlayStation Vita SDK and coded the 'Reactable' (tangible musical synthesizer). Currently trying to push game engine technologies to new standards and always up for new challenges.
+
+- name: Jason Schroder
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior Programmer
+    name: Io-Interactive
+    url: http://www.ioi.dk
+  bio: >
+    Jason joined the Australian games industry in 2001. Starting as a generalist game programmer at Krome Studios, where he soon found his passion as an AI programmer. Jason was responsible for designing and developing AI solutions for several AAA titles over a number of years at Krome. He later joined the Hitman team at IO Interactive in 2011. Starting with Hitman: Absolution and continuing with this year’s HITMAN. His primary role has been to develop AI systems and behaviors for both titles.
+
+- name: Thomas Petersen
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior Programmer
+    name: Io-Interactive
+    url: http://www.ioi.dk
+  bio: >
+    Thomas has a been working in most areas of game related programming since late 97, from audio over platform, to gameplay and AI. He’s currently working at IO Interactive on the AI team, helping deliver new feature content and maintain the live HITMAN game.
+
+- name: Gwennael Gaté
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Co-founder
+    name: Angus.ai
+    url: http://www.angus.ai
+  bio: >
+    After 5 years at Aldebaran Robotics (SoftBank group), where he led the teams of software engineers developing NAO’s and Pepper's artificial brains, Gwennael Gate is now the co-founder of Angus.ai, an AI company offering a suite of APIs making it easy for developers to build machines that can perceive their environment.
+
+
+- name: Anders Bouwer
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Docent (Lecturer) 
+    name: Hogeschool van Amsterdam
+    url: http://www.hva.nl/
+  bio: >
+    Anders holds an MSc degree in Artificial Intelligence (cum laude) from the VU Amsterdam, a Master's by Research in AI and Education from the University of Edinburgh, and a PhD in Computer Science from the University of Amsterdam.
+    He has worked as a lecturer, programmer, and researcher for the Human-Computer Studies lab and the Intelligent Systems Lab at the University of Amsterdam, and the Music Computing Lab at the Open University in Milton Keynes (UK). He is currently affiliated with the Amsterdam University of Applied Sciences, where he does research on Automated Game Design and teaches several courses on AI, Mobile Development and Game Technology.
+    His research interests include artificial intelligence, human cognition, intelligent learning environments, intelligent multimedia, music interaction, mobile multimodal interaction, procedural content generation, and automated game design.
+
+- name: Johan van der Beek
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Freelance Game Logic Specialist
+    name: Ludible
+    url: http://www.ludible.nl/
+  bio: >
+    Johan graduated in AI in 2007 after creating cooperative squad behavior in Killzone 2 for Guerrilla Games.
+    He left the gaming industry to focus on creating and implementing smart parsers, AI systems and algorithms for several non-game projects.
+    In 2011 it was time to move these techniques into the gaming industry.
+    Via game design studies and working as a (serious) game designer in simulation and game studios, he now balances and calculates game models using AI and simulation techniques at Ludible - Automated Game Balancing as a freelancer.
+
+- name: Mark Riedl
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Associate Professor
+    name: Georgia Institute of Technology
+    url: https://research.cc.gatech.edu/inc/mark-riedl
+  bio: >
+    Dr. Mark Riedl is an Associate Professor in the Georgia Tech School of Interactive Computing and director of the Entertainment Intelligence Lab. Dr. Riedl’s research focuses on the intersection of artificial intelligence, virtual worlds, and storytelling. The principle research question his lab addresses is: how can intelligent computational systems reason about and create engaging experiences for users of virtual worlds and computer games. His research is supported by the NSF, DARPA, ONR, the U.S. Army, U.S. Health and Human Services, Disney, and Google. He is the recipient of a DARPA Young Faculty Award and an NSF CAREER Award.
