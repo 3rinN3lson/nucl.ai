@@ -4,18 +4,17 @@
   homepage: http://www.creative-assembly.com/jobs/
   lobby_logo: ca-lobby.png
 
-
-- id: craft_ai
-  name: "craft ai"
-  homepage: http://craft.ai/
+- id: Golaem
+  name: "Golaem"
+  homepage: http://golaem.com/
 
 - id: creative_ai
   name: "CreativeAi"
   homepage: http://www.creativeai.net/
 
-- id: Golaem
-  name: "Golaem"
-  homepage: http://golaem.com/
+- id: craft_ai
+  name: "craft ai"
+  homepage: http://craft.ai/
 
 - id: nvidia
   name: "nvidia"
