@@ -20,7 +20,7 @@
 
 - title: "Making Robots Interact with People: Lessons Learned Deploying Pepper in Japan"
   description: >
-    As one of the main software leads working on Pepper, Gwennael had the chance to deploy and interactive robot in front of real people. In this talk, he’ll describe the key technical things he learnt about AI in the process: how critical it is to back the whole AI stack on a robust perception layer, why building that robust perception layer can only be achieved by merging several sensor inputs (2D vision, 3D vision, audio), how critical but difficult it is to be able to assess performance on such AI-powered systems and more!
+    As one of the main software leads working on Pepper, Gwennael had the chance to deploy an interactive robot in front of real people. In this talk, he’ll describe the key technical things he learnt about AI in the process: how critical it is to back the whole AI stack on a robust perception layer, why building that robust perception layer can only be achieved by merging several sensor inputs (2D vision, 3D vision, audio), how critical but difficult it is to be able to assess performance on such AI-powered systems and more!
   speakers:
     - Gwennael Gaté
   room: amphitheatre
