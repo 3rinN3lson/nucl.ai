@@ -1,3 +1,13 @@
+- title: "Making Robots Interact with People: Lessons Learned Deploying Pepper in Japan"
+  description: >
+    As one of the main software leads working on Pepper, Gwennael had the chance to deploy an interactive robot in front of real people. In this talk, he’ll describe the key technical things he learnt about AI in the process: how critical it is to back the whole AI stack on a robust perception layer, why building that robust perception layer can only be achieved by merging several sensor inputs (2D vision, 3D vision, audio), how critical but difficult it is to be able to assess performance on such AI-powered systems and more!
+  speakers:
+    - Gwennael Gaté
+  room: amphitheatre
+  time:
+    start: "??:??"
+    finish: "??:??"
+
 - title: Visual Instruments for Live Performance and Creative Expression
   description: >
     Artist and software developer Memo Akten discusses the use of code, computer vision and other algorithms in his work creating interactive installations, music videos, live performances ranging from abstracting olympic gymnasts to a techno-ballet of flying robots. While the work is in a variety of different mediums, they all have in common an underlying theme: exploring ways of using gestural interaction to create and perform visual and sonic art, maintaining a realtime connection to the creation process, allowing finer control over the shaping of the outcome.
@@ -13,16 +23,6 @@
     Real-time images, sound synthesizers and effects contain a massive array of parameters. Instead of branching and tuning every parameter between sensors and audiovisuals or using lots of hardware controllers, this is an experiment in using AI techniques to augment the performer's ability to "play" with his setup.
   speakers:
     - Gaspard Bucher
-  room: amphitheatre
-  time:
-    start: "??:??"
-    finish: "??:??"
-
-- title: "Making Robots Interact with People: Lessons Learned Deploying Pepper in Japan"
-  description: >
-    As one of the main software leads working on Pepper, Gwennael had the chance to deploy an interactive robot in front of real people. In this talk, he’ll describe the key technical things he learnt about AI in the process: how critical it is to back the whole AI stack on a robust perception layer, why building that robust perception layer can only be achieved by merging several sensor inputs (2D vision, 3D vision, audio), how critical but difficult it is to be able to assess performance on such AI-powered systems and more!
-  speakers:
-    - Gwennael Gaté
   room: amphitheatre
   time:
     start: "??:??"
