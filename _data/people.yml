@@ -501,3 +501,13 @@
     url: http://framebunker.com/
   bio: >
     Charles Hinshaw is game developer and software designer. He is based in Copenhagen, Denmark, where it is nearly always dark and rainy.
+
+- name: Joseph Dureau
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: VP of Research
+    name: Snips
+    url: http://snips.ai/
+  bio: >
+    Along with a unique crowd of data scientists, cryptographers and developers, his current focus is on using machine learning to crack natural language understanding, and bring life to the Internet of Things without compromising users’ privacy. He holds a PhD in Statistics from the London School of Economics, and an MSc in mathematical engineering from Ecole Centrale Paris. Before joining Snips, Joseph worked at the NASA-Jet Propulsion Laboratory, at the French Commission for Atomic Energy, and with the Bill and Melinda Gates Foundation. He also co-founded Science.ai, a startup that is bringing the semantic web revolution to science. 
