@@ -41,3 +41,9 @@
     - Ramon Viladomat
   room: masterclass
 
+- title: "Back-Alley Surgery For Cyberpunk AI"
+  description: >
+    In our upcoming cyberpunk tactical shooter, Static Sky, the AI is focused on just two things: making the player earn the win, and behaving believably while doing it. In this talk, we’ll cut open few seconds of gameplay and scoop out all of the individual agent logic and group coordination bits so that we can see how they work. What will we find when we start digging around? Reusable hybrid behavior trees partially shared across agents? Tactical pathfinding using old-school influence maps?  An inexplicable fondness for mixing named arguments and anonymous methods? There’s really only one way to find out! When we’re done, we’ll stuff it all back in, sew it up, and nobody will even know we were here.
+  speakers:
+    - Charles Hinshaw
+  room: masterclass
