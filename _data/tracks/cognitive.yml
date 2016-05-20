@@ -16,12 +16,12 @@
     - Alex J. Champandard
   room: laboratories
 
-- title: "Making interactive agents work in the real world : the things I learned from deploying Pepper in Japan"
+- title: "Building an intelligent memory, a first step towards general artificial intelligence."
   description: >
-    Gwennael had the chance to deploy and interactive robot in front of real people, as one of the main software leads working on Pepper. In this talk, he’ll describe the key technical things he learnt about AI in the process: how critical it is to back the whole AI stack on a robust perception layer, why building that robust perception layer can only be achieved by merging several sensor inputs (2D vision, 3D vision, audio), how critical but difficult it is to be able to assess performance on such AI-powered systems and more !
+    At Snips, we are working towards a general-purpose AI that you can query using natural language. Think of it as a bot that understands who you are, and what you want. As a first step, we have built an AI that organises and retrieves your information the same way you do, while protecting your privacy. In this talk, we will go through concrete examples of how we collect this information. We will show how geolocation and textual data can be used to infer the context of a user over time. We will then show how, by giving connected devices access to such knowledge, they start intelligently reacting to their user’s context.
   speakers:
-    - Gwennael Gaté
-#  room: amphitheatre
+    - Joseph Dureau
+#  room: masterclass
 #  time:
 #    start: "16:45"
 #    finish: "17:45"

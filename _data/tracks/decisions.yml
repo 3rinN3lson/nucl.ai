@@ -1,17 +1,3 @@
-#- title: "Drivatar and Machine Learning Racing Skills in the Forza Series"
-#  description: >
-#    The Forza Drivatar technology powering games in the Forza Horizon and Forza Motorsport series
-#    is based on machine learning. It enables gameplay beyond robotic drivers and ghost replays by
-#    learning player- and style-specific Drivatars that can compete with friends.  This presentation
-#    will go behind the scenes in the development of Forza Drivatar, explaining the approach from a
-#    technical perspective as well as the design and integration with the gameplay.
-#  speakers:
-#    - Jeffrey Schlimmer
-#  room: amphitheatre
-#  time:
-#    start: "11:00"
-#    finish: "12:00"
-
 - title: "The How and Why of Server Validation for Mobile Simulation Games"
   description: >
     First we will discuss the how and the why of simple mobile simulation game economy, something that you 
@@ -23,16 +9,6 @@
   speakers:
     - Maxim Zaks
   room: masterclass
-    
-# - title: "Attacking Walled Cities in Total War: Warhammer"
-#   description: >
-#     A city siege battle is a complex machine of roles, responsibilities, and reactions on a large scale, 
-#     involving armies of hundreds or even thousands of individual men. This talk will cover the AI 
-#     architecture used in Total War: Warhammer to deal with the inherent complexities of this particular 
-#     battle type. We will cover the general Battle AI architecture before diving deep into specific examples 
-#     of the attacking Siege Battle AI. Finally, we will share some hard-earned development advice for AI programmers.
-#   speakers:
-#     - Andre Arsenault
 
 - title: "Online Evolution for Hero Academy and Multi-Action Games"
   description: >

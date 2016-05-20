@@ -1,3 +1,15 @@
+- title: "People Play, People Talk? A Deep Dive on Organic Downloads"
+  author: Julian Runge (Wooga)
+  date: "May 20, 2016"
+  link: "/track/analytics/#people-play,-people-talk?-a-deep-dive-on-organic-downloads"
+  picture: "img/tracks/Futurama.jpg"
+
+- title: "Making Robots Interact with People: Lessons Learned Deploying Pepper in Japan"
+  author: Gwennael Gaté (Angus.ai)
+  date: "May 19, 2016"
+  link: "/track/recognition/#making-robots-interact-with-people--lessons-learned-deploying-pepper-in-japan"
+  picture: "img/tracks/PepperRobot.jpg"
+
 - title: "Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN"
   author: Jason Schroder, Thomas Petersen (IO-interactive)
   date: "May 12, 2016"
@@ -22,23 +34,23 @@
   link: "/track/animation/#creating-digital-doubles,-the-character-pipeline-in-quantum-break"
   picture: "/img/tracks/quantumbreak.jpg"
 
-- title: "Four Pillars to Building a Solid Conversational Bot"
-  author: Paul Renvoisé (Recast AI)
-  date: "May 3, 2016"
-  link: "/track/cognitive/#four-pillars-to-building-a-solid-conversational-bot"
-  picture: "/img/tracks/recastAI_pillars.jpg"
+# - title: "Four Pillars to Building a Solid Conversational Bot"
+#  author: Paul Renvoisé (Recast AI)
+#  date: "May 3, 2016"
+#  link: "/track/cognitive/#four-pillars-to-building-a-solid-conversational-bot"
+#  picture: "/img/tracks/recastAI_pillars.jpg"
 
-- title: "Experiments in Augmenting the Performer with AI to Control Live Events"
-  author: Gaspard Bucher (Ludicity)
-  date: "May 2, 2016"
-  link: "/track/recognition/#experiments-in-augmenting-the-performer-with-ai-to-control-live-events"
-  picture: "/img/tracks/gaspardbuma.jpg"
+# - title: "Experiments in Augmenting the Performer with AI to Control Live Events"
+#  author: Gaspard Bucher (Ludicity)
+#  date: "May 2, 2016"
+#  link: "/track/recognition/#experiments-in-augmenting-the-performer-with-ai-to-control-live-events"
+#  picture: "/img/tracks/gaspardbuma.jpg"
 
-- title: "Procedural Story & Level Generation using Tag-Based Content Selection"
-  author: Jurie Horneman (Independent)
-  date: "Apr 29, 2016"
-  link: "/track/storytelling/#procedural-story-and-level-generation-using-tag-based-content-selection"
-  picture: "/img/tracks/mainframe.jpg"
+# - title: "Procedural Story & Level Generation using Tag-Based Content Selection"
+#   author: Jurie Horneman (Independent)
+#  date: "Apr 29, 2016"
+#  link: "/track/storytelling/#procedural-story-and-level-generation-using-tag-based-content-selection"
+#  picture: "/img/tracks/mainframe.jpg"
 
 - title: "Functional Reactive Programming, or the art of Time Travel(ling Debuggers)"
   author: Claudia Doppioslash (Independent)
@@ -46,11 +58,11 @@
   link: "/track/behavior/#functional-reactive-programming,-or-the-art-of-time-travel(ling-debuggers)"
   picture: "/img/tracks/timetravelingdebuggers.jpg"
 
-- title: "Early Worm All Access Tickets Now Only Available until May 11th"
-  author: nucl.ai Team
-  date: "Apr 25, 2016"
-  link: "/tickets/"
-  picture: "/img/logo.png"
+# - title: "Early Worm All Access Tickets Now Only Available until May 11th"
+#  author: nucl.ai Team
+#  date: "Apr 25, 2016"
+#  link: "/tickets/"
+#  picture: "/img/logo.png"
 
 - title: "Late to the Party! A Story of Adding Player Bots to a Humans-Only Game"
   author: Mieszko Zielinski (Epic Games)
