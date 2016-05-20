@@ -2,50 +2,50 @@
   role: track
   tracks: [cognitive]
   twitter: clodericmars
-  affiliation: 
+  affiliation:
     position: "CTO"
     name: craft ai
     url: http://craft.ai/
   bio: >
-    Since the beginning of 2015 Clodéric is leading to the creation of craft ai, an AI-as-a-service platform enabling IoT, 
-    mobile and web developers to create apps that adapt to each user. For 9 years, from INRIA to Golaem and MASA Group, 
-    his goal has been to democratize the creation of autonomous AND controllable AI. Clodéric is a co-author on two 
-    chapters in Game AI Pro 2, he was a track chair at nucl.ai 2015 and has spoke at many events including GDC 2014 
+    Since the beginning of 2015 Clodéric is leading to the creation of craft ai, an AI-as-a-service platform enabling IoT,
+    mobile and web developers to create apps that adapt to each user. For 9 years, from INRIA to Golaem and MASA Group,
+    his goal has been to democratize the creation of autonomous AND controllable AI. Clodéric is a co-author on two
+    chapters in Game AI Pro 2, he was a track chair at nucl.ai 2015 and has spoke at many events including GDC 2014
     AI Summit, LaFrenchMobile Day 2016 and SIdO 2016.
 
 - name: Diego Perez
   role: track
   tracks: [decisions]
   twitter: diego_pliebana
-  affiliation: 
+  affiliation:
     position: "Lecturer in Computer Games and AI"
     name: University of Essex
     url: http://www.essex.ac.uk/
   bio: >
-    Diego Perez is a Lecturer in Computer Games and Artificial Intelligence at the University of Essex (UK), where he achieved a 
-    PhD in Computer Science (2015). He has published in the domain of Game AI, with research interests on Reinforcement Learning 
-    and Evolutionary Computation. He has organized several Game AI competitions, as the Physical Travelling Salesman Problem and 
-    the General Video Game AI competitions, both held in IEEE conferences. He also has programming experience in the videogames 
+    Diego Perez is a Lecturer in Computer Games and Artificial Intelligence at the University of Essex (UK), where he achieved a
+    PhD in Computer Science (2015). He has published in the domain of Game AI, with research interests on Reinforcement Learning
+    and Evolutionary Computation. He has organized several Game AI competitions, as the Physical Travelling Salesman Problem and
+    the General Video Game AI competitions, both held in IEEE conferences. He also has programming experience in the videogames
     industry with titles published for game consoles and PC.
 
 - name: Michaël Rouillé
   role: track
   tracks: [systemic]
   twitter: michaelrouille
-  affiliation: 
+  affiliation:
     position: "CTO"
     name: Golaem
     url: http://golaem.com/
   bio: >
-    Michaël Rouillé is the CTO of Golaem, a company he co-founded in 2009. Golaem develop Golaem Crowd, a character animation 
-    software for artists of vfx, animation & game studios who need to populate backgrounds & midgrounds of films, tv series, 
-    commercials and video games. Michaël defines himself as a programmer, an art he has been trying to master for the last 25 
-    years. First as a hobby making Z80 assembly demos in mid-schools, C games in high-school and C++ 3D game engines in 
-    university. Then as a profession, developing the kernel and the 3D visualization of a distributed simulation platform at 
-    Inria; designing and developing a real-time 3D visualization engine for civil and military simulators at Thales Training 
-    and Simulation; designing and developing a human behaviors modeling language, authoring tool and execution engine for 
-    virtual humans at Inria; founding Golaem and developing artist-friendly tools to animate digital characters. Apart from 3D, 
-    Michaël's professional interests include AI, animation and game engines. Michaël's personal interests lie in visual arts, 
+    Michaël Rouillé is the CTO of Golaem, a company he co-founded in 2009. Golaem develop Golaem Crowd, a character animation
+    software for artists of vfx, animation & game studios who need to populate backgrounds & midgrounds of films, tv series,
+    commercials and video games. Michaël defines himself as a programmer, an art he has been trying to master for the last 25
+    years. First as a hobby making Z80 assembly demos in mid-schools, C games in high-school and C++ 3D game engines in
+    university. Then as a profession, developing the kernel and the 3D visualization of a distributed simulation platform at
+    Inria; designing and developing a real-time 3D visualization engine for civil and military simulators at Thales Training
+    and Simulation; designing and developing a human behaviors modeling language, authoring tool and execution engine for
+    virtual humans at Inria; founding Golaem and developing artist-friendly tools to animate digital characters. Apart from 3D,
+    Michaël's professional interests include AI, animation and game engines. Michaël's personal interests lie in visual arts,
     he has been to art school, and love to torture himself with how to bridge between the programming & art worlds.
 
 - name: Heather Stark
@@ -54,10 +54,10 @@
   tracks: [analytics]
   twitter: hastark
   bio: >
-    Heather is a games analyst who has worked on over a dozen games, as a consultant and in-house, across a wide range of 
-    genres and platforms. She is an active member of several London tech meetups and has a background as a consultant, tech 
-    analyst, and HCI researcher. Recently, she has been an early stage advisor for two analytics-related startups. She has 
-    been forgetting  R syntax for over 30 years, dating from back when R was S. 
+    Heather is a games analyst who has worked on over a dozen games, as a consultant and in-house, across a wide range of
+    genres and platforms. She is an active member of several London tech meetups and has a background as a consultant, tech
+    analyst, and HCI researcher. Recently, she has been an early stage advisor for two analytics-related startups. She has
+    been forgetting  R syntax for over 30 years, dating from back when R was S.
     When she finds shiny things she shares them on @hastark.
   affiliation:
     position: "User Research Specialist"
@@ -68,18 +68,18 @@
   role: track
   tracks: [storytelling]
   twitter: get_tuda_choppa
-  affiliation: 
+  affiliation:
     position: "Senior Lecturer in Computer Game Technology"
     name: Anglia Ruskin University
     url: http://www.anglia.ac.uk/
   bio: >
     Tommy Thompson is a senior lecturer in computer game technology at Anglia Ruskin University, Cambridge, UK.  He is an AI researcher focussed on machine learning applications in the areas of non-player character behaviour, procedural content generation and relevant benchmarking of AI through games.  Tommy is also the host of the YouTube series 'AI and Games' (www.aiandgames.com/@AIandGames) - looking at interesting applications of AI for games in both academic research and commercial releases - and a game developer at Table Flip Games (@TableFlipGames) when time permits!
-    
+
 - name: Mika Vehkala
   role: track
   tracks: [animation]
   twitter: mikavehkala
-  affiliation: 
+  affiliation:
     position: "Game Developer"
     name: Next Games
     url: http://www.nextgames.com/
@@ -92,7 +92,7 @@
   role: track
   tracks: [procedural]
   twitter: noorshak
-  affiliation: 
+  affiliation:
     position: "Post-Doc Researcher"
     name: AAU Copenhagen
     url: http://www.aau-cph.dk/
@@ -109,9 +109,9 @@
     position: "Software Engineer"
     name: Mi'pu'mi
   bio: >
-    Richard is currently working at Mi'pu'mi Games (mipumi.com) on an unannounced AAA title. 
-    His main interests include Artificial Intelligence, Procedural Generation and Virtual Reality. 
-    Before joining Mipumi he worked as a freelancer and was part of the AiGamedev.com team. 
+    Richard is currently working at Mi'pu'mi Games (mipumi.com) on an unannounced AAA title.
+    His main interests include Artificial Intelligence, Procedural Generation and Virtual Reality.
+    Before joining Mipumi he worked as a freelancer and was part of the AiGamedev.com team.
 
 - name: Emil "AngryAnt" Johansen
   role: track
@@ -122,8 +122,8 @@
     name: AngryAnt
     url: http://angryant.com/
   bio: >
-    A freelance game developer with a specialisation in AI, and author of the "Behave" AI middleware solution, Emil brings 
-    experience from a host of client projects as well as a four-year stint at Unity Technologies. A preference for behavioural 
+    A freelance game developer with a specialisation in AI, and author of the "Behave" AI middleware solution, Emil brings
+    experience from a host of client projects as well as a four-year stint at Unity Technologies. A preference for behavioural
     logic, but a wide appetite for new and exciting challenges.
 
 - name: Petra Champandard-Pail
@@ -191,35 +191,35 @@
 # - name: Andre Arsenault
 #   role: speaker
 #   confirmed: true
-#   affiliation: 
+#   affiliation:
 #     position: Lead Battle AI Programmer
 #     name: Creative Assembly
 #     url: http://www.creative-assembly.com/
 #   bio: >
-#     Andre is a 21-year veteran of the games industry having filled many programming, design, production and leadership 
-#     roles over the years. His career focused mainly on gameplay programming for various RTS and MMORPG titles at Westwood 
-#     Studios, Electronic Arts, Petroglyph, and Sony Online Entertainment before moving into production roles. He joined 
+#     Andre is a 21-year veteran of the games industry having filled many programming, design, production and leadership
+#     roles over the years. His career focused mainly on gameplay programming for various RTS and MMORPG titles at Westwood
+#     Studios, Electronic Arts, Petroglyph, and Sony Online Entertainment before moving into production roles. He joined
 #     Creative Assembly in 2014 and is currently responsible for Battle AI on the Total War series of strategy games.
 
 # - name: Andy Bray
 #   role: speaker
 #   confirmed: false
-#   affiliation: 
+#   affiliation:
 #     position: Lead AI Programmer
 #     name: Creative Assembly
 #   bio: >
-#     Andy is a Lead AI Programmer at Creative Assembly. He worked on the Xenomorph behavior for Alien: Isolation. 
+#     Andy is a Lead AI Programmer at Creative Assembly. He worked on the Xenomorph behavior for Alien: Isolation.
 
 - name: Ali Helmy
   role: speaker
   confirmed: true
-  affiliation: 
+  affiliation:
     position: Animation Programmer
     name: Crytek
     url: http://www.crytek.com/
   bio: >
    Ali Helmy is the Animation Programmer at Crytek in charge of all character animation systems on Crytek’s VR focused research & development team. He has been involved with the current generation of VR hardware from very early on and has been in charge of all character animation systems in Crytek’s VR efforts. From Dinosaur demos & VR Benchmarks to full games like The Climb & Robinson: The Journey, he has been involved with every aspect of making animations work for the entirely new realm that is VR.
-   
+
 - name: Vegard Myklebust
   role: speaker
   confirmed: true
@@ -229,7 +229,7 @@
     url: http://www.usefulslug.com/
   bio: >
     Vegard is an Illustrator turned Animator turned Rigger turned Programmer which according to him sums up to Technical Director. He has worked on audiovisual productions around the world in advertising, film, music videos, TV series and games. He says his claim to fame is that he helped make a music video for Iron Maiden, though his previous client list includes BBC / Canal+ / Network Rail as well as constantly being involved in independent productions. He runs a company called useful slug that provides freelance Technical Direction services for audiovisual productions and is currently developing Ludus part time while working full time as a Technical Director on Kickstarter funded The Mandate.
-   
+
 - name: Laurent Delayen
   role: speaker
   confirmed: true
@@ -404,7 +404,7 @@
   affiliation:
     name: IT University Copenhagen
   bio: >
-    Niels Justesen holds a B.Sc. in Software Development and just recently finished his M.Sc. in Games Technology at the IT University in Copenhagen. Here he pursued his interests in Game AI and has two peer-reviewed conference publications about game playing algorithms in strategy games. Now he works as a software developer at IT-Minds building intelligent applications for their clients. 
+    Niels Justesen holds a B.Sc. in Software Development and just recently finished his M.Sc. in Games Technology at the IT University in Copenhagen. Here he pursued his interests in Game AI and has two peer-reviewed conference publications about game playing algorithms in strategy games. Now he works as a software developer at IT-Minds building intelligent applications for their clients.
 
 - name: Pavel Shevaev
   role: speaker
@@ -461,7 +461,7 @@
   role: speaker
   confirmed: true
   affiliation:
-    position: Docent (Lecturer) 
+    position: Docent (Lecturer)
     name: Hogeschool van Amsterdam
     url: http://www.hva.nl/
   bio: >
@@ -510,4 +510,14 @@
     name: Snips
     url: http://snips.ai/
   bio: >
-    Along with a unique crowd of data scientists, cryptographers and developers, his current focus is on using machine learning to crack natural language understanding, and bring life to the Internet of Things without compromising users’ privacy. He holds a PhD in Statistics from the London School of Economics, and an MSc in mathematical engineering from Ecole Centrale Paris. Before joining Snips, Joseph worked at the NASA-Jet Propulsion Laboratory, at the French Commission for Atomic Energy, and with the Bill and Melinda Gates Foundation. He also co-founded Science.ai, a startup that is bringing the semantic web revolution to science. 
+    Along with a unique crowd of data scientists, cryptographers and developers, his current focus is on using machine learning to crack natural language understanding, and bring life to the Internet of Things without compromising users’ privacy. He holds a PhD in Statistics from the London School of Economics, and an MSc in mathematical engineering from Ecole Centrale Paris. Before joining Snips, Joseph worked at the NASA-Jet Propulsion Laboratory, at the French Commission for Atomic Energy, and with the Bill and Melinda Gates Foundation. He also co-founded Science.ai, a startup that is bringing the semantic web revolution to science.
+
+- name: Philip Dunstan
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior AI Programmer
+    name: Massive Entertainment
+    url: http://massive.se
+  bio: >
+    Philip Dunstan is a Senior AI Programmer at Massive Entertainment, a Ubisoft studio. Philip's core interests in AI are NPC behaviors, sensory and reasoning systems, and the tools for debugging complex NPC behaviors. Philip has more than ten years of experience in the games industry, starting as a Physics and Core Technology Engineer at Electronic Arts, before transitioning to AI at AIGameDev.com in 2011 and the joining Massive Entertainment to work on Tom Clancy’s The Division in 2014.
