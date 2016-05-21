@@ -512,3 +512,14 @@
     Verena made her way from Urban Planning into the games industry, with inbetween stops at advertising and eventmanagement. These days she is working as a producer, game designer and marketing strategist, who has focused on mobile development in the last years. She was already part of the volunteer team at Game/ AI Conference in 2014 and joined the team now to help with the dark arts of marketing.
 
 
+- name: Eric Johnson
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior AI Engineer 
+    name: Square Enix
+    url: http://www.square-enix.com/
+  bio: >
+    Eric Johnson is a Senior AI Engineer in the Advanced Technology Division of Square Enix. Before joining the industry in 2008, Eric received a Master’s Degree in Artificial Intelligence from the Georgia Institute of Technology, focusing on case-based reasoning for realtime strategy games. Currently he is working on the AI for Kingdom Hearts III.
+
+
