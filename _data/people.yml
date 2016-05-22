@@ -243,6 +243,16 @@
 #  bio: >
 #   Kristof Minnaert is a Senior Character Technical Artist at Remedy Entertainment, where he focuses on the character and animation tools and pipelines. He has been part of Remedy Entertainment since 2013 and has been working in the games industry since 2006.
 
+#- name: Charlie Tangora
+#  role: speaker
+#  confirmed: true
+#  affiliation: 
+#    position: Senior Programmer
+#    name: Hello Games
+#    url: http://www.hellogames.org/
+#  bio: >
+#   Charlie Tangora has worked in the game industry since 2006. He currently works on animation, gameplay, and physics systems at Hello Games. Previously, he worked as a programmer at Naughty Dog and interned at Midway Games in Chicago. He studied computer science at the University of Illinois at Urbana-Champaign..
+
 - name: Memo Akten
   role: speaker
   confirmed: true
