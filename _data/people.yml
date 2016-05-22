@@ -83,6 +83,16 @@
 #   bio: >
 #     Christian is currently working at Creative Assembly on the upcoming Total War: Arena title. His main interest lies with highly scalable online systems, but he also enjoys all kinds of other challenges (which brings him to nucl.ai). Prior to joining Creative Assembly, Christian worked as a freelancer on a variety of game and non-game projects, co-founded a startup and worked at SAP.
 
+#- name: Charles Tangora
+#  role: speaker
+#  confirmed: true
+#  affiliation: 
+#    position: Senior Programmer
+#    name: Hello Games
+#    url: http://www.hellogames.org/
+#  bio: >
+#   Charlie Tangora has worked in the game industry since 2006. He currently works on animation, gameplay, and physics systems at Hello Games. Previously, he worked as a programmer at Naughty Dog and interned at Midway Games in Chicago. He studied computer science at the University of Illinois at Urbana-Champaign.
+
 - name: Claudia Doppioslash
   role: speaker
   confirmed: true

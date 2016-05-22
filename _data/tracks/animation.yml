@@ -39,3 +39,13 @@
 #  time:
 #    start: "??:??"
 #    finish: "??:??"
+
+#- title: "IK and Animation Mapping in No Man's Sky"
+#  description: >
+#    <p>No Man's Sky features procedurally-generated alien animals in a huge variety of shapes and sizes which means an equal variety of leg lengths, bone scales, and pose adjustments. How do you stretch only a few dozen animations to cover such a menagerie?</p><p>This talk will present the fancy IK system used, which automatically generates joint weights for new creatures and offers a fairly extensive selection of constraints, including both simple foot fixups and an 'exotic' center-of-mass adjustment. Several architecture tricks will be shown which aim to make it easy to write new constraints quickly and get the solver both fast and scalable. Finally, examples of how the constraints are set up in practice on the creatures in the shipped game will be shown.</p>
+#  speakers:
+#    - Charlie Tangora
+#  room: ??
+#  time:
+#    start: "??:??"
+#    finish: "??:??"
