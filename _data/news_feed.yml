@@ -1,13 +1,73 @@
-- title: "Early Worm All Access Tickets Now Only Available until May 11th"
-  author: nucl.ai Team
-  date: "Apr 25, 2016"
-  link: "/tickets/"
-  picture: "/img/logo.png"
+- title: "People Play, People Talk? A Deep Dive on Organic Downloads"
+  author: Julian Runge (Wooga)
+  date: "May 20, 2016"
+  link: "/track/analytics/#people-play,-people-talk?-a-deep-dive-on-organic-downloads"
+  picture: "img/tracks/Futurama.jpg"
+
+- title: "Making Robots Interact with People: Lessons Learned Deploying Pepper in Japan"
+  author: Gwennael Gaté (Angus.ai)
+  date: "May 19, 2016"
+  link: "/track/recognition/#making-robots-interact-with-people--lessons-learned-deploying-pepper-in-japan"
+  picture: "img/tracks/PepperRobot.jpg"
+
+- title: "Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN"
+  author: "Jason Schroder, Thomas Petersen (IO-interactive)"
+  date: "May 12, 2016"
+  link: "/track/behavior/#bodyguards-and-vips--a-look-at-ambient,-alert-and-evacuation-behaviors-in-hitman"
+  picture: "img/tracks/Hitman-Logo.jpg"
+
+- title: "Bringing a Hero from Paragon to Life"
+  author: Laurent Delayen (Epic Games)
+  date: "May 11, 2016"
+  link: "/track/animation/#bringing-a-hero-from-paragon-to-life"
+  picture: "img/tracks/paragon.jpg"
+
+- title: "Generative Bots for Everyone! A Tracery Tutorial [Workshop]"
+  author: "Kate Compton (University of California, Santa Cruz)"
+  date: "May 10, 2016"
+  link: "/track/storytelling#generative-bots-for-everyone-a-tracery-tutorial--workshop-"
+  picture: "img/tracks/Compton_nuclai_2016-May-10 1.jpg"
+
+- title: "Creating Digital Doubles, The Character Pipeline in Quantum Break"
+  author: Kristof Minnaert (Remedy Entertainment)
+  date: "May 4, 2016"
+  link: "/track/animation/#creating-digital-doubles,-the-character-pipeline-in-quantum-break"
+  picture: "/img/tracks/quantumbreak.jpg"
+
+# - title: "Four Pillars to Building a Solid Conversational Bot"
+#  author: Paul Renvoisé (Recast AI)
+#  date: "May 3, 2016"
+#  link: "/track/cognitive/#four-pillars-to-building-a-solid-conversational-bot"
+#  picture: "/img/tracks/recastAI_pillars.jpg"
+
+# - title: "Experiments in Augmenting the Performer with AI to Control Live Events"
+#  author: Gaspard Bucher (Ludicity)
+#  date: "May 2, 2016"
+#  link: "/track/recognition/#experiments-in-augmenting-the-performer-with-ai-to-control-live-events"
+#  picture: "/img/tracks/gaspardbuma.jpg"
+
+# - title: "Procedural Story & Level Generation using Tag-Based Content Selection"
+#   author: Jurie Horneman (Independent)
+#  date: "Apr 29, 2016"
+#  link: "/track/storytelling/#procedural-story-and-level-generation-using-tag-based-content-selection"
+#  picture: "/img/tracks/mainframe.jpg"
+
+- title: "Functional Reactive Programming, or the art of Time Travel(ling Debuggers)"
+  author: Claudia Doppioslash (Independent)
+  date: "Apr 28, 2016"
+  link: "/track/behavior/#functional-reactive-programming,-or-the-art-of-time-travel(ling-debuggers)"
+  picture: "/img/tracks/timetravelingdebuggers.jpg"
+
+# - title: "Early Worm All Access Tickets Now Only Available until May 11th"
+#  author: nucl.ai Team
+#  date: "Apr 25, 2016"
+#  link: "/tickets/"
+#  picture: "/img/logo.png"
 
 - title: "Late to the Party! A Story of Adding Player Bots to a Humans-Only Game"
   author: Mieszko Zielinski (Epic Games)
   date: "Apr 15, 2016"
-  link: "/track/behavior/#late-to-the-party!-a-story-of-adding-player-bots-to-a-humans-only-game"
+  link: "/track/behavior/#late-to-the-party-a-story-of-adding-player-bots-to-a-humans-only-game"
   picture: "/img/tracks/Paragon_1.jpg"
 
 - title: "A Brief History of Matchmaking in Heroes of the Storm"
@@ -27,51 +87,3 @@
   date: "Apr 5, 2016"
   link: "/track/animation/#climbing-in-vr-and-reaching-new-heights-with-procedural-animation"
   picture: "/img/tracks/TheClimb_1.jpg"
-
-# - title: "Inside Watson: How IBM Is Making Computers Understand Language"
-#  author: Dale Lane (IBM Watson)
-#  date: "Apr 29, 2015"
-#  link: "/track/cognition/"
-#  picture: "/img/tracks/WatsonIBM_1.jpg"
-
-# - title: "The AI Systems in Fortnite and its Director"
-#  author: John Abercrombie (Epic Games)
-#  date: "Apr 25, 2015"
-#  link: "/track/systems/"
-#  picture: "/img/tracks/Fortnite_1.jpg"
-
-# - title: "Tactical Planning with Real-time MCTS in Fable Legends"
-#  author: Gwaredd Mountain (Lionhead)
-#  date: "Apr 21, 2015"
-#  link: "/track/decisions/#tactical-planning-in-fable-legends"
-#  picture: "/img/tracks/FableLegends_2.jpg"
-
-# - title: "Building the Massive Crowds of Assassin's Creed Unity"
-#  author: François Cournoyer and Antoine Fortier (Ubisoft Montreal)
-#  date: "Apr 16, 2015"
-#  link: "/track/systems/"
-#  picture: "/img/tracks/AssassinsCreed_1.jpg"
-
-# - title: "Behavior Trees and Blackboards in EVE ONLINE"
-#   author: Freyr Magnússon (CCP Games)
-#   date: "Apr 13, 2015"
-#   link: "/track/behavior/#behavior-trees-and-blackboards-in-eve-online"
-#   picture: "/img/tracks/alternate.png"
-
-# - title: "Optimizing MCTS for Tactical Coordination in TOTAL WAR: ATILLA"
-#   date: "Apr 11, 2015"
-#   author: Piotr Andruszkiewicz (Creative Assembly)
-#   link: "/track/decisions/#optimizing-mcts-performance-for-tactical-coordination-in-total-war--atilla"
-#   picture: "/img/tracks/behavior.png"
-
-# - title: "MotionFields: Road to Next-Gen Animation"
-#  date: "Apr 8, 2015"
-#  author: Michael Büttner (Ubisoft Toronto)
-#  link: "/track/animation/#motionfields---road-to-next-gen-animation"
-#  picture: "/img/tracks/animation.png"
-
-# - title: "The Evolution of Crowds and AI in Feature Film Animation"
-#  date: "Apr 3, 2015"
-#  author:  Paul Kanyuk (Pixar Animation Studios)
-#  link: "/track/ambient/#the-evolution-of-crowds-and-ai-in-feature-film-animation"
-#  picture: "/img/tracks/ambient.png"

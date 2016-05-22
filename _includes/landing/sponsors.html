@@ -2,7 +2,7 @@
     <a class="anchor" id="sponsors"></a>
     <grid>
         <h2>
-            Our Sponsors
+            Our Sponsors & Partners
         </h2>
         <content>
         {% for item in site.data.sponsors %}
@@ -10,6 +10,7 @@
         {% endfor %}
 
         <!-- Your logo here -->
+        {% comment %}
         <item class="sponsor your-logo-here" style="height: 300px;">
             <div class="logo-wrap table">
                 <div class="logo-center centered-cell">
@@ -21,7 +22,8 @@
                 </div>
             </div>
         </item>
-
+        {% endcomment %}
+        {% comment %}
         </content>
         <h2>
             Our Partners
@@ -31,5 +33,6 @@
             {% include /landing/sponsor.html %}
         {% endfor %}
         </content>
+        {% endcomment %}
     </grid>
 </section>

@@ -1,0 +1,31 @@
+- title: "Procedural Story & Level Generation using Tag-Based Content Selection"
+  description: >
+    Selecting the right bit of content based on what is happening is a key problem that appears in many parts of game development, be it NPC reactions, level generation, dynamic stories, or procedural text. It is at the core of interactive storytelling.
+    Tag-based content selection is a powerful technique for solving this problem that was originally developed to pick AI barks in video games. It is still being used for that today, but it can also be used to generate levels, interactive fiction scenes, and more. It is easy to understand by both programmers and non-programmers, and is both powerful and practical.
+    This talk will be a deep dive into tag-based content selection, to show how to implement it, how it can be used to generate content, why it is so powerful, what the pitfalls are, where it has been used, as well as various tips, tricks, tools, and refinements.
+  speakers:
+    - Jurie Horneman
+  room: masterclass
+  time:
+    start: "??:??"
+    finish: "??:??"
+    
+- title: "Generative Bots for Everyone! A Tracery Tutorial [Workshop]"
+  description: >
+    Tracery is a popular and well-loved language for making generative text accessible to artists and poets as well as programmers.  This workshop will introduce you to the basics of making generative text, and much more, with Tracery.  Everyone will leave this class with their very own code to make a twitterbot, a generative adventure game, and a music generator.  No coding experience required!
+  speakers:
+   - Kate Compton
+  room: laboratories
+  time:
+    start: "??:??"
+    finish: "??:??"
+
+- title: "Computational Narrative Intelligence"
+  description: >
+    Storytelling is a pervasive part of the human experience--we as humans tell stories to communicate, inform, entertain, and educate. Mark believes that narrative intelligence, the ability to understand, create, and respond affectively to narratives, can make it easier for artificial intelligence systems to understand humans and make it easier for humans to understand the behavior of artificial intelligence system. In this talk, Mark presents research on machine learning approaches to story understanding, the creation of novel narrative structures, and using natural language stories to program robots. Concluding with a roadmap for the ways in which computational narrative intelligence can facilitate the creation of intelligent applications that benefit humans and facilitate human-agent interaction.
+  speakers:
+    - Mark Riedl
+  room: amphitheatre
+  time:
+    start: "??:??"
+    finish: "??:??" 

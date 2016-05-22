@@ -88,7 +88,9 @@
                             {% if page.name == 'tickets.html' %}
                             
                             {% else %}
+                            {% comment %}
                             <a href="/tickets/">{{site.data.config.remaining.type}} sale &mdash; only {{site.data.config.remaining.count}} tickets left!</a>
+                            {% endcomment %}
                             {% endif %}
                             </h2>
                         </div>

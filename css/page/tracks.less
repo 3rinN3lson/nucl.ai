@@ -8,7 +8,7 @@ section.thumbnails-grid.tracks {
             .row(10);
             margin-bottom: 1em;
             item.thumbnail {
-                &.systems {
+                &.systemic {
                     margin-left: 11.25%;
                 }
                 .thumbnail-title {
@@ -72,7 +72,9 @@ sections.page section.tracks-content.tracks-text {
     &.tickets {
         /* tickets section tweaks */
           item.ticket-row {
-              .push(1);
+              //.push(1);
+              .stars { display: inline; }
+              &.extras { display: none; }
           }
     }
 

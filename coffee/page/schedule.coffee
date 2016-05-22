@@ -31,7 +31,27 @@ $ ->
         
         if talks.length <= 1 then return;
 
+        talks.sort () ->  0.5 - Math.random()
+        available_rooms = ['amphitheatre', 'masterclass', 'laboratories'];
+        talks_order = {
+          'amphitheatre': 0,
+          'masterclass': 0,
+          'laboratories': 0
+        }
         talks.each ->
+          ## HARDCODED HACK FOR PUBLISHIN SCHEDULE WITH NOT COMPLETED DATA
+          if $(@).attr("room") == "" || $(@).attr("room") == "??"
+            $(@).attr("room", available_rooms[Math.floor(Math.random()*available_rooms.length)];)
+            $(@).addClass("noroomdefined")
+
+          talk_starttime = talks_order[$(@).attr("room")]
+          talks_order[$(@).attr("room")]++
+          if $(@).attr("room") == "laboratories" then talks_order[$(@).attr("room")]++ # workshops higher
+
+          h_start = if talks_order[$(@).attr("room")] < 10 then "0" + talk_starttime + ":00" else talk_starttime + ":00"
+          h_end = if talks_order[$(@).attr("room")] < 10  then "0" + talks_order[$(@).attr("room")] + ":00" else talks_order[$(@).attr("room")] + ":00"
+          $(@).attr("time-start", h_start)
+          $(@).attr("time-finish", h_end)
           if $(@).attr("time-start") && $(@).attr("time-finish") then day.talks.push $(@) # talks with undefined time are ignored
 
         # sort by time and append

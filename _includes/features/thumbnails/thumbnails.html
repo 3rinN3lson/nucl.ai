@@ -27,7 +27,7 @@
             {% assign name = thumbnail.title %}
             {% capture thumbnailId %}{{thumbnail.id}}{% endcapture %}
             {% capture picture %}/img/topics/{{ thumbnail.id | escape }}.jpg{% endcapture %}
-            {% capture href %}/track/{{ thumbnail.id | escape }}{% endcapture %}
+            {% capture href %}/track/{{ thumbnail.id | escape }}/{% endcapture %}
             {% if attachDescription %} {% assign status = "enabled" %} {% endif %}
     {% endcase %}
 
