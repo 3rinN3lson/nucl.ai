@@ -447,6 +447,16 @@
   bio: >
     Prof. Helmut Hlavacs studied Technical Mathematics at the Technical University of Vienna, and received a PhD in 2001. He joined the University of Vienna as researcher for the EU projects BISANTE and later CODIS, and received habilitation in 2004, also being promoted to Associated Professor. He was guest professor in Spain and France, and initiated numerous projects on national and international level. He was vice chair and grant holder of the COST action IC0804, leader of industry projects with Rohde&Schwarz, Kapsch Carrier Com, T-Systems, Telekom Austria/A1, ASFINAG, member of the Research Center Telecommunications Vienna, etc., and successfully closed several basic research projects in the area of mobile video, task virtualization, energy efficiency, and traffic status measurement. Prof. Hlavacs co-authored over 150 peer-reviewed publications, published at international conferences or journals, resulting in an Erdös-Number of 4. He is author of one book, and guest editor of numerous special journal issues, one being currently reviewed. Furthermore, he has received eight best paper and distinguished paper awards at international conferences so far. He was also advisor of eight finished PhD students so far, two of whom have been awarded with prestigious PhD awards.
 
+- name: Radu Danciu
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior Entertainment Engineer
+    name: Sprocket, Inc.
+    url: http://sprocket.ro/
+  bio: >
+    A videogame programmer with over 8 years of experience and a passion for AI and tools, having worked on IPs in the Hitman and Tom Clancy universes. Currently acting as manager and lead programmer of Sprocket, Inc. - a small games and middleware development studio founded in 2014, located in Iasi, Romania; previous employers include Ubisoft, Io-Interactive and Microsoft Game Studios.
+
 - name: Ramon Viladomat
   role: speaker
   confirmed: true
