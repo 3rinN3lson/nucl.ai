@@ -7,12 +7,12 @@
     - Andy Bray
   room: amphitheatre
 
-  - title: "??"
-  description: >
-    ??
-  speakers:
-    - Carol O'Sullivan
-  room: amphitheatre 
+#  - title: "??"
+#   description: >
+#     ??
+#   speakers:
+#     - Carol O'Sullivan
+#   room: amphitheatre 
 
 - title: "Crowd Control for Feature Film at ILM"
   description: >
@@ -22,7 +22,7 @@
     - Jo Plaete
   room: amphitheatre
 
-  - title: "Intelligent Tools for Game Designers"
+- title: "Intelligent Tools for Game Designers"
   description: >
     In this talk, I will present the results of, and lessons learned from the Dutch applied research project ‘Automated Game Design’ (March 2013 - December 2015), 
     which focused on the use and development of intelligent tools to support game designers in their creative design process.
@@ -42,7 +42,7 @@
     - Anders Bouwer
   room: masterclass
 
-  - title: "Automated Game Balancing"
+- title: "Automated Game Balancing"
   description: >
     History has shown that players keep playing balanced games as balanced games continue to challenge players to try different strategies, because none are dominant. 
     Automated game balancing is the next level of game balancing. In the 21st century with numerous games hitting the market, using automated game balancing can make a game 
