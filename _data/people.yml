@@ -234,6 +234,17 @@
     In 2011 it was time to move these techniques into the gaming industry.
     Via game design studies and working as a (serious) game designer in simulation and game studios, he now balances and calculates game models using AI and simulation techniques at Ludible - Automated Game Balancing as a freelancer.
 
+- name: Johann Korndörfer
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Graphics coder
+    name: Mercury
+#    url: http://snips.ai/
+  bio: >
+    Johann 'cupe' Korndörfer is a graphics coder for the demogroup mercury.
+    Having done some kind of computer graphics since his childhood, he found the proper outlet for this drive in the demoscene, where he is active since 2008. While he works as a rendering engineer in VR for his day job, at night he codes mostly size-limited productions, as restrictions tend to stimulate his creativity. 
+
 - name: Joseph Dureau
   role: speaker
   confirmed: true
