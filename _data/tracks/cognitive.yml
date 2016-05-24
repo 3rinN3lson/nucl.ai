@@ -16,7 +16,7 @@
     - Alex J. Champandard
   room: laboratories
 
-- title: "Building an intelligent memory, a first step towards general artificial intelligence."
+- title: "Building an Intelligent Memory — A First Step Towards General Artificial Intelligence"
   description: >
     At Snips, we are working towards a general-purpose AI that you can query using natural language. Think of it as a bot that understands who you are, and what you want. As a first step, we have built an AI that organises and retrieves your information the same way you do, while protecting your privacy. In this talk, we will go through concrete examples of how we collect this information. We will show how geolocation and textual data can be used to infer the context of a user over time. We will then show how, by giving connected devices access to such knowledge, they start intelligently reacting to their user’s context.
   speakers:
