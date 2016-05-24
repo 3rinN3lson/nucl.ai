@@ -144,6 +144,16 @@
     experience from a host of client projects as well as a four-year stint at Unity Technologies. A preference for behavioural 
     logic, but a wide appetite for new and exciting challenges.
 
+- name: Ensar Akkaya
+  role: speaker
+  confirmed: true
+  affiliation:
+#    position: Student
+#    name: NHTV University
+#    url: http://
+  bio: >
+    Ensar Akkaya is an aspiring tools programmer with passion for games, currently finishing his study at the NHTV University in Breda, Netherlands. He has worked on various student game projects and game development related applications. Next to his student projects, he worked for the mailing and shipping industry as a software developer. He developed an integration with Houdini for Unreal Engine 4, which is being used by a student game project to procedurally set dress levels.
+
 - name: Eric Johnson
   role: speaker
   confirmed: true
