@@ -23,3 +23,20 @@
   speakers:
     - Ensar Akkaya
 #  room: laboratories
+
+- title: "Building Worlds in 64kB: Why humans should never have to touch pixels or polygons"
+  description: >
+    How do you fit complex geometry, physically based materials, animation and physics simulations in 64 kilobytes*? This talk will show the all-procedural workflow behind some recent demoscene productions. We will explore the techniques behind "asset-free" content creation used by the demogroup mercury for their recent 64k production "fermi paradox" and others, which will mainly consist of live coding, fiddling with the content, and telling demoscene battle stories from recent productions.
+    We will see how exclusively using procedural techniques results in preserved semantics instead of pushing-around of heaps of meaningless data. We will discuss how the ability to change any content at any stage in production - with instant turnaround times with no baking and no modes - affects the creative process. And we will determine how much of that is specific to this unique discipline or actually transferable to game or movie production.
+    Basically: Humans should never have to touch pixels or polygons.
+    *as well as the full-fledged physically based shading system, the synthesizer and the music.
+  speakers:
+    - Johann Korndörfer
+#  room: laboratories
+
+- title: "TransProse: Generating Music From Literature"
+  description: >
+    TransProse is a program that generates music from novels. It works by identifying emotions throughout a novel, and using that underlying emotional structure to create musical pieces with the same emotional tone. In this talk Hannah will present the algorithm behind TransProse, discuss the process of generating music from data, and examine how the field of data sonification can be a valuable tool in artistic spaces.
+  speakers:
+    - Hannah Davis
+#  room: laboratories
