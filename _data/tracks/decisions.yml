@@ -1,3 +1,18 @@
+- title: "Expanding the Frontier of Environment Query Systems at Square Enix"
+  description: >
+    As spatial query systems such as EQS (Unreal Engine 4), TPS (CryEngine), and PQS (Luminous Studio) have matured, 
+    auto-generated spatial queries are increasingly relied upon for robust dynamic position selection. We present a 
+    series of techniques and extensions to these systems used by Square Enix to produce novel behaviors and improve 
+    position selection in our current generation of AAA RPG titles. In addition, we have expanded UE4’s Environment 
+    Query System to serve as a general-purpose utility system; we show how minor modifications allowed the team to 
+    use EQS to coordinate combat, reduce behavior tree complexity with a hybrid BT/US approach, and increase character 
+    AI quality for a range of tasks such as action and target selection. Attendees will learn how to get the most out 
+    of modern spatial query systems with a combination of new techniques and best practices to maximize quality and 
+    extend their application to new areas. 
+  speakers:
+    - Eric Johnson
+  room: amphitheatre
+
 - title: "The How and Why of Server Validation for Mobile Simulation Games"
   description: >
     First we will discuss the how and the why of simple mobile simulation game economy, something that you 
