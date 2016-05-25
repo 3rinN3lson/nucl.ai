@@ -2,7 +2,7 @@
   name: Amphitheatre
   type: Keynotes
 - id: masterclass
-  name: Masterclass
+  name: Academy
   type: Workshops
 - id: laboratories
   name: Open Labs
