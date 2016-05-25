@@ -1,0 +1,20 @@
+{% assign id = page.name | split: '.html' | first | replace: "flyer_", "" %}
+{% for flyer in site.data.flyers %}
+   {% if flyer.id == id %}
+
+    <section class="news-feed">
+    <a class="anchor" id="news-feed"></a>
+    <h2>{{flyer.title}}</h2>
+    <grid>
+        <content>
+        <table>
+            {% for news in flyer.news %}
+                {% include news_content.html %}
+            {% endfor %}
+        </table>
+        </content>
+    </grid>
+    </section>
+
+   {% endif %}
+{% endfor %}

@@ -25,6 +25,8 @@
     <div class="splash-screen-wrap" style="background-image: url('{{'/img/stream/stream-blue-quads.png' | prepend: site.baseurl }}' ); background-position: center center;">
     {% elsif page.name == 'stream-day3.html' %}
     <div class="splash-screen-wrap" style="background-image: url('{{'/img/stream/stream-purple-quads.png' | prepend: site.baseurl }}' ); background-position: center center;">
+    {% elsif page.name contains "flyer_" %}
+    <div class="splash-screen-wrap" style="background-image: url('{{'/img/stream/stream-blue-quads.png' | prepend: site.baseurl }}' ); background-position: center center;">
     {% else %}
     <div class="splash-screen-wrap audience-gif">
     {% endif %}
@@ -82,8 +84,16 @@
 
                         </div>
                         <div class="centered-cell">
-                            <h2>Conference on Artificial Intelligence<br/> in Creative Industries</h2>
-
+                            {% if page.name contains "flyer_" %}
+                                {% assign id = page.name | split: '.html' | first | replace: "flyer_", "" %}
+                                {% for flyer in site.data.flyers %}
+                                    {% if flyer.id == id %}
+                                        <h2>Into {{flyer.title}} and Creative AI?”</h2>
+                                    {% endif %}
+                                {% endfor %}
+                            {% else %}
+                                <h2>Conference on Artificial Intelligence<br/> in Creative Industries</h2>
+                            {% endif %}
                             <h2 class="note">
                             {% if page.name == 'tickets.html' %}
                             

@@ -1,0 +1,27 @@
+- id: machine_learning
+  title: "Machine Learning"
+  news:
+    - title: "People Play, People Talk? A Deep Dive on Organic Downloads"
+      author: Julian Runge (Wooga)
+      date: "May 20, 2016"
+      link: "/track/analytics/#people-play,-people-talk?-a-deep-dive-on-organic-downloads"
+      picture: "/img/tracks/Futurama.jpg"
+
+    - title: "Making Robots Interact with People: Lessons Learned Deploying Pepper in Japan"
+      author: Gwennael Gaté (Angus.ai)
+      date: "May 19, 2016"
+      link: "/track/recognition/#making-robots-interact-with-people--lessons-learned-deploying-pepper-in-japan"
+      picture: "/img/tracks/PepperRobot.jpg"
+
+    - title: "Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN"
+      author: Jason Schroder, Thomas Petersen (IO-interactive)
+      date: "May 12, 2016"
+      link: "/track/behavior/#bodyguards-and-vips--a-look-at-ambient,-alert-and-evacuation-behaviors-in-hitman"
+      picture: "/img/tracks/Hitman-Logo.jpg"
+
+
+- id: procedural_generation
+  title: "Procedural Generation"
+
+- id: "cognitive_&_bots"
+  title: "Cognitive & Bots"
