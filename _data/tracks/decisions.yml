@@ -12,6 +12,9 @@
   speakers:
     - Eric Johnson
   room: amphitheatre
+  time:
+    start: "10:00"
+    finish: "10:45"
 
 - title: "The How and Why of Server Validation for Mobile Simulation Games"
   description: >
@@ -24,6 +27,9 @@
   speakers:
     - Maxim Zaks
   room: masterclass
+  time:
+    start: "11:30"
+    finish: "12:00"
 
 - title: "Online Evolution for Hero Academy and Multi-Action Games"
   description: >
@@ -37,3 +43,24 @@
   speakers:
     - Niels Justesen
   room: masterclass
+  time:
+    start: "09:15"
+    finish: "10:00"
+
+- title: "TBA: Real-Time Decisions Track" # Chess & Go
+  room: amphitheatre
+  time:
+    start: "15:00"
+    finish: "15:45"
+
+- title: "TBA: Hands-On Deep Reinforcement Learning [Workshop]" # VizDoom
+  room: laboratories
+  time:
+    start: "16:00"
+    finish: "18:00"
+
+- title: "TBA: Real-Time Decisions Track" # VizDoom
+  room: masterclass
+  time:
+    start: "14:15"
+    finish: "15:00"

@@ -1,3 +1,13 @@
+- title: "TransProse: Generating Music From Literature"
+  description: >
+    TransProse is a program that generates music from novels. It works by identifying emotions throughout a novel, and using that underlying emotional structure to create musical pieces with the same emotional tone. In this talk Hannah will present the algorithm behind TransProse, discuss the process of generating music from data, and examine how the field of data sonification can be a valuable tool in artistic spaces.
+  speakers:
+    - Hannah Davis
+  room: amphitheatre
+  time:
+    start: "09:15"
+    finish: "10:00"
+
 - title: "Procedural Story & Level Generation using Tag-Based Content Selection"
   description: >
     Selecting the right bit of content based on what is happening is a key problem that appears in many parts of game development, be it NPC reactions, level generation, dynamic stories, or procedural text. It is at the core of interactive storytelling.
@@ -7,8 +17,8 @@
     - Jurie Horneman
   room: masterclass
   time:
-    start: "??:??"
-    finish: "??:??"
+    start: "12:00"
+    finish: "12:45"
     
 - title: "Generative Bots for Everyone! A Tracery Tutorial [Workshop]"
   description: >
@@ -17,8 +27,8 @@
    - Kate Compton
   room: laboratories
   time:
-    start: "??:??"
-    finish: "??:??"
+    start: "14:00"
+    finish: "16:00"
 
 - title: "Computational Narrative Intelligence"
   description: >
@@ -27,5 +37,36 @@
     - Mark Riedl
   room: amphitheatre
   time:
-    start: "??:??"
-    finish: "??:??" 
+    start: "17:15"
+    finish: "18:00" 
+
+- title: "TBA: Text, Dialog & Storytelling Track" # Facebook Timeline Fiction
+  room: masterclass
+  time:
+    start: "10:00"
+    finish: "10:45" 
+
+- title: "TBA: Text, Dialog & Storytelling Track" # Kingdom Come: Deliverance
+  room: amphitheatre
+  time:
+    start: "11:15"
+    finish: "12:00" 
+
+- title: "TBA: Text, Dialog & Storytelling Track" # Kingdom Come: Deliverance
+  room: amphitheatre
+  time:
+    start: "11:15"
+    finish: "12:00" 
+
+
+- title: "TBA: Text, Dialog & Storytelling Track" # Kingdom Come: Deliverance
+  room: amphitheatre
+  time:
+    start: "11:15"
+    finish: "12:00" 
+
+- title: "TBA: Text, Dialog & Storytelling Track" # Creative Patterns
+  room: masterclass
+  time:
+    start: "16:30"
+    finish: "17:15"

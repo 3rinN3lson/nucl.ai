@@ -6,8 +6,8 @@
     - Alex Zook
   room: amphitheatre
   time:
-    start: "??:??"
-    finish: "??:??"
+    start: "12:00"
+    finish: "12:45"
 
 - title: "Beyond Churn Prediction: An Introduction to Uplift Modelling"
   description: >
@@ -16,10 +16,9 @@
   speakers:
     - Pierre Gutierrez
   room: masterclass
-#  room: amphitheatre
-#  time:
-#    start: "??:??"
-#    finish: "??:??"
+  time:
+    start: "09:15"
+    finish: "10:00"
 
 - title: "Capturing, Analysing and Imitating Emergent Playstyles in Card Games"
   description: >
@@ -27,9 +26,9 @@
   speakers:
     - Sam Devlin
   room: masterclass
-#  time:
-#    start: "??:??"
-#    finish: "??:??"
+  time:
+    start: "11:15"
+    finish: "11:45"
 
 # - title: "A probabilistic method for estimating the cross channel effect of TV advertising campaigns for mobile games apps"
 #   description: >
@@ -48,16 +47,15 @@
     - Julian Runge
   room: masterclass
   time:
-    start: "??:??"
-    finish: "??:??"
+    start: "16:30"
+    finish: "17:15"
 
-# - title: "Using a Genetic Algorithm in 10 vs. 10 multiplayer matchmaking"
-#   description: >
-#     <p>Based on work on Total War: Arena, Christian Rothe will talk about his experience implementing a genetic algorithm to search for good solutions for 10 vs. 10 multiplayer matchmaking based on multidimensional optimization criteria. The talk will cover modelling the problem space to the GA approach and touch non­obvious pitfalls encountered during implementation and performance optimization.</p>
-#   speakers:
-#     - Christian Rothe
-#  room: amphitheatre
-#  time:
-#    start: "??:??"
-#    finish: "??:??"
-
+- title: "Using a Genetic Algorithm in 10 vs. 10 Matchmaking in TOTAL WAR: ARENA"
+  description: >
+     <p>Based on work on Total War: Arena, Christian Rothe will talk about his experience implementing a genetic algorithm to search for good solutions for 10 vs. 10 multiplayer matchmaking based on multidimensional optimization criteria. The talk will cover modelling the problem space to the GA approach and touch non­obvious pitfalls encountered during implementation and performance optimization.</p>
+  speakers:
+    - Christian Rothe
+  room: amphitheatre
+  time:
+    start: "10:00"
+    finish: "10:30"

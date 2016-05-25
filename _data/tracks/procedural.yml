@@ -7,6 +7,9 @@
   speakers:
     - Johann Korndörfer
   room: amphitheatre
+  time:
+    start: "11:15"
+    finish: "12:00"
 
 - title: "Image Synthesis with Convolutional Neural Networks [Workshop]"
   description: >
@@ -16,6 +19,9 @@
     - Noor Shaker
     - Alex J. Champandard
   room: laboratories
+  time:
+    start: "09:15"
+    finish: "11:00"
 
 - title: "Integrating Houdini with Unreal Engine 4"
   description: >
