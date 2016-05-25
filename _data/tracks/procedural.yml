@@ -1,12 +1,3 @@
-- title: "Image Synthesis with Convolutional Neural Networks [Workshop]"
-  description: >
-    In this hands-on workshop, you'll learn about and experiment with algorithms that use convolutional neural networks to generate images: from photo-realistic textures, to style transfer on portraits, or even up-sampling pixel art. You'll learn about the underlying neural architectures,
-    how they are trained, and how you can modify them to get the results you want too!
-  speakers:
-    - Noor Shaker
-    - Alex J. Champandard
-  room: laboratories
-
 - title: "Building Worlds in 64kB: Why Humans Should Never Have to Touch Pixels or Polygons"
   description: >
     How do you fit complex geometry, physically based materials, animation and physics simulations in 64 kilobytes*? This talk will show the all-procedural workflow behind some recent demoscene productions. We will explore the techniques behind "asset-free" content creation used by the demogroup mercury for their recent 64k production "fermi paradox" and others, which will mainly consist of live coding, fiddling with the content, and telling demoscene battle stories from recent productions.
@@ -15,7 +6,16 @@
     *as well as the full-fledged physically based shading system, the synthesizer and the music.
   speakers:
     - Johann Korndörfer
-#  room: laboratories
+  room: amphitheatre
+
+- title: "Image Synthesis with Convolutional Neural Networks [Workshop]"
+  description: >
+    In this hands-on workshop, you'll learn about and experiment with algorithms that use convolutional neural networks to generate images: from photo-realistic textures, to style transfer on portraits, or even up-sampling pixel art. You'll learn about the underlying neural architectures,
+    how they are trained, and how you can modify them to get the results you want too!
+  speakers:
+    - Noor Shaker
+    - Alex J. Champandard
+  room: laboratories
 
 - title: "Integrating Houdini with Unreal Engine 4"
   description: >
