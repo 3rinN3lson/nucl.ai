@@ -28,11 +28,30 @@
     In this talk Ensar will explain how to execute Houdini projects from Unreal Engine, and translate generated Houdini assets to make it readable by Unreal. Various methods used will be explained that made it possible to create an Unreal Engine plugin capable of procedurally set dressing assets with the power of Houdini. Next to explaining methods used to make this possible, methods that failed to work as intended to achieve this will also be discussed.
   speakers:
     - Ensar Akkaya
-#  room: laboratories
+  room: masterclass
+  time:
+    start: "16:30"
+    finish: "17:15"
 
-# - title: "TransProse: Generating Music From Literature"
-#   description: >
-#     TransProse is a program that generates music from novels. It works by identifying emotions throughout a novel, and using that underlying emotional structure to create musical pieces with the same emotional tone. In this talk Hannah will present the algorithm behind TransProse, discuss the process of generating music from data, and examine how the field of data sonification can be a valuable tool in artistic spaces.
-#   speakers:
-#     - Hannah Davis
-#  room: laboratories
+- title: "Techne: An Art Commune by Bots, for Bots"
+  description: >
+    Art bots are undeniably cool! We put the minds of an artist inside of a machine, and they make art for us!
+    But since when do artists live in a sealed box?  Real artists have colleagues, form artist colonies, learn from each other, grow and develop and change their practices, and obsess over the artists that they wish they could be.  We started with Rob Saunders’ classic creative-agent-in-communities work and extended it to build a mad experiment in which bots not only produce and evaluate art, but can see the “process” of other bots’ art generators, critique it, borrow pieces, and modify their own art production code with what they’ve learned.  Along the way we’ve discovered or implemented phenomena like self-loathing artists, critics and evangelists, bots with “blue periods” that they grow out of, and bots making hard choices between pleasing the critics and staying true to their own desires.  
+  speakers:
+    - Kate Compton
+  room: amphitheatre
+  time:
+    start: "15:00"
+    finish: "15:45"
+
+- title: "TBA: Procedural Content Generation Track"
+  room: masterclass
+  time:
+    start: "14:15"
+    finish: "15:00"
+
+- title: "TBA: Procedural Asset Pipelines [Keynote]"
+  room: amphitheatre
+  time:
+    start: "17:15"
+    finish: "18:00"

@@ -65,3 +65,9 @@
   time:
     start: "11:45"
     finish: "12:15"
+
+- title: "TBA: Behavior Trees for Action Combat"
+  room: amphitheatre
+  time:
+    start: "16:30"
+    finish: "17:15"
