@@ -51,7 +51,7 @@
   room: laboratories
   time:
     start: "14:00"
-    finish: "16:00"
+    finish: "15:45"
 
 - title: "TBA: Animation for Generated Creatures"
   room: amphitheatre

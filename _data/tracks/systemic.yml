@@ -16,16 +16,12 @@
   time:
     start: "17:15"
     finish: "18:00"
-
-- title: "Intelligent Tools for Game Designers"
-  description: >
-    In this talk, I will present the results of, and lessons learned on the development of intelligent tools to support designers in their creative design process.  Through the lense of four case studies, you'll learn about strengths and weaknesses of automated tools and human designers, and how they can complement each other.  In addition to discussing the results and insights from this project, I will also briefly outline how we plan to address remaining and new challenges in a new applied research project, called Live Game Design. 
-  speakers:
-    - Anders Bouwer
+    
+- title: "TBA: Systemic Design & AI Directors"
   room: masterclass
   time:
-    start: "09:15"
-    finish: "09:45"
+    start: "11:15"
+    finish: "12:00"
 
 - title: "Automated Game Balancing"
   description: >
@@ -39,8 +35,8 @@
     - Johan van der Beek
   room: masterclass
   time:
-    start: "09:45"
-    finish: "10:15"
+    start: "09:15"
+    finish: "09:45"
 
 - title: "(Mis)adventures in Building Smarter Tools: AI-Driven Automated Testing"
   description: >
@@ -50,8 +46,18 @@
     - Radu Danciu
   room: masterclass
   time:
-    start: "11:15"
-    finish: "11:45"
+    start: "15:00"
+    finish: "15:30"
+
+- title: "Intelligent Tools for Game Designers"
+  description: >
+    In this talk, I will present the results of, and lessons learned on the development of intelligent tools to support designers in their creative design process.  Through the lense of four case studies, you'll learn about strengths and weaknesses of automated tools and human designers, and how they can complement each other.  In addition to discussing the results and insights from this project, I will also briefly outline how we plan to address remaining and new challenges in a new applied research project, called Live Game Design. 
+  speakers:
+    - Anders Bouwer
+  room: masterclass
+  time:
+    start: "15:30"
+    finish: "16:00"
 
 - title: "TBA: It’s in the Vents: The AI of Alien Isolation"
   description: >
