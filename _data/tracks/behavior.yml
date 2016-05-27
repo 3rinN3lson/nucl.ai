@@ -4,6 +4,9 @@
   speakers:
     - Mieszko Zielinski
   room: amphitheatre
+  time:
+    start: "14:15"
+    finish: "15:00"
 
 - title: "Functional Reactive Programming, or the art of Time Travel(ling Debuggers)"
   description: >
@@ -14,6 +17,9 @@
   speakers:
     - Claudia Doppioslash
   room: masterclass
+  time:
+    start: "15:00"
+    finish: "15:45"
 
 - title: "Seamless Merging of Behavior Trees and Imperative Code"
   description: >
@@ -23,6 +29,9 @@
   speakers:
     - Pavel Shevaev
   room: masterclass
+  time:
+    start: "10:00"
+    finish: "10:30"
 
 - title: "Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN"
   description: >
@@ -33,6 +42,9 @@
     - Jason Schroder
     - Thomas Petersen
   room: amphitheatre
+  time:
+    start: "09:15"
+    finish: "10:00"
 
 - title: "Shooting for DataDriven&sup2;! Evolution of a Modular Weapon System"
   description: >
@@ -40,6 +52,9 @@
   speakers:
     - Ramon Viladomat
   room: masterclass
+  time:
+    start: "12:15"
+    finish: "12:45"
 
 - title: "Back-Alley Surgery For Cyberpunk AI"
   description: >
@@ -47,3 +62,12 @@
   speakers:
     - Charles Hinshaw
   room: masterclass
+  time:
+    start: "11:45"
+    finish: "12:15"
+
+- title: "TBA: Behavior Trees for Action Combat"
+  room: amphitheatre
+  time:
+    start: "16:30"
+    finish: "17:15"
