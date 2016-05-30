@@ -30,15 +30,23 @@
     start: "11:15"
     finish: "11:45"
 
-# - title: "A probabilistic method for estimating the cross channel effect of TV advertising campaigns for mobile games apps"
-#   description: >
-#    <p>Tracking the effects due to television in an automated manner is a central problem of television advertising. This issue is especially important in digital economy, like mobile games, where almost all the conversion funnel happen online with the exception of offline communication.  Without quantification of television effects, marketers may fail to effectively use both online and offline channels. We propose a method to estimate the effect of each TV spot emission on a multichannel campaign. The probabilistic approach allows to measure the impact of overlapping communications in television isolating the effect from digital marketing actions. The method outperforms the traditional attribution method and direct response models. Our method allows a dynamic optimization of broadcast advertising campaign with a high granularity.</p>
-#  speakers:
-#    - Santiago Murillo
-#  room: amphitheatre
-#  time:
-#    start: "??:??"
-#    finish: "??:??"
+- title: "Estimating the Cross Channel Effect of TV Advertising Campaigns for Mobile"
+  description: >
+    <p>Tracking the effects due to television in an automated manner is a central problem of television advertising. This issue is especially important in digital economy, like mobile games, where almost all the conversion funnel happen online with the exception of offline communication.  Without quantification of television effects, marketers may fail to effectively use both online and offline channels. We propose a method to estimate the effect of each TV spot emission on a multichannel campaign. The probabilistic approach allows to measure the impact of overlapping communications in television isolating the effect from digital marketing actions. The method outperforms the traditional attribution method and direct response models. Our method allows a dynamic optimization of broadcast advertising campaign with a high granularity.</p>
+  speakers:
+    - Santiago Murillo
+  room: laboratories
+  time:
+    start: "14:15"
+    finish: "15:00"
+
+- title: "TBA: Analytics & Data-Science Track"
+  speakers:
+    - Bill Grosso
+  room: laboratories
+  time:
+    start: "15:00"
+    finish: "15:45"
 
 - title: "TBA: Analytics & Data-Science Track"
   description: >
