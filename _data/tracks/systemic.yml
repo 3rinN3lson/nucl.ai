@@ -1,18 +1,10 @@
-- title: "It’s in the Vents: The AI of Alien Isolation"
-  description: >
-    Alien Isolation relies on systemic AI to deliver tension and scares.  We look at the
-    processes, techniques and decisions involved in delivering a systemic experience
-    that would traditionally be scripted.
+- title: "TBA: Perception of Simulation Details"
   speakers:
-    - Andy Bray
+     - Carol O'Sullivan
   room: amphitheatre
-
-#  - title: "??"
-#   description: >
-#     ??
-#   speakers:
-#     - Carol O'Sullivan
-#   room: amphitheatre 
+  time:
+    start: "09:45"
+    finish: "10:30"
 
 - title: "Crowd Control for Feature Film at ILM"
   description: >
@@ -21,26 +13,15 @@
   speakers:
     - Jo Plaete
   room: amphitheatre
+  time:
+    start: "17:15"
+    finish: "18:00"
 
-- title: "Intelligent Tools for Game Designers"
-  description: >
-    In this talk, I will present the results of, and lessons learned from the Dutch applied research project ‘Automated Game Design’ (March 2013 - December 2015), 
-    which focused on the use and development of intelligent tools to support game designers in their creative design process.
-    Besides researchers from the Amsterdam University of Applied Sciences, the TU Delft, and NHTV Breda, this project (financially supported by SIA) involved 13 Dutch game companies, 
-    two international partners as advisory board (ITU Copenhagen and UC Santa Cruz), and the Dutch Games Association and the Dutch Game Garden, 
-    two organizations supporting the Dutch game industry. 
-    The project has analyzed the needs of professional game designers in the participating companies and has contributed to solutions for these needs in the form of formalizations 
-    of game design elements and dynamics, and the development of tools for automated game design. Furthermore, these formalizations and tools have been used in case studies 
-    with four of the participating Dutch game companies: Wild Card Games, Codeglue, Firebrush Studios, and IC3D Media. The case studies with Wild Card Games and Codeglue 
-    addressed mixed-initiative design for level generation (dungeons for the game Dwarf Quest, and multiplayer battle arenas for the game Antegods, respectively). 
-    The case study with Firebrush Studios, on the game MoneyMaker Deluxe, addressed the challenges of generation methods for emergent economical processes and phenomena. 
-    Finally, the case study with IC3D media involved the development of tools for live prototyping a game, i.e., changing the game dynamics while the game is running. 
-    Together, these case studies have led to insights into the strengths and weaknesses of automated tools and human designers, and how they can complement each other. 
-    In addition to discussing the results and insights from this project, I will also briefly outline how we plan to address remaining and new challenges in a new applied research project, 
-    called Live Game Design. 
-  speakers:
-    - Anders Bouwer
+- title: "TBA: Systemic Design & AI Directors"
   room: masterclass
+  time:
+    start: "11:15"
+    finish: "12:00"
 
 - title: "Automated Game Balancing"
   description: >
@@ -53,6 +34,9 @@
   speakers:
     - Johan van der Beek
   room: masterclass
+  time:
+    start: "09:15"
+    finish: "09:45"
 
 - title: "(Mis)adventures in Building Smarter Tools: AI-Driven Automated Testing"
   description: >
@@ -61,3 +45,28 @@
   speakers:
     - Radu Danciu
   room: masterclass
+  time:
+    start: "15:00"
+    finish: "15:30"
+
+- title: "Intelligent Tools for Game Designers"
+  description: >
+    In this talk, I will present the results of, and lessons learned on the development of intelligent tools to support designers in their creative design process.  Through the lense of four case studies, you'll learn about strengths and weaknesses of automated tools and human designers, and how they can complement each other.  In addition to discussing the results and insights from this project, I will also briefly outline how we plan to address remaining and new challenges in a new applied research project, called Live Game Design. 
+  speakers:
+    - Anders Bouwer
+  room: masterclass
+  time:
+    start: "15:30"
+    finish: "16:00"
+
+- title: "TBA: It’s in the Vents: The AI of Alien Isolation"
+  description: >
+    Alien Isolation relies on systemic AI to deliver tension and scares.  We look at the
+    processes, techniques and decisions involved in delivering a systemic experience
+    that would traditionally be scripted.
+# speakers:
+#  - Andy Bray
+  room: amphitheatre
+  time:
+    start: "14:15"
+    finish: "15:00"

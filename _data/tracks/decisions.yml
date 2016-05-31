@@ -1,4 +1,4 @@
-- title: "Expanding the Frontier of Environment Query Systems at Square Enix"
+- title: "Expanding the Frontier of Environment Query Systems"
   description: >
     As spatial query systems such as EQS (Unreal Engine 4), TPS (CryEngine), and PQS (Luminous Studio) have matured, 
     auto-generated spatial queries are increasingly relied upon for robust dynamic position selection. We present a 
@@ -16,7 +16,7 @@
     start: "10:00"
     finish: "10:45"
 
-- title: "The How and Why of Server Validation for Mobile Simulation Games"
+- title: "The How and Why of Server Validation for Mobile Simulations"
   description: >
     First we will discuss the how and the why of simple mobile simulation game economy, something that you 
     might find in every farming game. Then, we will spice it up with some real time decision making and how 
@@ -30,6 +30,14 @@
   time:
     start: "11:30"
     finish: "12:00"
+
+- title: "TBA: Expert Panel Discussion & Roundtable"
+  speakers:
+    - Diego Perez
+  room: laboratories
+  time:
+    start: "12:00"
+    finish: "12:45"
 
 - title: "Online Evolution for Hero Academy and Multi-Action Games"
   description: >

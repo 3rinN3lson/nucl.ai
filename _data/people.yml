@@ -11,7 +11,6 @@
 
 - name: Alex Zook
   role: speaker
-  confirmed: true
   twitter: zookae
   affiliation:
     position: Senior Data Scientist
@@ -22,7 +21,6 @@
 
 - name: Ali Helmy
   role: speaker
-  confirmed: true
   twitter: alihelmy
   affiliation: 
     position: Animation Programmer
@@ -33,7 +31,6 @@
 
 - name: Anders Bouwer
   role: speaker
-  confirmed: true
   affiliation:
     position: Docent (Lecturer) 
     name: Hogeschool van Amsterdam
@@ -42,19 +39,6 @@
     Anders holds an MSc degree in Artificial Intelligence (cum laude) from the VU Amsterdam, a Master's by Research in AI and Education from the University of Edinburgh, and a PhD in Computer Science from the University of Amsterdam.
     He has worked as a lecturer, programmer, and researcher for the Human-Computer Studies lab and the Intelligent Systems Lab at the University of Amsterdam, and the Music Computing Lab at the Open University in Milton Keynes (UK). He is currently affiliated with the Amsterdam University of Applied Sciences, where he does research on Automated Game Design and teaches several courses on AI, Mobile Development and Game Technology.
     His research interests include artificial intelligence, human cognition, intelligent learning environments, intelligent multimedia, music interaction, mobile multimodal interaction, procedural content generation, and automated game design.
-
-# - name: Andre Arsenault
-#   role: speaker
-#   confirmed: true
-#   affiliation: 
-#     position: Lead Battle AI Programmer
-#     name: Creative Assembly
-#     url: http://www.creative-assembly.com/
-#   bio: >
-#     Andre is a 21-year veteran of the games industry having filled many programming, design, production and leadership 
-#     roles over the years. His career focused mainly on gameplay programming for various RTS and MMORPG titles at Westwood 
-#     Studios, Electronic Arts, Petroglyph, and Sony Online Entertainment before moving into production roles. He joined 
-#     Creative Assembly in 2014 and is currently responsible for Battle AI on the Total War series of strategy games.
 
 # - name: Andy Bray
 #   role: speaker
@@ -67,7 +51,6 @@
 
 - name: Charles Hinshaw
   role: speaker
-  confirmed: true
   twitter: nulldiver
   affiliation:
     position:
@@ -78,7 +61,6 @@
 
 # - name: Christian Rothe
 #   role: speaker
-#   confirmed: true
 #   affiliation:
 #    position: Data Scientist
 #     name: Creative Assembly
@@ -88,7 +70,6 @@
 
 #- name: Charles Tangora
 #  role: speaker
-#  confirmed: true
 #  affiliation: 
 #    position: Senior Programmer
 #    name: Hello Games
@@ -98,7 +79,6 @@
 
 - name: Claudia Doppioslash
   role: speaker
-  confirmed: true
   twitter: doppioslash
   affiliation:
     url: http://blog.doppioslash.com
@@ -150,7 +130,6 @@
 
 - name: Ensar Akkaya
   role: speaker
-  confirmed: true
   affiliation:
 #    position: Student
 #    name: NHTV University
@@ -160,7 +139,6 @@
 
 - name: Eric Johnson
   role: speaker
-  confirmed: true
   affiliation:
     position: Senior AI Engineer 
     name: Square Enix
@@ -181,7 +159,6 @@
 
 - name: Gaspard Bucher
   role: speaker
-  confirmed: true
   twitter: feature_space
   affiliation:
     position: "Programmer & Artist"
@@ -192,7 +169,6 @@
 
 - name: Gwennael Gaté
   role: speaker
-  confirmed: true
   twitter: gwennoyel
   affiliation:
     position: Co-founder
@@ -203,7 +179,6 @@
 
 - name: Hannah Davis
   role: speaker
-  confirmed: true
   affiliation:
 #    position: Independent
 #    name: TransProse
@@ -213,7 +188,6 @@
 
 - name: Heather Stark
   role: track
-  confirmed: true
   tracks: [analytics]
   twitter: hastark
   bio: >
@@ -229,7 +203,6 @@
 
 - name: Jason Schroder
   role: speaker
-  confirmed: true
   affiliation:
     position: Senior Programmer
     name: Io-Interactive
@@ -239,7 +212,6 @@
 
 - name: Jo Plaete
   role: speaker
-  confirmed: false
   affiliation:
     position: Lead Crowd Technical Director
     name: "Industrial Light & Magic"
@@ -249,7 +221,6 @@
 
 - name: Johan van der Beek
   role: speaker
-  confirmed: true
   affiliation:
     position: Freelance Game Logic Specialist
     name: Ludible
@@ -262,7 +233,6 @@
 
 - name: Johann Korndörfer
   role: speaker
-  confirmed: true
   twitter: cupe_cupe
   affiliation:
     position: Graphics coder
@@ -274,7 +244,6 @@
 
 - name: Joseph Dureau
   role: speaker
-  confirmed: true
   twitter: JoDureau
   affiliation:
     position: VP of Research
@@ -285,7 +254,6 @@
 
 - name: Julian Runge
   role: speaker
-  confirmed: true
   twitter: julian_runge
   affiliation:
 #    position: Researcher in residence
@@ -305,7 +273,6 @@
 
 - name: Jurie Horneman
   role: speaker
-  confirmed: true
   twitter: jurieongames
   affiliation:
     position: Designer / Programmer
@@ -316,7 +283,6 @@
 
 - name: Kate Compton
   role: speaker
-  confirmed: true
   twitter: galaxykate
   affiliation:
     url: http://www.galaxykate.com/
@@ -325,7 +291,6 @@
 
 - name: Kristof Minnaert
   role: speaker
-  confirmed: true
   affiliation:
     position: Senior Character Technical Artist
     name: Remedy Entertainment
@@ -335,7 +300,6 @@
 
 - name: Laurent Delayen
   role: speaker
-  confirmed: true
   twitter: LDelayen
   affiliation:
     position: Programmer
@@ -346,7 +310,6 @@
 
 - name: Mark Riedl
   role: speaker
-  confirmed: true
   affiliation:
     position: Associate Professor
     name: Georgia Institute of Technology
@@ -356,7 +319,6 @@
 
 - name: Maxim Zaks
   role: speaker
-  confirmed: true
   affiliation:
     position: Software Developer
     name: Wooga
@@ -366,7 +328,6 @@
 
 - name: Memo Akten
   role: speaker
-  confirmed: true
   twitter: memotv
   affiliation:
     position: Artist & Developer
@@ -398,7 +359,6 @@
 
 - name: Mieszko Zielinski
   role: speaker
-  confirmed: true
   twitter: MieszkoZ
   affiliation:
     position: Lead AI Programmer
@@ -422,7 +382,6 @@
 
 - name: Niels Justesen
   role: speaker
-  confirmed: true
   affiliation:
     name: IT University Copenhagen
   bio: >
@@ -443,7 +402,6 @@
 
 - name: Paul Renvoisé
   role: speaker
-  confirmed: true
   twitter: PaulRenvoise
   affiliation:
     position: NLP Lead Developer
@@ -455,7 +413,6 @@
 
 - name: Pavel Shevaev
   role: speaker
-  confirmed: true
   twitter: pachash
   affiliation:
     position: Chief Technology Officer
@@ -463,6 +420,15 @@
     url: http://bitdotgames.com/
   bio: >
      8+ years of game dev. Skills range from PHP dirty hacking to C++ servers coding. Walked a thorny path from an OOP zealot to an admirer of simple solutions for complicated problems.
+
+- name: Petr Mácha
+  role: speaker
+  affiliation:
+    position: Game Designer
+    name: Bohemia Interactive Simulations
+    url: https://bisimulations.com/
+  bio: >
+    Game designer in Bohemia Interactive Simulations, one of the creators of the BISim AI toolkit VBSControl using BTs application presented on the nucl.ai 2015. Also indie game dev in notAlab, leading developer of the free RTS "nota".
 
 - name: Petra Champandard-Pail
   role: org
@@ -477,7 +443,6 @@
 
 - name: Pierre Gutierrez
   role: speaker
-  confirmed: true
   twitter: prrgutierrez
   affiliation:
     position: Senior Data Scientist
@@ -497,7 +462,6 @@
 
 - name: Radu Danciu
   role: speaker
-  confirmed: true
   affiliation:
     position: Senior Entertainment Engineer
     name: Sprocket, Inc.
@@ -507,7 +471,6 @@
 
 - name: Ramon Viladomat
   role: speaker
-  confirmed: true
   affiliation:
     position: Senior Gameplay Programmer
     name: Crytek
@@ -530,7 +493,6 @@
 
 - name: Sam Devlin
   role: speaker
-  confirmed: true
   twitter: Games3AI
   affiliation:
 #    position: Transitional fellow
@@ -541,7 +503,6 @@
 
 - name: Santiago Murillo
   role: speaker
-  confirmed: true
   affiliation:
     position: Data Scientist
     name: Social Point
@@ -551,7 +512,6 @@
 
 - name: Thomas Petersen
   role: speaker
-  confirmed: true
   affiliation:
     position: Senior Programmer
     name: Io-Interactive
@@ -572,7 +532,6 @@
 
 - name: Vegard Myklebust
   role: speaker
-  confirmed: true
   affiliation:
     position: Technical Director
     name: useful slug
