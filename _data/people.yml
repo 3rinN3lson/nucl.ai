@@ -550,6 +550,24 @@
   bio: >
     Verena made her way from Urban Planning into the games industry, with inbetween stops at advertising and eventmanagement. These days she is working as a producer, game designer and marketing strategist, who has focused on mobile development in the last years. She was already part of the volunteer team at Game/ AI Conference in 2014 and joined the team now to help with the dark arts of marketing.
 
+- name: Jannes Nagel
+  role: speaker
+  twitter: jannesnagel
+  affiliation:
+    position: Software Developer
+    name: Opaque Media Group
+    url: http://www.opaque.media
+  bio: >
+    Jannes is a software engineer at the Opaque Media Group. He is currently working on procedural animation and AI for the upcoming VR game Earthlight. Before working at Opaque Jannes has studied cognitive science and worked as a freelancer in Germany for 9 years. Even though Jannes is a generalist he has special interests in parallel computing, AI and animation.
+
+- name: Norman Wang
+  role: speaker
+  affiliation:
+    position: 3D artist and Executive Director
+    name: Opaque Media Group
+    url: http://www.opaque.media
+  bio: >
+    Norman is an award-winning 3D artist and Executive Director at Opaque Media Group, where he leads a number of projects in the area of real-time production and virtual reality. Norman is a passionate technologist and a published author with a focus on understanding how technology changes human perception. Norman now leads the majority of VR projects at Opaque Media Group, in particular the studio’s flagship production, Earthlight – a VR game being developed in collaboration with space agencies around the world that allows players to immersively experience the journey of becoming an astronaut as well as the wonders and perils of space. Outside of Opaque Media Group, Norman is a PhD researcher in cognitive psychology with a focus on understanding how immersive experience affect human perception and cognition.
 
 #- name: Wojciech Jaśkowski
 #  role: speaker
