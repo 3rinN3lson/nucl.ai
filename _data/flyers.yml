@@ -1,7 +1,7 @@
 - id: machine_learning
   title: "Machine Learning"
 
-description:
+  description:
     intro: > 
       Deep learning, deep dream, neural doodles - neural networks and their training are THE topic in the AI community these days. If you are already "deep into" or just starting out, spending your time training your favorite neural network, at nucl.ai you can find like-minded developers from all over the world.
     text: >  
@@ -24,7 +24,7 @@ description:
 - id: procedural_generation
   title: "Procedural Generation"
 
-description:
+  description:
     intro: > 
       "Asset-free content creation", letting the music creatin words and so much more is possible with procedural content generation. PCG opens up new dimensions for content creators.
     text: >  
