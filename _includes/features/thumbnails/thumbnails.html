@@ -1,7 +1,7 @@
 {% if itemsInRow %} {% else %} {% assign itemsInRow = 3 %} {% endif %}
 
 {% for it in items %}
-    {% assign thumbnail = None %}
+    {% assign thumbnail = nil %}
     {% case dataType %}
         {% when "people" %}
             {% if items != site.data.people %} {% comment %} items are filtered {% endcomment %}
@@ -31,7 +31,7 @@
             {% capture href %}/track/{{ thumbnail.id | escape }}/{% endcapture %}
             {% if attachDescription %} {% assign status = "enabled" %} {% endif %}
     {% endcase %}
-    {% if thumbnail != None %}
+    {% if thumbnail != nil %}
     {% if thumbnail.disabled or disableAll %} 
         {% capture href %}{% endcapture %}
         {% assign status = "disabled" %}

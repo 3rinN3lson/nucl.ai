@@ -7,6 +7,7 @@
     <h2>{{flyer.title}}</h2>
     <grid>
         <content>
+        <p class="description">{{flyer.description}}</p>
         <table>
             {% for news in flyer.news %}
                 {% include news_content.html %}
