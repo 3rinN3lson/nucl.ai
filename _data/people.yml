@@ -559,6 +559,6 @@
 #    name: 
 #    url: 
 #  bio: >
-    Wojciech Jaśkowski is an Assistant Professor at Poznan University of Technology (Poland), where we achieved a Ph.D. in Computer Science. His has published in the past on combinatorial optimization, genetic programming, test-based problems, reinforcement learning, and coevolution with applications to classic (e.g., Othello, Go) and 
-not-so-classic (Tetris, 2048) games. As his current interests concentrate on Vision-based Deep Reinforcement Learning, recently he led a team that developed ViZDoom - a reinforcement learning research 
-platform that allows creating bots that play Doom using only the screen buffer.
+#    Wojciech Jaśkowski is an Assistant Professor at Poznan University of Technology (Poland), where we achieved a Ph.D. in Computer Science. His has published in the past on combinatorial optimization, genetic programming, test-based problems, reinforcement learning, and coevolution with applications to classic (e.g., Othello, Go) and 
+#not-so-classic (Tetris, 2048) games. As his current interests concentrate on Vision-based Deep Reinforcement Learning, recently he led a team that developed ViZDoom - a reinforcement learning research 
+#platform that allows creating bots that play Doom using only the screen buffer.
