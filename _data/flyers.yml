@@ -1,27 +1,60 @@
 - id: machine_learning
   title: "Machine Learning"
+
+description:
+    intro: > 
+      Deep learning, deep dream, neural doodles - neural networks and their training are THE topic in the AI community these days. If you are already "deep into" or just starting out, spending your time training your favorite neural network, at nucl.ai you can find like-minded developers from all over the world.
+    text: >  
+      Join us at nucl.ai for 3 days filled of talks and workshop about machine learning in Vienna from July 18th - 20th!
+
   news:
-    - title: "People Play, People Talk? A Deep Dive on Organic Downloads"
-      author: Julian Runge (Wooga)
-      date: "May 20, 2016"
-      link: "/track/analytics/#people-play,-people-talk?-a-deep-dive-on-organic-downloads"
-      picture: "/img/tracks/Futurama.jpg"
+      - title: "Image Synthesis with Convolutional Neural Networks"
+      author: Noor Shaker (AAU Copenhagen), Alex J. Champandard (AIGameDev.com)
+      date: "July 19th, 2016"
+      link: "/track/procedural/#image-synthesis-with-convolutional-neural-networks--workshop-"
+      picture: "/img/people/Noor Shaker.jpg"
 
-    - title: "Making Robots Interact with People: Lessons Learned Deploying Pepper in Japan"
-      author: Gwennael Gaté (Angus.ai)
-      date: "May 19, 2016"
-      link: "/track/recognition/#making-robots-interact-with-people--lessons-learned-deploying-pepper-in-japan"
-      picture: "/img/tracks/PepperRobot.jpg"
-
-    - title: "Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN"
-      author: Jason Schroder, Thomas Petersen (IO-interactive)
-      date: "May 12, 2016"
-      link: "/track/behavior/#bodyguards-and-vips--a-look-at-ambient,-alert-and-evacuation-behaviors-in-hitman"
-      picture: "/img/tracks/Hitman-Logo.jpg"
+      - title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks"
+      author: Clodéric Mars (craft ai), Alex J. Champandard (AIGameDev.com)
+      date: "July 20th, 2016"
+      link: "/track/cognitive/#seq2seq--learning-pattern-and-responses-with-recurrent-neworks--workshop-"
+      picture: "/img/people/Clodéric Mars.jpg"
 
 
 - id: procedural_generation
   title: "Procedural Generation"
+
+description:
+    intro: > 
+      "Asset-free content creation", letting the music creatin words and so much more is possible with procedural content generation. PCG opens up new dimensions for content creators.
+    text: >  
+     Whether you are just starting out or are well versed with this AI technique, you will find something at nucl.ai in Vienna from July 18th - 20th! Join developers from all over the world in exploring the massive worlds the create with PCG. 
+
+  news:
+      - title: "TransProse: Generating Music From Literature"
+      author: Hannah Davis (Independent)
+      date: "July 18th, 2016"
+      link: "/track/storytelling/#transprose--generating-music-from-literature"
+      picture: "/img/people/Hannah Davis.jpg"
+
+    - title: "Procedural Story & Level Generation using Tag-Based Content Selection"
+      author: Jurie Horneman (Independent)
+      date: "July 18th, 2016"
+      link: "/track/storytelling/#procedural-story-and-level-generation-using-tag-based-content-selection"
+      picture: "/img/people/Jurie Horneman.jpg"
+
+    - title: "Building Worlds in 64kB: Why Humans Should Never Have to Touch Pixels or Polygons"
+      author: Johann Korndörfer (Mercury)
+      date: "July 19th, 2016"
+      link: "/track/procedural/#building-worlds-in-64kb--why-humans-should-never-have-to-touch-pixels-or-polygons"
+      picture: "/img/people/Johann Korndörfer.jpg"
+
+      - title: "Techne: An Art Commune by Bots, for Bots"
+      author: Kate Compton (Mad scientist at the University of California, Santa Cruz)
+      date: "July 19th, 2016"
+      link: "/track/procedural/#techne--an-art-commune-by-bots,-for-bots"
+      picture: "/img/people/Kate Compton.jpg"
+
 
 - id: "cognitive_and_bots"
   title: "Cognitive & Bots"
@@ -62,4 +95,3 @@
       date: "July 20th, 2016"
       link: "/track/cognitive/#four-pillars-to-building-a-solid-conversational-bot"
       picture: "/img/people/Paul Renvoisé.jpg"
-
