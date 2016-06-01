@@ -8,13 +8,13 @@
       Join us at nucl.ai for 3 days filled of talks and workshop about machine learning in Vienna from July 18th - 20th!
 
   news:
-      - title: "Image Synthesis with Convolutional Neural Networks"
+    - title: "Image Synthesis with Convolutional Neural Networks"
       author: Noor Shaker (AAU Copenhagen), Alex J. Champandard (AIGameDev.com)
       date: "July 19th, 2016"
       link: "/track/procedural/#image-synthesis-with-convolutional-neural-networks--workshop-"
       picture: "/img/people/Noor Shaker.jpg"
 
-      - title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks"
+    - title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks"
       author: Clodéric Mars (craft ai), Alex J. Champandard (AIGameDev.com)
       date: "July 20th, 2016"
       link: "/track/cognitive/#seq2seq--learning-pattern-and-responses-with-recurrent-neworks--workshop-"
@@ -49,7 +49,7 @@
       link: "/track/procedural/#building-worlds-in-64kb--why-humans-should-never-have-to-touch-pixels-or-polygons"
       picture: "/img/people/Johann Korndörfer.jpg"
 
-      - title: "Techne: An Art Commune by Bots, for Bots"
+    - title: "Techne: An Art Commune by Bots, for Bots"
       author: Kate Compton (Mad scientist at the University of California, Santa Cruz)
       date: "July 19th, 2016"
       link: "/track/procedural/#techne--an-art-commune-by-bots,-for-bots"
