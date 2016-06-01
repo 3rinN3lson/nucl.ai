@@ -26,9 +26,12 @@
 - id: "cognitive_and_bots"
   title: "Cognitive & Bots"
 
-  description: >
-    Creating bots - "real life" robots, AI assistants or tweetbots" is something you do or want to do? Join developers from all over the world talking about their projects and (ro)bot designing experiences - from having interesting conversations with your bot on Twitter to seeing people interact with your creation in real life like Pepper, the smiling robot - they are sharing their tipps, tricks and lessons-learnt at nucl.ai from 18th-20th July 2016 in Vienna!
-  
+  description:
+    intro: > 
+      Creating bots - "real life" robots, AI assistants or tweetbots" is something you do or want to do? Join developers from all over the world talking about their projects and (ro)bot designing experiences!
+    text: >  
+      From having interesting conversations with your bot on Twitter to seeing people interact with your creation in real life like Pepper, the smiling robot - they are sharing their tipps, tricks and lessons-learnt at nucl.ai from 18th-20th July 2016 in Vienna!
+
   news:
     - title: "Generative Bots for Everyone! A Tracery Tutorial"
       author: Kate Compton (Mad scientist at the University of California, Santa Cruz)
@@ -40,22 +43,23 @@
       author: Gwennael Gaté (Angus.ai)
       date: "July 18th, 2016"
       link: "/track/recognition/#making-robots-interact-with-people--lessons-learned-deploying-pepper-in-japan"
-      picture: "/img/tracks/Gwennael Gaté.jpg"
+      picture: "/img/people/Gwennael Gaté.jpg"
 
     - title: "Late to the Party! A Story of Adding Player Bots to a Humans-Only Game"
       author: Mieszko Zielinski (Epic Games)
       date: "July 19th, 2016"
       link: "/track/behavior/#late-to-the-party-a-story-of-adding-player-bots-to-a-humans-only-game"
-      picture: "/img/tracks/Mieszko Zielinski.jpg"
+      picture: "/img/people/Mieszko Zielinski.jpg"
 
     - title: "Building an Intelligent Memory — A First Step Towards General Artificial Intelligence"
       author: Joseph Dureau (Snips)
       date: "July 20th, 2016"
       link: "/track/cognitive/#building-an-intelligent-memory-—-a-first-step-towards-general-artificial-intelligence"
-      picture: "/img/tracks/Joseph Dureau.jpg"
+      picture: "/img/people/Joseph Dureau.jpg"
 
     - title: "Four Pillars to Building a Solid Conversational Bot"
       author: Paul Renvoisé (Recast AI)
       date: "July 20th, 2016"
       link: "/track/cognitive/#four-pillars-to-building-a-solid-conversational-bot"
-      picture: "/img/tracks/Paul Renvoisé.jpg"
+      picture: "/img/people/Paul Renvoisé.jpg"
+
