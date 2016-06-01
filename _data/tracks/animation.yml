@@ -19,7 +19,7 @@
     start: "09:15"
     finish: "09:45"
 
-- title: "Bringing a Hero from Paragon to Life"
+- title: "Bringing a Hero from Paragon to Life with UE4"
   description: >
     See how Epic Games brings a Hero from Paragon to life: With a programming focus, this talk will show and explain all the pieces involved in animating a real time character in Paragon. We’ll present our trade-offs, detail our locomotion system, the various layers used and the processing done to support the Hero design.
     Attendees will leave with an understanding of how Characters are animated in real time in the video game Paragon from Epic Games, as well as seeing how the Unreal Engine 4 is used in that context.
@@ -30,9 +30,9 @@
     start: "12:00"
     finish: "12:45"
 
-- title: "Programming an Animator's Brain"
+- title: "Thinking Procedural: Programming an Animator's Brain"
   description: >
-    <p>In this session Vegard Myklebust presents some of the results of their automatic character generation and animation processes developed for their game in production: Ludus. The results are reasonably high fidelity characters that are automatically generated, rigged, and animated at runtime from a relatively small amount of artist input, providing a high amount of flexibility, variation and good quality at a low production cost. By looking at what decisions an animator makes during the process of creating keyframed animation, and figuring out ways of making those decisions as a set of parameters up front, the method presented can take over the process of generating keyframes that create plausible, motivated motion in the same way that an animator would.</p>
+    <p>In this session Vegard Myklebust presents some of the results of an automatic character generation and animation processes developed for Ludus—a game in production. The results are reasonably high fidelity characters that are automatically generated, rigged, and animated at runtime from a relatively small amount of artist input, providing a high amount of flexibility, variation and good quality at a low production cost. By looking at what decisions an animator makes during the process of creating keyframed animation, and figuring out ways of making those decisions as a set of parameters up front, the method presented can take over the process of generating keyframes that create plausible, motivated motion in the same way that an animator would.</p>
   speakers:
     - Vegard Myklebust
   room: masterclass
