@@ -1,6 +1,6 @@
 - id: machine_learning
   title: "Machine Learning"
-  
+
 description:
     intro: > 
       Deep learning, deep dream, neural doodles - neural networks and their training are THE topic in the AI community these days. If you are already "deep into" or just starting out, spending your time training your favorite neural network, at nucl.ai you can find like-minded developers from all over the world.
@@ -13,20 +13,17 @@ description:
       date: "July 19th, 2016"
       link: "/track/procedural/#image-synthesis-with-convolutional-neural-networks--workshop-"
       picture: "/img/people/Noor Shaker.jpg"
-      
+
       - title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks"
       author: Clodéric Mars (craft ai), Alex J. Champandard (AIGameDev.com)
       date: "July 20th, 2016"
       link: "/track/cognitive/#seq2seq--learning-pattern-and-responses-with-recurrent-neworks--workshop-"
       picture: "/img/people/Clodéric Mars.jpg"
-      
-      
-
 
 
 - id: procedural_generation
   title: "Procedural Generation"
-  
+
 description:
     intro: > 
       "Asset-free content creation", letting the music creatin words and so much more is possible with procedural content generation. PCG opens up new dimensions for content creators.
@@ -51,13 +48,13 @@ description:
       date: "July 19th, 2016"
       link: "/track/procedural/#building-worlds-in-64kb--why-humans-should-never-have-to-touch-pixels-or-polygons"
       picture: "/img/people/Johann Korndörfer.jpg"
-      
+
       - title: "Techne: An Art Commune by Bots, for Bots"
       author: Kate Compton (Mad scientist at the University of California, Santa Cruz)
       date: "July 19th, 2016"
       link: "/track/procedural/#techne--an-art-commune-by-bots,-for-bots"
       picture: "/img/people/Kate Compton.jpg"
-      
+
 
 - id: "cognitive_and_bots"
   title: "Cognitive & Bots"
