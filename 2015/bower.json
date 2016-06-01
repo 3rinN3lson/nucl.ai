@@ -1,0 +1,19 @@
+{
+  "name": "nucl.ai",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~1.10.2",
+    "modernizr": "~2.7",
+    "animate.css": "~3.2.0",
+    "semantic.gs": "https://github.com/tylertate/semantic.gs.git",
+    "raphael": "~2.1.3",
+    "jquery.easy-pie-chart": "~2.1.6",
+    "bower": "*",
+    "install": "~1.0.4",
+    "jquery.countdown": "~2.0.4",
+    "ics.js": "https://github.com/speedingdeer/ics.js.git#~0.1.5",
+    "js-url": "https://github.com/websanova/js-url.git#~1.8.6",
+    "moment": "~2.10.3",
+    "moment-timezone": "~0.4.0"
+  }
+}

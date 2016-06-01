@@ -1,0 +1,281 @@
+@NAVIGATION_HEIGHT: 60px;
+@NAVIGATION_HEIGHT_MOBILE: 40px;
+
+@FOOTER_HEIGHT: 145px;
+@FOOTER_HEIGHT_MOBILE: 65px;
+
+// semantic grid widht
+@total-width: 100%;
+@PAGE_WIDHT: @total-width;
+@PAGE_MAX_WIDTH: @gridsystem-width;
+
+//consts
+@SMARTPHONE_MAX_PORTRAIT: 432px; //should cover iphone 6 and galaxy s5 toos
+
+//page layout
+@PAGE_FIRST_SECTION_HEIGHT: 100vh - 100vh / 3;
+
+@GRADIENT_GREY: inset 0 -85px 50px -50px rgba(241, 240, 239, 0.12);
+
+@SEPARATOR_HEIGHT: 350px;
+@SEPARATOR_HEIGHT_SMARTPHONE: 200px;
+
+@SEMANTIC_GS_MARGIN: 1.04166667%; // copied from inspector
+
+@two_third_vh: 100vh * 2 / 3;
+@third_vh: 100vh / 3;
+
+//setting up defaults
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Questrial", Questrial, sans-serif;
+    color: white;
+}
+
+body:after, body:before {}
+
+a.wip { cursor: default !important;}
+
+h2 {
+    text-align: center;
+    font-size: 2.3em;
+    margin: 0;
+    padding: 1em 0;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+        font-size: 1em;
+    }
+}
+
+h3 {
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+        font-size: 0.9em;
+    }
+}
+
+.small {
+    font-size: 1em;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+        font-size: 0.65em;
+    }
+}
+
+
+ol, ul {
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+        list-style-position: inside;
+        margin-left: 0;
+        padding-left: 0.5em;
+    }
+}
+
+
+.wide {
+    line-height: 1.5;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+        line-height: 1.2
+    }
+}
+
+
+td, ol, ul, p, tt {
+    line-height: 1.34;
+    font-size: 1.24em;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+        font-size: 0.9em;
+    }
+}
+
+.big {
+    font-size: 1.5em;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+        font-size: 0.8em;
+    }
+}
+
+
+.huge {
+    font-size: 1.6em;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+        font-size: 0.8em;
+    }
+}
+
+.smaller {
+    font-size: 0.8em;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+        font-size: 0.6em;
+    }
+}
+
+.pre {
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+
+.opacity0 {
+    opacity: 0;
+}
+
+
+.rotate(@angle) {
+    -ms-transform: rotate(@angle); /* IE 9 */
+    -webkit-transform: rotate(@angle); /* Chrome, Safari, Opera */
+    transform: rotate(@angle);
+}
+
+.transform(@trans) {
+    -ms-transform: @trans; /* IE 9 */
+    -webkit-transform: @trans; /* Chrome, Safari, Opera */
+    transform: @trans;
+}
+
+.columns(@columns, @gap) {
+    -webkit-column-count: @columns; /* Chrome, Safari, Opera */
+    -moz-column-count: @columns; /* Firefox */
+    column-count: @columns;
+    -webkit-column-gap: @gap; /* Chrome, Safari, Opera */
+    -moz-column-gap: @gap; /* Firefox */
+    column-gap: @gap;
+}
+
+.border-radius(@radius) {
+    border-radius: @radius;
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+}
+
+.filter(@filter) {
+    -webkit-filter: @filter;
+    filter: @filter;
+}
+
+.animation-duration(@duration) {
+    -webkit-animation-duration: @duration; /* Chrome, Safari, Opera */
+    animation-duration: @duration;
+}
+
+.animation-delay(@duration) {
+    -webkit-animation-delay: @duration; /* Chrome, Safari, Opera */
+    animation-delay: @duration;
+}
+
+.transition(@trans) {
+    -webkit-transition: @trans; /* For Safari 3.1 to 6.0 */
+    transition: @trans;
+}
+/** 
+/* social media 
+*/
+ a.social {
+    width: 30px; 
+    height: 30px; 
+    display: inline-block; 
+    background-size: 90px;
+    &.twitter {
+        background-position: 60px 0px;
+        &:hover {
+            background-position: 60px 30px;
+        }
+    }
+    &.google {
+        &:hover {
+            background-position: 0px 30px;
+        }
+    }
+    &.facebook {
+        background-position: 30px 0px;
+        &:hover {
+            background-position: 30px 30px;
+        }
+    }
+}
+
+@media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+    //smaller icons for mobile
+    a.social {
+        width: 20px; 
+        height: 20px; 
+        display: inline-block; 
+        background-size: 60px;
+        &.twitter {
+            background-position: 40px 0px;
+            &:hover {
+                background-position: 40px 20px;
+            }
+        }
+        &.google {
+            &:hover {
+                background-position: 0px 20px;
+            }
+        }
+        &.facebook {
+            background-position: 20px 0px;
+            &:hover {
+                background-position: 20px 20px;
+            }
+        }
+    }
+}
+
+.anchor {
+    display: block;
+    margin-top: -(@NAVIGATION_HEIGHT);
+    height: @NAVIGATION_HEIGHT;
+    visibility: hidden;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+        margin-top: -(@NAVIGATION_HEIGHT_MOBILE);
+        height: @NAVIGATION_HEIGHT_MOBILE;
+    }
+}
+
+// forms
+// @TODO: use better semantic-ui
+form {
+    input {
+        border: none;
+        outline: none;
+        &[type="button"], &[type="submit"] {
+            padding: 15px 30px;
+            font-size: 11pt;
+            background-color: @ORANGE;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}
+
+orange, .orange {
+    color: @ORANGE;
+}
+
+icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: block;
+}
+
+.table {
+    min-height: inherit;
+    display: table;
+    margin: auto;
+}
+
+.centered-cell {
+    min-height: inherit;
+    height: inherit;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+sup, sub {
+   vertical-align: baseline;
+   position: relative;
+   top: -0.4em;
+}
+
+sub { top: 0.4em; }
