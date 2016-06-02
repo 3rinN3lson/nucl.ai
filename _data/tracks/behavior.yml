@@ -30,8 +30,8 @@
     - Pavel Shevaev
   room: masterclass
   time:
-    start: "10:00"
-    finish: "10:30"
+    start: "09:15"
+    finish: "09:45"
 
 - title: "Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN"
   description: >
@@ -43,8 +43,8 @@
     - Thomas Petersen
   room: amphitheatre
   time:
-    start: "09:15"
-    finish: "10:00"
+    start: "09:45"
+    finish: "10:30"
 
 - title: "Shooting for DataDriven&sup2;! Evolution of a Modular Weapon System"
   description: >
@@ -68,6 +68,18 @@
 
 - title: "TBA: Behavior Trees for Action Combat"
   room: amphitheatre
+  time:
+    start: "17:15"
+    finish: "18:00"
+
+- title: "TBA: Agent Behavior Track"
+  room: laboratories
+  time:
+    start: "11:15"
+    finish: "11:45"
+
+- title: "TBA: Agent Behavior Track"
+  room: laboratories
   time:
     start: "16:30"
     finish: "17:15"

@@ -1,18 +1,18 @@
-- date: "2015/07/18"
+- date: "2016/07/18"
   sponsors:
     - id: craft_ai
       duration: 20000
     - id: ca
       duration: 20000
 
-- date: "2015/07/19"
+- date: "2016/07/19"
   sponsors:
     - id: io_interactive
       duration: 20000
     - id: craft_ai
       duration: 20000
 
-- date: "2015/07/20"
+- date: "2016/07/20"
   sponsors:
     - id: craft_ai
       duration: 15000

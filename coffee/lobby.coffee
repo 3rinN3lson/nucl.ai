@@ -73,6 +73,7 @@ $ ->
   updateSponsor = () ->
     date = new Date() # default date
     if url("?date") != null then date = new Date decodeURIComponent url("?date")
+    console.log date
     #disable all days which are not this one
     days = []
     $(".sponsors-list .day").each ->
@@ -82,6 +83,7 @@ $ ->
 
     currentDay = null
     for day in days
+      console.log day.date.getDate(), date.getDate()
       if day.date.getDate() == date.getDate()
         currentDay = day.addClass("selected")
         day.height(day.width());
