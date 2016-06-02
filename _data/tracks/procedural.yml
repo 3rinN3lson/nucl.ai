@@ -23,15 +23,15 @@
     start: "09:15"
     finish: "11:00"
 
-- title: "Integrating Houdini with Unreal Engine 4"
+- title: "Integrating Houdini with Unreal Engine 4" 
   description: >
     In this talk Ensar will explain how to execute Houdini projects from Unreal Engine, and translate generated Houdini assets to make it readable by Unreal. Various methods used will be explained that made it possible to create an Unreal Engine plugin capable of procedurally set dressing assets with the power of Houdini. Next to explaining methods used to make this possible, methods that failed to work as intended to achieve this will also be discussed.
   speakers:
     - Ensar Akkaya
   room: masterclass
   time:
-    start: "16:30"
-    finish: "17:15"
+    start: "14:15"
+    finish: "15:00"
 
 - title: "Techne: An Art Commune by Bots, for Bots"
   description: >
@@ -41,17 +41,19 @@
     - Kate Compton
   room: amphitheatre
   time:
-    start: "15:00"
-    finish: "15:45"
+    start: "16:30"
+    finish: "17:15"
 
-- title: "TBA: Procedural Content Generation Track"
+- title: "TBA: Indie Procedural Content Generation"
   room: masterclass
-  time:
-    start: "14:15"
-    finish: "15:00"
-
-- title: "TBA: Procedural Asset Pipelines [Keynote]"
-  room: amphitheatre
+#  speakers:
+#    - Martin Skytte Kristensen
   time:
     start: "17:15"
     finish: "18:00"
+
+- title: "TBA: AAA Procedural Asset Pipelines [Keynote]"
+  room: amphitheatre
+  time:
+    start: "15:00"
+    finish: "15:45"
