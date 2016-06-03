@@ -47,6 +47,8 @@
     finish: "10:45" 
 
 - title: "TBA: Text, Dialog & Storytelling Track" # Kingdom Come: Deliverance
+  description: >
+    Kingdome Come: Deliverance is a medieval open world RPG game where hundreds of NPCs live their own lives and engage in their own  stories.  We introduce Henry - the player – to the world, who has his own epic story of struggle in a broken world on the verge of civil war. Henry’s quest is a complex narrative of investigating crimes and fighting bad guys and exploring the world. However, since the world evolves, so must the story evolve to suit. In this talk, we introduce our approach to directing the quests and storytelling in a dynamic world through our Smart Quest system: where the player is only an actor in the grander scheme of things. Our system adopts the use of Intelligent Directors where NPCs are only actors who must fill the roles of the world around them and adapts to the current setup of the world: adapting to the player’s actions not only within quests, but also before and after. We will show how this concept works in conjunction with our Injected Behavior Trees, where NPCs can be part of the quest based on their own decisions on how to approach a given issue or goal.
   room: amphitheatre
   time:
     start: "11:15"
