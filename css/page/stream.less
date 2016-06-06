@@ -2,6 +2,7 @@ sections.page .page-content-sections  section.stream {
     &.full-screen {
         min-height: calc(~"100vh - @{FOOTER_HEIGHT}  - @{NAVIGATION_HEIGHT}");
     }
+    .timer-color { color: @ORANGE; }
     content {
         .column(12);
         img {   
@@ -46,14 +47,28 @@ sections.page .page-content-sections  section.stream {
             }
         }
     }
+    .stream-wrap-wrap {
+        text-align: center;
+    }
     .stream-wrap {
         display: none;
+        width: 100%;
+        margin-top: 2em;
+        .stream-inside {
+            display: inline-block;
+            width: 100%;
+        }
         iframe {
             padding-bottom: 2em;
-            height: 1200px;
-            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { height: 800px; }
+                //height: 1200px;
+                //@media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { height: 800px; }
+        }
+        .buttons-wrap {
+            margin-top: 1em;
+            text-align: left;
         }
     }
+
     &.stream-teaser {
         padding-top: 1em;
         @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { padding-top: 0em; }
@@ -86,5 +101,12 @@ sections.page .page-content-sections  section.stream {
             table.talks-list { margin-top: 0; }
             table.header-table { padding-bottom: 1em; }
         }
+    }
+}
+
+section.stream#stream-page {
+    .stream-wrap { 
+        display: block;
+        margin-top: 0px;
     }
 }

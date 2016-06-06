@@ -3,14 +3,45 @@ layout: page
 title: Live Stream — nucl.ai Conference
 permalink: /stream/day1/
 ---
-<section class="stream stream-sign-up">
+<section class="stream stream-sign-up" id="stream-page">
+    <h2 class="timer-color stream-in" >Day #1 Live stream in:</h2>
+    <h2 class="timer-color stream-on" style="display:none;" >Day #1 Live stream is on!</h2>
+    <h2 class="timer-color stream-off" style="display:none;" >Day #1 Live stream has ended</h2>
+    <grid>
+    <content>
 
     {% for day in site.data.stream.days %}
+
         {% if forloop.index == 1 %}
-            <div class="stream-wrap" style="display:block">
-                {{ day.livestream }}
+
+        {% assign timer_title = "" %}
+        {% assign timer_count_to = day.start %}
+        {% assign timer_off = day.finish %}
+        {% capture timer_on_finish %} $('#stream-page .stream-on').show(); $('#stream-page .stream-in').hide(); $('#stream-page .stream-off').hide(); $('.dashboard-wrap').hide(); {% endcapture %}
+        {% capture timer_on_off %} $('#stream-page .stream-on').hide(); $('#stream-page .stream-in').hide(); $('#stream-page .stream-off').show(); $('.dashboard-wrap').hide(); {% endcapture %}
+        {% include features/timers/timer.html %}
+        <div class="mobile">
+        {% include features/timers/timer.html %}
+        </div>
+        {% include features/timers/clean.html %}
+
+
+        <div class="stream-wrap-wrap">
+            <!-- subscribe button -->
+            <div class="stream-wrap " id="stream-{{forloop.index}}">
+                <div class="stream-inside">
+                    {{ day.livestream }}
+                    <div class="buttons-wrap">
+                        <div class="yt-subscribe">
+                            <script src="https://apis.google.com/js/platform.js"></script>
+                            <div class="g-ytsubscribe" data-channel="aigamedev" data-layout="default" data-count="default"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
         {% endif %}
     {% endfor %}
-
+    </grid>
+    </content>
 </section>
