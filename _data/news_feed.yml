@@ -1,14 +1,20 @@
+- title: "Shooting for DataDriven²! Evolution of a Modular Weapon System"
+  author: Ramon Viladomat (Crytek)
+  date: "June 6, 2016"
+  link: "/track/behavior/#shooting-for-datadrivenandsup2;-evolution-of-a-modular-weapon-system"
+  picture: "img/tracks/Crytek_Ramon.jpg"
+
 - title: "Computational Narrative Intelligence and the Quest for Human-Centered AI"
   author: Mark Riedl (Georgia Tech School of Interactive Computing)
   date: "June 1, 2016"
   link: "/track/storytelling/#computational-narrative-intelligence-and-the-quest-for-human-centered-ai"
   picture: "img/tracks/Riedl_narrativeintelligence.jpg"
 
-- title: "People Play, People Talk? A Deep Dive on Organic Downloads"
-  author: Julian Runge (Wooga)
-  date: "May 20, 2016"
-  link: "/track/analytics/#people-play,-people-talk?-a-deep-dive-on-organic-downloads"
-  picture: "/img/tracks/Futurama.jpg"
+#- title: "People Play, People Talk? A Deep Dive on Organic Downloads"
+#  author: Julian Runge (Wooga)
+#  date: "May 20, 2016"
+#  link: "/track/analytics/#people-play,-people-talk?-a-deep-dive-on-organic-downloads"
+#  picture: "/img/tracks/Futurama.jpg"
 
 - title: "Making Robots Interact with People: Lessons Learned Deploying Pepper in Japan"
   author: Gwennael Gaté (Angus.ai)
@@ -70,17 +76,17 @@
 #  link: "/tickets/"
 #  picture: "/img/logo.png"
 
-- title: "Late to the Party! A Story of Adding Player Bots to a Humans-Only Game"
-  author: Mieszko Zielinski (Epic Games)
-  date: "Apr 15, 2016"
-  link: "/track/behavior/#late-to-the-party-a-story-of-adding-player-bots-to-a-humans-only-game"
-  picture: "/img/tracks/Paragon_1.jpg"
+# - title: "Late to the Party! A Story of Adding Player Bots to a Humans-Only Game"
+#  author: Mieszko Zielinski (Epic Games)
+#  date: "Apr 15, 2016"
+#  link: "/track/behavior/#late-to-the-party-a-story-of-adding-player-bots-to-a-humans-only-game"
+#  picture: "/img/tracks/Paragon_1.jpg"
 
-- title: "A Brief History of Matchmaking in Heroes of the Storm"
-  author: Alex Zook (Blizzard Entertainment)
-  date: "Apr 8, 2016"
-  link: "/track/analytics/#a-brief-history-of-matchmaking-in-heroes-of-the-storm"
-  picture: "/img/tracks/HeroesOfTheStorm_1.jpg"
+#- title: "A Brief History of Matchmaking in Heroes of the Storm"
+#  author: Alex Zook (Blizzard Entertainment)
+#  date: "Apr 8, 2016"
+#  link: "/track/analytics/#a-brief-history-of-matchmaking-in-heroes-of-the-storm"
+#  picture: "/img/tracks/HeroesOfTheStorm_1.jpg"
 
 - title: "Visual Instruments for Live Performance and Creative Expression"
   author: Memo Akten (Independent)
