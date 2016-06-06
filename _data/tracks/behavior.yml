@@ -18,8 +18,8 @@
     - Claudia Doppioslash
   room: masterclass
   time:
-    start: "15:00"
-    finish: "15:45"
+    start: "11:15"
+    finish: "12:00"
 
 - title: "Seamless Merging of Behavior Trees and Imperative Code"
   description: >
@@ -30,8 +30,8 @@
     - Pavel Shevaev
   room: masterclass
   time:
-    start: "09:15"
-    finish: "09:45"
+    start: "10:00"
+    finish: "10:30"
 
 - title: "Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN"
   description: >
@@ -43,8 +43,8 @@
     - Thomas Petersen
   room: amphitheatre
   time:
-    start: "09:45"
-    finish: "10:30"
+    start: "09:15"
+    finish: "10:00"
 
 - title: "Shooting for DataDriven&sup2;! Evolution of a Modular Weapon System"
   description: >
@@ -53,8 +53,8 @@
     - Ramon Viladomat
   room: masterclass
   time:
-    start: "12:15"
-    finish: "12:45"
+    start: "15:00"
+    finish: "15:30"
 
 - title: "Back-Alley Surgery For Cyberpunk AI"
   description: >
@@ -63,8 +63,8 @@
     - Charles Hinshaw
   room: masterclass
   time:
-    start: "11:45"
-    finish: "12:15"
+    start: "15:30"
+    finish: "16:00"
 
 - title: "TBA: Behavior Trees for Action Combat"
   room: amphitheatre
@@ -75,8 +75,8 @@
 - title: "TBA: Agent Behavior Track"
   room: laboratories
   time:
-    start: "11:15"
-    finish: "11:45"
+    start: "12:00"
+    finish: "12:45"
 
 - title: "TBA: Agent Behavior Track"
   room: laboratories
