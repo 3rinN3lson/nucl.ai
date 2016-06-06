@@ -22,3 +22,12 @@ $ ->
   else
     check.addClass("block")
     section.addClass("check")
+
+
+  $(window).resize ->
+    $(".yt-iframe").each ->
+      iframe = $(this);
+      iframe.height iframe.width() * 9 / 16
+  $(".yt-iframe").each ->
+      iframe = $(this);
+      iframe.height iframe.width() * 9 / 16
