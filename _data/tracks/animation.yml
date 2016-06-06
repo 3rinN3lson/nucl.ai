@@ -5,8 +5,8 @@
     - Kristof Minnaert
   room: amphitheatre
   time:
-    start: "11:15"
-    finish: "12:00"
+    start: "12:00"
+    finish: "12:45"
 
 - title: "Climbing in VR and Reaching New Heights with Procedural Animation"
   description: >
@@ -27,8 +27,8 @@
     - Laurent Delayen
   room: masterclass
   time:
-    start: "12:00"
-    finish: "12:45"
+    start: "11:15"
+    finish: "12:00"
 
 - title: "Thinking Procedural: Programming an Animator's Brain"
   description: >

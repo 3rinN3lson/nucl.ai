@@ -21,7 +21,7 @@
   room: laboratories
   time:
     start: "09:15"
-    finish: "10:45"
+    finish: "11:00"
 
 - title: "Integrating Houdini with Unreal Engine 4" 
   description: >

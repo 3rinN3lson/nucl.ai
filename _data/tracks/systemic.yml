@@ -3,8 +3,8 @@
      - Carol O'Sullivan
   room: amphitheatre
   time:
-    start: "09:45"
-    finish: "10:30"
+    start: "14:15"
+    finish: "15:00"
 
 - title: "Crowd Control for Feature Film at ILM"
   description: >
@@ -20,8 +20,8 @@
 - title: "TBA: Systemic Design & AI Directors"
   room: masterclass
   time:
-    start: "11:15"
-    finish: "12:00"
+    start: "12:00"
+    finish: "12:45"
 
 - title: "Automated Game Balancing"
   description: >
@@ -68,5 +68,5 @@
 #  - Andy Bray
   room: amphitheatre
   time:
-    start: "14:15"
-    finish: "15:00"
+    start: "09:45"
+    finish: "10:30"

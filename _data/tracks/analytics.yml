@@ -6,8 +6,8 @@
     - Alex Zook
   room: amphitheatre
   time:
-    start: "10:00"
-    finish: "10:45"
+    start: "12:00"
+    finish: "12:45"
 
 - title: "Beyond Churn Prediction: An Introduction to Uplift Modelling"
   description: >
@@ -17,8 +17,8 @@
     - Pierre Gutierrez
   room: masterclass
   time:
-    start: "14:00"
-    finish: "14:30"
+    start: "10:00"
+    finish: "10:30"
 
 - title: "Capturing, Analysing and Imitating Emergent Playstyles in Card Games"
   description: >
@@ -37,8 +37,8 @@
     - Santiago Murillo
   room: masterclass
   time:
-    start: "14:30"
-    finish: "15:00"
+    start: "10:30"
+    finish: "11:00"
 
 - title: "TBA: Analytics & Data-Science Track"
   speakers:
@@ -55,8 +55,8 @@
     - Julian Runge
   room: amphitheatre
   time:
-    start: "12:00"
-    finish: "12:45"
+    start: "09:15"
+    finish: "10:00"
 
 - title: "Using a Genetic Algorithm in 10 vs. 10 Matchmaking in TOTAL WAR: ARENA"
   description: >
@@ -65,13 +65,30 @@
     - Christian Rothe
   room: masterclass
   time:
-    start: "09:15"
-    finish: "10:00"
+    start: "14:15"
+    finish: "15:00"
 
-- title: "Individual Player Profiling Roundtable"
+- title: "Userbase Modeling & Statistical Analysis Roundtable"
   speakers:
     - Heather Stark
   room: laboratories
   time:
-    start: "11:15"
+    start: "11:30"
     finish:  "12:00"
+
+- title: "Individual Profiling and Modeling Roundtable"
+  speakers:
+    - Heather Stark
+  room: laboratories
+  time:
+    start: "15:00"
+    finish:  "15:45"
+
+
+- title: "Future Directions and Machine Learning"
+  speakers:
+    - Heather Stark
+  room: laboratories
+  time:
+    start: "17:15"
+    finish:  "17:45"
