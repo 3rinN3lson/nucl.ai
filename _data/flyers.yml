@@ -8,7 +8,7 @@
       Join us at nucl.ai for 3 days filled of talks and workshop about machine learning in Vienna from July 18th - 20th!
 
   news:
-    - title: Using a Genetic Algorithm in 10 vs. 10 Matchmaking in TOTAL WAR: ARENA
+    - title: "Using a Genetic Algorithm in 10 vs. 10 Matchmaking in TOTAL WAR: ARENA"
       link: "/track/analytics/#using-a-genetic-algorithm-in-10-vs-10-matchmaking-in-total-war--arena"
 
     - title: Building an Intelligent Memory — A First Step Towards General Artificial Intelligence
@@ -21,13 +21,13 @@
       link: "/track/recognition/#experiments-in-augmenting-the-performer-with-ai-to-control-live-events"
 
     - title: "Image Synthesis with Convolutional Neural Networks"
-      author: Noor Shaker (AAU Copenhagen), Alex J. Champandard (AIGameDev.com)
+      author: "Noor Shaker (AAU Copenhagen), Alex J. Champandard (AIGameDev.com)"
       date: "July 19th, 2016"
       link: "/track/procedural/#image-synthesis-with-convolutional-neural-networks--workshop-"
       picture: "/img/people/Noor Shaker.jpg"
 
     - title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks"
-      author: Clodéric Mars (craft ai), Alex J. Champandard (AIGameDev.com)
+      author: "Clodéric Mars (craft ai), Alex J. Champandard (AIGameDev.com)"
       date: "July 20th, 2016"
       link: "/track/cognitive/#seq2seq--learning-pattern-and-responses-with-recurrent-neworks--workshop-"
       picture: "/img/people/Clodéric Mars.jpg"
@@ -62,7 +62,7 @@
       picture: "/img/people/Johann Korndörfer.jpg"
 
     - title: "Techne: An Art Commune by Bots, for Bots"
-      author: Kate Compton (Mad scientist at the University of California, Santa Cruz)
+      author: "Kate Compton (Mad scientist at the University of California, Santa Cruz)"
       date: "July 19th, 2016"
       link: "/track/procedural/#techne--an-art-commune-by-bots,-for-bots"
       picture: "/img/people/Kate Compton.jpg"
@@ -79,7 +79,7 @@
 
   news:
     - title: "Generative Bots for Everyone! A Tracery Tutorial"
-      author: Kate Compton (Mad scientist at the University of California, Santa Cruz)
+      author: "Kate Compton (Mad scientist at the University of California, Santa Cruz)"
       date: "July 18th, 2016"
       link: "/track/storytelling/#generative-bots-for-everyone-a-tracery-tutorial--workshop-"
       picture: "/img/people/Kate Compton.jpg"
