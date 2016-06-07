@@ -1,5 +1,5 @@
 - id: machine_learning
-  title: "Machine Learning"
+  title: "Machine Learning in Creative Industries"
 
   description:
     intro: >
@@ -8,6 +8,18 @@
       Join us at nucl.ai for 3 days filled of talks and workshop about machine learning in Vienna from July 18th - 20th!
 
   news:
+    - title: Using a Genetic Algorithm in 10 vs. 10 Matchmaking in TOTAL WAR: ARENA
+      link: "/track/analytics/#using-a-genetic-algorithm-in-10-vs-10-matchmaking-in-total-war--arena"
+
+    - title: Building an Intelligent Memory — A First Step Towards General Artificial Intelligence
+      link: "/track/cognitive/#building-an-intelligent-memory-%E2%80%94-a-first-step-towards-general-artificial-intelligence"
+
+    - title: "Hands-On Deep Q-Learning in DOOM [Workshop]"
+      link: "/track/decisions/#hands-on-deep-q-learning-in-doom--workshop-"
+
+    - title: "Experiments in Augmenting the Performer with AI to Control Live Events"
+      link: "/track/recognition/#experiments-in-augmenting-the-performer-with-ai-to-control-live-events"
+
     - title: "Image Synthesis with Convolutional Neural Networks"
       author: Noor Shaker (AAU Copenhagen), Alex J. Champandard (AIGameDev.com)
       date: "July 19th, 2016"
