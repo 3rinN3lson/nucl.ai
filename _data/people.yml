@@ -387,6 +387,14 @@
   bio: >
     Niels Justesen holds a B.Sc. in Software Development and just recently finished his M.Sc. in Games Technology at the IT University in Copenhagen. Here he pursued his interests in Game AI and has two peer-reviewed conference publications about game playing algorithms in strategy games. Now he works as a software developer at IT-Minds building intelligent applications for their clients. 
 
+- name: Tristan Cazenave
+  role: speaker
+  affiliation:
+    name: Université Paris Dauphine
+  bio: >
+    Professor of artificial intelligence at LAMSADE Universite Paris-Dauphine. Author of more than a hundred scientific papers about artificial intelligence in games. He started to publish commercial video games when he was aged 16 and co-founded a successful web agency in 1992.
+
+
 - name: Noor Shaker
   role: track
   tracks: [procedural]
