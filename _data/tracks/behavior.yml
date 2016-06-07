@@ -5,8 +5,8 @@
     - Mieszko Zielinski
   room: amphitheatre
   time:
-    start: "14:15"
-    finish: "15:00"
+    start: "17:15"
+    finish: "18:00"
 
 - title: "Functional Reactive Programming, or the art of Time Travel(ling Debuggers)"
   description: >
@@ -30,8 +30,8 @@
     - Pavel Shevaev
   room: masterclass
   time:
-    start: "11:30"
-    finish: "12:00"
+    start: "15:30"
+    finish: "16:00"
 
 - title: "Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN"
   description: >
@@ -43,8 +43,8 @@
     - Thomas Petersen
   room: amphitheatre
   time:
-    start: "10:00"
-    finish: "10:45"
+    start: "14:15"
+    finish: "15:00"
 
 - title: "Shooting for DataDriven&sup2;! Evolution of a Modular Weapon System"
   description: >
@@ -63,14 +63,14 @@
     - Charles Hinshaw
   room: masterclass
   time:
-    start: "15:30"
-    finish: "16:00"
+    start: "11:30"
+    finish: "12:00"
 
-- title: "TBA: Behavior Trees for Action Combat"
+- title: "Server-Side Character Behavior in THE DIVISION"
   room: amphitheatre
   time:
-    start: "17:15"
-    finish: "18:00"
+    start: "10:00"
+    finish: "10:45"
 
 - title: "TBA: Agent Behavior Track Roundtable"
   room: laboratories
