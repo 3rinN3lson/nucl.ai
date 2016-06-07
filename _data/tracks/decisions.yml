@@ -61,14 +61,24 @@
     start: "15:00"
     finish: "15:45"
 
-- title: "TBA: Hands-On Deep Reinforcement Learning [Workshop]" # VizDoom
+- title: "Hands-On Deep Q-Learning in DOOM [Workshop]"
+  description: >
+    ViZDoom is a Doom-based platform for research in visual learning and visual reinforcement learning, in particular. It allows developing bots that play DOOM using only the raw visual information.
+    In this hands-on workshop, you will have an opportunity to experiment with ViZDoom, learn how to connect it with a deep Q-learning framework, and to train your own vision-only bot in a simple scenario. 
   room: laboratories
+  speakers:
+    - Wojciech Jaśkowski
   time:
     start: "16:00"
     finish: "18:00"
 
-- title: "TBA: Real-Time Decisions Track" # VizDoom
+- title: "Advances in Deep Reinforcement Learning"
+  description: >
+    The advances in Deep Reinforcement Learning (DRL) allowed recently to obtain highly competent agents for, among others, Atari games and Go. Conveniently from the practical perspective, these methods involve little domain knowledge, being able to learn from raw visual information such as the game board or the screen buffer.
+    After briefly introducing the reinforcement learning problem, the talk will overview the state-of-the-art methods and results in deep reinforcement learning. The final part will be devoted to the recent results in learning to play Doom from raw visual information.
   room: masterclass
+  speakers:
+    - Wojciech Jaśkowski
   time:
     start: "14:15"
     finish: "15:00"
