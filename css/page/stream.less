@@ -1,4 +1,23 @@
 sections.page .page-content-sections  section.stream {
+    
+    .buttons-wrap {
+        height: 50px;
+        > div {
+            display: inline-block;
+            position: absolute;
+            &.yt-subscribe {
+                margin-top: 2px;
+            }
+            &.tw-follow {
+                margin-left: 150px;
+            }
+            &.fb-follow-top {
+                margin-left: 355px;
+                margin-top: 4px;
+            }
+        }
+    }
+
     &.full-screen {
         min-height: calc(~"100vh - @{FOOTER_HEIGHT}  - @{NAVIGATION_HEIGHT}");
     }
