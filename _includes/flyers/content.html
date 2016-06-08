@@ -2,13 +2,21 @@
 {% for flyer in site.data.flyers %}
    {% if flyer.id == id %}
 
-    <section class="news-feed flyer">
-    <a class="anchor" id="news-feed"></a>
+    <section class="flyer">
     <h2>{{flyer.title}}</h2>
     <grid>
         <content>
         <p class="description-intro">{{flyer.description.intro}}</p>
         <p class="description-text">{{flyer.description.text}}</p>
+        </content>
+    </grid>
+    </section>
+
+    <section class="news-feed flyer">
+    <a class="anchor" id="news-feed"></a>
+    <h2>Presentation Highlights</h2>
+    <grid>
+        <content>
         <table>
             {% for news in flyer.news %}
                 {% include news_content.html %}

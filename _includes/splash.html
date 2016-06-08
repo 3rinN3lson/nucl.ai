@@ -26,7 +26,7 @@
     {% elsif page.name == 'stream-day3.html' %}
     <div class="splash-screen-wrap" style="background-image: url('{{'/img/stream/stream-purple-quads.png' | prepend: site.baseurl }}' ); background-position: center center;">
     {% elsif page.name contains "flyer_" %}
-    <div class="splash-screen-wrap" style="background-image: url('{{'/img/stream/stream-blue-quads.png' | prepend: site.baseurl }}' ); background-position: center center;">
+    <div class="splash-screen-wrap" style="background-image: url('{{'/img/stream/stream-yellow-quads.png' | prepend: site.baseurl }}' ); background-position: center center;">
     {% else %}
     <div class="splash-screen-wrap audience-gif">
     {% endif %}
@@ -88,7 +88,7 @@
                                 {% assign id = page.name | split: '.html' | first | replace: "flyer_", "" %}
                                 {% for flyer in site.data.flyers %}
                                     {% if flyer.id == id %}
-                                        <h2>Into {{flyer.title}} and Creative AI?”</h2>
+                                        <h2 style="color: #a5cce9;">Conference on Artificial Intelligence<br/> in Creative Industries</h2>
                                     {% endif %}
                                 {% endfor %}
                             {% else %}

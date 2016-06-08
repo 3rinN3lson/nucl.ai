@@ -3,28 +3,35 @@
 
   description:
     intro: >
-      Deep learning, deep dream, neural doodles - neural networks and their training are THE topic in the AI community these days. If you are already "deep into" or just starting out, spending your time training your favorite neural network, at nucl.ai you can find like-minded developers from all over the world.
+      <img src="/img/nuclai15/3.png" style="float: right; width: 384px; padding-left: 1em;"/>
+      The nucl.ai Conference is the largest worldwide event focused on applications of Artificial Intelligence in Creative Industries. Join us in Vienna this July for three action-packed days!
     text: >
-      Join us at nucl.ai for 3 days filled of talks and workshop about machine learning in Vienna from July 18th - 20th!
-
+      <p>Now in its 8th edition, the nucl.ai Conference 2016 on July 18-20 will bring together hundreds of developers, artists, designers, hackers, designers, creative coders working on AI—ranging from robotics to games, visual effects to architecture, mobile apps to online bots, simulations or exhibits. All these fields come together once a year to share ideas and techniques!</p>
+      <p>Machine Learning is playing an increasingly big role every year at nucl.ai. From recognizing patterns sensory inputs, automating and optimizing decisions-making in real-time games, or generating assets for use in simulation.</p>
   news:
-    - title: Using a Genetic Algorithm in 10 vs. 10 Matchmaking in TOTAL WAR: ARENA
-      author: Christian Rothe (Creative Assembly)
-      date: "July 19th, 2016"
-      link: "/track/analytics/#using-a-genetic-algorithm-in-10-vs-10-matchmaking-in-total-war--arena"
-      picture: "img/tracks/TotalWarArena.jpg"
-
     - title: Building an Intelligent Memory — A First Step Towards General Artificial Intelligence
       author: Joseph Dureau (Snips)
       date: "July 20th, 2016"
       link: "/track/cognitive/#building-an-intelligent-memory-%E2%80%94-a-first-step-towards-general-artificial-intelligence"
-      picture: "img/tracks/Joseph_Dureau.jpg"
+      picture: "/img/tracks/Joseph_Dureau.jpg"
 
-    - title: "Hands-On Deep Q-Learning in DOOM"
+    - title: "Hands-On Deep Reinforcement Learning in DOOM"
       author: Wojciech Jaśkowski (Poznań University of Technology)
       date: "July 18th, 2016"
       link: "/track/decisions/#hands-on-deep-q-learning-in-doom--workshop-"
-      picture: "img/tracks/Doom.png"
+      picture: "/img/tracks/Doom.png"
+
+    - title: "Using a Genetic Algorithm in 10 vs. 10 Matchmaking in TOTAL WAR: ARENA"
+      author: Christian Rothe (Creative Assembly)
+      date: "July 19th, 2016"
+      link: "/track/analytics/#using-a-genetic-algorithm-in-10-vs-10-matchmaking-in-total-war--arena"
+      picture: "/img/tracks/TotalWarArena.jpg"
+
+    - title: "Image Synthesis with Convolutional Neural Networks"
+      author: "Samim Winiger (samim.io), Alex J. Champandard (nucl.ai)"
+      date: "July 19th, 2016"
+      link: "/track/procedural/#image-synthesis-with-convolutional-neural-networks--workshop-"
+      picture: " "
 
     - title: "Experiments in Augmenting the Performer with AI to Control Live Events"
       author: Gaspard Bucher (Ludicity)
@@ -32,14 +39,14 @@
       link: "/track/recognition/#experiments-in-augmenting-the-performer-with-ai-to-control-live-events"
       picture: "/img/tracks/gaspardbuma.jpg"
 
-    - title: "Image Synthesis with Convolutional Neural Networks"
-      author: Noor Shaker (AAU Copenhagen), Alex J. Champandard (AIGameDev.com)
+    - title: "Capturing, Analysing and Imitating Emergent Playstyles in Card Games"
+      author: "Sam Devlin (University of York)"
       date: "July 19th, 2016"
-      link: "/track/procedural/#image-synthesis-with-convolutional-neural-networks--workshop-"
-      picture: " "
+      link: "/track/analytics/#capturing,-analysing-and-imitating-emergent-playstyles-in-card-games"
+      picture: "/img/tracks/Spades.jpg"
 
     - title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks"
-      author: Clodéric Mars (craft ai), Alex J. Champandard (AIGameDev.com)
+      author: "Roelof Pieters (KTH), Alex J. Champandard (nucl.ai)"
       date: "July 20th, 2016"
       link: "/track/cognitive/#seq2seq--learning-pattern-and-responses-with-recurrent-neworks--workshop-"
       picture: " "
