@@ -7,7 +7,8 @@
       The nucl.ai Conference is the largest worldwide event focused on applications of Artificial Intelligence in Creative Industries. Join us in Vienna this July for three action-packed days!
     text: >
       <p>Now in its 8th edition, the nucl.ai Conference 2016 on July 18-20 will bring together hundreds of programmers, artists, hackers, designers, creative coders working on AI—ranging from robotics to games, visual effects to architecture, mobile apps to online bots, simulations or exhibits. It's a great place for developers to exchange ideas and find inspiration!</p>
-      <p>Machine Learning is playing an increasingly big role every year at nucl.ai—from recognizing patterns in sensory data, optimizing decision-making in real-time games, or generating assets for use in virtual worlds, even testing simulations automatically. See the full schedule </p>
+      <p>Machine Learning is playing an increasingly big role every year at nucl.ai—from recognizing patterns in sensory data, optimizing decision-making in real-time games, or generating assets for use in virtual worlds, even testing simulations automatically.</p>
+      <p><b>&raquo; Browse the full <a href="/program/schedule/">program schedule</a> or grab <a href="/program/schedule">your tickets</a>!</b></p>
   news:
     - title: "Hands-On Deep Reinforcement Learning in VizDOOM"
       author: Wojciech Jaśkowski (Poznań University of Technology)
