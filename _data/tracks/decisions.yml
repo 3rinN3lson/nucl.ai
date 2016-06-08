@@ -55,8 +55,17 @@
     start: "09:15"
     finish: "10:00"
 
-- title: "TBA: Real-Time Decisions Track" # Chess & Go
+- title: "Computer Go: from Influence Functions to AlphaGo" # Chess & Go
+  description: >
+    Computer Go is a game that has been used for many years as a challenge for AI. AlphaGo has received 
+    significant press coverage lately, after achieving a victory that surprised many experts in the field. 
+    But progress and work within the Go community, pushing the boundaries of research in this game, has 
+    been steady over the years before this breakthrough. In this talk, we will review the progress and 
+    paradigm shifts from the early days of computer Go to the recent victory of AlphaGo using Deep Learning 
+    and Monte Carlo Tree Search, and we will outline possible future directions on this field.
   room: amphitheatre
+  speakers:
+    - Tristan Cazenave
   time:
     start: "15:00"
     finish: "15:45"
