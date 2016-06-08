@@ -519,7 +519,7 @@
   bio: >
     Thomas has a been working in most areas of game related programming since late 97, from audio over platform, to gameplay and AI. He’s currently working at IO Interactive on the AI team, helping deliver new feature content and maintain the live HITMAN game.
 
-- name: Tomas Plch
+- name: Tomáš PLch
   role: speaker
   affiliation:
     position: developer
@@ -559,15 +559,11 @@
   bio: >
     Verena made her way from Urban Planning into the games industry, with inbetween stops at advertising and eventmanagement. These days she is working as a producer, game designer and marketing strategist, who has focused on mobile development in the last years. She was already part of the volunteer team at Game/ AI Conference in 2014 and joined the team now to help with the dark arts of marketing.
 
-
-#- name: Wojciech Jaśkowski
-#  role: speaker
-#  twitter: 
-#  affiliation:
-#    position: ""
-#    name: 
-#    url: 
-#  bio: >
-#    Wojciech Jaśkowski is an Assistant Professor at Poznan University of Technology (Poland), where we achieved a Ph.D. in Computer Science. His has published in the past on combinatorial optimization, genetic programming, test-based problems, reinforcement learning, and coevolution with applications to classic (e.g., Othello, Go) and 
-#not-so-classic (Tetris, 2048) games. As his current interests concentrate on Vision-based Deep Reinforcement Learning, recently he led a team that developed ViZDoom - a reinforcement learning research 
-#platform that allows creating bots that play Doom using only the screen buffer.
+- name: Wojciech Jaśkowski
+  role: speaker
+  affiliation:
+    position: Assistant Professor
+    name: Poznań University of Technology
+    url: 
+  bio: >
+    Wojciech is an Assistant Professor at Poznan University of Technology (Poland), where we achieved a Ph.D. in Computer Science (2011). His has published in the past on combinatorial optimization, genetic programming, test-based problems, reinforcement learning, and coevolution with applications to classic (e.g., Othello, Go) and not-so-classic (Tetris, 2048, Doom) games. As his current interests concentrate on Vision-based Deep Reinforcement Learning, recently he led a team that developed ViZDoom - a reinforcement learning research platform that allows creating bots that play Doom using only the screen buffer. He is also a winner of several AI or game-oriented competitions such as Hello World Open 2014, Google ROADEF/EURO Challenge 2012 (junior category), or Microsoft ImagineCup Hoshimi Project 2005

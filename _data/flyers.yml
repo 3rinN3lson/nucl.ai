@@ -1,24 +1,47 @@
 - id: machine_learning
-  title: "Machine Learning"
+  title: "Machine Learning in Creative Industries"
 
   description:
     intro: >
       Deep learning, deep dream, neural doodles - neural networks and their training are THE topic in the AI community these days. If you are already "deep into" or just starting out, spending your time training your favorite neural network, at nucl.ai you can find like-minded developers from all over the world.
     text: >
       Join us at nucl.ai for 3 days filled of talks and workshop about machine learning in Vienna from July 18th - 20th!
-
   news:
+    - title: "Using a Genetic Algorithm in 10 vs. 10 Matchmaking in TOTAL WAR: ARENA"
+      author: Christian Rothe (Creative Assembly)
+      date: "July 19th, 2016"
+      link: "/track/analytics/#using-a-genetic-algorithm-in-10-vs-10-matchmaking-in-total-war--arena"
+      picture: "img/tracks/TotalWarArena.jpg"
+
+    - title: Building an Intelligent Memory — A First Step Towards General Artificial Intelligence
+      author: Joseph Dureau (Snips)
+      date: "July 20th, 2016"
+      link: "/track/cognitive/#building-an-intelligent-memory-%E2%80%94-a-first-step-towards-general-artificial-intelligence"
+      picture: "img/tracks/Joseph_Dureau.jpg"
+
+    - title: "Hands-On Deep Q-Learning in DOOM"
+      author: Wojciech Jaśkowski (Poznań University of Technology)
+      date: "July 18th, 2016"
+      link: "/track/decisions/#hands-on-deep-q-learning-in-doom--workshop-"
+      picture: "img/tracks/Doom.png"
+
+    - title: "Experiments in Augmenting the Performer with AI to Control Live Events"
+      author: Gaspard Bucher (Ludicity)
+      date: "July 18th, 2016"
+      link: "/track/recognition/#experiments-in-augmenting-the-performer-with-ai-to-control-live-events"
+      picture: "/img/tracks/gaspardbuma.jpg"
+
     - title: "Image Synthesis with Convolutional Neural Networks"
       author: Noor Shaker (AAU Copenhagen), Alex J. Champandard (AIGameDev.com)
       date: "July 19th, 2016"
       link: "/track/procedural/#image-synthesis-with-convolutional-neural-networks--workshop-"
-      picture: "/img/people/Noor Shaker.jpg"
+      picture: " "
 
     - title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks"
       author: Clodéric Mars (craft ai), Alex J. Champandard (AIGameDev.com)
       date: "July 20th, 2016"
       link: "/track/cognitive/#seq2seq--learning-pattern-and-responses-with-recurrent-neworks--workshop-"
-      picture: "/img/people/Clodéric Mars.jpg"
+      picture: " "
 
 
 - id: procedural_generation
@@ -29,32 +52,48 @@
       Asset-free content creation", letting the music creatin words and so much more is possible with procedural content generation. PCG opens up new dimensions for content creators.
     text: >
       Whether you are just starting out or are well versed with this AI technique, you will find something at nucl.ai in Vienna from July 18th - 20th! Join developers from all over the world in exploring the massive worlds the create with PCG. 
-
   news:
     - title: "TransProse: Generating Music From Literature"
       author: Hannah Davis (Independent)
       date: "July 18th, 2016"
       link: "/track/storytelling/#transprose--generating-music-from-literature"
-      picture: "/img/people/Hannah Davis.jpg"
+      picture: "img/tracks/Hannah_Davis.jpg"
 
     - title: "Procedural Story & Level Generation using Tag-Based Content Selection"
       author: Jurie Horneman (Independent)
       date: "July 18th, 2016"
       link: "/track/storytelling/#procedural-story-and-level-generation-using-tag-based-content-selection"
-      picture: "/img/people/Jurie Horneman.jpg"
+      picture: "/img/tracks/mainframe.jpg"
 
     - title: "Building Worlds in 64kB: Why Humans Should Never Have to Touch Pixels or Polygons"
       author: Johann Korndörfer (Mercury)
       date: "July 19th, 2016"
       link: "/track/procedural/#building-worlds-in-64kb--why-humans-should-never-have-to-touch-pixels-or-polygons"
-      picture: "/img/people/Johann Korndörfer.jpg"
+      picture: "img/tracks/Mercury2.jpgg"
 
-    - title: "Techne: An Art Commune by Bots, for Bots"
+    - title: "Generative Bots for Everyone! A Tracery Tutorial"
       author: Kate Compton (Mad scientist at the University of California, Santa Cruz)
-      date: "July 19th, 2016"
-      link: "/track/procedural/#techne--an-art-commune-by-bots,-for-bots"
-      picture: "/img/people/Kate Compton.jpg"
+      date: "July 18th, 2016"
+      link: "/track/storytelling/#generative-bots-for-everyone-a-tracery-tutorial--workshop-"
+      picture: "/img/tracks/Compton_nuclai_2016-May-10 1.jpg"
 
+    - title: "Computational Narrative Intelligence and the Quest for Human-Centered AI"
+      author: Mark Riedl (Georgia Tech School of Interactive Computing)
+      date: "July 18th, 2016"
+      link: "/track/storytelling/#computational-narrative-intelligence-and-the-quest-for-human-centered-ai"
+      picture: "img/tracks/Riedl_narrativeintelligence.jpg"
+
+    - title: "Integrating Houdini with Unreal Engine 4"
+      author: Ensar Akkaya (NHTV University in Breda)
+      date: "July 19th, 2016"
+      link: "/track/procedural/#integrating-houdini-with-unreal-engine-4"
+      picture: "img/tracks/Ensar_Houdini.png"
+
+    - title: "Climbing in VR and Reaching New Heights with Procedural Animation"
+      author: Aly Helmy (Crytek)
+      date: "July 20th, 2016"
+      link: "/track/animation/#climbing-in-vr-and-reaching-new-heights-with-procedural-animation"
+      picture: "/img/tracks/TheClimb_1.jpg"
 
 - id: "cognitive_and_bots"
   title: "Cognitive & Bots"
@@ -64,34 +103,33 @@
       Creating bots - "real life" robots, AI assistants or tweetbots" is something you do or want to do? Join developers from all over the world talking about their projects and (ro)bot designing experiences!
     text: >
       From having interesting conversations with your bot on Twitter to seeing people interact with your creation in real life like Pepper, the smiling robot - they are sharing their tipps, tricks and lessons-learnt at nucl.ai from 18th-20th July 2016 in Vienna!
-
   news:
     - title: "Generative Bots for Everyone! A Tracery Tutorial"
       author: Kate Compton (Mad scientist at the University of California, Santa Cruz)
       date: "July 18th, 2016"
       link: "/track/storytelling/#generative-bots-for-everyone-a-tracery-tutorial--workshop-"
-      picture: "/img/people/Kate Compton.jpg"
+      picture: "/img/tracks/Compton_nuclai_2016-May-10 1.jpg"
 
     - title: "Making Robots Interact with People: Lessons Learned Deploying Pepper in Japan"
       author: Gwennael Gaté (Angus.ai)
       date: "July 18th, 2016"
       link: "/track/recognition/#making-robots-interact-with-people--lessons-learned-deploying-pepper-in-japan"
-      picture: "/img/people/Gwennael Gaté.jpg"
+      picture: "/img/tracks/PepperRobot.jpg"
 
     - title: "Late to the Party! A Story of Adding Player Bots to a Humans-Only Game"
       author: Mieszko Zielinski (Epic Games)
       date: "July 19th, 2016"
       link: "/track/behavior/#late-to-the-party-a-story-of-adding-player-bots-to-a-humans-only-game"
-      picture: "/img/people/Mieszko Zielinski.jpg"
+      picture: "/img/tracks/Paragon_1.jpg"
 
     - title: "Building an Intelligent Memory — A First Step Towards General Artificial Intelligence"
       author: Joseph Dureau (Snips)
       date: "July 20th, 2016"
       link: "/track/cognitive/#building-an-intelligent-memory-—-a-first-step-towards-general-artificial-intelligence"
-      picture: "/img/people/Joseph Dureau.jpg"
+      picture: "img/tracks/Joseph_Dureau.jpg"
 
     - title: "Four Pillars to Building a Solid Conversational Bot"
       author: Paul Renvoisé (Recast AI)
       date: "July 20th, 2016"
       link: "/track/cognitive/#four-pillars-to-building-a-solid-conversational-bot"
-      picture: "/img/people/Paul Renvoisé.jpg"
+      picture: "/img/tracks/recastAI_pillars.jpg"

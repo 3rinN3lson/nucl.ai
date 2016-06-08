@@ -17,8 +17,8 @@
     - Pierre Gutierrez
   room: masterclass
   time:
-    start: "09:45"
-    finish: "10:15"
+    start: "10:00"
+    finish: "10:30"
 
 - title: "Capturing, Analysing and Imitating Emergent Playstyles in Card Games"
   description: >
@@ -37,8 +37,8 @@
     - Santiago Murillo
   room: masterclass
   time:
-    start: "10:15"
-    finish: "10:45"
+    start: "10:30"
+    finish: "11:00"
 
 - title: "TBA: Analytics & Data-Science Track"
   speakers:
@@ -56,7 +56,7 @@
   room: amphitheatre
   time:
     start: "09:15"
-    finish: "09:45"
+    finish: "10:00"
 
 - title: "Using a Genetic Algorithm in 10 vs. 10 Matchmaking in TOTAL WAR: ARENA"
   description: >
@@ -65,5 +65,30 @@
     - Christian Rothe
   room: masterclass
   time:
-    start: "11:15"
-    finish: "11:45"
+    start: "14:15"
+    finish: "15:00"
+
+- title: "Userbase Modeling & Statistical Analysis Roundtable"
+  speakers:
+    - Heather Stark
+  room: laboratories
+  time:
+    start: "11:30"
+    finish:  "12:00"
+
+- title: "Individual Profiling and Modeling Roundtable"
+  speakers:
+    - Heather Stark
+  room: laboratories
+  time:
+    start: "15:00"
+    finish:  "15:45"
+
+
+- title: "Future Directions and Machine Learning"
+  speakers:
+    - Heather Stark
+  room: laboratories
+  time:
+    start: "17:15"
+    finish:  "17:45"

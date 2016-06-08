@@ -8,8 +8,8 @@
     - Johann Korndörfer
   room: amphitheatre
   time:
-    start: "11:15"
-    finish: "12:00"
+    start: "16:30"
+    finish: "17:15"
 
 - title: "Image Synthesis with Convolutional Neural Networks [Workshop]"
   description: >
@@ -30,8 +30,8 @@
     - Ensar Akkaya
   room: masterclass
   time:
-    start: "14:15"
-    finish: "15:00"
+    start: "12:00"
+    finish: "12:45"
 
 - title: "Techne: An Art Commune by Bots, for Bots"
   description: >
@@ -41,8 +41,8 @@
     - Kate Compton
   room: amphitheatre
   time:
-    start: "16:30"
-    finish: "17:15"
+    start: "15:00"
+    finish: "15:45"
 
 - title: "TBA: Indie Procedural Content Generation"
   room: masterclass
@@ -55,5 +55,11 @@
 - title: "TBA: AAA Procedural Asset Pipelines [Keynote]"
   room: amphitheatre
   time:
-    start: "15:00"
-    finish: "15:45"
+    start: "11:15"
+    finish: "12:00"
+
+- title: "Best Practices in Generative Pipelines Roundtable"
+  room: laboratories
+  time:
+    start: "14:15"
+    finish: "15:00"

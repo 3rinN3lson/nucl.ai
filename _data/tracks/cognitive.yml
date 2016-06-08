@@ -5,8 +5,8 @@
     - Joseph Dureau
   room: amphitheatre
   time:
-    start: "12:00"
-    finish: "12:45"
+    start: "11:15"
+    finish: "12:00"
 
 - title: "Four Pillars to Building a Solid Conversational Bot"
   description: >
