@@ -11,19 +11,19 @@
       author: Christian Rothe (Creative Assembly)
       date: "July 19th, 2016"
       link: "/track/analytics/#using-a-genetic-algorithm-in-10-vs-10-matchmaking-in-total-war--arena"
-      picture: "img/tracks/TotalWarArena.jpg"
+      picture: "/img/tracks/TotalWarArena.jpg"
 
     - title: Building an Intelligent Memory — A First Step Towards General Artificial Intelligence
       author: Joseph Dureau (Snips)
       date: "July 20th, 2016"
       link: "/track/cognitive/#building-an-intelligent-memory-%E2%80%94-a-first-step-towards-general-artificial-intelligence"
-      picture: "img/tracks/Joseph_Dureau.jpg"
+      picture: "/img/tracks/Joseph_Dureau.jpg"
 
     - title: "Hands-On Deep Q-Learning in DOOM"
       author: Wojciech Jaśkowski (Poznań University of Technology)
       date: "July 18th, 2016"
       link: "/track/decisions/#hands-on-deep-q-learning-in-doom--workshop-"
-      picture: "img/tracks/Doom.png"
+      picture: "/img/tracks/Doom.png"
 
     - title: "Experiments in Augmenting the Performer with AI to Control Live Events"
       author: Gaspard Bucher (Ludicity)
@@ -35,13 +35,13 @@
       author: Noor Shaker (AAU Copenhagen), Alex J. Champandard (AIGameDev.com)
       date: "July 19th, 2016"
       link: "/track/procedural/#image-synthesis-with-convolutional-neural-networks--workshop-"
-      picture: " "
+      picture: ""
 
     - title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks"
       author: Clodéric Mars (craft ai), Alex J. Champandard (AIGameDev.com)
       date: "July 20th, 2016"
       link: "/track/cognitive/#seq2seq--learning-pattern-and-responses-with-recurrent-neworks--workshop-"
-      picture: " "
+      picture: ""
 
 
 - id: procedural_generation
@@ -57,7 +57,7 @@
       author: Hannah Davis (Independent)
       date: "July 18th, 2016"
       link: "/track/storytelling/#transprose--generating-music-from-literature"
-      picture: "img/tracks/Hannah_Davis.jpg"
+      picture: "/img/tracks/Hannah_Davis.jpg"
 
     - title: "Procedural Story & Level Generation using Tag-Based Content Selection"
       author: Jurie Horneman (Independent)
@@ -69,7 +69,7 @@
       author: Johann Korndörfer (Mercury)
       date: "July 19th, 2016"
       link: "/track/procedural/#building-worlds-in-64kb--why-humans-should-never-have-to-touch-pixels-or-polygons"
-      picture: "img/tracks/Mercury2.jpgg"
+      picture: "/img/tracks/Mercury2.jpg"
 
     - title: "Generative Bots for Everyone! A Tracery Tutorial"
       author: Kate Compton (Mad scientist at the University of California, Santa Cruz)
@@ -81,13 +81,13 @@
       author: Mark Riedl (Georgia Tech School of Interactive Computing)
       date: "July 18th, 2016"
       link: "/track/storytelling/#computational-narrative-intelligence-and-the-quest-for-human-centered-ai"
-      picture: "img/tracks/Riedl_narrativeintelligence.jpg"
+      picture: "/img/tracks/Riedl_narrativeintelligence.jpg"
 
     - title: "Integrating Houdini with Unreal Engine 4"
       author: Ensar Akkaya (NHTV University in Breda)
       date: "July 19th, 2016"
       link: "/track/procedural/#integrating-houdini-with-unreal-engine-4"
-      picture: "img/tracks/Ensar_Houdini.png"
+      picture: "/img/tracks/Ensar_Houdini.png"
 
     - title: "Climbing in VR and Reaching New Heights with Procedural Animation"
       author: Aly Helmy (Crytek)
@@ -126,7 +126,7 @@
       author: Joseph Dureau (Snips)
       date: "July 20th, 2016"
       link: "/track/cognitive/#building-an-intelligent-memory-—-a-first-step-towards-general-artificial-intelligence"
-      picture: "img/tracks/Joseph_Dureau.jpg"
+      picture: "/img/tracks/Joseph_Dureau.jpg"
 
     - title: "Four Pillars to Building a Solid Conversational Bot"
       author: Paul Renvoisé (Recast AI)

@@ -1,7 +1,11 @@
                 <tr>
-                    {% if news.picture %}
+                    {% if news.picture and news.picture != "" %}
                         <td class="ilustration">
                             <div class="ilustration icon" style="background-image: url('{{ news.picture |  prepend: site.baseurl }}')"></div>
+                        </td>
+                    {% else %}
+                    <td class="ilustration">
+                            <div class="ilustration icon" style="background-image: url('{{ '/img/logo.png' |  prepend: site.baseurl }}')"></div>
                         </td>
                     {% endif %}
                     <td class="text">
