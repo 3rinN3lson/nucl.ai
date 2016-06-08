@@ -6,20 +6,26 @@
       <img src="/img/nuclai15/3.png" style="float: right; width: 384px; padding-left: 1em;"/>
       The nucl.ai Conference is the largest worldwide event focused on applications of Artificial Intelligence in Creative Industries. Join us in Vienna this July for three action-packed days!
     text: >
-      <p>Now in its 8th edition, the nucl.ai Conference 2016 on July 18-20 will bring together hundreds of developers, artists, designers, hackers, designers, creative coders working on AI—ranging from robotics to games, visual effects to architecture, mobile apps to online bots, simulations or exhibits. All these fields come together once a year to share ideas and techniques!</p>
-      <p>Machine Learning is playing an increasingly big role every year at nucl.ai. From recognizing patterns sensory inputs, automating and optimizing decisions-making in real-time games, or generating assets for use in simulation.</p>
+      <p>Now in its 8th edition, the nucl.ai Conference 2016 on July 18-20 will bring together hundreds of programmers, artists, hackers, designers, creative coders working on AI—ranging from robotics to games, visual effects to architecture, mobile apps to online bots, simulations or exhibits. It's a great place for developers to exchange ideas and find inspiration!</p>
+      <p>Machine Learning is playing an increasingly big role every year at nucl.ai—from recognizing patterns in sensory data, optimizing decision-making in real-time games, or generating assets for use in virtual worlds, even testing simulations automatically. See the full schedule </p>
   news:
+    - title: "Hands-On Deep Reinforcement Learning in VizDOOM"
+      author: Wojciech Jaśkowski (Poznań University of Technology)
+      date: "July 18th, 2016"
+      link: "/track/decisions/#hands-on-deep-q-learning-in-doom--workshop-"
+      picture: "/img/tracks/Doom.png"
+
+    - title: "TransProse: Generating Music From Literature"
+      author: Hannah Davis, Independent
+      date: "July 20th, 2016"
+      link: "/track/storytelling/#transprose--generating-music-from-literature"
+      picture: "/img/tracks/Hannah_Davis.jpg"
+
     - title: Building an Intelligent Memory — A First Step Towards General Artificial Intelligence
       author: Joseph Dureau (Snips)
       date: "July 20th, 2016"
       link: "/track/cognitive/#building-an-intelligent-memory-%E2%80%94-a-first-step-towards-general-artificial-intelligence"
       picture: "/img/tracks/Joseph_Dureau.jpg"
-
-    - title: "Hands-On Deep Reinforcement Learning in DOOM"
-      author: Wojciech Jaśkowski (Poznań University of Technology)
-      date: "July 18th, 2016"
-      link: "/track/decisions/#hands-on-deep-q-learning-in-doom--workshop-"
-      picture: "/img/tracks/Doom.png"
 
     - title: "Using a Genetic Algorithm in 10 vs. 10 Matchmaking in TOTAL WAR: ARENA"
       author: Christian Rothe (Creative Assembly)
@@ -31,7 +37,7 @@
       author: "Samim Winiger (samim.io), Alex J. Champandard (nucl.ai)"
       date: "July 19th, 2016"
       link: "/track/procedural/#image-synthesis-with-convolutional-neural-networks--workshop-"
-      picture: " "
+      picture: "/img/tracks/Image_Synthesis.jpg"
 
     - title: "Experiments in Augmenting the Performer with AI to Control Live Events"
       author: Gaspard Bucher (Ludicity)
@@ -49,7 +55,7 @@
       author: "Roelof Pieters (KTH), Alex J. Champandard (nucl.ai)"
       date: "July 20th, 2016"
       link: "/track/cognitive/#seq2seq--learning-pattern-and-responses-with-recurrent-neworks--workshop-"
-      picture: " "
+      picture: "/img/tracks/Generative_Text.jpg"
 
 
 - id: procedural_generation
