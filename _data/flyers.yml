@@ -66,7 +66,7 @@
       author: Hannah Davis (Independent)
       date: "July 18th, 2016"
       link: "/track/storytelling/#transprose--generating-music-from-literature"
-      picture: "img/tracks/Hannah_Davis.jpg"
+      picture: "/img/tracks/Hannah_Davis.jpg"
 
     - title: "Procedural Story & Level Generation using Tag-Based Content Selection"
       author: Jurie Horneman (Independent)
@@ -78,7 +78,7 @@
       author: Johann Korndörfer (Mercury)
       date: "July 19th, 2016"
       link: "/track/procedural/#building-worlds-in-64kb--why-humans-should-never-have-to-touch-pixels-or-polygons"
-      picture: "img/tracks/Mercury2.jpgg"
+      picture: "/img/tracks/Mercury2.jpgg"
 
     - title: "Generative Bots for Everyone! A Tracery Tutorial"
       author: Kate Compton (Mad scientist at the University of California, Santa Cruz)
@@ -90,13 +90,13 @@
       author: Mark Riedl (Georgia Tech School of Interactive Computing)
       date: "July 18th, 2016"
       link: "/track/storytelling/#computational-narrative-intelligence-and-the-quest-for-human-centered-ai"
-      picture: "img/tracks/Riedl_narrativeintelligence.jpg"
+      picture: "/img/tracks/Riedl_narrativeintelligence.jpg"
       
     - title: "Integrating Houdini with Unreal Engine 4"
       author: Ensar Akkaya (NHTV University in Breda)
       date: "July 19th, 2016"
       link: "/track/procedural/#integrating-houdini-with-unreal-engine-4"
-      picture: "img/tracks/Ensar_Houdini.png"
+      picture: "/img/tracks/Ensar_Houdini.png"
 
     - title: "Climbing in VR and Reaching New Heights with Procedural Animation"
       author: Aly Helmy (Crytek)
@@ -136,7 +136,7 @@
       author: Joseph Dureau (Snips)
       date: "July 20th, 2016"
       link: "/track/cognitive/#building-an-intelligent-memory-—-a-first-step-towards-general-artificial-intelligence"
-      picture: "img/tracks/Joseph_Dureau.jpg"
+      picture: "/img/tracks/Joseph_Dureau.jpg"
 
     - title: "Four Pillars to Building a Solid Conversational Bot"
       author: Paul Renvoisé (Recast AI)
