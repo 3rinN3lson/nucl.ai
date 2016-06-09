@@ -201,6 +201,16 @@
     name: Harman International
     url: http://www.harman.com/
 
+- name: Jannes Nagel
+  role: speaker
+  twitter: jannesnagel
+  affiliation:
+    position: Software Developer
+    name: Opaque Media Group
+    url: http://www.opaque.media
+  bio: >
+    Jannes is a software engineer at the Opaque Media Group. He is currently working on procedural animation and AI for the upcoming VR game Earthlight. Before working at Opaque Jannes has studied cognitive science and worked as a freelancer in Germany for 9 years. Even though Jannes is a generalist he has special interests in parallel computing, AI and animation.
+
 - name: Jason Schroder
   role: speaker
   affiliation:
@@ -256,20 +266,11 @@
   role: speaker
   twitter: julian_runge
   affiliation:
-#    position: Researcher in residence
+    position: Researcher in Residence
     name: Wooga
     url: https://www.wooga.com/
   bio: >
     Julian works for Wooga, the Berlin based developer of mobile games like Jelly Splash, Pearl's Peril, and most recently Futurama - Game of Drones. After heading analytics and data science for Wooga for a couple of years, he most recently moved to a ‘researcher in residence’ role. In this new capacity he focuses on the (rare, but sweet) projects that yield both tremendous business impact and meaningful scientific contributions. He also is a Ph.D. candidate at Humboldt University's school of business and economics in Berlin. He recently spent three months at Stanford University’s Graduate School of Business as a visiting researcher, deep diving on purchase decisions in the free-to-play and freemium business model. An economist by training, he developed a strong interest in machine learning in recent years, especially in its application to game design and marketing. His research in the field has been recognized by a best paper nomination at CIG 2014 and a best paper award at AIIDE 2015.
-
-# - name: Juliette Lemaitre
-#  role: org
-#  affiliation:
-#    position: "PhD student"
-#    name: MASA Group
-#    url: http://masa-group.biz/
-#  bio: >
-#    Juliette lemaitre is a PhD student at MASA Group and Heudiasyc (Université de Technologie de Compiègne), working on the modeling of strategical Artificial Intelligence to simplify the work of developers when creating opponents in games with complex environments and mechanisms, such as Civilization.
 
 - name: Jurie Horneman
   role: speaker
@@ -394,7 +395,6 @@
   bio: >
     Professor of artificial intelligence at LAMSADE Universite Paris-Dauphine. Author of more than a hundred scientific papers about artificial intelligence in games. He started to publish commercial video games when he was aged 16 and co-founded a successful web agency in 1992.
 
-
 - name: Noor Shaker
   role: track
   tracks: [procedural]
@@ -407,6 +407,15 @@
     Noor Shaker is a Postdoctoral researcher at the Aalborg University Copenhagen. Her research interests include player modeling, procedural content generation,
     computational creativity, affective computing and player behavior imitation. She is organizing
     the Platformer AI competition and chairing the IEEE task force on Player Modeling.
+
+- name: Norman Wang
+  role: speaker
+  affiliation:
+    position: 3D artist and Executive Director
+    name: Opaque Media Group
+    url: http://www.opaque.media
+  bio: >
+    Norman is an award-winning 3D artist and Executive Director at Opaque Media Group, where he leads a number of projects in the area of real-time production and virtual reality. Norman is a passionate technologist and a published author with a focus on understanding how technology changes human perception. Norman now leads the majority of VR projects at Opaque Media Group, in particular the studio’s flagship production, Earthlight – a VR game being developed in collaboration with space agencies around the world that allows players to immersively experience the journey of becoming an astronaut as well as the wonders and perils of space. Outside of Opaque Media Group, Norman is a PhD researcher in cognitive psychology with a focus on understanding how immersive experience affect human perception and cognition.
 
 - name: Paul Renvoisé
   role: speaker
@@ -448,6 +457,16 @@
   bio: >
     Petra has a background in business management, and worked as an International Area Manager for a large multi-million dollar corporation.
     She eventually moved on and joined Alex as the co-founder of AiGameDev.com. Petra is the creative force in the team, and takes care of business!
+
+- name: Philip Dunstan
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior AI Programmer
+    name: Massive Entertainment
+    url: http://massive.se
+  bio: >
+    Philip Dunstan is a Senior AI Programmer at Massive Entertainment, a Ubisoft studio. Philip's core interests in AI are NPC behaviors, sensory and reasoning systems, and the tools for debugging complex NPC behaviors. Philip has more than ten years of experience in the games industry, starting as a Physics and Core Technology Engineer at Electronic Arts, before transitioning to AI at AIGameDev.com in 2011 and the joining Massive Entertainment to work on Tom Clancy’s The Division in 2014.
 
 - name: Pierre Gutierrez
   role: speaker

@@ -1,6 +1,6 @@
 - day: 1
   breaks:
-    - name: Coffee Pause
+    - name: Coffee Pause <br/> <span>fueled by</span> <br/> Creative Assembly
       time:
         start: "10:45"
         finish: "11:30"
@@ -8,7 +8,7 @@
       time:
         start: "12:45"
         finish: "14:15"
-    - name: Coffee Pause
+    - name: Coffee Pause <br/> <span>fueled by</span> <br/> Creative Assembly
       time:
         start: "15:45"
         finish: "16:30"
