@@ -70,3 +70,15 @@
   time:
     start: "09:45"
     finish: "10:30"
+
+- title: "TBA: Augmenting Design & Testing with AI-Powered Tools"
+  room: laboratories
+  time:
+    start: "16:30"
+    finish: "17:15"
+
+- title: "TBA: Generative & Systemic Design Track"
+  room: laboratories
+  time:
+    start: "11:15"
+    finish: "12:00"
