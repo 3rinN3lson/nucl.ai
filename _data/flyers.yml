@@ -9,6 +9,7 @@
       <p>Now in its 8th edition, the nucl.ai Conference 2016 on July 18-20 will bring together hundreds of programmers, artists, hackers, designers, creative coders working on AI—ranging from robotics to games, visual effects to architecture, mobile apps to online bots, simulations or exhibits. It's a great place for developers to exchange ideas and find inspiration!</p>
       <p>Machine Learning is playing an increasingly big role every year at nucl.ai—from recognizing patterns in sensory data, optimizing decision-making in real-time games, or generating assets for use in virtual worlds, even testing simulations automatically.</p>
       <p><b>&raquo; Browse the full <a href="/program/schedule/">program schedule</a> or grab <a href="/program/schedule">your tickets</a>!</b></p>
+
   news:
     - title: "Hands-On Deep Reinforcement Learning in VizDOOM"
       author: Wojciech Jaśkowski (Poznań University of Technology)
@@ -17,7 +18,7 @@
       picture: "/img/tracks/Doom.png"
 
     - title: "TransProse: Generating Music From Literature"
-      author: Hannah Davis, Independent
+      author: "Hannah Davis, Independent"
       date: "July 20th, 2016"
       link: "/track/storytelling/#transprose--generating-music-from-literature"
       picture: "/img/tracks/Hannah_Davis.jpg"
@@ -58,52 +59,52 @@
       link: "/track/cognitive/#seq2seq--learning-pattern-and-responses-with-recurrent-neworks--workshop-"
       picture: "/img/tracks/Generative_Text.jpg"
 
-
 - id: procedural_generation
-  title: "Procedural Generation"
-
+  title: "Procedural Content & Generative Systems"
   description:
     intro: >
-      Asset-free content creation", letting the music creatin words and so much more is possible with procedural content generation. PCG opens up new dimensions for content creators.
+      <img src="/img/nuclai15/5.png" style="float: right; width: 384px; padding-left: 1em;"/>
+      The nucl.ai Conference is the largest worldwide event focused on applications of Artificial Intelligence in Creative Industries. Join us in Vienna this July for three action-packed days!
     text: >
-      Whether you are just starting out or are well versed with this AI technique, you will find something at nucl.ai in Vienna from July 18th - 20th! Join developers from all over the world in exploring the massive worlds the create with PCG. 
-
+      <p>Now in its 8th edition, the nucl.ai Conference 2016 on July 18-20 will bring together hundreds of programmers, artists, hackers, designers, creative coders working on AI—ranging from robotics to games, visual effects to architecture, mobile apps to online bots, simulations or exhibits. It's a great place for developers to exchange ideas and find inspiration!</p>
+      <p>Proceduralism is now becoming more common place as algorithms take over the low-level tasks of content-creation pipelines, but also generative systems at the high-level that create entire worlds or experiences at runtime.  Find out how to integrate generative algorithms into your pipelines and design processes.</p>
+      <p><b>&raquo; Browse the full <a href="/program/schedule/">program schedule</a> or grab <a href="/program/schedule">your tickets</a>!</b></p>
   news:
-    - title: "TransProse: Generating Music From Literature"
-      author: Hannah Davis (Independent)
+    - title: "Crowd Control for Feature Film at Industrial Light & Magic (ILM)"
+      author: Joe Plaete
+      date: "July 20th, 2016"
+      link: "/track/systemic/#crowd-control-for-feature-film-at-ilm"
+      picture: "/img/tracks/Spectre_Crowd.jpg"
+
+    - title: "Building Worlds in 64kB: Why Humans Should Never Have to Touch Pixels or Polygons"
+      author: Johann Korndörfer (Mercury)
+      date: "July 19th, 2016"
+      link: "/track/procedural/#building-worlds-in-64kb--why-humans-should-never-have-to-touch-pixels-or-polygons"
+      picture: "/img/tracks/Mercury2.jpg"
+
+    - title: "Procedural Pipelines: Integrating Houdini with Unreal Engine 4"
+      author: Ensar Akkaya (NHTV University in Breda)
+      date: "July 19th, 2016"
+      link: "/track/procedural/#integrating-houdini-with-unreal-engine-4"
+      picture: "/img/tracks/Ensar_Houdini.png"
+
+    - title: "Generative Bots for Everyone! A Tracery Tutorial"
+      author: "Kate Compton (University of California, Santa Cruz)"
       date: "July 18th, 2016"
-      link: "/track/storytelling/#transprose--generating-music-from-literature"
-      picture: "/img/tracks/Hannah_Davis.jpg"
+      link: "/track/storytelling/#generative-bots-for-everyone-a-tracery-tutorial--workshop-"
+      picture: "/img/tracks/Compton_nuclai_2016-May-10 1.jpg"
+
+    - title: "Computational Narrative Intelligence and the Quest for Human-Centered AI"
+      author: Mark Riedl (Georgia Tech School of Interactive Computing)
+      date: "July 18th, 2016"
+      link: "/track/storytelling/#computational-narrative-intelligence-and-the-quest-for-human-centered-ai"
+      picture: "/img/tracks/Riedl_narrativeintelligence.jpg"
 
     - title: "Procedural Story & Level Generation using Tag-Based Content Selection"
       author: Jurie Horneman (Independent)
       date: "July 18th, 2016"
       link: "/track/storytelling/#procedural-story-and-level-generation-using-tag-based-content-selection"
       picture: "/img/tracks/mainframe.jpg"
-
-    - title: "Building Worlds in 64kB: Why Humans Should Never Have to Touch Pixels or Polygons"
-      author: Johann Korndörfer (Mercury)
-      date: "July 19th, 2016"
-      link: "/track/procedural/#building-worlds-in-64kb--why-humans-should-never-have-to-touch-pixels-or-polygons"
-      picture: "/img/tracks/Mercury2.jpgg"
-
-    - title: "Generative Bots for Everyone! A Tracery Tutorial"
-      author: Kate Compton (Mad scientist at the University of California, Santa Cruz)
-      date: "July 18th, 2016"
-      link: "/track/storytelling/#generative-bots-for-everyone-a-tracery-tutorial--workshop-"
-      picture: "/img/tracks/Compton_nuclai_2016-May-10 1.jpg"
-      
-    - title: "Computational Narrative Intelligence and the Quest for Human-Centered AI"
-      author: Mark Riedl (Georgia Tech School of Interactive Computing)
-      date: "July 18th, 2016"
-      link: "/track/storytelling/#computational-narrative-intelligence-and-the-quest-for-human-centered-ai"
-      picture: "/img/tracks/Riedl_narrativeintelligence.jpg"
-      
-    - title: "Integrating Houdini with Unreal Engine 4"
-      author: Ensar Akkaya (NHTV University in Breda)
-      date: "July 19th, 2016"
-      link: "/track/procedural/#integrating-houdini-with-unreal-engine-4"
-      picture: "/img/tracks/Ensar_Houdini.png"
 
     - title: "Climbing in VR and Reaching New Heights with Procedural Animation"
       author: Aly Helmy (Crytek)
