@@ -39,32 +39,21 @@ $ ->
           'laboratories': 0
         }
         talks.each ->
-          ## HARDCODED HACK FOR PUBLISHIN SCHEDULE WITH NOT COMPLETED DATA
-          if $(@).attr("room") == "" || $(@).attr("room") == "??"
-            $(@).attr("room", available_rooms[Math.floor(Math.random()*available_rooms.length)];)
-            $(@).addClass("noroomdefined")
+          # talks with undefined time are ignored
+          if $(@).attr("time-start") && $(@).attr("time-finish") && $(@).attr("time-start") != "??:??" then day.talks.push $(@)
 
-          talk_starttime = talks_order[$(@).attr("room")]
-          talks_order[$(@).attr("room")]++
-          if $(@).attr("room") == "laboratories" then talks_order[$(@).attr("room")]++ # workshops higher
-
-          h_start = if talks_order[$(@).attr("room")] < 10 then "0" + talk_starttime + ":00" else talk_starttime + ":00"
-          h_end = if talks_order[$(@).attr("room")] < 10  then "0" + talks_order[$(@).attr("room")] + ":00" else talks_order[$(@).attr("room")] + ":00"
-          $(@).attr("time-start", h_start)
-          $(@).attr("time-finish", h_end)
-          if $(@).attr("time-start") && $(@).attr("time-finish") then day.talks.push $(@) # talks with undefined time are ignored
-
-        # sort by time and append
-        # and remember first start and last end
-        talksStartTime = null
-        talksFinishTime = null
-
+        if day.talks.length == 0 then continue;
 
         for talk in day.talks
           startTime = talk.attr("time-start")
           finishTime = talk.attr("time-finish")
           talk.startDate = new Date(day.attr("date") + "  " + startTime)
           talk.finishDate = new Date(day.attr("date") + "  " + finishTime)
+
+        # sort by time and append
+        # and remember first start and last end
+        talksStartTime = day.talks[0].startDate
+        talksFinishTime = day.talks[0].finishDate
 
         day.talks.sort (a,b) ->
           if talksStartTime == null || talksStartTime > a.startDate then talksStartTime = a.startDate
@@ -237,7 +226,7 @@ $ ->
           interval.removeClass("hovered")
           interval.removeClass("hovered-edge")
         talk.removeClass("hovered")
-           
+
 
       #set up on hover effect
       for day in days
@@ -245,7 +234,7 @@ $ ->
           if talk.find("a").hasClass("wip") then continue
           assignIntervals(talk)
           talk.hover talkHoverStart, talkHoverEnd
-          day.removeClass("not-positioned")
+        day.removeClass("not-positioned")
 
 
 

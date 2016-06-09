@@ -25,6 +25,8 @@
     <div class="splash-screen-wrap" style="background-image: url('{{'/img/stream/stream-blue-quads.png' | prepend: site.baseurl }}' ); background-position: center center;">
     {% elsif page.name == 'stream-day3.html' %}
     <div class="splash-screen-wrap" style="background-image: url('{{'/img/stream/stream-purple-quads.png' | prepend: site.baseurl }}' ); background-position: center center;">
+    {% elsif page.name contains "flyer_" %}
+    <div class="splash-screen-wrap" style="background-image: url('{{'/img/stream/stream-yellow-quads.png' | prepend: site.baseurl }}' ); background-position: center center;">
     {% else %}
     <div class="splash-screen-wrap audience-gif">
     {% endif %}
@@ -62,7 +64,7 @@
                     {% if page.name == 'index.html' %}
 
                         <h1>nucl.ai</h1>
-                        <h2> {{site.data.config.edition.to_html}}, Vienna / AUSTRIA. </h2>
+                        <h2 class="date"> {{site.data.config.edition.to_html}}, Vienna / AUSTRIA. </h2>
 
                         {% if site.data.config.current.featured %}
                             {% comment %}
@@ -78,12 +80,20 @@
                         <div class="centered-cell">
                             <h1><a href="/">nucl.ai</a></h1>
 
-                            <h2>{{site.data.config.edition.to_html}}, Vienna / AUSTRIA.</h2>
+                            <h2 class="date">{{site.data.config.edition.to_html}}, Vienna / AUSTRIA.</h2>
 
                         </div>
                         <div class="centered-cell">
-                            <h2>Conference on Artificial Intelligence<br/> in Creative Industries</h2>
-
+                            {% if page.name contains "flyer_" %}
+                                {% assign id = page.name | split: '.html' | first | replace: "flyer_", "" %}
+                                {% for flyer in site.data.flyers %}
+                                    {% if flyer.id == id %}
+                                        <h2 style="color: #a5cce9;">Conference on Artificial Intelligence<br/> in Creative Industries</h2>
+                                    {% endif %}
+                                {% endfor %}
+                            {% else %}
+                                <h2>Conference on Artificial Intelligence<br/> in Creative Industries</h2>
+                            {% endif %}
                             <h2 class="note">
                             {% if page.name == 'tickets.html' %}
                             

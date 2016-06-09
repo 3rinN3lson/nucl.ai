@@ -12,7 +12,7 @@ permalink: /stream/
                 Conference Live Stream has ended. Thank you for watching!
             </div>
 
-            {% assign timer_title = "Sign-up for FREE access or to set reminders..." %}
+            {% assign timer_title = "Follow us" %}
 
             {% for day in site.data.stream.days %}
                 {% capture timer_name %}day-{{forloop.index}}{% endcapture %}
@@ -28,20 +28,49 @@ permalink: /stream/
                     {% include features/timers/timer.html %}
                 </div>
             {% endfor %}
-            
+
+            <div class="buttons-wrap">
+                <div class="yt-subscribe">
+                    <script src="https://apis.google.com/js/platform.js"></script>
+                    <div class="g-ytsubscribe" data-channel="aigamedev" data-layout="default" data-count="default"></div>
+                </div>
+                <div class="tw-follow">
+                    <a href="https://twitter.com/nuclai" class="twitter-follow-button" data-show-count="true" data-size="large" data-show-screen-name="false">Follow @nuclai</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </div>
+                <div class="fb-follow-top">
+                    <div id="fb-root"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6&appId=961858097195996";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="https://www.facebook.com/nuclai/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+                </div>
+            </div>
+
+            {% comment %}
             <div id="register" class="stream-teaser">
                 <a href="/stream/day1/">Day #1</a> &mdash;
                 <a href="/stream/day2/">Day #2</a> &mdash;
                 <a href="/stream/day3/">Day #3</a>
             </div>
-        </content>
-    </grid>
-
+            {% endcomment %}
+        
 {% for day in site.data.stream.days %}
     <div class="stream-wrap" id="stream-{{forloop.index}}">
+    <div class="stream-inside">
         {{ day.livestream }}
     </div>
+    </div>
 {% endfor %}
+
+    </content>
+</grid>
+
 
 {% include features/timers/clean.html %}
 
@@ -75,14 +104,22 @@ permalink: /stream/
                 <p>Our live stream covers all the talks in the main amphitheatre, in particular:</p>
                 
                 <ul>
-                    <li><b>July 20th, Day #1</b> &mdash; Real-time Decisions, Crowd Simulation, User Interface & Devices.
-                        <p style="color: #a5cce9; opacity: 0.85; font-size: 100%;"><u>STREAMING LIVE</u>: Epic Battles in Guardians of the Galaxy, Drivatar in the Forza Series, Real-time MCTS in Fable Legends, Crowds in Assassin's Creed, The Revolution in Search-based AI, Evolution of AI at Pixar (keynote).</p>
+                    <li><b>July 20th, Day #1</b> &mdash; Real-time Decisions, Dynamic Dialog & Storytelling, Human Interaction & Recognition.
+                        <p style="color: #a5cce9; opacity: 0.85; font-size: 100%;"><u>STREAMING LIVE</u>:
+TransProse: Generating Music From Literature, Expanding the Frontier of Environment Query Systems, Intelligent Directors and Storytelling in Kingdom Come: Deliverance, Visual Instruments for Live Performance and Creative Expression, 
+Making Robots Interact with People: Lessons Learned Deploying Pepper in Japan, Computer Go: from Influence Functions to AlphaGo, Experiments in Augmenting the Performer with AI to Control Live Events, Computational Narrative Intelligence and the Quest for Human-Centered AI.</p>
                     </li>
-                    <li><b>July 21st, Day #2</b> &mdash; Agent Behavior, Procedural Generation, Advanced Analytics.
-                        <p style="color: #a5cce9; opacity: 0.85; font-size: 100%;"><u>STREAMING LIVE</u>: Player Cloning in Killer Instinct, Dynamic Pricing in Mobile Games, Generating Characters in Ultima Regum, Design of Total War: Attila, Behavior Trees in Eve Online, Proceduralism in No Man's Sky, Churn Prevention in Top 11, Planning for Final Fantasy XV.</p>
+                    <li><b>July 21st, Day #2</b> &mdash; Agent Behavior & Coordination, Procedural Content Generation, Analytics & Data Science.
+                        <p style="color: #a5cce9; opacity: 0.85; font-size: 100%;"><u>STREAMING LIVE</u>: People Play, People Talk? A Deep Dive on Organic Downloads, Server-Side Character Behavior in THE DIVISION,  TBA: AAA Procedural Asset Pipelines [Keynote],  A Brief History of Matchmaking in Heroes of the Storm, Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN, Techne: An Art Commune by Bots, for Bots, Building Worlds in 64kB: Why Humans Should Never Have to Touch Pixels or Polygons, Late to the Party! A Story of Adding Player Bots to a Humans-Only Game. </p>
                     </li>
-                    <li><b>July 22nd, Day #3</b> &mdash; Systemic Design, Character Animation, Cognition & Language.
-                        <p style="color: #a5cce9; opacity: 0.85; font-size: 100%;"><u>STREAMED LIVE</u>: Inverse Kinematics at Ubisoft Toronto, Population Management in The Witcher 3, Animation in League Of Legends, Chatbots in event[0], Motion Fields from prototype to production, AI Systems and Directors in Fortnite, and IBM Watson (keynote).</p>
+                    <li><b>July 22nd, Day #3</b> &mdash; Generative Systems & Design, Character Animation, Cognition, Bots & Understanding.
+                        <p style="color: #a5cce9; opacity: 0.85; font-size: 100%;"><u>STREAMED LIVE</u>: Climbing in VR and Reaching New Heights with Procedural Animation, It’s in the Vents: The AI of Alien Isolation, Building an Intelligent Memory — A First Step Towards General Artificial Intelligence,
+                        Creating Digital Doubles, The Character Pipeline in Quantum Break,
+                        TBA: Perception of Simulation Details,
+                        TBA: Cognitive, Bots & Understanding Track,
+                        TBA: Animation for Generated Creatures,
+                        Crowd Control for Feature Film at ILM.
+                        .</p>
                     </li>
                 </ul>
 

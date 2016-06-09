@@ -1,3 +1,13 @@
+- title: "TransProse: Generating Music From Literature"
+  description: >
+    TransProse is a program that generates music from novels. It works by identifying emotions throughout a novel, and using that underlying emotional structure to create musical pieces with the same emotional tone. In this talk Hannah will present the algorithm behind TransProse, discuss the process of generating music from data, and examine how the field of data sonification can be a valuable tool in artistic spaces.
+  speakers:
+    - Hannah Davis
+  room: amphitheatre
+  time:
+    start: "09:15"
+    finish: "10:00"
+
 - title: "Procedural Story & Level Generation using Tag-Based Content Selection"
   description: >
     Selecting the right bit of content based on what is happening is a key problem that appears in many parts of game development, be it NPC reactions, level generation, dynamic stories, or procedural text. It is at the core of interactive storytelling.
@@ -7,8 +17,8 @@
     - Jurie Horneman
   room: masterclass
   time:
-    start: "??:??"
-    finish: "??:??"
+    start: "12:00"
+    finish: "12:45"
     
 - title: "Generative Bots for Everyone! A Tracery Tutorial [Workshop]"
   description: >
@@ -17,15 +27,37 @@
    - Kate Compton
   room: laboratories
   time:
-    start: "??:??"
-    finish: "??:??"
+    start: "14:00"
+    finish: "16:00"
 
-- title: "Computational Narrative Intelligence"
+- title: "Computational Narrative Intelligence and the Quest for Human-Centered AI"
   description: >
-    Storytelling is a pervasive part of the human experience--we as humans tell stories to communicate, inform, entertain, and educate. Mark believes that narrative intelligence, the ability to understand, create, and respond affectively to narratives, can make it easier for artificial intelligence systems to understand humans and make it easier for humans to understand the behavior of artificial intelligence system. In this talk, Mark presents research on machine learning approaches to story understanding, the creation of novel narrative structures, and using natural language stories to program robots. Concluding with a roadmap for the ways in which computational narrative intelligence can facilitate the creation of intelligent applications that benefit humans and facilitate human-agent interaction.
+    Storytelling is a pervasive part of the human experience--we as humans tell stories to communicate, inform, entertain, and educate. I hypothesize that narrative intelligence, the ability to understand, create, and respond affectively to narratives, can make it easier for artificial intelligence systems to understand humans and make it easier for humans to understand the behavior of artificial intelligence system. In this talk, I present research on machine learning approaches to story understanding, the creation of novel narrative structures, and using natural language stories to program robots. I will lay out a roadmap for the ways in which computational narrative intelligence can facilitate the creation of intelligent applications that benefit humans and facilitate human-agent interaction.
   speakers:
     - Mark Riedl
   room: amphitheatre
   time:
-    start: "??:??"
-    finish: "??:??" 
+    start: "17:15"
+    finish: "18:00" 
+
+- title: "TBA: Text, Dialog & Storytelling Track" # Facebook Timeline Fiction
+  room: masterclass
+  time:
+    start: "10:00"
+    finish: "10:45" 
+
+- title: "Intelligent Directors and Storytelling in Kingdom Come: Deliverance" 
+  description: >
+    Kingdome Come: Deliverance is a medieval open world RPG game where hundreds of NPCs live their own lives and engage in their own  stories.  We introduce Henry - the player – to the world, who has his own epic story of struggle in a broken world on the verge of civil war. Henry’s quest is a complex narrative of investigating crimes and fighting bad guys and exploring the world. However, since the world evolves, so must the story evolve to suit. In this talk, we introduce our approach to directing the quests and storytelling in a dynamic world through our Smart Quest system: where the player is only an actor in the grander scheme of things. Our system adopts the use of Intelligent Directors where NPCs are only actors who must fill the roles of the world around them and adapts to the current setup of the world: adapting to the player’s actions not only within quests, but also before and after. We will show how this concept works in conjunction with our Injected Behavior Trees, where NPCs can be part of the quest based on their own decisions on how to approach a given issue or goal.
+  speakers:
+    - Tomáš PLch
+  room: amphitheatre
+  time:
+    start: "11:15"
+    finish: "12:00" 
+
+- title: "TBA: Text, Dialog & Storytelling Track" # Creative Patterns
+  room: masterclass
+  time:
+    start: "16:30"
+    finish: "17:15"

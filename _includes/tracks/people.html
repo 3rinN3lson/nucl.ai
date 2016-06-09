@@ -10,7 +10,20 @@
                     {% for speaker in talk.speakers %}
                         {% if names contains speaker %}
                         {% else %}
-                            {% capture names %}{% if names != "" %}{{names}},{% endif %}{{speaker}}{% endcapture %}
+
+                            {% assign validSpeaker = false %}
+
+                            {% for person in site.data.people %}
+                                {% if person.name == speaker %}
+                                    {% assign validSpeaker = true %}
+                                {% endif %}
+
+                            {% endfor %}
+
+                            {% if validSpeaker %}
+                                {% capture names %}{% if names != "" %}{{names}},{% endif %}{{speaker}}{% endcapture %} 
+                            {% endif %}
+
                         {% endif %}
                     {% endfor %}
                 {% endfor %}

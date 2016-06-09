@@ -1,11 +1,72 @@
+- title: "TBA: Perception of Simulation Details"
+  speakers:
+     - Carol O'Sullivan
+  room: amphitheatre
+  time:
+    start: "14:15"
+    finish: "15:00"
+
+- title: "Crowd Control for Feature Film at ILM"
+  description: >
+    In this talk we'll explore crowd simulation for feature film and look at how this has evolved over the years at Industrial Light & Magic. 
+    We'll hone in on some recent work discussing techniques and best practices for animating masses of characters.
+  speakers:
+    - Jo Plaete
+  room: amphitheatre
+  time:
+    start: "17:15"
+    finish: "18:00"
+
+- title: "TBA: Systemic Design & AI Directors"
+  room: masterclass
+  time:
+    start: "12:00"
+    finish: "12:45"
+
+- title: "Automated Game Balancing"
+  description: >
+    History has shown that players keep playing balanced games as balanced games continue to challenge players to try different strategies, because none are dominant. 
+    Automated game balancing is the next level of game balancing. In the 21st century with numerous games hitting the market, using automated game balancing can make a game 
+    stand out of the crowd. Ludible developed this technique that gives the game designer control over all game values by only having to think in terms of game constraints, 
+    like: “You should be able to reach the age of 60 even by making the most unhealthy choices”, rather than “The value of ‘x’ should be 1.2 instead of 1.1”.
+    In this talk I will show how automated game balancing works and how to let the game logic work as it was intended by the game designer, 
+    even though the game constraints can be subject to change. I will speak in detail about the AI players, simulation techniques and of course the dynamic balancing algorithm.
+  speakers:
+    - Johan van der Beek
+  room: masterclass
+  time:
+    start: "09:15"
+    finish: "09:45"
+
+- title: "(Mis)adventures in Building Smarter Tools: AI-Driven Automated Testing"
+  description: >
+    Wisdom gathered from our attempts at using learning and AI to help out in production, with a focus on passing the responsibility of automated testing to an AI. 
+    What worked (and what didn't) in trying to alleviate QA workload and get better feature coverage.
+  speakers:
+    - Radu Danciu
+  room: masterclass
+  time:
+    start: "15:00"
+    finish: "15:30"
+
+- title: "Intelligent Tools for Game Designers"
+  description: >
+    In this talk, I will present the results of, and lessons learned on the development of intelligent tools to support designers in their creative design process.  Through the lense of four case studies, you'll learn about strengths and weaknesses of automated tools and human designers, and how they can complement each other.  In addition to discussing the results and insights from this project, I will also briefly outline how we plan to address remaining and new challenges in a new applied research project, called Live Game Design. 
+  speakers:
+    - Anders Bouwer
+  room: masterclass
+  time:
+    start: "15:30"
+    finish: "16:00"
+
 - title: "It’s in the Vents: The AI of Alien Isolation"
   description: >
     Alien Isolation relies on systemic AI to deliver tension and scares.  We look at the
     processes, techniques and decisions involved in delivering a systemic experience
     that would traditionally be scripted.
-  speakers:
-    - Andy Bray
+# speakers:
+#  - Andy Bray
   room: amphitheatre
   time:
-    start: "??:??"
-    finish: "??:??"
+    start: "09:45"
+    finish: "10:30"

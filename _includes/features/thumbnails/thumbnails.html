@@ -1,6 +1,7 @@
 {% if itemsInRow %} {% else %} {% assign itemsInRow = 3 %} {% endif %}
 
 {% for it in items %}
+    {% assign thumbnail = nil %}
     {% case dataType %}
         {% when "people" %}
             {% if items != site.data.people %} {% comment %} items are filtered {% endcomment %}
@@ -30,7 +31,7 @@
             {% capture href %}/track/{{ thumbnail.id | escape }}/{% endcapture %}
             {% if attachDescription %} {% assign status = "enabled" %} {% endif %}
     {% endcase %}
-
+    {% if thumbnail != nil %}
     {% if thumbnail.disabled or disableAll %} 
         {% capture href %}{% endcapture %}
         {% assign status = "disabled" %}
@@ -108,7 +109,9 @@
                 </p>
             </item>
     {% endif %}
-    
+    {% endif %}
+
+
     {% capture modulo %}{{ forloop.index | modulo:itemsInRow }}{% endcapture %}
     {% if modulo == '0' or forloop.last == true %}
         <div class="brk" style="clear: both; width: 100%;"></div>
