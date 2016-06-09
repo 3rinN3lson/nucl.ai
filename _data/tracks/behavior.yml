@@ -18,8 +18,8 @@
     - Claudia Doppioslash
   room: masterclass
   time:
-    start: "09:15"
-    finish: "10:00"
+    start: "11:30"
+    finish: "12:00"
 
 - title: "Seamless Merging of Behavior Trees and Imperative Code"
   description: >
@@ -63,8 +63,8 @@
     - Charles Hinshaw
   room: masterclass
   time:
-    start: "11:30"
-    finish: "12:00"
+    start: "09:15"
+    finish: "10:00"
 
 - title: "Server-Side Character Behavior in THE DIVISION"
   room: amphitheatre
