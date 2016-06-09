@@ -460,7 +460,6 @@
 
 - name: Philip Dunstan
   role: speaker
-  confirmed: true
   affiliation:
     position: Senior AI Programmer
     name: Massive Entertainment

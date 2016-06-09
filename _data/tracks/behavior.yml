@@ -5,8 +5,8 @@
     - Mieszko Zielinski
   room: amphitheatre
   time:
-    start: "17:15"
-    finish: "18:00"
+    start: "14:15"
+    finish: "15:00"
 
 - title: "Functional Reactive Programming, or the art of Time Travel(ling Debuggers)"
   description: >
@@ -43,8 +43,8 @@
     - Thomas Petersen
   room: amphitheatre
   time:
-    start: "14:15"
-    finish: "15:00"
+    start: "17:15"
+    finish: "18:00"
 
 - title: "Shooting for DataDriven&sup2;! Evolution of a Modular Weapon System"
   description: >
@@ -71,7 +71,7 @@
     TOM CLANCY'S THE DIVISION throws players into a mid-crisis Manhattan in the aftermath of a devastating pandemic, blending online RPG and third person shooter mechanics in both open world and scripted levels. Hosting the game on dedicated servers was essential for providing a seamless online experience.
     This presentation describes how the NPC behaviors and animation systems have been designed for this client-server architecture and examines the implications for game design, development and production.
     Covered topics include: the challenges of having different physics and animation representations on the client and server, NPC reactions and behaviors, CPU and memory budgets, debugging server-side behaviors, and how this architecture affected production both prior-to and after launch.
-  speaker:
+  speakers:
     - Philip Dunstan
   room: amphitheatre
   time:
