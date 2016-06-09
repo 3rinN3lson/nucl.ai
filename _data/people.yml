@@ -449,6 +449,16 @@
     Petra has a background in business management, and worked as an International Area Manager for a large multi-million dollar corporation.
     She eventually moved on and joined Alex as the co-founder of AiGameDev.com. Petra is the creative force in the team, and takes care of business!
 
+- name: Philip Dunstan
+  role: speaker
+  confirmed: true
+  affiliation:
+    position: Senior AI Programmer
+    name: Massive Entertainment
+    url: http://massive.se
+  bio: >
+    Philip Dunstan is a Senior AI Programmer at Massive Entertainment, a Ubisoft studio. Philip's core interests in AI are NPC behaviors, sensory and reasoning systems, and the tools for debugging complex NPC behaviors. Philip has more than ten years of experience in the games industry, starting as a Physics and Core Technology Engineer at Electronic Arts, before transitioning to AI at AIGameDev.com in 2011 and the joining Massive Entertainment to work on Tom Clancy’s The Division in 2014.
+
 - name: Pierre Gutierrez
   role: speaker
   twitter: prrgutierrez
