@@ -40,14 +40,14 @@
     He has worked as a lecturer, programmer, and researcher for the Human-Computer Studies lab and the Intelligent Systems Lab at the University of Amsterdam, and the Music Computing Lab at the Open University in Milton Keynes (UK). He is currently affiliated with the Amsterdam University of Applied Sciences, where he does research on Automated Game Design and teaches several courses on AI, Mobile Development and Game Technology.
     His research interests include artificial intelligence, human cognition, intelligent learning environments, intelligent multimedia, music interaction, mobile multimodal interaction, procedural content generation, and automated game design.
 
-# - name: Andy Bray
-#   role: speaker
-#   confirmed: false
-#   affiliation: 
-#     position: Lead AI Programmer
-#     name: Creative Assembly
-#   bio: >
-#     Andy started his career at Loughborough University, having achieved a first class degree in Science there. Starting work as a researcher at Loughborough, he then moved on to become a lecturer in programming and AI. Following his time with the university, Andy then embarked on his career within the games industry, since accruing almost 20 years of experience to date. Andy joined Creative Assembly in 2003, where he now resides as Lead AI/Gameplay Programmer. Andy’s work at the studio encompasses titles including Alien: Isolation, Viking: Battle for Asgard and Spartan: Total Warrior, as well as work on the Total War series. 
+- name: Andy Bray
+  role: speaker
+  confirmed: false
+  affiliation: 
+    position: Lead AI Programmer
+    name: Creative Assembly
+  bio: >
+    Andy started his career at Loughborough University, having achieved a first class degree in Science there. Starting work as a researcher at Loughborough, he then moved on to become a lecturer in programming and AI. Following his time with the university, Andy then embarked on his career within the games industry, since accruing almost 20 years of experience to date. Andy joined Creative Assembly in 2003, where he now resides as Lead AI/Gameplay Programmer. Andy’s work at the studio encompasses titles including Alien: Isolation, Viking: Battle for Asgard and Spartan: Total Warrior, as well as work on the Total War series. 
 
 - name: Carol O'Sullivan
   role: speaker
