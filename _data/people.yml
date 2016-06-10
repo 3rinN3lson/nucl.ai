@@ -47,7 +47,16 @@
 #     position: Lead AI Programmer
 #     name: Creative Assembly
 #   bio: >
-#     Andy is a Lead AI Programmer at Creative Assembly. He worked on the Xenomorph behavior for Alien: Isolation. 
+#     Andy started his career at Loughborough University, having achieved a first class degree in Science there. Starting work as a researcher at Loughborough, he then moved on to become a lecturer in programming and AI. Following his time with the university, Andy then embarked on his career within the games industry, since accruing almost 20 years of experience to date. Andy joined Creative Assembly in 2003, where he now resides as Lead AI/Gameplay Programmer. Andy’s work at the studio encompasses titles including Alien: Isolation, Viking: Battle for Asgard and Spartan: Total Warrior, as well as work on the Total War series. 
+
+- name: Carol O'Sullivan
+  role: speaker
+  affiliation:
+    position: Professor of Visual Computing
+    name: Trinity College Dublin
+    url: http://isg.cs.tcd.ie/cosulliv/
+  bio: >
+    Carol O’Sullivan is the Professor of Visual Computing at Trinity College Dublin, where she has been on the faculty since 1997. From 2013-2016 she was a Senior Research Scientist with Disney Research Los Angeles, and also spent time in the Movement Research Lab in Seoul National University as a Visiting Professor from 2012-2013. Her research interests include perception, animation, virtual humans, and crowds. She was the co-Editor in Chief of the ACM Transactions on Applied Perception, and was formerly Associate EIC of IEEE CG&A. She has served on many editorial boards and program committees, including the SIGGRAPH and Eurographics papers committees, and has been program or general chair for several conferences, e.g., Eurographics, ACM Symposium on Computer Animation, ACM Symposium on Applied Perception, and others.
 
 - name: Charles Hinshaw
   role: speaker

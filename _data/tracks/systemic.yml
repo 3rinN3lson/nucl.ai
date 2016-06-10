@@ -1,4 +1,6 @@
-- title: "TBA: Perception of Simulation Details"
+- title: "Generating and Evaluating Variety for Crowd Simulation"
+  description: >
+    In this talk I will present recent research from Trinity College Dublin and Disney Research on variety in crowd animation. I’ll talk about the way in which people perceive human bodies, motions and behaviors, and how best to reuse resources (e.g., models, mocap data, audio…) in such a way as to maximize the impression of a heterogeneous crowd of people. The talk will also explore how best to evaluate the realism of the resulting crowd simulations, both quantitatively and qualitatively (e.g., through perceptual experiments).
   speakers:
      - Carol O'Sullivan
   room: amphitheatre
