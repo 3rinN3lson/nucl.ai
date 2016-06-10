@@ -68,6 +68,17 @@
   bio: >
     Charles Hinshaw is game developer and software designer. He is based in Copenhagen, Denmark, where it is nearly always dark and rainy.
 
+- name: Chris Seddon
+  role: speaker
+  twitter: shwasasin
+  affiliation:
+    position: Team Lead Programmer
+    name: Ubisoft Toronto
+    url: http://far-cry.ubisoft.com/primal/en-us/home/
+  bio: >
+    Chris Seddon is a Team Lead Programmer at Ubisoft Toronto focused on creating artificial intelligence that helps make games more realistic and fun to play. Chris joined the studio in 2013 as a Senior Gameplay Programmer creating intelligent companions and creatures for Far Cry 4 with Shangri-La and most recently on Far Cry Primal with the fan-favourite Beast Master feature. 
+    Prior to joining Ubisoft, Chris started his career programming GPS tracking tools for an agricultural software company.  Making games since the age of 15, Chris made the decision to follow his passion, joining the video game industry where he worked on multiple award-winning video games including Bioshock 2, The Darkness 2, Star Trek, FIFA Soccer, Tiger Woods 2006 and 2007, Madden 2008 and NCAA 2008. Chris is a computer programming graduate of Seneca College in Toronto. 
+
 # - name: Christian Rothe
 #   role: speaker
 #   affiliation:
