@@ -1,10 +1,65 @@
-#- title: "Building A Galaxy: Procedural Generation in No Man's Sky"
-#  description: >
-#    <p>No Man's Sky is a science-fiction game about exploration and survival set in a vast procedurally generated galaxy. This case study summarises the numerous challenges we have faced in creating a dynamic game world which is not only varied and interesting but also consistent and artist-driven.</p>
-#    <p>This talk will discuss our approach to on-the-fly procedural content generation, from the scale of a solar system down to tiny planetary details. We'll explain how overlapping systems can work in concert, demonstrating the effectiveness of straightforward generation techniques as well as highlighting areas where more tailored approaches have proved effective.</p>
+- title: "Building Worlds in 64kB: Why Humans Should Never Have to Touch Pixels or Polygons"
+  description: >
+    How do you fit complex geometry, physically based materials, animation and physics simulations in 64 kilobytes*? This talk will show the all-procedural workflow behind some recent demoscene productions. We will explore the techniques behind "asset-free" content creation used by the demogroup mercury for their recent 64k production "fermi paradox" and others, which will mainly consist of live coding, fiddling with the content, and telling demoscene battle stories from recent productions.
+    We will see how exclusively using procedural techniques results in preserved semantics instead of pushing-around of heaps of meaningless data. We will discuss how the ability to change any content at any stage in production - with instant turnaround times with no baking and no modes - affects the creative process. And we will determine how much of that is specific to this unique discipline or actually transferable to game or movie production.
+    Basically: Humans should never have to touch pixels or polygons.
+    *as well as the full-fledged physically based shading system, the synthesizer and the music.
+  speakers:
+    - Johann Korndörfer
+  room: amphitheatre
+  time:
+    start: "16:30"
+    finish: "17:15"
+
+- title: "Image Synthesis with Convolutional Neural Networks [Workshop]"
+  description: >
+    In this hands-on workshop, you'll learn about and experiment with algorithms that use convolutional neural networks to generate images: from photo-realistic textures, to style transfer on portraits, or even up-sampling pixel art. You'll learn about the underlying neural architectures,
+    how they are trained, and how you can modify them to get the results you want too!
+  speakers:
+    - Noor Shaker
+    - Alex J. Champandard
+  room: laboratories
+  time:
+    start: "09:15"
+    finish: "11:00"
+
+- title: "Integrating Houdini with Unreal Engine 4" 
+  description: >
+    In this talk Ensar will explain how to execute Houdini projects from Unreal Engine, and translate generated Houdini assets to make it readable by Unreal. Various methods used will be explained that made it possible to create an Unreal Engine plugin capable of procedurally set dressing assets with the power of Houdini. Next to explaining methods used to make this possible, methods that failed to work as intended to achieve this will also be discussed.
+  speakers:
+    - Ensar Akkaya
+  room: masterclass
+  time:
+    start: "12:00"
+    finish: "12:45"
+
+- title: "Techne: An Art Commune by Bots, for Bots"
+  description: >
+    Art bots are undeniably cool! We put the minds of an artist inside of a machine, and they make art for us!
+    But since when do artists live in a sealed box?  Real artists have colleagues, form artist colonies, learn from each other, grow and develop and change their practices, and obsess over the artists that they wish they could be.  We started with Rob Saunders’ classic creative-agent-in-communities work and extended it to build a mad experiment in which bots not only produce and evaluate art, but can see the “process” of other bots’ art generators, critique it, borrow pieces, and modify their own art production code with what they’ve learned.  Along the way we’ve discovered or implemented phenomena like self-loathing artists, critics and evangelists, bots with “blue periods” that they grow out of, and bots making hard choices between pleasing the critics and staying true to their own desires.  
+  speakers:
+    - Kate Compton
+  room: amphitheatre
+  time:
+    start: "15:00"
+    finish: "15:45"
+
+- title: "TBA: Indie Procedural Content Generation"
+  room: masterclass
 #  speakers:
-#    - Hazel McKendrick
-#  room: amphitheatre
-#  time:
-#    start: "15:00"
-#    finish: "15:45"
+#    - Martin Skytte Kristensen
+  time:
+    start: "17:15"
+    finish: "18:00"
+
+- title: "TBA: AAA Procedural Asset Pipelines [Keynote]"
+  room: amphitheatre
+  time:
+    start: "11:15"
+    finish: "12:00"
+
+- title: "Best Practices in Generative Pipelines Roundtable"
+  room: laboratories
+  time:
+    start: "14:15"
+    finish: "15:00"

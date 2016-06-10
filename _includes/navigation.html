@@ -16,14 +16,12 @@
                     </div>
                 </item>
        
-                {% comment %}
-
                 {% if page.name == 'overview.html' or page.name == 'events.html' or page.name == 'tracks.html' or page.name == 'schedule.html' or isTrackPage %}
                     <item class="selected">
                 {% else %}
                     <item>
                 {% endif %}
-                    <a href="" class="expandable disabled"> Program </a>
+                    <a href="" class="expandable"> Program </a>
                     <div class="dropdown">
                         <div class="menu">
                             <div class="menu-wrap">
@@ -35,7 +33,7 @@
                                 {% else %}
                                     <div class="table item">
                                 {% endif %}
-                                    <a href="{{ '/program/overview/' | prepend: site.baseurl }}"> Overview </a>
+                                    <a class="" href="{{ '/program/overview/' | prepend: site.baseurl }}"> Overview </a>
                                 </div>
                                 {% if page.name == 'tracks.html' %}
                                     <div class="table selected item">
@@ -56,14 +54,12 @@
                                 {% else %}
                                     <div class="table item">
                                 {% endif %}
-                                    <a href="{{ '/program/events/' | prepend: site.baseurl }}"> Events </a>
+                                    <a class="disabled" href="{{ '/program/events/' | prepend: site.baseurl }}"> Events </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </item>
-
-                {% endcomment %}
 
                 {% capture venuePage %}{{site.data.config.edition.venue.id}}.html{% endcapture %}
 
@@ -113,18 +109,20 @@
                 </item>
 
 
+                {% comment %}
                 <item class="">
                     <a href="{{linkPrefix}}#call" class=""> Call for Speakers </a>
                 </item>
+                {% endcomment %}
 
                 <item class="">
                     <a href="{{linkPrefix}}#people"> People </a>
                 </item>
-
+                
                 <item>
-                    <a href="{{linkPrefix}}#sponsors" class="disabled"> Sponsors </a>
+                    <a href="{{linkPrefix}}#sponsors" class=""> Sponsors </a>
                 </item>
-
+                
                 {% if page.name == 'tickets.html'%}
                     <item class="selected static">
                 {% else %}

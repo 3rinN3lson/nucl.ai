@@ -6,5 +6,89 @@
     - Alex Zook
   room: amphitheatre
   time:
-    start: "??:??"
-    finish: "??:??"
+    start: "12:00"
+    finish: "12:45"
+
+- title: "Beyond Churn Prediction: An Introduction to Uplift Modelling"
+  description: >
+    <p>In the games industry, a common approach to diminishing player churn is to use machine learning to score users based on their churn potential and to then target them with specific messaging or offers. However, this approach may be ineffective since it does not optimise what is called "true lift" or "uplift" : the expected incremental gain when the potential churner is targeted.</p>
+    <p>This talk aims at introducing uplift modelling and will cover most of the theory (how to create the machine learning model and how to evaluate it) as well as practical concerns (when uplift is profitable, the data needed, A/B test design...). It will be illustrated with a real example from a mission at Ankama for reducing player churn in the MMORPG Dofus.</p>
+  speakers:
+    - Pierre Gutierrez
+  room: masterclass
+  time:
+    start: "10:00"
+    finish: "10:30"
+
+- title: "Capturing, Analysing and Imitating Emergent Playstyles in Card Games"
+  description: >
+    <p>AI Factory's Spades game on mobile is currently the top rated Spades game in the Google Play store. In collaboration with the developers, we have collected gameplay data from 27 592 games and statistics regarding wins/losses for 99 866 games using Google Analytics. Using the data collected, an initial study analysed the difficulty and behaviour of an Information Set Monte Carlo Tree Search (ISMCTS) player we developed and deployed in the game previously. In doing so we noted significant differences in the playstyle of the ISMCTS player when compared to the emerging playstyles of the human playerbase. In this talk I will focus on how we clustered decision tree representations of player behaviour and biased the ISMCTS to reduce this difference whilst maintaining the playing strength of the previous un­biased ISMCTS.</p>
+  speakers:
+    - Sam Devlin
+  room: masterclass
+  time:
+    start: "16:15"
+    finish: "16:45"
+
+- title: "Estimating the Cross Channel Effect of TV Advertising Campaigns for Mobile"
+  description: >
+    <p>Tracking the effects due to television in an automated manner is a central problem of television advertising. This issue is especially important in digital economy, like mobile games, where almost all the conversion funnel happen online with the exception of offline communication.  Without quantification of television effects, marketers may fail to effectively use both online and offline channels. We propose a method to estimate the effect of each TV spot emission on a multichannel campaign. The probabilistic approach allows to measure the impact of overlapping communications in television isolating the effect from digital marketing actions. The method outperforms the traditional attribution method and direct response models. Our method allows a dynamic optimization of broadcast advertising campaign with a high granularity.</p>
+  speakers:
+    - Santiago Murillo
+  room: masterclass
+  time:
+    start: "10:30"
+    finish: "11:00"
+
+- title: "TBA: Analytics & Data-Science Track"
+  speakers:
+    - Bill Grosso
+  room: masterclass
+  time:
+    start: "16:45"
+    finish: "17:15"
+
+- title: "People Play, People Talk? A Deep Dive on Organic Downloads"
+  description: >
+    <p>Players not coming from user acquisition are key for marketability of a game in light of the struggle to keep lifetime value above effective cost per install. Unfortunately, data on these users is sparse. It is mostly unknown why they download an app. Did they hear about it through family and friends (word-of-mouth)? Did they discover it on the App/Play Store? Did they watch a TV ad? Do they know your brand and searched for it? This talk focuses on what is widely regarded as the most important source of organic downloads in the mobile app ecosystem: word-of-mouth. More precisely, it looks into the share of word-of-mouth in organic downloads and the quality of the resulting traffic. Finally, a framework of the drivers of word-of-mouth for mobile apps is sketched.</p>
+  speakers:
+    - Julian Runge
+  room: amphitheatre
+  time:
+    start: "09:15"
+    finish: "10:00"
+
+- title: "Using a Genetic Algorithm in 10 vs. 10 Matchmaking in TOTAL WAR: ARENA"
+  description: >
+     <p>Based on work on Total War: Arena, Christian Rothe will talk about his experience implementing a genetic algorithm to search for good solutions for 10 vs. 10 multiplayer matchmaking based on multidimensional optimization criteria. The talk will cover modelling the problem space to the GA approach and touch non­obvious pitfalls encountered during implementation and performance optimization.</p>
+  speakers:
+    - Christian Rothe
+  room: masterclass
+  time:
+    start: "14:15"
+    finish: "15:00"
+
+- title: "Userbase Modeling & Statistical Analysis Roundtable"
+  speakers:
+    - Heather Stark
+  room: laboratories
+  time:
+    start: "11:30"
+    finish:  "12:00"
+
+- title: "Individual Profiling and Modeling Roundtable"
+  speakers:
+    - Heather Stark
+  room: laboratories
+  time:
+    start: "15:00"
+    finish:  "15:45"
+
+
+- title: "Future Directions and Machine Learning"
+  speakers:
+    - Heather Stark
+  room: laboratories
+  time:
+    start: "17:15"
+    finish:  "17:45"

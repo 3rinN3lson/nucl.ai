@@ -89,9 +89,10 @@
 - id: animation
   title: "Character Animation"
   subtitle: >
-    Join experts from Crytek and Epic Games for a day-long course on best-practices for
-    procedural motion, animating for VR, runtime I.K. rigs, and techniques for working
-    with motion capture.
+    Join experts from Remedy Entertainment, Crytek VR and Epic Games for a day-long course
+    on best-practices for procedural motion, animating for VR, runtime I.K. rigs, and
+    techniques for working with motion capture.  Whether you're working on games, feature
+    film or simulations these sessions will bring you up-to-speed and beyond!
   description: >
     With the advent of virtual reality and its requirement for more immersive characters,
     as modern hardware provides more computation and memory than ever before, and thanks
@@ -137,7 +138,7 @@
     - MASA Group
     - CCP Games
 
-- id: understanding
+- id: cognitive
   title: "Cognition, Bots & Understanding"
   subtitle: >
     Apple Siri, IBM Watson, Amazon Alexa... More and more humans interacts with Intelligent Personal Assistants! 
@@ -171,6 +172,22 @@
     title: IBM Watson
     url: http://www.ibm.com/smarterplanet/us/en/ibmwatson/
   companies:
+    - Google Brain
+    - Recast.ai
+    - INRIA Research Lab
+    - Deep Mind
+    - University of Essex
+    - Siemens
+    - Microsoft Studios
+    - MASA Group
+    - XVR Simulation
+    - King.com
+    - University of York
+    - Craft.ai
+    - Scientific Revenue
+    - Jagex
+    - Zynga
+    - University of Amsterdam
 
 - id: storytelling
   title: "Dynamic Dialog & Storytelling"
@@ -210,6 +227,8 @@
   companies:
     - Ubisoft Montreal
     - Square Enix
+    - Warhorse Studios
+    - University of Santa Cruz
     - Moving Picture Company
     - CD Projekt Red
     - Microsoft Game Studios
@@ -224,7 +243,7 @@
     - MASA Group
     - CCP Games
 
-- id: systems
+- id: systemic
   title: "Generative Systems & Design"
   subtitle: >
     Join experts from Industrial Light & Magic and the VFX industry, Creative Assembly
@@ -357,10 +376,10 @@
 - id: decisions
   title: "Real-time Decisions"
   subtitle: >
-    Join experts from Microsoft Studios, Creative Assembly, Lionhead and the Universities
-    of Essex and Dortmund for a day-long course on state-of-the-art techniques in decision making
-    from Monte-Carlo Tree Search to Deep Reinforcement Learning or neural networks, why and
-    how they can be applied in interactive applications.
+    Join experts from the games and mobile industry, leading researchers for a day-long
+    course on state-of-the-art techniques in decision making from evolutionary algorithms
+    to Deep Learning with neural networks, why and how they can be applied in interactive
+    applications.
   description: >
     How do you build your simulation to respond to user input at interactive rates,
     especially if it needs to make intelligent decisions?  Artificial intelligence

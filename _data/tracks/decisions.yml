@@ -1,23 +1,93 @@
-#- title: "Drivatar and Machine Learning Racing Skills in the Forza Series"
-#  description: >
-#    The Forza Drivatar technology powering games in the Forza Horizon and Forza Motorsport series
-#    is based on machine learning. It enables gameplay beyond robotic drivers and ghost replays by
-#    learning player- and style-specific Drivatars that can compete with friends.  This presentation
-#    will go behind the scenes in the development of Forza Drivatar, explaining the approach from a
-#    technical perspective as well as the design and integration with the gameplay.
-#  speakers:
-#    - Jeffrey Schlimmer
-#  room: amphitheatre
-#  time:
-#    start: "11:00"
-#    finish: "12:00"
-
-- title: "Attacking Walled Cities in Total War: Warhammer"
+- title: "Expanding the Frontier of Environment Query Systems"
   description: >
-    A city siege battle is a complex machine of roles, responsibilities, and reactions on a large scale, 
-    involving armies of hundreds or even thousands of individual men. This talk will cover the AI 
-    architecture used in Total War: Warhammer to deal with the inherent complexities of this particular 
-    battle type. We will cover the general Battle AI architecture before diving deep into specific examples 
-    of the attacking Siege Battle AI. Finally, we will share some hard-earned development advice for AI programmers.
+    As spatial query systems such as EQS (Unreal Engine 4), TPS (CryEngine), and PQS (Luminous Studio) have matured, 
+    auto-generated spatial queries are increasingly relied upon for robust dynamic position selection. We present a 
+    series of techniques and extensions to these systems used by Square Enix to produce novel behaviors and improve 
+    position selection in our current generation of AAA RPG titles. In addition, we have expanded UE4’s Environment 
+    Query System to serve as a general-purpose utility system; we show how minor modifications allowed the team to 
+    use EQS to coordinate combat, reduce behavior tree complexity with a hybrid BT/US approach, and increase character 
+    AI quality for a range of tasks such as action and target selection. Attendees will learn how to get the most out 
+    of modern spatial query systems with a combination of new techniques and best practices to maximize quality and 
+    extend their application to new areas. 
   speakers:
-    - Andre Arsenault
+    - Eric Johnson
+  room: amphitheatre
+  time:
+    start: "10:00"
+    finish: "10:45"
+
+- title: "The How and Why of Server Validation for Mobile Simulations"
+  description: >
+    First we will discuss the how and the why of simple mobile simulation game economy, something that you 
+    might find in every farming game. Then, we will spice it up with some real time decision making and how 
+    it influences the challenge of server validation. We will have a look at how reusing code on server and 
+    client, by implementing deterministic simulations, can make our life much easier. We wrap it up with an 
+    extreme example where an economy and a battle is based on real time simulations. Expect to see technical 
+    details about efficient data serialisation, how to implement deterministic simulations and much more.
+  speakers:
+    - Maxim Zaks
+  room: masterclass
+  time:
+    start: "11:30"
+    finish: "12:00"
+
+- title: "TBA: Expert Panel Discussion & Roundtable"
+  speakers:
+    - Diego Perez
+  room: laboratories
+  time:
+    start: "12:00"
+    finish: "12:45"
+
+- title: "Online Evolution for Hero Academy and Multi-Action Games"
+  description: >
+    Tree-search algorithms are widely used for decision making in turn-based strategy games. These algorithms 
+    do however not perform well for games with millions of possible moves each turn. This talk will explain 
+    and show how an evolutionary algorithm, that we call Online Evolution, is used to make a game-playing 
+    agent for Hero Academy; a game with around 1 billion possible moves each turn. Online Evolution searches 
+    the space of possible action sequences that make up a single turn of the game using a genetic algorithm. 
+    This approach looks very promising for this class of game and has been shown to outperform several 
+    standard tree-search algorithms. 
+  speakers:
+    - Niels Justesen
+  room: masterclass
+  time:
+    start: "09:15"
+    finish: "10:00"
+
+- title: "Computer Go: from Influence Functions to AlphaGo" # Chess & Go
+  description: >
+    Computer Go is a game that has been used for many years as a challenge for AI. AlphaGo has received 
+    significant press coverage lately, after achieving a victory that surprised many experts in the field. 
+    But progress and work within the Go community, pushing the boundaries of research in this game, has 
+    been steady over the years before this breakthrough. In this talk, we will review the progress and 
+    paradigm shifts from the early days of computer Go to the recent victory of AlphaGo using Deep Learning 
+    and Monte Carlo Tree Search, and we will outline possible future directions on this field.
+  room: amphitheatre
+  speakers:
+    - Tristan Cazenave
+  time:
+    start: "15:00"
+    finish: "15:45"
+
+- title: "Hands-On Deep Q-Learning in DOOM [Workshop]"
+  description: >
+    ViZDoom is a Doom-based platform for research in visual learning and visual reinforcement learning, in particular. It allows developing bots that play DOOM using only the raw visual information.
+    In this hands-on workshop, you will have an opportunity to experiment with ViZDoom, learn how to connect it with a deep Q-learning framework, and to train your own vision-only bot in a simple scenario. 
+  room: laboratories
+  speakers:
+    - Wojciech Jaśkowski
+  time:
+    start: "16:00"
+    finish: "18:00"
+
+- title: "Advances in Deep Reinforcement Learning"
+  description: >
+    The advances in Deep Reinforcement Learning (DRL) allowed recently to obtain highly competent agents for, among others, Atari games and Go. Conveniently from the practical perspective, these methods involve little domain knowledge, being able to learn from raw visual information such as the game board or the screen buffer.
+    After briefly introducing the reinforcement learning problem, the talk will overview the state-of-the-art methods and results in deep reinforcement learning. The final part will be devoted to the recent results in learning to play Doom from raw visual information.
+  room: masterclass
+  speakers:
+    - Wojciech Jaśkowski
+  time:
+    start: "14:15"
+    finish: "15:00"

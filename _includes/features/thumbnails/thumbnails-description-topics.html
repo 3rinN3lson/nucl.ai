@@ -18,7 +18,7 @@
     {% if desc.disabled %}
         {{ desc.title }}
     {% else %}
-        {% capture xp%}/track/{{desc.id}}/{% endcapture %}
+        {% capture tmpUrl%}/track/{{desc.id}}/{% endcapture %}
         <a href="{{ tmpUrl | prepend: site.baseurl }}">{{desc.title}}</a>
     {% endif %}
     </h2>

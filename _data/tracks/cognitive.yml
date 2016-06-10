@@ -1,0 +1,53 @@
+- title: "Building an Intelligent Memory — A First Step Towards General Artificial Intelligence"
+  description: >
+    At Snips, we are working towards a general-purpose AI that you can query using natural language. Think of it as a bot that understands who you are, and what you want. As a first step, we have built an AI that organises and retrieves your information the same way you do, while protecting your privacy. In this talk, we will go through concrete examples of how we collect this information. We will show how geolocation and textual data can be used to infer the context of a user over time. We will then show how, by giving connected devices access to such knowledge, they start intelligently reacting to their user’s context.
+  speakers:
+    - Joseph Dureau
+  room: amphitheatre
+  time:
+    start: "11:15"
+    finish: "12:00"
+
+- title: "Four Pillars to Building a Solid Conversational Bot"
+  description: >
+    Recently, bots have been making the headlines as the new apps: conversation will play an important role in the next interface between humans and machines. Recast.AI is a collaborative platform allowing developers to create and deploy conversational agents on any channel. In this talk, Paul will approach four major problematics he faced while developing Recast’s bot framework: modeling a conversation, understanding natural language, finding and extracting keywords, and generating language. His presentation will tackle the entire process of bot creation, from it’s global implications to its core technicalities.
+  speakers:
+    - Paul Renvoisé
+  room: masterclass
+  time:
+    start: "16:30"
+    finish: "17:15"
+
+- title: "Sensor as virtual micromachine, universal tool for describing world around agent"
+  description: >
+    <p>Showing "sensors" abstraction on real examples from VBSTactics/VBSControl and NOTA, "their" evolution from the customers use cases to the stage that sensor is just configurable virtual module/machine (own sub-simulation), which is with standardized API provided to AI behaviors creators as a blackbox (simple answering machine).</p>
+    <p>Presenting example solution (following the concept) which was done "on the scripters level" (for people which have no deep AI and programming skills) and which combined with the framework is able to satisfy numerous goals and it still meets the high-performance requirements.</p> 
+  speakers:
+    - Petr Mácha
+  room: masterclass
+  time:
+    start: "14:15"
+    finish: "15:00"
+
+- title: "TBA: Cognitive, Bots & Understanding Track"
+  room: amphitheatre
+  time:
+    start: "15:00"
+    finish: "15:45"
+
+- title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks [Workshop]"
+  description: >
+    In this hands-on workshop, you'll learn about and experiment with Sequence To Sequence transformations using recurrent neural networks. In particular, you'll see how LSTM (Long-Short Term Memory) work in practice to generate text, and how they can be used to model Seq2Seq.  You'll be provided with sample data from social media, specifically Twitter posts and their responses.  Whether you want to learn more about recurrent neural networks, predicting sequences, or just building cool and funny social media bots.
+  speakers:
+    - Clodéric Mars
+    - Alex J. Champandard
+  room: laboratories
+  time:
+    start: "09:15"
+    finish: "11:00"
+
+- title: "TBA: Cognitive, Bots & Understanding Track"
+  room: laboratories
+  time:
+    start: "12:00"
+    finish: "12:45"

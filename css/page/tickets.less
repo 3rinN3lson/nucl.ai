@@ -16,6 +16,8 @@ sections.page section.tickets {
     content {
         .column(12);
         item.ticket-row {
+            .stars { display: none; }
+            &.extras .stars { display: inline; }
             width: 100%;
             float: left;
             div.name {

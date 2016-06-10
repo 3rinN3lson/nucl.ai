@@ -1,7 +1,44 @@
+- day: 1
+  breaks:
+    - name: Coffee Pause <br/> <span>fueled by</span> <br/> Creative Assembly
+      time:
+        start: "10:45"
+        finish: "11:30"
+    - name: Lunch Break
+      time:
+        start: "12:45"
+        finish: "14:15"
+    - name: Coffee Pause <br/> <span>fueled by</span> <br/> Creative Assembly
+      time:
+        start: "15:45"
+        finish: "16:30"
 
-#- day: 1
-#  breaks:
-#    - name: Coffee Pause
-#      time:
-#        start: "13:00"
-#        finish: "13:30"
+- day: 2
+  breaks:
+    - name: Coffee Pause
+      time:
+        start: "10:45"
+        finish: "11:30"
+    - name: Lunch Break
+      time:
+        start: "12:45"
+        finish: "14:15"
+    - name: Coffee Pause
+      time:
+        start: "15:45"
+        finish: "16:30"
+
+- day: 3
+  breaks:
+    - name: Coffee Pause
+      time:
+        start: "10:30"
+        finish: "11:15"
+    - name: Lunch Break
+      time:
+        start: "12:45"
+        finish: "14:15"
+    - name: Coffee Pause
+      time:
+        start: "15:45"
+        finish: "16:30"

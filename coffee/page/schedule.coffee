@@ -31,20 +31,29 @@ $ ->
         
         if talks.length <= 1 then return;
 
+        talks.sort () ->  0.5 - Math.random()
+        available_rooms = ['amphitheatre', 'masterclass', 'laboratories'];
+        talks_order = {
+          'amphitheatre': 0,
+          'masterclass': 0,
+          'laboratories': 0
+        }
         talks.each ->
-          if $(@).attr("time-start") && $(@).attr("time-finish") then day.talks.push $(@) # talks with undefined time are ignored
+          # talks with undefined time are ignored
+          if $(@).attr("time-start") && $(@).attr("time-finish") && $(@).attr("time-start") != "??:??" then day.talks.push $(@)
 
-        # sort by time and append
-        # and remember first start and last end
-        talksStartTime = null
-        talksFinishTime = null
-
+        if day.talks.length == 0 then continue;
 
         for talk in day.talks
           startTime = talk.attr("time-start")
           finishTime = talk.attr("time-finish")
           talk.startDate = new Date(day.attr("date") + "  " + startTime)
           talk.finishDate = new Date(day.attr("date") + "  " + finishTime)
+
+        # sort by time and append
+        # and remember first start and last end
+        talksStartTime = day.talks[0].startDate
+        talksFinishTime = day.talks[0].finishDate
 
         day.talks.sort (a,b) ->
           if talksStartTime == null || talksStartTime > a.startDate then talksStartTime = a.startDate
@@ -217,7 +226,7 @@ $ ->
           interval.removeClass("hovered")
           interval.removeClass("hovered-edge")
         talk.removeClass("hovered")
-           
+
 
       #set up on hover effect
       for day in days
@@ -225,7 +234,7 @@ $ ->
           if talk.find("a").hasClass("wip") then continue
           assignIntervals(talk)
           talk.hover talkHoverStart, talkHoverEnd
-          day.removeClass("not-positioned")
+        day.removeClass("not-positioned")
 
 
 

@@ -4,7 +4,7 @@
     <grid>
         <content>
         <table>
-            {% for news in site.data.news_feed limit:10 %}
+            {% for news in site.data.news_feed %}
                 <tr>
                     {% if news.picture %}
                         <td class="ilustration">

@@ -28,7 +28,7 @@
 <section class="none"></section>
 <section class="tracks-content tracks-text testimonials single-column-testimonials">
     <grid>
-        <h3>Regular Attendees</h3>
+        <h3>Regular &amp; Current Attendees</h3>
         <content>
             <div class="block">
                 <ul>
@@ -96,7 +96,6 @@
     </grid>
 </section>
 
-{% comment %}
 
 <section class="program-schedule track-schedule">
     <a class="anchor" id="schedule"></a>
@@ -112,7 +111,6 @@
     </grid>
 </section>
 
-{% endcomment %}
 
 {% comment %}
 <section class="tracks-content tracks-text call">
@@ -152,7 +150,10 @@
     <grid>
         <h2> Tickets! </h2>
         <content>
-        {% for ticket in site.data.track_price %}
+
+        <p class="bigger wider">Join developers from all over the world and secure your ticket for this year's <a href="/">nucl.ai</a> now!  Three days of artificial intelligence theory and practice packed into three parallel tracks per day with many networking opportunities are waiting for you in Vienna.</p>
+
+        {% for ticket in site.data.tickets_price %}
             {% if ticket.date and ticket.date != "" %} {% capture row_class %} long {% endcapture %} {% else %} {% capture row_class %} short {% endcapture %} {% endif %}
             <item class="ticket-row ticket-price {{row_class}} {{ticket.type}} bigger">
                 {% if ticket.name and ticket.name != "" or ticket.date and ticket.date != "" %} {% capture cell_class %} visible {% endcapture %} {% else %} {% capture cell_class %} invisible {% endcapture %} {% endif %}
@@ -191,16 +192,32 @@
                     </div>
                 </div>
 
+                {% if forloop.first == false %}
+                <div class="single-day table">
+                {% else %}
+                <div class="single-day table titlerow">
+                {% endif %}
+                    <div class="centered-cell small">
+                        <p>
+                            {% if ticket.single_day %}
+                                {{ ticket.single_day }}
+                            {% else %}
+                                -
+                            {% endif %}
+                        </p>
+                    </div>
+                </div>
+
             </item>
         {% endfor %}
+        <div class="table-comments wider">
+            <p class="table-comment">
+                * All Access tickets give you access to all rooms on all days of the conference, Single Day tickets only on the day of your choice. With a conference ticket you can access the main room and the open labs. See <a href="/tickets">here</a> for more details about ticket types and discounts.
+            </p>
+        </div>
 
-        <div style="clear:both;"></div>
-        <div class="tickets-short-table-notes">
-            <h3>Notes</h3>
-            <ul>
-                <li>The main amphitheatre (including some talks in this track) are accessible with regular Conference tickets, starting at €119.</li>
-                <li>Discounts are available for small teams and for those between jobs; email events(at)aigamedev.com for a coupon code.</li>
-            </ul>
+        <div class="ticket-button-wrap bigger">
+            <a href="/tickets/#purchase" class="buy-tickets-link"> Buy Your Tickets Now! </a>
         </div>
 
         </content>
