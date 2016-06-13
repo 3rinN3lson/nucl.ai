@@ -79,23 +79,23 @@
     Chris Seddon is a Team Lead Programmer at Ubisoft Toronto focused on creating artificial intelligence that helps make games more realistic and fun to play. Chris joined the studio in 2013 as a Senior Gameplay Programmer creating intelligent companions and creatures for Far Cry 4 with Shangri-La and most recently on Far Cry Primal with the fan-favourite Beast Master feature. 
     Prior to joining Ubisoft, Chris started his career programming GPS tracking tools for an agricultural software company.  Making games since the age of 15, Chris made the decision to follow his passion, joining the video game industry where he worked on multiple award-winning video games including Bioshock 2, The Darkness 2, Star Trek, FIFA Soccer, Tiger Woods 2006 and 2007, Madden 2008 and NCAA 2008. Chris is a computer programming graduate of Seneca College in Toronto. 
 
-# - name: Christian Rothe
-#   role: speaker
-#   affiliation:
-#    position: Data Scientist
-#     name: Creative Assembly
-#     url: http://www.creative-assembly.com/
-#   bio: >
-#     Christian is currently working at Creative Assembly on the upcoming Total War: Arena title. His main interest lies with highly scalable online systems, but he also enjoys all kinds of other challenges (which brings him to nucl.ai). Prior to joining Creative Assembly, Christian worked as a freelancer on a variety of game and non-game projects, co-founded a startup and worked at SAP.
+- name: Christian Rothe
+  role: speaker
+  affiliation:
+    position: Data Scientist
+    name: Creative Assembly
+    url: http://www.creative-assembly.com/
+  bio: >
+    Christian is currently working at Creative Assembly on the upcoming Total War: Arena title. His main interest lies with highly scalable online systems, but he also enjoys all kinds of other challenges (which brings him to nucl.ai). Prior to joining Creative Assembly, Christian worked as a freelancer on a variety of game and non-game projects, co-founded a startup and worked at SAP.
 
-#- name: Charles Tangora
-#  role: speaker
-#  affiliation: 
-#    position: Senior Programmer
-#    name: Hello Games
-#    url: http://www.hellogames.org/
-#  bio: >
-#   Charlie Tangora has worked in the game industry since 2006. He currently works on animation, gameplay, and physics systems at Hello Games. Previously, he worked as a programmer at Naughty Dog and interned at Midway Games in Chicago. He studied computer science at the University of Illinois at Urbana-Champaign.
+- name: Charles Tangora
+  role: speaker
+  affiliation: 
+    position: Senior Programmer
+    name: Hello Games
+    url: http://www.hellogames.org/
+  bio: >
+    Charlie Tangora has worked in the game industry since 2006. He currently works on animation, gameplay, and physics systems at Hello Games. Previously, he worked as a programmer at Naughty Dog and interned at Midway Games in Chicago. He studied computer science at the University of Illinois at Urbana-Champaign.
 
 - name: Claudia Doppioslash
   role: speaker
