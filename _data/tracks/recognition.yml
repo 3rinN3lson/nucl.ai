@@ -34,7 +34,12 @@
     start: "09:15"
     finish: "11:15"
 
-- title: "TBA: Augmented Reality Devices"
+- title: "Augmented Reality Devices and Project Tango"
+  description: >
+    (Full talk description to be announced shortly.)
+  speakers:
+    - Jannes Nagel
+    - Norman Wang
   room: masterclass
   time:
     start: "15:00"
