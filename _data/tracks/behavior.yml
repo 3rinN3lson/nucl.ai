@@ -8,12 +8,12 @@
     start: "14:15"
     finish: "15:00"
 
-- title: "Functional Reactive Programming, or the art of Time Travel(ling Debuggers)"
+- title: "Time Traveling Debuggers for Agent-based Games"
   description: >
     In 2012, Bret Victor's talk "Inventing on Principle" showed the ideal future of debugging: time travel. Being able to scrub through all the past states of your program, fix the bug, hot-reload the code and see the change applied to all the past states as well.
     Since then, only one implementation of it has appeared, for Elm, a Functional Reactive Programming language.
-    FRP makes Time Travelling debuggers much cheaper to implement, making them viable for actual game development.
-    In this talk we'll look at how to use FRP and time travelling debuggers to make agent-based games.
+    The principles of FRP make Time Travelling debuggers much cheaper to implement, making them viable for actual game development.
+    In this talk we'll look at what concepts it takes to implement one in Erlang, and how to use them to make agent-based games.
   speakers:
     - Claudia Doppioslash
   room: masterclass
