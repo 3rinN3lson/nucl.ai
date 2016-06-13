@@ -45,3 +45,9 @@
   time:
     start: "09:15"
     finish: "11:00"
+
+- title: "TBA: Cognitive, Bots & Understanding Track"
+  room: laboratories
+  time:
+    start: "12:00"
+    finish: "12:45"

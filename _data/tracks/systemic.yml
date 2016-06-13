@@ -1,10 +1,3 @@
-- title: "TBA: Perception of Simulation Details"
-  speakers:
-     - Carol O'Sullivan
-  room: amphitheatre
-  time:
-    start: "14:15"
-    finish: "15:00"
 
 - title: "Crowd Control for Feature Film at ILM"
   description: >
@@ -17,11 +10,25 @@
     start: "17:15"
     finish: "18:00"
 
-- title: "TBA: Systemic Design & AI Directors"
+- title: "Animal House: Creating Intelligent AI-driven Companions in Far Cry Primal"
+  description: >
+    Ubisoft's recently released title Far Cry Primal introduced 17 animal companions, many of which had unique abilities and play styles. This talk will describe the development process the team undertook from conception to design to implementation, to create what is now known as the Beast Master feature. Attendees will leave with an understanding of our team’s approach to multi-studio development, our battles with systemic vs. directed behaviours, and how we overcame struggles to achieve the dream of creating the ultimate "weapon".
+  speakers:
+     - Chris Seddon
   room: masterclass
   time:
     start: "12:00"
     finish: "12:45"
+
+- title: "Generating and Evaluating Variety for Crowd Simulation"
+  description: >
+    In this talk I will present recent research from Trinity College Dublin and Disney Research on variety in crowd animation. I’ll talk about the way in which people perceive human bodies, motions and behaviors, and how best to reuse resources (e.g., models, mocap data, audio…) in such a way as to maximize the impression of a heterogeneous crowd of people. The talk will also explore how best to evaluate the realism of the resulting crowd simulations, both quantitatively and qualitatively (e.g., through perceptual experiments).
+  speakers:
+     - Carol O'Sullivan
+  room: amphitheatre
+  time:
+    start: "14:15"
+    finish: "15:00"
 
 - title: "Automated Game Balancing"
   description: >
@@ -64,9 +71,21 @@
     Alien Isolation relies on systemic AI to deliver tension and scares.  We look at the
     processes, techniques and decisions involved in delivering a systemic experience
     that would traditionally be scripted.
-# speakers:
-#  - Andy Bray
+  speakers:
+    - Andy Bray
   room: amphitheatre
   time:
     start: "09:45"
     finish: "10:30"
+
+- title: "TBA: Augmenting Design & Testing with AI-Powered Tools"
+  room: laboratories
+  time:
+    start: "16:30"
+    finish: "17:15"
+
+- title: "TBA: Generative & Systemic Design Track"
+  room: laboratories
+  time:
+    start: "11:15"
+    finish: "12:00"
