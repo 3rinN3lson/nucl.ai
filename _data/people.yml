@@ -409,13 +409,6 @@
   bio: >
     Niels Justesen holds a B.Sc. in Software Development and just recently finished his M.Sc. in Games Technology at the IT University in Copenhagen. Here he pursued his interests in Game AI and has two peer-reviewed conference publications about game playing algorithms in strategy games. Now he works as a software developer at IT-Minds building intelligent applications for their clients. 
 
-- name: Tristan Cazenave
-  role: speaker
-  affiliation:
-    name: Université Paris Dauphine
-  bio: >
-    Professor of artificial intelligence at LAMSADE Universite Paris-Dauphine. Author of more than a hundred scientific papers about artificial intelligence in games. He started to publish commercial video games when he was aged 16 and co-founded a successful web agency in 1992.
-
 - name: Noor Shaker
   role: track
   tracks: [procedural]
@@ -574,7 +567,7 @@
     url: 
   bio: >
     Tomas joined Warhorse studios in 2012 during a cooperation between the Charles University’s Faculty of Mathematics and Physics) on making the simulation of the virtual world as alive as possible. The foundation of Inception AI Engine has emerged as the result of this collaboration, and Tomas continues his works on it as the Lead AI Engineer up to this day. Prior to Warhorse, Tomas worked on research within the Artificial Minds Intelligent Systems Research Group on the topic of Agent Simulations and Behavior Structuring. Tomas continues his scientific work and hopes to finish his PhD thesis which covers internals and ideas of the Inception AI Engine in detail.
-    
+
 - name: Tommy Thompson
   role: track
   tracks: [storytelling]
@@ -585,6 +578,13 @@
     url: http://www.anglia.ac.uk/
   bio: >
     Tommy Thompson is a senior lecturer in computer game technology at Anglia Ruskin University, Cambridge, UK.  He is an AI researcher focussed on machine learning applications in the areas of non-player character behaviour, procedural content generation and relevant benchmarking of AI through games.  Tommy is also the host of the YouTube series 'AI and Games' (www.aiandgames.com/@AIandGames) - looking at interesting applications of AI for games in both academic research and commercial releases - and a game developer at Table Flip Games (@TableFlipGames) when time permits!
+
+- name: Tristan Cazenave
+  role: speaker
+  affiliation:
+    name: Université Paris Dauphine
+  bio: >
+    Professor of artificial intelligence at LAMSADE Universite Paris-Dauphine. Author of more than a hundred scientific papers about artificial intelligence in games. He started to publish commercial video games when he was aged 16 and co-founded a successful web agency in 1992.
 
 - name: Vegard Myklebust
   role: speaker
