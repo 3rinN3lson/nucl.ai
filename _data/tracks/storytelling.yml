@@ -1,3 +1,14 @@
+
+- title: "Computational Narrative Intelligence and the Quest for Human-Centered AI"
+  description: >
+    Storytelling is a pervasive part of the human experience--we as humans tell stories to communicate, inform, entertain, and educate. I hypothesize that narrative intelligence, the ability to understand, create, and respond affectively to narratives, can make it easier for artificial intelligence systems to understand humans and make it easier for humans to understand the behavior of artificial intelligence system. In this talk, I present research on machine learning approaches to story understanding, the creation of novel narrative structures, and using natural language stories to program robots. I will lay out a roadmap for the ways in which computational narrative intelligence can facilitate the creation of intelligent applications that benefit humans and facilitate human-agent interaction.
+  speakers:
+    - Mark Riedl
+  room: amphitheatre
+  time:
+    start: "17:15"
+    finish: "18:00" 
+
 - title: "TransProse: Generating Music From Literature"
   description: >
     TransProse is a program that generates music from novels. It works by identifying emotions throughout a novel, and using that underlying emotional structure to create musical pieces with the same emotional tone. In this talk Hannah will present the algorithm behind TransProse, discuss the process of generating music from data, and examine how the field of data sonification can be a valuable tool in artistic spaces.
@@ -29,16 +40,6 @@
   time:
     start: "14:00"
     finish: "16:00"
-
-- title: "Computational Narrative Intelligence and the Quest for Human-Centered AI"
-  description: >
-    Storytelling is a pervasive part of the human experience--we as humans tell stories to communicate, inform, entertain, and educate. I hypothesize that narrative intelligence, the ability to understand, create, and respond affectively to narratives, can make it easier for artificial intelligence systems to understand humans and make it easier for humans to understand the behavior of artificial intelligence system. In this talk, I present research on machine learning approaches to story understanding, the creation of novel narrative structures, and using natural language stories to program robots. I will lay out a roadmap for the ways in which computational narrative intelligence can facilitate the creation of intelligent applications that benefit humans and facilitate human-agent interaction.
-  speakers:
-    - Mark Riedl
-  room: amphitheatre
-  time:
-    start: "17:15"
-    finish: "18:00" 
 
 - title: "TBA: Text, Dialog & Storytelling Track" # Facebook Timeline Fiction
   room: masterclass

@@ -199,10 +199,11 @@
 
 - name: Hannah Davis
   role: speaker
+  twitter: ahandvanish
   affiliation:
-#    position: Independent
-#    name: TransProse
-#    url: http://www.musicfromtext.com/
+    position: Programmer / Artist / Musician
+    name: Independent
+    url: http://www.musicfromtext.com/
   bio: >
     Hannah Davis is a programmer/artist/musician based in New York. She is interested in everything, but at the moment is focused on data sonification, generative music, weird datasets, and possible futures. She is currently working on TransProse, a program that translates literature into music. She has a master's degree from NYU's ITP program and her work has been featured in TIME, Wired, Popular Science, and others.
 
