@@ -20,7 +20,7 @@
             {% assign escapedName = escaped %}
 
             {% capture thumbnailId %}{{escapedName}}{% endcapture %}
-            {% capture picture %}/img/people/{{ name | escape }}.jpg{% endcapture %}
+            {% capture picture %}/img/people/{{ name | replace: "'", '' | escape }}.jpg{% endcapture %}
             {% capture href %}/#{{thumbnailId}}{% endcapture %}
 
         {% when "topics" %}
