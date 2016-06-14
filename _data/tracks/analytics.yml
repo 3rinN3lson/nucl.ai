@@ -40,7 +40,12 @@
     start: "10:30"
     finish: "11:00"
 
-- title: "TBA: Analytics & Data-Science Track"
+- title: "Causal Inference, Reinforcement Learning, and Continuous Optimization"
+  description: >
+    <p>Most modern analytical systems are descended, in perspective if not in actual lineage, from "business intelligence" and are, really, something that the software developers who used Crystal Reports to format data pulled from a FoxPro database, could feel a spiritual kinship to. That is, they are designed to sift through vast amounts of information and present summaries to humans, who then take action (or take notes for the next quarterly report).</p>
+    <p>The current passion for machine learning and predictive analytics has, for the most part, not managed to escape this. When you use supervised learning for churn prediction, the usual goal is to predict who is going to leave the system, and enable humans to take action. Similarly, a typical "A/B testing" scenario usually involves running a small number of simultaneous variations in a system for a short period of time, and then employing a significance test to determine a winner, which then becomes the default behavior of the system.</p>
+    <p>What if, instead, you want to continuously optimize a complex system? What if you are running a game (as a service) and want to customize the game to each player?</p>
+    <p>How would you do that? In this talk, we'll go through some of the lesser­well­known tools from the machine learning toolkit, and talk about how to design systems that continuously and constantly adapt to the player.</p>
   speakers:
     - Bill Grosso
   room: masterclass
