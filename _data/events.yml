@@ -1,5 +1,5 @@
 - date: "2016/07/17"
-  id: salettl
+  id: cafestein
   name: Pre-Conference Drinks (Open Event)
   location: "Cafe Stein — Day #0: Sunday, July 17th"
   address:  "Währingerstrasse 6-8, 1090 Wien, Austria"
@@ -46,18 +46,18 @@
 
 - date: "2016/07/19"
   name: V.I.P. Dinner (Invitation Only)
-  id: levante
+  id: auxgazelles
   location: Aux Gazelles
   placeId: "ChIJm6DPUoUHbUcRKTjbgG-UCrM"
   address: "Auerspergstraße 9, 1080 Wien, Austria"
   anchor: vip
   description: >
-    <p>For All Access ticket holders and conference speakers only, meet us on Tuesday, July 19<sup>th</sup>
-    for the nucl.ai 2016 V.I.P. Dinner, to be held in the wonderfully relaxing, mediterranean ambiance of the Aux Gazelles.  The evening starts
+    <p>All Access ticket holders and conference speakers are invited on Tuesday, July 19<sup>th</sup>
+    to the nucl.ai 2016 V.I.P. Dinner, to be held in the wonderfully relaxing, mediterranean ambiance of the Aux Gazelles.  The evening starts
     about half an hour after the last session; dinner and one drink are included.  (Remember to take your badge
     and invitation that you received during registration!)</p>
   instructions: >
-    <p>The venue for the V.I.P. Dinner is about 20 minutes walk away from the conference venue. You can either
+    <p>The venue for the V.I.P. Dinner is a 20 minutes walk away from the conference venue. You can either
     make your way there directly with the map, or join the groups of people leaving after the last session.
     Here's the official address:</p>
     <pre>
