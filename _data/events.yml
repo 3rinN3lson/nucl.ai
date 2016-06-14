@@ -1,5 +1,5 @@
 - date: "2016/07/17"
-  id: salettl
+  id: cafestein
   name: Pre-Conference Drinks (Open Event)
   location: "Cafe Stein — Day #0: Sunday, July 17th"
   address:  "Währingerstrasse 6-8, 1090 Wien, Austria"
@@ -46,7 +46,7 @@
 
 - date: "2016/07/19"
   name: V.I.P. Dinner (Invitation Only)
-  id: levante
+  id: auxgazelles
   location: Aux Gazelles
   placeId: "ChIJm6DPUoUHbUcRKTjbgG-UCrM"
   address: "Auerspergstraße 9, 1080 Wien, Austria"
