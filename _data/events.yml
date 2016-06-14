@@ -1,70 +1,67 @@
-- date: "2015/07/19"
+- date: "2016/07/17"
   id: salettl
   name: Pre-Conference Drinks (Open Event)
-  location: "Salettl im alten AKH — Day #0: Sunday, July 19th"
-  address:  "Alser Str. 4, 1090 Wien, Austria"
+  location: "Cafe Stein — Day #0: Sunday, July 17th"
+  address:  "Währingerstrasse 6-8, 1090 Wien, Austria"
   placeId: "ChIJn-OKb8AHbUcR8XIzU6nR0xU"
   anchor: welcome
   description: >
-    <p>For Pre-Conference Drinks on Sunday, July 19th, we are going to meet up at Salettl
+    <p>For Pre-Conference Drinks on Sunday, July 17th, we are going to meet up at Cafe Stein
     directly after Pre-Registration closes at 18:00. Meet with other attendees for some
     casual get-to-know-each other drinks, food and nice chats!</p>
-    <p>Please note this is a "Cash Only" place, though there are cash points nearby!</p>
+    
   instructions: >
-    <p>The venue for this get-together is right next to the conference venue,
-    less than a minute walk from our registration. It's within the first courtyard of the campus (Hof 1):</p>
-    <p>(please find how to get to the venue <a href="/venue/#travelling">here</a>)</p>
+    <p>The venue for this get-together is a few minutes walk from the conference venue, right opposite of the Votiv Church and close to the subway stop U2 Schottentor:</p>
     <pre>
-      Salettl im alten AKH<br/>
-      Uni Campus, Hof 1<br/>
+      Cafe Stein<br/>
+      Währingerstrasse 6-8<br/>
       Alser Str. 4<br/>
-      1090 Wien<br/>
+      1090 Vienna<br/>
     </pre>
     <p>See you on Sunday. Prost!</p>
 
 
-- date: "2015/07/20"
-  id: stiegl
-  name: Official Party (Open Event)
-  location: Stiegl Ambulanz
-  address:  "Alser Str. 4, 1090 Wien, Austria"
-  placeId: "ChIJn-OKb8AHbUcROmKfyYHM-Cc"
-  anchor: party
-  description: >
-    <p>Join us on Monday, July 20<sup>th</sup> for the nucl.ai 2015 Official Party, to be held
-    at the Stiegl Ambulanz.  It takes place right after the last session if you're an attendee,
-    or at 18:30 if you're a local developer.  The restaurant is a great place for both food and
-    drinks, so expect to spend hours chatting with fellow professionals and enthusiasts!</p>
-  instructions: >
-    <p>The venue for the party is right next to the conference venue, less than a minute walk from
-    the amphitheatres.  It's within the first courtyard of the campus (Hof 1):</p>
-    <pre>
-      Altes AKH<br/>
-      Uni Campus, Hof 1<br/>
-      Alserstrasse 4<br/>
-      1090 Wien<br/>
-    </pre>
-    <p>See you on Monday. Prost!</p>
+#- date: "2016/07/18"
+#  id: stiegl
+#  name: Official Party (Open Event)
+#  location: Stiegl Ambulanz
+#  address:  "Alser Str. 4, 1090 Wien, Austria"
+#  placeId: "ChIJn-OKb8AHbUcROmKfyYHM-Cc"
+#  anchor: party
+#  description: >
+#    <p>Join us on Monday, July 20<sup>th</sup> for the nucl.ai 2015 Official Party, to be held
+#    at the Stiegl Ambulanz.  It takes place right after the last session if you're an attendee,
+#    or at 18:30 if you're a local developer.  The restaurant is a great place for both food and
+#    drinks, so expect to spend hours chatting with fellow professionals and enthusiasts!</p>
+#  instructions: >
+#    <p>The venue for the party is right next to the conference venue, less than a minute walk from
+#    the amphitheatres.  It's within the first courtyard of the campus (Hof 1):</p>
+#    <pre>
+#      Altes AKH<br/>
+#      Uni Campus, Hof 1<br/>
+#      Alserstrasse 4<br/>
+#      1090 Wien<br/>
+#    </pre>
+#    <p>See you on Monday. Prost!</p>
 
-- date: "2015/07/21"
-  name: V.I.P. Dinner (Invitation Only, Sold Out!)
+- date: "2016/07/19"
+  name: V.I.P. Dinner (Invitation Only)
   id: levante
-  location: Levante Parliament
+  location: Aux Gazelles
   placeId: "ChIJ14-MbZQHbUcRoENFbCJHFTw"
   address: "Auerspergstraße 9, 1080 Wien, Austria"
   anchor: vip
   description: >
-    <p>For All Access ticket holders and conference speakers only, meet us on Tuesday, July 21<sup>st</sup>
-    for the nucl.ai 2015 V.I.P. Dinner, to be held at The Levante Parliament hotel.  The evening starts
-    shortly after the last session; dinner and one drink is included—but don't forget your badge and
-    and ticket that you received during registration. (This event is sold out, there are no +1s
-    possible.)</p>
+    <p>For All Access ticket holders and conference speakers only, meet us on Tuesday, July 19<sup>th</sup>
+    for the nucl.ai 2016 V.I.P. Dinner, to be held in the wonderfully relaxing, mediterranean ambiance of the Aux Gazelles.  The evening starts
+    about half an hour after the last session; dinner and one drink are included.  (Remember to take your badge
+    and invitation that you received during registration!)</p>
   instructions: >
-    <p>The venue for the V.I.P. Dinner is a short walk away from the conference venue. You can easily
-    make your way directly with the map, or join the groups of people leaving after the last session.
+    <p>The venue for the V.I.P. Dinner is about 20 minutes walk away from the conference venue. You can either
+    make your way there directly with the map, or join the groups of people leaving after the last session.
     Here's the official address:</p>
     <pre>
-      Auerspergstraße 9<br/>
-      1080 Wien<br/>
+      Rahlgasse 5<br/>
+      1060 Wien<br/>
     </pre>
     <p>See you on Tuesday. Guten Appetit!</p>
