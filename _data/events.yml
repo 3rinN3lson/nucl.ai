@@ -3,7 +3,7 @@
   name: Pre-Conference Drinks (Open Event)
   location: "Cafe Stein — Day #0: Sunday, July 17th"
   address:  "Währingerstrasse 6-8, 1090 Wien, Austria"
-  placeId: "ChIJn-OKb8AHbUcR8XIzU6nR0xU"
+  placeId: "ChIJPy50n74HbUcRPWr8FqcymVc"
   anchor: welcome
   description: >
     <p>For Pre-Conference Drinks on Sunday, July 17th, we are going to meet up at Cafe Stein
@@ -48,7 +48,7 @@
   name: V.I.P. Dinner (Invitation Only)
   id: levante
   location: Aux Gazelles
-  placeId: "ChIJ14-MbZQHbUcRoENFbCJHFTw"
+  placeId: "ChIJm6DPUoUHbUcRKTjbgG-UCrM"
   address: "Auerspergstraße 9, 1080 Wien, Austria"
   anchor: vip
   description: >
