@@ -30,7 +30,8 @@
 #  anchor: party
   description: >
     <p>Join us on Monday, July 18<sup>th</sup> for the nucl.ai 2016 Official Party!  It takes place right after the last session if you're an attendee,
-    or at 19:30 if you're a local developer.
+    or at 19:30 if you're a local developer.</p>
+    <p>See you on Monday. Prost!</p>
 #   The restaurant is a great place for both food and drinks, so expect to spend hours chatting with fellow professionals and enthusiasts!</p>
 #  instructions: >
 #    <p>The venue for the party is right next to the conference venue, less than a minute walk from
@@ -41,7 +42,6 @@
 #      Alserstrasse 4<br/>
 #      1090 Wien<br/>
 #    </pre>
-  <p>See you on Monday. Prost!</p>
 
 - date: "2016/07/19"
   name: V.I.P. Dinner (Invitation Only)
