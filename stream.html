@@ -11,9 +11,9 @@ permalink: /stream/
             <div class="all-timers-off">
                 Conference Live Stream has ended. Thank you for watching!
             </div>
-
+            {% comment %}
             {% assign timer_title = "Follow us" %}
-
+            {% endcomment %}
             {% for day in site.data.stream.days %}
                 {% capture timer_name %}day-{{forloop.index}}{% endcapture %}
                 {% capture timer_on_finish %} $('.stream-teaser').hide(); timer.hide(); $('#stream-{{forloop.index}}').show(); $('#schedule-{{forloop.index}}').show(); {% endcapture %}
@@ -29,27 +29,23 @@ permalink: /stream/
                 </div>
             {% endfor %}
 
-            <div class="buttons-wrap">
-                <div class="yt-subscribe">
-                    <script src="https://apis.google.com/js/platform.js"></script>
-                    <div class="g-ytsubscribe" data-channel="aigamedev" data-layout="default" data-count="default"></div>
-                </div>
-                <div class="tw-follow">
-                    <a href="https://twitter.com/nuclai" class="twitter-follow-button" data-show-count="true" data-size="large" data-show-screen-name="false">Follow @nuclai</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                </div>
-                <div class="fb-follow-top">
-                    <div id="fb-root"></div>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6&appId=961858097195996";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like" data-href="https://www.facebook.com/nuclai/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
-                </div>
+            <div class="subscribe-wrap">
+
+            <p class="subscribe-note"> Subscribe for Stream Notifications </p>
+
+            <div class="icons-wrap">
+
+            <icons class="social">
+                <a href="https://twitter.com/nuclai" target="_blank" class="social social-light twitter"></a>
+                <a href="https://facebook.com/nuclai" target="_blank" class="social social-light facebook"></a>
+                <a href="https://www.youtube.com/user/aigamedev" target="_blank" class="social social-light yt"></a>
+                <a href="{{ '/tickets/' | prepend: site.baseurl }}" class="social social-light ticket"></a>
+                <a href="{{ '//contact/#stay-informed/' | prepend: site.baseurl }}" class="social social-light newsletter">
+                </a>
+            </icons>
+
+            </div>
+
             </div>
 
             {% comment %}
