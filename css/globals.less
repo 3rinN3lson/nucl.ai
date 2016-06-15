@@ -180,6 +180,10 @@ td, ol, ul, p, tt {
         background-size: 600px;
         width: 120px; 
         height: 120px;
+        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+            width: 20px; 
+            height: 20px;
+        }
         &.yt {
             background-position: 120px 0px;
             &:hover {
@@ -363,10 +367,13 @@ sub { top: 0.4em; }
 icons {
     padding: 15px 0 30px 0;
     display: inline-block;
-    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) {
-        padding: 11px 0;
-    }
     a.social {
         margin: 0 5px;
+        &.social-light {
+            margin: 0 15px;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) {
+            margin: 0 5px;
+            }
+        }
     }
 }
