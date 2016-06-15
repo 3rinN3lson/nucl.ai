@@ -24,24 +24,22 @@
 - date: "2016/07/18"
   id: stiegl
   name: Official Party (Open Event)
-  location: Location TBA
-#  address:  "Alser Str. 4, 1090 Wien, Austria"
-#  placeId: "ChIJn-OKb8AHbUcROmKfyYHM-Cc"
-#  anchor: party
+  location: Stiegl Ambulanz
+  address:  "Alser Str. 4, 1090 Wien, Austria"
+  placeId: "ChIJn-OKb8AHbUcROmKfyYHM-Cc"
+  anchor: party
   description: >
-    <p>Join us on Monday, July 18<sup>th</sup> for the nucl.ai 2016 Official Party!  It takes place right after the last session if you're an attendee,
-    or at 19:30 if you're a local developer.</p>
+    <p>Join us on Monday, July 18<sup>th</sup>, for the Official Party of the nucl.ai conference 2016 at the Stiegl Ambulanz!  For attendees the party will start at 18:30 and local developers are welcome to join us after 19:30.</p>
     <p>See you on Monday. Prost!</p>
-#   The restaurant is a great place for both food and drinks, so expect to spend hours chatting with fellow professionals and enthusiasts!</p>
-#  instructions: >
-#    <p>The venue for the party is right next to the conference venue, less than a minute walk from
-#    the amphitheatres.  It's within the first courtyard of the campus (Hof 1):</p>
-#    <pre>
-#      Altes AKH<br/>
-#      Uni Campus, Hof 1<br/>
-#      Alserstrasse 4<br/>
-#      1090 Wien<br/>
-#    </pre>
+   The restaurant is a great place for hours of chatting with fellow professionals and enthusiasts.</p>
+  instructions: >
+    <p>The venue for the party is situated in the first courtyard (Hof 1) of the Campus Altes AKH (last year's conference venue):</p>
+    <pre>
+      Altes AKH<br/>
+      Uni Campus, Hof 1<br/>
+      Alserstrasse 4<br/>
+      1090 Wien<br/>
+    </pre>
 
 - date: "2016/07/19"
   name: V.I.P. Dinner (Invitation Only)
