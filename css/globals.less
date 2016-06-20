@@ -175,6 +175,50 @@ td, ol, ul, p, tt {
     height: 30px; 
     display: inline-block; 
     background-size: 90px;
+    cursor: pointer;
+    &.social-light { 
+        background-size: 600px;
+        width: 120px; 
+        height: 120px;
+        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+            width: 20px; 
+            height: 20px;
+        }
+        &.yt {
+            background-position: 120px 0px;
+            &:hover {
+                background-position: 120px 120px;
+            }
+        }
+        &.ticket {
+            background-position: 240px 0px;
+            &:hover {
+                background-position: 240px 120px;
+            }
+        }
+        &.twitter {
+            background-position: 480px 0px;
+            &:hover {
+                background-position: 480px 120px;
+            }
+        }
+        &.google {
+            &:hover {
+                background-position: 0px 120px;
+            }
+        }
+        &.newsletter {
+            &:hover {
+                background-position: 0px 120px;
+            }
+        }
+        &.facebook {
+            background-position: 360px 0px;
+            &:hover {
+                background-position: 360px 120px;
+            }
+        }
+    }
     &.twitter {
         background-position: 60px 0px;
         &:hover {
@@ -201,6 +245,43 @@ td, ol, ul, p, tt {
         height: 20px; 
         display: inline-block; 
         background-size: 60px;
+        &.social-light { 
+        background-size: 100px; 
+        &.yt {
+                background-position: 20px 0px;
+                &:hover {
+                    background-position: 20px 20px;
+                }
+            }
+            &.ticket {
+                background-position: 40px 0px;
+                &:hover {
+                    background-position: 40px 20px;
+                }
+            }
+            &.twitter {
+                background-position: 80px 0px;
+                &:hover {
+                    background-position: 80px 20px;
+                }
+            }
+            &.google {
+                &:hover {
+                    background-position: 0px 20px;
+                }
+            }
+            &.newsletter {
+                &:hover {
+                    background-position: 0px 20px;
+                }
+            }
+            &.facebook {
+                background-position: 60px 0px;
+                &:hover {
+                    background-position: 60px 20px;
+                }
+            }
+        }
         &.twitter {
             background-position: 40px 0px;
             &:hover {
@@ -280,3 +361,19 @@ sup, sub {
 }
 
 sub { top: 0.4em; }
+
+
+
+icons {
+    padding: 15px 0 30px 0;
+    display: inline-block;
+    a.social {
+        margin: 0 5px;
+        &.social-light {
+            margin: 0 15px;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) {
+            margin: 0 5px;
+            }
+        }
+    }
+}

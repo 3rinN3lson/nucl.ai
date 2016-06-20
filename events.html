@@ -19,11 +19,15 @@ permalink: /program/events/
             <content>
                 {{event.description}}
                 {% assign items = site.data.galleries[event.id] %}
+                {% if event.id %}
                 {% include features/gallery/gallery.html %}
+                {% endif %}
                 {{event.instructions}}
             </content>
         </grid>
-        <div id="event-map-canvas-{{forloop.index}}" class="event map" placeId="{{event.placeId}}" location="{{event.address}}"></div>
+        {% if event.placeId %}
+            <div id="event-map-canvas-{{forloop.index}}" class="event map" placeId="{{event.placeId}}" location="{{event.address}}"></div>
+        {% endif %}
     </section>
 
 {% endfor %}

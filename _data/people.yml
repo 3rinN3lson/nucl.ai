@@ -49,6 +49,21 @@
   bio: >
     Andy started his career at Loughborough University, having achieved a first class degree in Science there. Starting work as a researcher at Loughborough, he then moved on to become a lecturer in programming and AI. Following his time with the university, Andy then embarked on his career within the games industry, since accruing almost 20 years of experience to date. Andy joined Creative Assembly in 2003, where he now resides as Lead AI/Gameplay Programmer. Andy’s work at the studio encompasses titles including Alien: Isolation, Viking: Battle for Asgard and Spartan: Total Warrior, as well as work on the Total War series. 
 
+- name: Bill Grosso
+  role: speaker
+#  twitter: wgrosso
+  affiliation: 
+    name: Scientific Revenue
+    url: http://www.scientificrevenue.com/
+  bio: >
+    Bill is the founder and CEO of Scientific Revenue, the leading provider of dynamic pricing for in-app purchases. 
+    Prior to starting Scientific Revenue, Bill ran a consulting company focused on business intelligence and predictive 
+    analytics, and was an entrepreneur in residence at Rustic Canyon Venture Partners. Prior to those positions, he held 
+    senior positions in engineering and product at various companies, where he was well known for building high-performance 
+    organizations which shipped innovative products on time. 
+    He has also written two books on software design, has worked as a research scientist in artificial intelligence, 
+    and is the author or co-author of over 40 academic journal articles.
+
 - name: Carol O'Sullivan
   role: speaker
   affiliation:
@@ -307,6 +322,7 @@
   role: speaker
   twitter: galaxykate
   affiliation:
+    name: galaxykate
     url: http://www.galaxykate.com/
   bio: >
     Kate Compton is a long-time Procedural Content Generation (PCG) practitioner.  She wrote the first paper on procedural platformer levels, generated the planets for Spore, and wrote the latest SimCity fire system.  She is now a PhD candidate at UC Santa Cruz developing artificial intelligence to augment human creativity with generative art.  She likes laser cutting, 3D printing, founding companies, and baking.
