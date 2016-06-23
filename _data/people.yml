@@ -348,6 +348,7 @@
 
 - name: Mark Riedl
   role: speaker
+  twitter: mark_riedl
   affiliation:
     position: Associate Professor
     name: Georgia Institute of Technology
@@ -355,8 +356,22 @@
   bio: >
     Dr. Mark Riedl is an Associate Professor in the Georgia Tech School of Interactive Computing and director of the Entertainment Intelligence Lab. Dr. Riedl’s research focuses on the intersection of artificial intelligence, virtual worlds, and storytelling. The principle research question his lab addresses is: how can intelligent computational systems reason about and create engaging experiences for users of virtual worlds and computer games. His research is supported by the NSF, DARPA, ONR, the U.S. Army, U.S. Health and Human Services, Disney, and Google. He is the recipient of a DARPA Young Faculty Award and an NSF CAREER Award.
 
+# - name: Martin Skytte Kristensen
+#  role: speaker
+#  twitter: martin_skytte
+#  affiliation:
+#    position: 
+#    name: 
+#    url: 
+#  bio: >
+#    
+
+
+
+
 - name: Maxim Zaks
   role: speaker
+  twitter: iceX33
   affiliation:
     position: Software Developer
     name: Wooga
@@ -518,6 +533,7 @@
 
 - name: Radu Danciu
   role: speaker
+  twitter: SprocketComms
   affiliation:
     position: Senior Entertainment Engineer
     name: Sprocket, Inc.
@@ -527,6 +543,7 @@
 
 - name: Ramon Viladomat
   role: speaker
+  twitter: Viladoman
   affiliation:
     position: Senior Gameplay Programmer
     name: Crytek
@@ -559,6 +576,7 @@
 
 - name: Santiago Murillo
   role: speaker
+  twitter: yagomur
   affiliation:
     position: Data Scientist
     name: Social Point
@@ -624,6 +642,7 @@
 
 - name: Wojciech Jaśkowski
   role: speaker
+  twitter: WJaskowski
   affiliation:
     position: Assistant Professor
     name: Poznań University of Technology
