@@ -365,18 +365,17 @@
   bio: >
     Dr. Mark Riedl is an Associate Professor in the Georgia Tech School of Interactive Computing and director of the Entertainment Intelligence Lab. Dr. Riedl’s research focuses on the intersection of artificial intelligence, virtual worlds, and storytelling. The principle research question his lab addresses is: how can intelligent computational systems reason about and create engaging experiences for users of virtual worlds and computer games. His research is supported by the NSF, DARPA, ONR, the U.S. Army, U.S. Health and Human Services, Disney, and Google. He is the recipient of a DARPA Young Faculty Award and an NSF CAREER Award.
 
-# - name: Martin Skytte Kristensen
-#  role: speaker
+- name: Martin Skytte Kristensen
+  role: speaker
 #  twitter: martin_skytte
-#  affiliation:
+  affiliation:
 #    position: 
-#    name: 
-#    url: 
-#  bio: >
-#    
-
-
-
+    name: SYBO Games
+    url: http://sybogames.com/
+  bio: >
+    Martin is a 29 year old software engineer from Copenhagen, Denmark with a passion for making games.
+    He graduated in 2012 from the Technical University of Denmark with a Master in Digital Media Engineering and was hired by SYBO after graduation.
+    At SYBO he has been building the tech and gameplay behind the mobile combat runner Blades of Brim. He cares about building the tech that enables the team to produce the unexpected.
 
 - name: Maxim Zaks
   role: speaker
