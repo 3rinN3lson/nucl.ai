@@ -44,15 +44,21 @@
     start: "15:00"
     finish: "15:45"
 
-- title: "TBA: Indie Procedural Content Generation"
+- title: "Endless level generation in Blades of Brim"
+  description: >
+    The talk will go through the hierarchical building blocks for the level generator and how randomisation is applied in Blades of Brim.
+  speakers:
+    - Martin Skytte Kristensen
   room: masterclass
-#  speakers:
-#    - Martin Skytte Kristensen
   time:
     start: "17:15"
     finish: "18:00"
 
-- title: "TBA: AAA Procedural Asset Pipelines [Keynote]"
+- title: "Insurrection:  Disrupting Legacy Practices of Digital Asset Production."
+  description: >
+    This talk aims to present some contemporary approaches to data representation, and to discuss how re-thinking workflows to make use of appropriate statistical models can greatly improve production efficiency, consistency, and quality.  One of the most challenging aspects of digital entertainment production is the generation and animation of believable human characters.  Case studies will be presented and discussed of some tools currently in development and production at Electronic Arts for generating large volumes of believable human heads.  One of the advantages of using statistical models is the repurposing of the assets to various and changing target platforms without the need for additional artist modeling.  This compounds the efficiency gains by; allowing more efficient asset generation; allowing one model to drive multiple LODs and multiple target platforms; and allowing assets to be used through many iterations of game and hardware improvement.
+  speakers:
+    - Caleb Howard
   room: amphitheatre
   time:
     start: "11:15"

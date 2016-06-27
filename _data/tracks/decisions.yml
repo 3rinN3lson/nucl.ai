@@ -1,4 +1,4 @@
-- title: "Expanding the Frontier of Environment Query Systems"
+- title: "It's All about Location: Expanding the Frontier of Spatial Query Systems in RPGs"
   description: >
     As spatial query systems such as EQS (Unreal Engine 4), TPS (CryEngine), and PQS (Luminous Studio) have matured, 
     auto-generated spatial queries are increasingly relied upon for robust dynamic position selection. We present a 
