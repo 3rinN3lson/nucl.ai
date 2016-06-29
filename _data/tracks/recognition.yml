@@ -34,12 +34,13 @@
     start: "09:15"
     finish: "11:15"
 
-- title: "Augmented Reality Devices and Project Tango"
+- title: "AI-powered Next-Gen AR devices: How deep does the rabbit hole go?"
   description: >
-    (Full talk description to be announced shortly.)
+    Next-Gen augmented reality (AR) devices are complex systems that unify a multitude of different technologies, ranging from natural user interfaces (NUI) through to AI-assisted input/output. This talk will take a closer look at the past, present and future of augmented reality and dive deep into the architecture of the Google Tango tablet.
+Doing so will reveal the advanced AI techniques used to enable AR and provide context for the remaining challenges and problems in this domain.
   speakers:
+    - James Bonner
     - Jannes Nagel
-    - Norman Wang
   room: masterclass
   time:
     start: "15:00"
