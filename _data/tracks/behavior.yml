@@ -8,18 +8,18 @@
     start: "14:15"
     finish: "15:00"
 
-- title: "Time Traveling Debuggers for Agent-based Games"
+- title: "CANCELLED — Time Traveling Debuggers for Agent-based Games"
   description: >
-    In 2012, Bret Victor's talk "Inventing on Principle" showed the ideal future of debugging: time travel. Being able to scrub through all the past states of your program, fix the bug, hot-reload the code and see the change applied to all the past states as well.
+    *TALK HAS BEEN CANCELLED* In 2012, Bret Victor's talk "Inventing on Principle" showed the ideal future of debugging: time travel. Being able to scrub through all the past states of your program, fix the bug, hot-reload the code and see the change applied to all the past states as well.
     Since then, only one implementation of it has appeared, for Elm, a Functional Reactive Programming language.
     The principles of FRP make Time Travelling debuggers much cheaper to implement, making them viable for actual game development.
     In this talk we'll look at what concepts it takes to implement one in Erlang, and how to use them to make agent-based games.
   speakers:
     - Claudia Doppioslash
-  room: masterclass
-  time:
-    start: "11:30"
-    finish: "12:00"
+  # room: masterclass
+  # time:
+  #   start: "11:30"
+  #   finish: "12:00"
 
 - title: "Seamless Merging of Behavior Trees and Imperative Code"
   description: >
@@ -30,8 +30,8 @@
     - Pavel Shevaev
   room: masterclass
   time:
-    start: "15:30"
-    finish: "16:00"
+    start: "15:00"
+    finish: "15:45"
 
 - title: "Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN"
   description: >
@@ -53,8 +53,8 @@
     - Ramon Viladomat
   room: masterclass
   time:
-    start: "15:00"
-    finish: "15:30"
+    start: "11:30"
+    finish: "12:00"
 
 - title: "Back-Alley Surgery For Cyberpunk AI"
   description: >
