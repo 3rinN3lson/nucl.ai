@@ -246,6 +246,16 @@
     name: Harman International
     url: http://www.harman.com/
 
+- name: James Bonner
+  role: speaker
+  twitter: 
+  affiliation: 
+    position: Founder
+    name: Opaque Media Group
+    url: http://www.opaque.media
+  bio: >
+    James is a founder of Opaque Media Group, an award-winning Melbourne-based technology and design company specialising in finding novel uses for existing and emerging technologies and techniques to solve problems across a range of domains. At Opaque, James was once a coder but now draws flowcharts, write documents and arranges meetings. James oversees technical and research teams developing technologies in fields as wide ranging as computer vision systems and advanced physical modelling, and combining new developments with emerging technologies to serve unique purposes. James' team is happiest when they're running ahead of the pack. Scarcely a week can go by without someone coming across a problem that no one has ever encountered before, and the entire company looks forward to them. Sometimes there's no solution with current technology - and that's ok, we plant the ideas and look forward to when reality catches up with our dreams, giving it the occasional nudge along the way. James is currently doing his PhD on modelling strategic action for artificial agents.
+
 - name: Jannes Nagel
   role: speaker
   twitter: jannesnagel
