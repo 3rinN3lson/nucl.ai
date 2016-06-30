@@ -21,9 +21,7 @@
 
 - title: "Procedural Story & Level Generation using Tag-Based Content Selection"
   description: >
-    Selecting the right bit of content based on what is happening is a key problem that appears in many parts of game development, be it NPC reactions, level generation, dynamic stories, or procedural text. It is at the core of interactive storytelling.
-    Tag-based content selection is a powerful technique for solving this problem that was originally developed to pick AI barks in video games. It is still being used for that today, but it can also be used to generate levels, interactive fiction scenes, and more. It is easy to understand by both programmers and non-programmers, and is both powerful and practical.
-    This talk will be a deep dive into tag-based content selection, to show how to implement it, how it can be used to generate content, why it is so powerful, what the pitfalls are, where it has been used, as well as various tips, tricks, tools, and refinements.
+    Selecting the right bit of content based on what is happening is a key problem that appears in many parts of game development, from NPC reactions and level generation to dynamic stories and procedural text. It is at the core of interactive storytelling. Tag-based content selection is a powerful and practical technique for solving this problem that is easy to understand by both programmers and non-programmers. This talk will be a deep dive into tag-based content selection, showing how it can be used to generate levels and interactive fiction scenes, and covering tips, tricks, pitfalls, tools, and refinements.
   speakers:
     - Jurie Horneman
   room: masterclass
@@ -40,12 +38,6 @@
   time:
     start: "14:00"
     finish: "16:00"
-
-- title: "TBA: Text, Dialog & Storytelling Track" # Facebook Timeline Fiction
-  room: masterclass
-  time:
-    start: "10:00"
-    finish: "10:45" 
 
 - title: "Intelligent Directors and Storytelling in Kingdom Come: Deliverance" 
   description: >
