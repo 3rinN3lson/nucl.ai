@@ -2,6 +2,6 @@ name,type,date,all_access,conference,single_day
 "",main,"",All Access (3&nbsp;Days),Conference<span class='stars'>*</span> (3&nbsp;Days),Single Day Ticket
 Early Bird,main,A limited number of these tickets was available.,Sold Out!,Sold Out., -
 Early Worm,main,These tickets were available for a limited time.,Sold Out.,Expired., - 
-Regular,main,Tickets available until the conference.,€ 999,€ 369,€ 399
-Student Pass<span class='stars'>*</span>,extras,Available until Friday July 8th,"60% off above","60% off above","60% off above"
-Indies or Unemployed Devs<span class='stars'>**</span>,extras,Available until Friday July 8th,"30% off above","20% off above","20% off above"
+Regular,main,"Conference" available until the July 18th, "All Acces" until July 4th.,€ 999,€ 369,€ 399
+Student Pass<span class='stars'>**</span>,extras,Available until Friday July 8th,"60% off above","60% off above","60% off above"
+Indies or Unemployed Devs<span class='stars'>***</span>,extras,Available until Friday July 8th,"30% off above","20% off above","20% off above"
