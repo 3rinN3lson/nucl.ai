@@ -28,7 +28,11 @@
     start: "16:30"
     finish: "17:15"
 
-- title: "TBA: Hands-On OpenFrameworks [Workshop]"
+- title: "Advanced Sensors 4 Public Games [Workshop]"
+  description: >
+    In this hands on workshop you will learn how to effeciently track human interaction in public spaces and how to integrate it in your creative applications.  After a brief introduction to openFrameworks, you will learn about the challenges for tracking in public spaces, and get lots of examples of interesting usage scenarios. We will Practice with commercial & industrial sensors data to track people in large sensor areas, as well as day/night indoor/outdoor scenarios. At the end of the workshop you will be able to use the open-source libraries openFrameworks and sensors4Games which will allow you to transform public interaction into a creative app controller.
+  speakers:
+    - Carles Gutiérrez
   room: laboratories
   time:
     start: "09:15"
