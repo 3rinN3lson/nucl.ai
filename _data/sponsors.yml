@@ -4,25 +4,29 @@
   homepage: http://www.creative-assembly.com/jobs/
   lobby_logo: ca-lobby.png
 
-- id: Golaem
-  name: "Golaem"
-  homepage: http://golaem.com/
-
-- id: creative_ai
-  name: "CreativeAi"
-  homepage: http://www.creativeai.net/
-
-- id: craft_ai
-  name: "craft ai"
-  homepage: http://craft.ai/
+- id: mipumi
+  name: "Mi'pu'mi Games"
+  homepage: http://www.mipumi.com/
 
 - id: nvidia
   name: "nvidia"
   homepage: http://www.nvidia.com/
 
+- id: creative_ai
+  name: "CreativeAi"
+  homepage: http://www.creativeai.net/
+
 - id: uniwien
   name: "Universität Wien"
   homepage: http://www.univie.ac.at/
+
+- id: craft_ai
+  name: "craft ai"
+  homepage: http://craft.ai/
+
+- id: Golaem
+  name: "Golaem"
+  homepage: http://golaem.com/
 
 
 
