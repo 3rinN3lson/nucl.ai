@@ -69,9 +69,21 @@
   affiliation:
     position: Senior CG Supervisor
     name: Electronic Arts
-#    url: http://ea.com/
+   url: http://ea.com/
   bio: >
     Caleb has been working in digital production since the late 80s.  Mathematician, Engineer and Artist, he has led the industry in developing procedural tools for production of both Film and Games.  Currently he heads a team At Electronic Arts in Vancouver - developing solutions applying the automated efficiency of Machine Learning to the problems of quality, consistency, and volume in content production.
+
+- name: Carles Gutiérrez
+  role: speaker
+  twitter: carlesgutierrez
+  affiliation:
+    position: Creative Coder
+    name: Lighting Design Collective
+    url: http://www.ldcol.com/
+  bio: >
+    Creative Coder, Artist, Engineer and Researcher in the new media area. Commonly related to the sensorial area and open-source softwares like Openframeworks, Opencv, Arduino, Processing and others. Carles is focused on body/mind perception, new technologies, gamification, interactive installations and research new experiences for public spaces.
+    He has participated, worked or collaborated in several digital laboratories and attended as a media artist at several media-Art Festivals. He co-founded Lummo collective and SayhiLivinWalls and developed different works related to interactive installations, HMI interfaces, Interactive Product for retailing, Face video-mapping, and Digital fabrication. Ars Electronica Futurelab, Seat, Nike, Guess, WildBytes/Sephora, FabLab MediaLab-Prado and Lighting Design Collective have been some main clients.
+    Last but not least, Carles has been teaching/researching in computer programing and was mentor of the Processing group at CoderDojo at MediaLab-Prado, about interactive games done with Processing and using some physics for this digital facade.
 
 - name: Carol O'Sullivan
   role: speaker
