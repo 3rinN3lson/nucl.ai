@@ -1,8 +1,7 @@
 
-- title: "Crowd Control for Feature Film at ILM"
+- title: "Crowds at ILM: Recreating The Day Of The Dead for BOND SPECTRE"
   description: >
-    In this talk we'll explore crowd simulation for feature film and look at how this has evolved over the years at Industrial Light & Magic. 
-    We'll hone in on some recent work discussing techniques and best practices for animating masses of characters.
+    In this talk we'll have a look at Crowd Simulation for Feature Film and how this is implemented at Industrial Light & Magic. We'll hone in on some recent crowd work for BOND SPECTRE where we were tasked to assist recreating a vibrant Mexico City's Day Of The Dead for the films opening sequence.
   speakers:
     - Jo Plaete
   room: amphitheatre
