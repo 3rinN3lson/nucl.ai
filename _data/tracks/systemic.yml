@@ -1,7 +1,7 @@
 
 - title: "Crowds at ILM: Recreating The Day Of The Dead for BOND SPECTRE"
   description: >
-    In this talk we'll have a look at Crowd Simulation for Feature Film and how this is implemented at Industrial Light & Magic. We'll hone in on some recent crowd work for BOND SPECTRE where we were tasked to assist recreating a vibrant Mexico City's Day Of The Dead for the films opening sequence.
+    The track keynote looks into Crowd Simulation for Feature Film, in particular how this is implemented at Industrial Light & Magic. We'll hone in on some recent crowd work for BOND SPECTRE where we were tasked to assist recreating a vibrant Mexico City's Day Of The Dead for the films opening sequence.
   speakers:
     - Jo Plaete
   room: amphitheatre
@@ -9,7 +9,7 @@
     start: "17:15"
     finish: "18:00"
 
-- title: "Animal House: Creating Intelligent AI-driven Companions in Far Cry Primal"
+- title: "Animal House: Creating Systemic Animal Companions in Far Cry Primal"
   description: >
     Ubisoft's recently released title Far Cry Primal introduced 17 animal companions, many of which had unique abilities and play styles. This talk will describe the development process the team undertook from conception to design to implementation, to create what is now known as the Beast Master feature. Attendees will leave with an understanding of our team’s approach to multi-studio development, our battles with systemic vs. directed behaviours, and how we overcame struggles to achieve the dream of creating the ultimate "weapon".
   speakers:
@@ -77,13 +77,15 @@
     start: "09:15"
     finish: "10:00"
 
-- title: "Augmenting Design & Testing with AI-Powered Tools"
+- title: "Augmenting Design & Testing with AI-Powered Tools [Roundtable]"
   room: laboratories
   time:
     start: "16:30"
     finish: "17:15"
 
-- title: "Systemic Control Freaks: Why, When and How We Should Let Go!"
+- title: "Simulation Control Freaks: Why, When and How We Should Let Go! [Panel]"
+  speakers:
+    - Michaël Rouillé
   room: laboratories
   time:
     start: "12:00"

@@ -28,7 +28,7 @@
     start: "16:30"
     finish: "17:15"
 
-- title: "Advanced Sensors 4 Public Games [Workshop]"
+- title: "Advanced Sensors and Tracking Human Interaction in Public Spaces [Workshop]"
   description: >
     In this hands on workshop you will learn how to effeciently track human interaction in public spaces and how to integrate it in your creative applications.  After a brief introduction to openFrameworks, you will learn about the challenges for tracking in public spaces, and get lots of examples of interesting usage scenarios. We will Practice with commercial & industrial sensors data to track people in large sensor areas, as well as day/night indoor/outdoor scenarios. At the end of the workshop you will be able to use the open-source libraries openFrameworks and sensors4Games which will allow you to transform public interaction into a creative app controller.
   speakers:
@@ -36,7 +36,7 @@
   room: laboratories
   time:
     start: "09:15"
-    finish: "11:15"
+    finish: "12:00"
 
 - title: "AI-powered Next-Gen AR devices: How deep does the rabbit hole go?"
   description: >
@@ -49,9 +49,3 @@
   time:
     start: "15:00"
     finish: "15:45"
-
-- title: "TBA: Human Interfaces & Recognition Track"
-  room: masterclass
-  time:
-    start: "17:15"
-    finish: "18:00"

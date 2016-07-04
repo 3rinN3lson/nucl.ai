@@ -29,19 +29,40 @@
     start: "14:15"
     finish: "15:00"
 
-- title: "TBA: Cognitive, Bots & Understanding Track"
+- title: "Deep Learning for Generating Language with Style!"
+  speakers:
+    - Roelof Pieters
   room: masterclass
   time:
     start: "16:30"
     finish: "17:15"
 
-- title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks [Workshop]"
+- title: "Training a Long Short-Term Memory (LSTM) from Social Media [Workshop]"
   description: >
-    In this hands-on workshop, you'll learn about and experiment with Sequence To Sequence transformations using recurrent neural networks. In particular, you'll see how LSTM (Long-Short Term Memory) work in practice to generate text, and how they can be used to model Seq2Seq.  You'll be provided with sample data from social media, specifically Twitter posts and their responses.  Whether you want to learn more about recurrent neural networks, predicting sequences, or just building cool and funny social media bots.
+    This first hands-on workshop digs into simple recurrent neural networks known as LSTM, in particular training them from data gathered from social media.  You'll learn how the networks function, tricks for preparing the data, and how to generate text with the output.  If you have a powerful laptop you can train your own, otherwise we'll be providing pre-trained networks too.
   speakers:
-    - Clodéric Mars
+    - Roelof Pieters
     - Alex J. Champandard
   room: laboratories
   time:
     start: "09:15"
-    finish: "11:00"
+    finish: "10:45"
+
+- title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks [Workshop]"
+  description: >
+    In this second hands-on workshop, you'll learn about and experiment with Sequence To Sequence transformations using recurrent neural networks. In particular, you'll see how LSTM (Long-Short Term Memory) work in practice to generate text, and how they can be used to model Seq2Seq.  You'll be provided with sample data from social media, specifically Twitter posts and their responses.  Whether you want to learn more about recurrent neural networks, predicting sequences, or just building cool and funny social media bots.
+  speakers:
+    - Alex J. Champandard
+    - Roelof Pieters
+  room: laboratories
+  time:
+    start: "10:45"
+    finish: "12:00"
+
+- title: "Experiences Building an AI-Powered Interlocutors [Panel]"
+  speakers:
+    - Clodéric Mars
+  room: masterclass
+  time:
+    start: "17:15"
+    finish: "18:00"

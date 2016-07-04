@@ -62,3 +62,11 @@
   time:
     start: "14:15"
     finish: "16:00"
+
+- title: "The State of Character Animation and Speaker Q&A [Roundtable]"
+  speakers:
+    - Mika Vehkala
+  room: laboratories
+  time:
+    start: "17:15"
+    finish: "18:00"
