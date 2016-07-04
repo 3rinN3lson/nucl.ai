@@ -5,18 +5,18 @@
     - Joseph Dureau
   room: amphitheatre
   time:
-    start: "11:15"
-    finish: "12:00"
+    start: "12:00"
+    finish: "12:45"
 
 - title: "Four Pillars to Building a Solid Conversational Bot"
   description: >
     Recently, bots have been making the headlines as the new apps: conversation will play an important role in the next interface between humans and machines. Recast.AI is a collaborative platform allowing developers to create and deploy conversational agents on any channel. In this talk, Paul will approach four major problematics he faced while developing Recast’s bot framework: modeling a conversation, understanding natural language, finding and extracting keywords, and generating language. His presentation will tackle the entire process of bot creation, from it’s global implications to its core technicalities.
   speakers:
     - Paul Renvoisé
-  room: masterclass
+  room: amphitheatre
   time:
-    start: "16:30"
-    finish: "17:15"
+    start: "15:00"
+    finish: "15:45"
 
 - title: "Sensor as virtual micromachine, universal tool for describing world around agent"
   description: >
@@ -30,10 +30,10 @@
     finish: "15:00"
 
 - title: "TBA: Cognitive, Bots & Understanding Track"
-  room: amphitheatre
+  room: masterclass
   time:
-    start: "15:00"
-    finish: "15:45"
+    start: "16:30"
+    finish: "17:15"
 
 - title: "Seq2Seq: Learning Pattern & Responses with Recurrent Neworks [Workshop]"
   description: >
@@ -45,9 +45,3 @@
   time:
     start: "09:15"
     finish: "11:00"
-
-- title: "TBA: Cognitive, Bots & Understanding Track"
-  room: laboratories
-  time:
-    start: "12:00"
-    finish: "12:45"
