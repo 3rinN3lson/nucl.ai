@@ -73,7 +73,7 @@
     start: "14:15"
     finish: "15:00"
 
-- title: "Userbase Modeling & Statistical Analysis Roundtable"
+- title: "Userbase Modeling & Statistical Analysis [Extended Q&A]"
   speakers:
     - Heather Stark
   room: laboratories
@@ -81,19 +81,18 @@
     start: "11:30"
     finish:  "12:00"
 
-- title: "Individual Profiling and Modeling Roundtable"
+- title: "Individual Profiling and Modeling [Roundtable]"
   speakers:
-    - Heather Stark
+    - Alex Zook
   room: laboratories
   time:
     start: "15:00"
     finish:  "15:45"
 
-
-- title: "Future Directions and Machine Learning"
+- title: "Future Directions for Analytics and Machine Learning [Roundtable]"
   speakers:
-    - Heather Stark
+    - Sam Devlin
   room: laboratories
   time:
     start: "17:15"
-    finish:  "17:45"
+    finish:  "18:00"

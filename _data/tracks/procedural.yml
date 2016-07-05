@@ -16,8 +16,8 @@
     In this hands-on workshop, you'll learn about and experiment with algorithms that use convolutional neural networks to generate images: from photo-realistic textures, to style transfer on portraits, or even up-sampling pixel art. You'll learn about the underlying neural architectures,
     how they are trained, and how you can modify them to get the results you want too!
   speakers:
-    - Noor Shaker
     - Alex J. Champandard
+    - Samim Winiger
   room: laboratories
   time:
     start: "09:15"
@@ -64,7 +64,9 @@
     start: "11:15"
     finish: "12:00"
 
-- title: "Best Practices in Generative Pipelines Roundtable"
+- title: "Best Practices in Generative Pipelines [Roundtable]"
+  speakers:
+    - Noor Shaker
   room: laboratories
   time:
     start: "14:15"

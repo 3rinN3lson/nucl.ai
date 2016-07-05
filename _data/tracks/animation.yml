@@ -5,8 +5,8 @@
     - Kristof Minnaert
   room: amphitheatre
   time:
-    start: "12:00"
-    finish: "12:45"
+    start: "11:15"
+    finish: "12:00"
 
 - title: "Climbing in VR and Reaching New Heights with Procedural Animation"
   description: >
@@ -16,8 +16,8 @@
     - Ali Helmy
   room: amphitheatre
   time:
-    start: "09:15"
-    finish: "09:45"
+    start: "10:00"
+    finish: "10:45"
 
 - title: "Bringing a Hero from Paragon to Life with UE4"
   description: >
@@ -27,8 +27,8 @@
     - Laurent Delayen
   room: masterclass
   time:
-    start: "11:15"
-    finish: "12:00"
+    start: "12:00"
+    finish: "12:45"
 
 - title: "Thinking Procedural: Programming an Animator's Brain"
   description: >
@@ -37,8 +37,8 @@
     - Vegard Myklebust
   room: masterclass
   time:
-    start: "09:45"
-    finish: "10:30"
+    start: "09:15"
+    finish: "10:00"
 
 - title: "IK and Animation Mapping for Generated Creatures in No Man's Sky"
   description: >
@@ -62,3 +62,11 @@
   time:
     start: "14:15"
     finish: "16:00"
+
+- title: "The State of Character Animation and Speaker Q&A [Roundtable]"
+  speakers:
+    - Mika Vehkala
+  room: laboratories
+  time:
+    start: "17:15"
+    finish: "18:00"
