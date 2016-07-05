@@ -6,8 +6,8 @@
     - Mark Riedl
   room: amphitheatre
   time:
-    start: "17:15"
-    finish: "18:00" 
+    start: "16:30"
+    finish: "17:15"
 
 - title: "TransProse: Generating Music From Literature"
   description: >
@@ -49,8 +49,20 @@
     start: "11:15"
     finish: "12:00" 
 
-- title: "TBA: Text, Dialog & Storytelling Track" # Creative Patterns
+- title: "New Patterns for Creation - Applying Machine Learning to Creativity"
+  speakers:
+    - Samim Winiger
+  description: >
+    In recent years, there has been an explosion of research that deals with creativity and AI: Systems that paint, write stories, composes music, design objects or build houses. While CreativeAI has become a exiting new frontier in machine learning, it remains challenging to approach for creative industries, designers, musicians and artists. This talk argues that behind the noise, new patterns for creation are emerging. It highlights key patterns, their technology and research, and illustrates practical use-cases. Further the talk explores a modular design language for CreativeAI, and shows how it can be used to rapidly develop CreativeAI experiments and generative pipelines.
   room: masterclass
   time:
-    start: "16:30"
-    finish: "17:15"
+    start: "10:00"
+    finish: "10:45"
+
+- title: "TBA: Dynamic Panel"
+  speakers:
+    - Tommy Thompson
+  room: masterclass
+  time:
+    start: "17:15"
+    finish: "18:00"

@@ -13,8 +13,8 @@
     - Eric Johnson
   room: amphitheatre
   time:
-    start: "10:00"
-    finish: "10:45"
+    start: "15:00"
+    finish: "15:45"
 
 - title: "The How and Why of Server Validation for Mobile Simulations"
   description: >
@@ -31,7 +31,9 @@
     start: "11:30"
     finish: "12:00"
 
-- title: "TBA: Expert Panel Discussion & Roundtable"
+- title: "Integrating Modern AI with no Leaps of Faith: What’s Your Next Step? [Panel]"
+  description: >
+    When you are faced with the challenge of decision making, you may choose among different techniques. Monte Carlo Tree Search, Deep Q Learning, Query Systems or even Evolutionary Algorithms can provide you with different ways of approaching the problem, and each one of them has its own advantages and disadvantages. How do you choose which one fits your problem better? What should you do, and what should you avoid? Can you combine these techniques, or switch from one to another dynamically? Join us at this panel to hear what do our experts think about this and learn from their tips and experiences.
   speakers:
     - Diego Perez
   room: laboratories
@@ -67,8 +69,8 @@
   speakers:
     - Tristan Cazenave
   time:
-    start: "15:00"
-    finish: "15:45"
+    start: "10:00"
+    finish: "10:45"
 
 - title: "Hands-On Deep Q-Learning in DOOM [Workshop]"
   description: >

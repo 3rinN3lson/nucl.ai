@@ -5,8 +5,8 @@
     - Gwennael Gaté
   room: amphitheatre
   time:
-    start: "14:15"
-    finish: "15:00"
+    start: "17:15"
+    finish: "18:00"
 
 - title: Visual Instruments for Live Performance and Creative Expression
   description: >
@@ -25,8 +25,8 @@
     - Gaspard Bucher
   room: amphitheatre
   time:
-    start: "16:30"
-    finish: "17:15"
+    start: "14:15"
+    finish: "15:00"
 
 - title: "Advanced Sensors and Tracking Human Interaction in Public Spaces [Workshop]"
   description: >
@@ -38,10 +38,9 @@
     start: "09:15"
     finish: "12:00"
 
-- title: "AI-powered Next-Gen AR devices: How deep does the rabbit hole go?"
+- title: "Diving Into the Next-Generation of AR Devices and Google's Project Tango"
   description: >
-    Next-Gen augmented reality (AR) devices are complex systems that unify a multitude of different technologies, ranging from natural user interfaces (NUI) through to AI-assisted input/output. This talk will take a closer look at the past, present and future of augmented reality and dive deep into the architecture of the Google Tango tablet.
-    Doing so will reveal the advanced AI techniques used to enable AR and provide context for the remaining challenges and problems in this domain.
+    Next-Gen augmented reality (AR) devices are complex systems that unify a multitude of different technologies, ranging from natural user interfaces (NUI) through to AI-assisted input/output. This talk will take a closer look at the past, present and future of augmented reality and dive deep into the architecture of the Google Tango tablet.  Doing so will reveal the advanced AI techniques used to enable AR and provide context for the remaining challenges and problems in this domain.
   speakers:
     - James Bonner
     - Jannes Nagel
@@ -49,3 +48,13 @@
   time:
     start: "15:00"
     finish: "15:45"
+
+- title: "TBA: Human Recognition & Interface Panel"
+  description: >
+    *description pending*
+  speakers:
+    - Richard Kogelnig
+  room: masterclass
+  time:
+    start: "16:30"
+    finish: "17:15"
