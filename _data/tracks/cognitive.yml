@@ -43,8 +43,8 @@
   description: >
     This first hands-on workshop digs into simple recurrent neural networks known as LSTM, in particular training them from data gathered from social media.  You'll learn how the networks function, tricks for preparing the data, and how to generate text with the output.  If you have a powerful laptop you can train your own, otherwise we'll be providing pre-trained networks too.
   speakers:
-    - Roelof Pieters
     - Alex J. Champandard
+    - Roelof Pieters
   room: laboratories
   time:
     start: "09:15"

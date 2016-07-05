@@ -171,7 +171,7 @@
     the General Video Game AI competitions, both held in IEEE conferences. He also has programming experience in the videogames 
     industry with titles published for game consoles and PC.
 
-- name: Emil "AngryAnt" Johansen
+- name: Emil Johansen
   role: track
   tracks: [behavior]
   twitter: AngryAnt
@@ -615,6 +615,15 @@
     url: http://www.digitalcreativity.ac.uk/
   bio: >
     Dr Sam Devlin (http://www-users.cs.york.ac.uk/~devlin/) received an MEng degree in Computer Systems and Software Engineering from the University of York, UK, in 2009. In 2013, he completed his PhD on multi-agent reinforcement learning at the University of York and visited Oregon State University funded by a Santander International Connections Award. His research interests are focussed on artificial intelligence, data mining and machine learning. He was a Research Associate on the EPSRC funded New Economic Models and Opportunities for digital Games (NEMOG) project from 2013-2015, working on data mining for collective game intelligence. He now holds a full academic role as a transitional fellow in the Digital Creativity Labs.
+
+- name: Samim Winiger
+  role: speaker
+  twitter: samim
+  affiliation:
+    position: Co-Founder
+    name: creative.ai
+  bio: >
+    Samim A. Winiger is a compassionate designer, code magician and narrative engineer. He is a co-founder of Creative.AI - a R&D team focused on machine learning for creative industries. He is known for doing experiments that combine creativity and AI, and open source projects such as GitXiv. Previously, he has been a co-founder of multiple companies and operations in the web, music and games space - working on independent projects and for global brands. Samim dreams about topics such as ethical machines, bots that design, the democratization of creativity, gardening and mediation.
 
 - name: Santiago Murillo
   role: speaker
