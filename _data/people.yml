@@ -598,15 +598,19 @@
 
 - name: Roelof Pieters
   role: speaker
+  affiliation:
+    position: "Researcher & Consultant"
+    name: Graph Technologies
+    url: http://www.graph-technologies.com/
   twitter: graphific
   bio: >
-    (pending)
+    Roelof Pieters  shares his time between running Graph-Technologies, a machine learning consultancy, and PhD research at the Swedish Royal Institute of Technology. His research touches on shared representations of text, vision, and audio, generative models, where he also investigates creative uses for AI. He is also involved in projects like GitXiv, CreativeAI.net and cohosts the Ethical Machines podcast.
 
 - name: Sam Devlin
   role: speaker
   twitter: Games4AI
   affiliation:
-#    position: Transitional fellow
+    position: Research Associate
     name: Digital Creativity Labs
     url: http://www.digitalcreativity.ac.uk/
   bio: >

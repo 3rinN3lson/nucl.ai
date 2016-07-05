@@ -18,7 +18,7 @@
     start: "15:00"
     finish: "15:45"
 
-- title: "Sensor as virtual micromachine, universal tool for describing world around agent"
+- title: "The Sensor as Virtual Micromachine: Universal Tools for Describing Agent Environments"
   description: >
     <p>Showing "sensors" abstraction on real examples from VBSTactics/VBSControl and NOTA, "their" evolution from the customers use cases to the stage that sensor is just configurable virtual module/machine (own sub-simulation), which is with standardized API provided to AI behaviors creators as a blackbox (simple answering machine).</p>
     <p>Presenting example solution (following the concept) which was done "on the scripters level" (for people which have no deep AI and programming skills) and which combined with the framework is able to satisfy numerous goals and it still meets the high-performance requirements.</p> 
@@ -29,7 +29,9 @@
     start: "14:15"
     finish: "15:00"
 
-- title: "Deep Learning for Generating Language with Style!"
+- title: "Deep Neural Networks That Talk Back... with Style!"
+  description: >
+    Can neural networks sing, dance, remix and rhyme? And most importantly, can they talk back? This talk will introduce Deep Neural Nets with textual and auditory understanding and some of the recent breakthroughs made in these fields. It will then show some of the exciting possibilities these technologies hold for "creative" use and explorations of human-machine interaction, where the main theorem is "augmentation, not automation".
   speakers:
     - Roelof Pieters
   room: masterclass
