@@ -6,8 +6,8 @@
     - Mark Riedl
   room: amphitheatre
   time:
-    start: "16:30"
-    finish: "17:15"
+    start: "17:15"
+    finish: "18:00" 
 
 - title: "TransProse: Generating Music From Literature"
   description: >
@@ -59,10 +59,11 @@
     start: "10:00"
     finish: "10:45"
 
+
 - title: "TBA: Dynamic Panel"
   speakers:
     - Tommy Thompson
   room: masterclass
   time:
-    start: "17:15"
-    finish: "18:00"
+    start: "16:30"
+    finish: "17:15"

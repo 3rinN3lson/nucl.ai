@@ -5,8 +5,8 @@
     - Gwennael Gaté
   room: amphitheatre
   time:
-    start: "17:15"
-    finish: "18:00"
+    start: "14:15"
+    finish: "15:00"
 
 - title: Visual Instruments for Live Performance and Creative Expression
   description: >
@@ -25,8 +25,8 @@
     - Gaspard Bucher
   room: amphitheatre
   time:
-    start: "14:15"
-    finish: "15:00"
+    start: "16:30"
+    finish: "17:15"
 
 - title: "Advanced Sensors and Tracking Human Interaction in Public Spaces [Workshop]"
   description: >
@@ -56,5 +56,5 @@
     - Richard Kogelnig
   room: masterclass
   time:
-    start: "16:30"
-    finish: "17:15"
+    start: "17:15"
+    finish: "18:00"
