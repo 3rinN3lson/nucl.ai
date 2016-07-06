@@ -78,6 +78,8 @@
     finish: "10:00"
 
 - title: "Augmenting Design & Testing with AI-Powered Tools [Roundtable]"
+  speakers:
+    - Michaël Rouillé
   room: laboratories
   time:
     start: "16:30"
