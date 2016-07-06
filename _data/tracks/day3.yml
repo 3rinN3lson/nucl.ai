@@ -1,9 +1,9 @@
-#- title: "Introduction: Animation, Systemic Design, Cognitive Bots"
-#  speakers:
-#    - Mika Vehkala
-#    - Josh McCoy
-#    - Tommy Thompson
-#  room: amphitheatre
-#  time:
-#    start: "09:00"
-#    finish: "09:45"
+- title: "Introduction: Animation, Systemic Design, Cognition"
+  speakers:
+    - Mika Vehkala
+    - Clodéric Mars
+    - Tommy Thompson
+  room: amphitheatre
+  time:
+    start: "09:00"
+    finish: "09:15"

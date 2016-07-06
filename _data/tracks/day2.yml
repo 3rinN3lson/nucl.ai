@@ -1,9 +1,9 @@
-#- title: "Introduction: Behavior, Analytics, Procedural Generation"
-#  speakers:
-#    - Clodéric Mars
-#    - Heather Stark
-#    - Noor Shaker
-#  room: amphitheatre
-#  time:
-#    start: "09:00"
-#    finish: "09:45"
+- title: "Introduction: Behavior, Analytics, Procedural Generation"
+  speakers:
+    - Emil Johansen
+    - Heather Stark
+    - Noor Shaker
+  room: amphitheatre
+  time:
+    start: "09:00"
+    finish: "09:15"
