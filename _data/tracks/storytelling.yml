@@ -16,8 +16,8 @@
     - Hannah Davis
   room: amphitheatre
   time:
-    start: "09:15"
-    finish: "10:00"
+    start: "11:15"
+    finish: "12:00"
 
 - title: "Procedural Story & Level Generation using Tag-Based Content Selection"
   description: >
@@ -46,8 +46,8 @@
     - Tomáš PLch
   room: amphitheatre
   time:
-    start: "11:15"
-    finish: "12:00" 
+    start: "09:15"
+    finish: "10:00" 
 
 - title: "New Patterns for Creation - Applying Machine Learning to Creativity"
   speakers:
