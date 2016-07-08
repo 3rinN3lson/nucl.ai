@@ -1,0 +1,153 @@
+---
+layout: page
+title: Live Stream — nucl.ai Conference
+permalink: /streamcheck/
+---
+<section class="stream">
+    <grid>
+        <h2 class="stream-teaser">Event Live Stream Starts Here In:</h2>
+        <content>
+
+            <div class="all-timers-off">
+                ... a year, Thank you for watching nucl.ai 2016!
+            </div>
+            {% comment %}
+            {% assign timer_title = "Follow us" %}
+            {% endcomment %}
+            {% for day in site.data.streamcheck.days %}
+                {% capture timer_name %}day-{{forloop.index}}{% endcapture %}
+                {% capture timer_on_finish %} $('.stream-teaser').hide(); timer.hide(); $('#stream-{{forloop.index}}').show(); $('#schedule-{{forloop.index}}').show(); {% endcapture %}
+                {% assign timer_off = day.finish %}
+                {% assign timer_count_to = day.start %}
+                {% include features/timers/timer.html %}
+                {% capture timer_on_off %}  timer.remove(); $('.stream-teaser').show(); $('#stream-{{forloop.index}}').remove();  $('#schedule-{{forloop.index}}').remove(); $('#schedule-{{forloop.index}}-none').remove(); activateTimer('day-{{forloop.index|plus:1}}');{% endcapture %}
+                {% if forloop.last == true %}
+                    {% capture timer_on_off %} $('.all-timers-off').show();  $('section.stream').addClass('full-screen'); $('#stream-{{forloop.index}}').remove(); $('#schedule-{{forloop.index}}').remove(); $('#schedule-{{forloop.index}}-none').remove(); $('.stream-teaser').show(); {% endcapture %}
+                {% endif %}
+                <div class="mobile">
+                    {% include features/timers/timer.html %}
+                </div>
+            {% endfor %}
+
+            <div class="subscribe-wrap stream-teaser">
+
+                <h2 class="subscribe-note"> Subscribe for Updates or Notifications </h2>
+
+                <p>
+                Subscribe on YouTube for notifications, by emails for reminders, and social media for regular updates.
+                </p>
+
+                <div class="icons-wrap">
+                    <icons class="social">
+                        <a href="https://www.youtube.com/user/aigamedev" target="_blank" class="social social-light yt"></a>
+                        <a href="https://twitter.com/nuclai" target="_blank" class="social social-light twitter"></a>
+                        <a href="https://facebook.com/nuclai" target="_blank" class="social social-light facebook"></a>
+                        <a href="{{ '/tickets/' | prepend: site.baseurl }}" class="social social-light ticket"></a>
+                        <a href="{{ '/contact/#stay-informed/' | prepend: site.baseurl }}" class="social social-light newsletter">
+                        </a>
+                    </icons>
+                </div>
+            </div>
+
+            {% comment %}
+            <div id="register" class="stream-teaser">
+                <a href="/stream/day1/">Day #1</a> &mdash;
+                <a href="/stream/day2/">Day #2</a> &mdash;
+                <a href="/stream/day3/">Day #3</a>
+            </div>
+            {% endcomment %}
+        
+    </content>
+</grid>
+
+
+{% for day in site.data.stream.days %}
+    <div class="stream-wrap" id="stream-{{forloop.index}}">
+        <div class="stream-inside">
+            {{ day.livestream }}
+            {{ day.chat }}
+        </div>
+    </div>
+{% endfor %}
+
+
+
+{% include features/timers/clean.html %}
+
+</section>
+
+{% for day in site.data.schedule %}
+    <section class="program-schedule stream" id="schedule-{{forloop.index}}">
+        <grid class="list-schedule">
+            <content>
+                {% include schedule/preamble.html %}
+                {% assign roomsLayout = false %}
+                {% include schedule/day.html %}
+            </content>
+        </grid>
+    </section>
+    <section class="none" id="schedule-{{forloop.index}}-none"></section>
+{% endfor %}
+
+
+<section class="none"></section>
+
+<section class="stream stream-teaser first">
+    <content>
+        <grid>
+            <div style="text-align: left;">
+                <img src="/img/stream/stream-yellow.jpg">
+                <p class="credit"><u>Image Credit</u>: CC-NC-SA iquilezles, alexjc [<a href="https://www.shadertoy.com/view/4llXz4">source</a>]</p>
+
+                <h3>The Schedule</h3>
+                            
+                <p>Our live stream covers all the talks in the main amphitheatre, in particular:</p>
+                
+                <ul>
+                    <li><b>July 18th, Day #1</b> &mdash; Real-time Decisions, Dynamic Dialog & Storytelling, Human Interaction & Recognition.
+                        <p style="color: #a5cce9; opacity: 0.85; font-size: 100%;"><u>STREAMING LIVE</u>:
+TransProse: Generating Music From Literature, Expanding the Frontier of Environment Query Systems, Intelligent Directors and Storytelling in Kingdom Come: Deliverance, Visual Instruments for Live Performance and Creative Expression, 
+Making Robots Interact with People: Lessons Learned Deploying Pepper in Japan, Computer Go: from Influence Functions to AlphaGo, Experiments in Augmenting the Performer with AI to Control Live Events, Computational Narrative Intelligence and the Quest for Human-Centered AI.</p>
+                    </li>
+                    <li><b>July 19st, Day #2</b> &mdash; Agent Behavior & Coordination, Procedural Content Generation, Analytics & Data Science.
+                        <p style="color: #a5cce9; opacity: 0.85; font-size: 100%;"><u>STREAMING LIVE</u>: People Play, People Talk? A Deep Dive on Organic Downloads, Server-Side Character Behavior in THE DIVISION,  TBA: AAA Procedural Asset Pipelines [Keynote],  A Brief History of Matchmaking in Heroes of the Storm, Bodyguards and VIPs: A Look at Ambient, Alert and Evacuation Behaviors in HITMAN, Techne: An Art Commune by Bots, for Bots, Building Worlds in 64kB: Why Humans Should Never Have to Touch Pixels or Polygons, Late to the Party! A Story of Adding Player Bots to a Humans-Only Game. </p>
+                    </li>
+                    <li><b>July 20nd, Day #3</b> &mdash; Generative Systems & Design, Character Animation, Cognition, Bots & Understanding.
+                        <p style="color: #a5cce9; opacity: 0.85; font-size: 100%;"><u>STREAMED LIVE</u>: Climbing in VR and Reaching New Heights with Procedural Animation, It’s in the Vents: The AI of Alien Isolation, Building an Intelligent Memory — A First Step Towards General Artificial Intelligence,
+                        Creating Digital Doubles, The Character Pipeline in Quantum Break,
+                        TBA: Perception of Simulation Details,
+                        TBA: Cognitive, Bots & Understanding Track,
+                        TBA: Animation for Generated Creatures,
+                        Crowd Control for Feature Film at ILM.
+                        .</p>
+                    </li>
+                </ul>
+
+                <p>See the <a href="/program/schedule/">full schedule</a> for more detailed information.</p>
+            </div>
+        </grid>
+    </conten>
+</section>
+
+<section class="stream stream-teaser">
+    <content>
+        <grid>
+            <div style="text-align: left;">
+                <h3>The Event</h3>
+                
+                <p>Of course, if you're interested in any of the sessions above you should <a href="/attend/">attend in-person</a>!  Here are many reasons why:</p>
+                
+                <ol style="opacity: 0.85;">
+                    <li><b>On-Site Only Sessions</b> &mdash; The masterclass room features in-depth tutorials and more advanced topics, and will not be streamed.  Also, the hands-on workshop only make sense if you attend in person and won't be recorded.  Consider visiting us!<br/><br/></li>
+                    <li><b>Career Opportunities</b> &mdash; If you're looking to make a transition into artificial intelligence, nucl.ai is the place you jump to the front of the queue. Whether you're a student or looking for options, there's no substitute for meeting your future colleagues directly!<br/><br/></li>
+                    <li><b>Networking &amp; Building Contacts</b> &mdash; The community at nucl.ai is very friendly, and the event is a great & easy way to meet new friends, build up your professional network, and like-minded people to contact in the future.<br/><br/></li>
+                    <li><b>Recruiting and Hiring</b> &mdash; For studios or companies keen to hire, nucl.ai is one of the best places to start since it's a conference focusing on developers, not CEOs or marketers!  Meeting those programmers and designers in person one of the best ways to hire.<br/><br/></li>
+                </ol>
+                
+                <p>If you need any help or advice with any of this, the conference team is always happy to help.  Our hands-on workshops are great ways to meet others without any pressure.  The various social events, both official and unofficial, will also let you relax in great company.</p>
+            </div>
+        </grid>
+    </conten>
+</section>
+
+<section class="stream-teaser separator" style="background-image: url('{{'/img/stream/stream-purple-quads.png' | prepend: site.baseurl }}' );background-position: center center;"></section>
