@@ -53,9 +53,9 @@
     start: "16:45"
     finish: "17:15"
 
-- title: "People Play, People Talk? A Deep Dive on Organic Downloads"
+- title: "People Play, People Talk? Inferring Userbase Dynamics from Sparse Data"
   description: >
-    <p>Players not coming from user acquisition are key for marketability of a game in light of the struggle to keep lifetime value above effective cost per install. Unfortunately, data on these users is sparse. It is mostly unknown why they download an app. Did they hear about it through family and friends (word-of-mouth)? Did they discover it on the App/Play Store? Did they watch a TV ad? Do they know your brand and searched for it? This talk focuses on what is widely regarded as the most important source of organic downloads in the mobile app ecosystem: word-of-mouth. More precisely, it looks into the share of word-of-mouth in organic downloads and the quality of the resulting traffic. Finally, a framework of the drivers of word-of-mouth for mobile apps is sketched.</p>
+    <p>A deep dive into understanding organic downloads and lessons learned!  Players not coming from user acquisition are key for marketability of a game in light of the struggle to keep lifetime value above effective cost per install. Unfortunately, data on these users is sparse. It is mostly unknown why they download an app. Did they hear about it through family and friends (word-of-mouth)? Did they discover it on the App/Play Store? Did they watch a TV ad? Do they know your brand and searched for it? This talk focuses on what is widely regarded as the most important source of organic downloads in the mobile app ecosystem: word-of-mouth. More precisely, it looks into the share of word-of-mouth in organic downloads and the quality of the resulting traffic. Finally, a framework of the drivers of word-of-mouth for mobile apps is sketched.</p>
   speakers:
     - Julian Runge
   room: amphitheatre
@@ -73,7 +73,7 @@
     start: "14:15"
     finish: "15:00"
 
-- title: "Userbase Modeling & Statistical Analysis [Extended Q&A]"
+- title: "Are (All) Players Worth the Trouble? Modelling Acquisition and Population Dynamics [Panel]"
   speakers:
     - Heather Stark
   room: laboratories
@@ -81,7 +81,7 @@
     start: "11:30"
     finish:  "12:00"
 
-- title: "Individual Profiling and Modeling [Roundtable]"
+- title: "Common Techniques for Profiling and Modeling Individual Users [Extended Q&A]"
   speakers:
     - Alex Zook
   room: laboratories
