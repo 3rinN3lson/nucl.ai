@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Live Stream — nucl.ai Conference
-permalink: /stream/
+permalink: /streamcheck/
 ---
 <section class="stream">
     <grid>
@@ -14,7 +14,7 @@ permalink: /stream/
             {% comment %}
             {% assign timer_title = "Follow us" %}
             {% endcomment %}
-            {% for day in site.data.stream.days %}
+            {% for day in site.data.streamcheck.days %}
                 {% capture timer_name %}day-{{forloop.index}}{% endcapture %}
                 {% capture timer_on_finish %} $('.stream-teaser').hide(); timer.hide(); $('#stream-{{forloop.index}}').show(); $('#schedule-{{forloop.index}}').show(); {% endcapture %}
                 {% assign timer_off = day.finish %}
