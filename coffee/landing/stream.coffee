@@ -27,9 +27,12 @@ $ ->
   $(window).resize ->
     $(".yt-iframe").each ->
       iframe = $(this);
-      if $(window).width() > 600
+      refElem = iframe.parent().parent()
+      refElem.css('max-width', '1200px');
+      refElem.css('margin', 'auto');
+      if refElem.width() > 600
         w = iframe.attr('width').split("%")[0];
-        h = $(window).width() * (9 * w) / (16 * 100);
+        h = refElem.width() * (9 * w) / (16 * 100);
         iframe.height h;
         iframe.width w + "%";
         iframe.css('padding-bottom', '2em')
@@ -47,9 +50,13 @@ $ ->
 
   $(".yt-iframe").each ->
     iframe = $(this);
-    if $(window).width() > 600
+    refElem = iframe.parent().parent()
+    refElem.css('max-width', '1200px');
+    refElem.css('margin', 'auto');
+    if refElem.width() > 600
       w = iframe.attr('width').split("%")[0];
-      h = $(window).width() * (9 * w) / (16 * 100);
+
+      h = refElem.width() * (9 * w) / (16 * 100);
       iframe.height h;
       iframe.width w + "%";
       iframe.css('padding-bottom', '2em');
