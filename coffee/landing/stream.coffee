@@ -27,7 +27,40 @@ $ ->
   $(window).resize ->
     $(".yt-iframe").each ->
       iframe = $(this);
-      iframe.height iframe.width() * 9 / 16
+      if $(window).width() > 600
+        w = iframe.attr('width').split("%")[0];
+        h = $(window).width() * (9 * w) / (16 * 100);
+        iframe.height h;
+        iframe.width w + "%";
+        iframe.css('padding-bottom', '2em')
+        iframe.parent().find(".chat-iframe").height h;
+        iframe.parent().find(".chat-iframe").width String(100 - w) + "%";
+      else
+        iframe.width $(window).width();
+        iframe.css('padding-bottom', '0em');
+        iframe.parent().find(".chat-iframe").width $(window).width();
+        h = $(window).width() * 9 / 16 ;
+        iframe.height h;
+        iframe.parent().find(".chat-iframe").height h;
+        iframe.parent().find(".chat-iframe").width $(window).width();
+
+
   $(".yt-iframe").each ->
-      iframe = $(this);
-      iframe.height iframe.width() * 9 / 16
+    iframe = $(this);
+    if $(window).width() > 600
+      w = iframe.attr('width').split("%")[0];
+      h = $(window).width() * (9 * w) / (16 * 100);
+      iframe.height h;
+      iframe.width w + "%";
+      iframe.css('padding-bottom', '2em');
+      iframe.parent().find(".chat-iframe").height h;
+      iframe.parent().find(".chat-iframe").width String(100 - w) + "%";
+    else
+      iframe.width $(window).width();
+      iframe.css('padding-bottom', '0em');
+      iframe.parent().find(".chat-iframe").width $(window).width();
+      h = $(window).width() * 9 / 16 ;
+      iframe.height h;
+      iframe.parent().find(".chat-iframe").height h;
+      iframe.parent().find(".chat-iframe").width $(window).width();
+

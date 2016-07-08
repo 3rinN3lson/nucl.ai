@@ -9,7 +9,7 @@ permalink: /stream/
         <content>
 
             <div class="all-timers-off">
-                Conference Live Stream has ended. Thank you for watching!
+                ... a year, Thank you for watching nucl.ai 2016!
             </div>
             {% comment %}
             {% assign timer_title = "Follow us" %}
@@ -22,14 +22,14 @@ permalink: /stream/
                 {% include features/timers/timer.html %}
                 {% capture timer_on_off %}  timer.remove(); $('.stream-teaser').show(); $('#stream-{{forloop.index}}').remove();  $('#schedule-{{forloop.index}}').remove(); $('#schedule-{{forloop.index}}-none').remove(); activateTimer('day-{{forloop.index|plus:1}}');{% endcapture %}
                 {% if forloop.last == true %}
-                    {% capture timer_on_off %} $('.all-timers-off').show();  $('section.stream').addClass('full-screen'); $('#stream-{{forloop.index}}').remove(); $('#schedule-{{forloop.index}}').remove(); $('#schedule-{{forloop.index}}-none').remove(); {% endcapture %}
+                    {% capture timer_on_off %} $('.all-timers-off').show();  $('section.stream').addClass('full-screen'); $('#stream-{{forloop.index}}').remove(); $('#schedule-{{forloop.index}}').remove(); $('#schedule-{{forloop.index}}-none').remove(); $('.stream-teaser').show(); {% endcapture %}
                 {% endif %}
                 <div class="mobile">
                     {% include features/timers/timer.html %}
                 </div>
             {% endfor %}
 
-            <div class="subscribe-wrap">
+            <div class="subscribe-wrap stream-teaser">
 
                 <h2 class="subscribe-note"> Subscribe for Updates or Notifications </h2>
 
@@ -38,7 +38,6 @@ permalink: /stream/
                 </p>
 
                 <div class="icons-wrap">
-
                     <icons class="social">
                         <a href="https://www.youtube.com/user/aigamedev" target="_blank" class="social social-light yt"></a>
                         <a href="https://twitter.com/nuclai" target="_blank" class="social social-light twitter"></a>
@@ -47,11 +46,7 @@ permalink: /stream/
                         <a href="{{ '/contact/#stay-informed/' | prepend: site.baseurl }}" class="social social-light newsletter">
                         </a>
                     </icons>
-
                 </div>
-
-
-
             </div>
 
             {% comment %}
@@ -62,16 +57,19 @@ permalink: /stream/
             </div>
             {% endcomment %}
         
+    </content>
+</grid>
+
+
 {% for day in site.data.stream.days %}
     <div class="stream-wrap" id="stream-{{forloop.index}}">
-    <div class="stream-inside">
-        {{ day.livestream }}
-    </div>
+        <div class="stream-inside">
+            {{ day.livestream }}
+            {{ day.chat }}
+        </div>
     </div>
 {% endfor %}
 
-    </content>
-</grid>
 
 
 {% include features/timers/clean.html %}
@@ -129,17 +127,6 @@ Making Robots Interact with People: Lessons Learned Deploying Pepper in Japan, C
             </div>
         </grid>
     </conten>
-</section>
-
-<section style="display:none;">
-    <content>
-        <grid>
-            <iframe  <iframe width="100%" height="200" src="https://www.youtube.com/live_chat?v=JqoQQ4kHmTk&embed_domain=events.nucl.ai">
-            </iframe>
-        </grid>
-    </content>
-</section>
-<section style="display:none;">
 </section>
 
 <section class="stream stream-teaser">
