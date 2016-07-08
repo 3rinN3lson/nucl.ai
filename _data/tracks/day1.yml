@@ -1,9 +1,9 @@
-# - title: "Day #1 Welcome & Introduction"
-#   room: amphitheatre
-#   time:
-#     start: "09:00"
-#     finish: "9:15"
-#   speakers:
-#     - Tommy Thompson
-#     - Diego Perez
-#     - Richard Kogelnig
+- title: "Day #1 Welcome & Introduction"
+  room: amphitheatre
+  time:
+    start: "09:00"
+    finish: "9:15"
+  speakers:
+    - Tommy Thompson
+    - Diego Perez
+    - Richard Kogelnig

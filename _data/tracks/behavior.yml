@@ -65,7 +65,7 @@
     start: "10:00"
     finish: "10:45"
 
-- title: "Production Issues Support Group and Behavior Logic Clinic [Panel]"
+- title: "Production Issues Support Group and Behavior Logic Clinic [Roundtable]"
   speakers:
     - Emil Johansen
   room: laboratories
@@ -73,7 +73,7 @@
     start: "12:00"
     finish: "12:45"
 
-- title: "Branching Out: Applying Behavior Logic throughout the Codebase [Panel]"
+- title: "Branching Out: Applying Behavior Logic throughout the Codebase [Roundtable]"
   speakers:
     - Emil Johansen
   room: laboratories

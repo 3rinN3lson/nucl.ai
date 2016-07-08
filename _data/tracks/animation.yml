@@ -52,7 +52,7 @@
 
 - title: "Motion Matching for Paths & Trajectories [Workshop]"
   description: >
-    In yhis hands-on laboratory, you'll learn to work with motion matching from basic principles. Using recorded paths from DOTA2, you'll see how the core algorithm works—matching the current state every frame and and selecting future trajectories that match.  Thanks to a simple
+    In this hands-on laboratory, you'll learn to work with motion matching from basic principles. Using recorded paths from DOTA2, you'll see how the core algorithm works—matching the current state every frame and and selecting future trajectories that match.  Thanks to a simple
     Python application, you'll be able to experiment and understand the major principles and ideas behind the technique that was first
     introduced at the nucl.ai Conference 2015.
   speakers:
