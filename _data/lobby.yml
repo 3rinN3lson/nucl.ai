@@ -1,22 +1,20 @@
 - date: "2016/07/18"
   sponsors:
-    - id: craft_ai
+    - id: nvidia
       duration: 20000
-    - id: ca
+    - id: craft_ai
       duration: 20000
 
 - date: "2016/07/19"
   sponsors:
-    - id: io_interactive
+    - id: nvidia
       duration: 20000
     - id: craft_ai
       duration: 20000
 
 - date: "2016/07/20"
   sponsors:
+    - id: nvidia
+      duration: 20000
     - id: craft_ai
-      duration: 15000
-    - id: ca
-      duration: 15000
-    - id: io_interactive
-      duration: 15000
+      duration: 20000

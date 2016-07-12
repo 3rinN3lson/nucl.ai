@@ -1,24 +1,24 @@
 yt_channel: aigamedev
 days:
-  - start: "2016/07/11 19:20"
-    finish: "2016/07/11 19:21"
-    livestream: <iframe width="72%" class="yt-iframe" src="https://www.youtube.com/embed/Y033IYtxiO8" frameborder="0" allowfullscreen></iframe>
-    chat: <iframe width="28%" class="chat-iframe" src="https://www.youtube.com/live_chat?v=Y033IYtxiO8&embed_domain=events.nucl.ai" frameborder="0" allowfullscreen></iframe>
+  - start: "2016/07/12 16:55"
+    finish: "2016/07/12 17:00"
+    livestream: <iframe width="72%" class="yt-iframe" src="https://www.youtube.com/embed/2-nwL9l19CY" frameborder="0" allowfullscreen></iframe>
+    chat: <iframe width="28%" class="chat-iframe" src="https://www.youtube.com/live_chat?v=2-nwL9l19CY&embed_domain=events.nucl.ai" frameborder="0" allowfullscreen></iframe>
 
     #livestream: <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/nuclai-2015-day1?navlinks=false&embed=true"></iframe>
   #- start: "2016/07/18 8:30"
   #  finish: "2016/07/18 18:00"
   #  livestream: <iframe width="560" height="315" src="https://www.youtube.com/embed/Y033IYtxiO8" frameborder="0" allowfullscreen></iframe>
     #livestream: <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/nuclai-2015-day1?navlinks=false&embed=true"></iframe>
-  - start: "2016/07/11 19:22"
-    finish: "2016/07/11 19:23"
-    livestream: <iframe width="72%" class="yt-iframe" src="https://www.youtube.com/embed/Y033IYtxiO8" frameborder="0" allowfullscreen></iframe>
-    chat: <iframe width="28%" class="chat-iframe" src="https://www.youtube.com/live_chat?v=Y033IYtxiO8&embed_domain=events.nucl.ai" frameborder="0" allowfullscreen></iframe>
+  - start: "2016/07/12 17:02"
+    finish: "2016/07/12 17:07"
+    livestream: <iframe width="72%" class="yt-iframe" src="https://www.youtube.com/embed/2-nwL9l19CY" frameborder="0" allowfullscreen></iframe>
+    chat: <iframe width="28%" class="chat-iframe" src="https://www.youtube.com/live_chat?v=2-nwL9l19CY&embed_domain=events.nucl.ai" frameborder="0" allowfullscreen></iframe>
 
     #livestream: <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/nuclai-2015-day2?navlinks=false&embed=true"></iframe>
-  - start: "2016/07/11 19:24"
-    finish: "2016/07/11 19:25"
-    livestream: <iframe width="72%" class="yt-iframe" src="https://www.youtube.com/embed/Y033IYtxiO8" frameborder="0" allowfullscreen></iframe>
-    chat: <iframe width="28%" class="chat-iframe" src="https://www.youtube.com/live_chat?v=Y033IYtxiO8&embed_domain=events.nucl.ai" frameborder="0" allowfullscreen></iframe>
+  - start: "2016/07/12 17:10"
+    finish: "2016/07/12 17:15"
+    livestream: <iframe width="72%" class="yt-iframe" src="https://www.youtube.com/embed/2-nwL9l19CY" frameborder="0" allowfullscreen></iframe>
+    chat: <iframe width="28%" class="chat-iframe" src="https://www.youtube.com/live_chat?v=2-nwL9l19CY&embed_domain=events.nucl.ai" frameborder="0" allowfullscreen></iframe>
     #livestream: <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/nuclai-2015-day3?navlinks=false&embed=true"></iframe>
 

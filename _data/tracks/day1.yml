@@ -3,7 +3,7 @@
   time:
     start: "09:00"
     finish: "9:15"
-  speakers:
-    - Tommy Thompson
-    - Diego Perez
-    - Richard Kogelnig
+  # speakers:
+  #   - Tommy Thompson
+  #   - Diego Perez
+  #   - Richard Kogelnig

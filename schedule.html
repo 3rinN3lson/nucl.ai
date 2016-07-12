@@ -9,9 +9,9 @@ permalink: /program/schedule/
     <grid class="rooms-schedule">
         <h2>Conference Schedule</h2>
         <content>
-            {% comment %}
+
             {% include schedule/preamble.html %}
-            {% endcomment %}
+
             {% assign roomsLayout = true %}
 
             {% for day in site.data.schedule %}
@@ -26,9 +26,9 @@ permalink: /program/schedule/
     <grid class="list-schedule">
         <h2>Conference Schedule</h2>
         <content>
-            {% comment %}
+
             {% include schedule/preamble.html %}
-            {% endcomment %}
+
             {% assign roomsLayout = false %}
 
             {% for day in site.data.schedule %}

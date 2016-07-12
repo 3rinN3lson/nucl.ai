@@ -81,14 +81,14 @@
     start: "16:30"
     finish: "17:15"
 
-- title: "CANCELLED — Time Traveling Debuggers for Agent-based Games"
-  description: >
-    *TALK HAS BEEN CANCELLED* In 2012, Bret Victor's talk "Inventing on Principle" showed the ideal future of debugging: time travel. Being able to scrub through all the past states of your program, fix the bug, hot-reload the code and see the change applied to all the past states as well.
-    Since then, only one implementation of it has appeared, for Elm, a Functional Reactive Programming language.
-    The principles of FRP make Time Travelling debuggers much cheaper to implement, making them viable for actual game development.
-    In this talk we'll look at what concepts it takes to implement one in Erlang, and how to use them to make agent-based games.
-  speakers:
-    - Claudia Doppioslash
+# - title: "CANCELLED — Time Traveling Debuggers for Agent-based Games"
+#   description: >
+#     *TALK HAS BEEN CANCELLED* In 2012, Bret Victor's talk "Inventing on Principle" showed the ideal future of debugging: time travel. Being able to scrub through all the past states of your program, fix the bug, hot-reload the code and see the change applied to all the past states as well.
+#     Since then, only one implementation of it has appeared, for Elm, a Functional Reactive Programming language.
+#     The principles of FRP make Time Travelling debuggers much cheaper to implement, making them viable for actual game development.
+#     In this talk we'll look at what concepts it takes to implement one in Erlang, and how to use them to make agent-based games.
+#   speakers:
+#     - Claudia Doppioslash
   # room: masterclass
   # time:
   #   start: "11:30"
