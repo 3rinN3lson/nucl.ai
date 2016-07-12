@@ -11,61 +11,67 @@ $ ->
       # adjust credists size
       $(".credits").height slot.parent().outerHeight()
 
+
+  updateTalkCounter = 0
   updateTalk = () ->
-    date = new Date() # default date
-    if url("?date") != null then date = new Date decodeURIComponent url("?date")
-    offset = 0
-    if url("?offset") != null then offset = parseInt url("?offset")
-    date.setMinutes date.getMinutes() + offset
+    if updateTalkCounter == 15 # 15 seconds to change
+      updateTalkCounter = 0 
+      updateNuclaiBar()
+    else if updateTalkCounter == 0
 
-    room = "all"
-    if url("?room") then room = url("?room")
+      date = new Date() # default date
+      if url("?date") != null then date = new Date decodeURIComponent url("?date")
+      offset = 0
+      if url("?offset") != null then offset = parseInt url("?offset")
+      date.setMinutes date.getMinutes() + offset
 
-    $("table").each ->
-      dayStr = $(@).attr("date")
-      day = new Date dayStr
-      if thisSameDate(date, day) 
-        #consider this date
-        slots = []
-        $(@).find("div.track").each ->
-          if room == "all" || $(@).attr("room") == "all" || room == $(@).attr("room")
-            slots.push $(@)
-          else 
-            $(@).remove()
+      room = "all"
+      if url("?room") then room = url("?room")
 
-        slots.sort (a,b) ->
-          a.dateStart = new Date dayStr + " " + a.attr("time-start")
-          a.dateEnd = new Date dayStr + " " + a.attr("time-finish")
-          b.dateStart = new Date dayStr + " " + b.attr("time-start")
-          b.dateEnd = new Date dayStr + " " + b.attr("time-finish")
-          a.dateStart - b.dateStart
-
-        toShow = maxShowingNumber
-
-        for slot in slots
-          if $(".show-current").length > 0
-            if slot.dateStart <= date && slot.dateEnd > date && toShow > 0  
-              slot.show()
-              updateCreditsSize(slot)
-              slot.addClass("selected")
-              toShow--
+      $("table").each ->
+        dayStr = $(@).attr("date")
+        day = new Date dayStr
+        if thisSameDate(date, day) 
+          #consider this date
+          slots = []
+          $(@).find("div.track").each ->
+            if room == "all" || $(@).attr("room") == "all" || room == $(@).attr("room")
+              slots.push $(@)
             else 
-              slot.hide()
-              slot.removeClass("selected")
-          else
-            if slot.dateStart >= date && toShow > 0
-              slot.show()
-              slot.addClass("selected")
-              updateCreditsSize(slot)
-              toShow--
-            else 
-              slot.hide()
-              slot.removeClass("selected")
-      else
-          $(@).hide()
-          $(@).removeClass("selected")
+              $(@).remove()
 
+          slots.sort (a,b) ->
+            a.dateStart = new Date dayStr + " " + a.attr("time-start")
+            a.dateEnd = new Date dayStr + " " + a.attr("time-finish")
+            b.dateStart = new Date dayStr + " " + b.attr("time-start")
+            b.dateEnd = new Date dayStr + " " + b.attr("time-finish")
+            a.dateStart - b.dateStart
 
+          toShow = maxShowingNumber
+
+          for slot in slots
+            if $(".show-current").length > 0
+              if slot.dateStart <= date && slot.dateEnd > date && toShow > 0  
+                slot.show()
+                updateCreditsSize(slot)
+                slot.addClass("selected")
+                toShow--
+              else 
+                slot.hide()
+                slot.removeClass("selected")
+            else
+              if slot.dateStart >= date && toShow > 0
+                slot.show()
+                slot.addClass("selected")
+                updateCreditsSize(slot)
+                toShow--
+              else 
+                slot.hide()
+                slot.removeClass("selected")
+        else
+            $(@).hide()
+            $(@).removeClass("selected")
+    if $(".lobby-break").length > 0 then updateTalkCounter += 1
     setTimeout updateTalk, 1000
 
   sponsorTimeout = 10000
@@ -127,6 +133,21 @@ $ ->
       updateCredits()
     else
       setTimeout updateCredits, parseInt $(".credits").attr("interval-off")
+
+  updateNuclaiBar = () ->
+    selected = $("table.talks-list .track.selected")
+    selected.toggleClass("conference-bar")
+    if selected.hasClass "conference-bar"
+      selected.append("
+          <div class='special-talk-entry-wrap'>
+            <div class='logo special-talk-entry'></div>
+            <div class='nuclaiconferencetxt'>nucl.ai Conference 2016</div>
+          </div>
+        ")
+      padding = ($(".special-talk-entry-wrap").parent().parent().outerHeight() - 95 ) / 2;
+      $('.special-talk-entry-wrap').css("padding-top", padding + "px")
+    else
+      $('.special-talk-entry-wrap').remove()
 
   updateTalk()
   updateSponsor()
