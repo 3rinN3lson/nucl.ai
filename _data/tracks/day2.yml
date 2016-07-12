@@ -1,8 +1,8 @@
-- title: "Introduction: Behavior, Analytics, Procedural Generation"
-  speakers:
-    - Emil Johansen
-    - Heather Stark
-    - Noor Shaker
+- title: "Day #2 Welcome & Introduction"
+  # speakers:
+  #   - Emil Johansen
+  #   - Heather Stark
+  #   - Noor Shaker
   room: amphitheatre
   time:
     start: "09:00"
