@@ -1,8 +1,8 @@
-- title: "Introduction: Animation, Systemic Design, Cognition"
-  speakers:
-    - Mika Vehkala
-    - Clodéric Mars
-    - Tommy Thompson
+- title: "Day #3 Welcome & Introduction"
+  # speakers:
+  #   - Mika Vehkala
+  #   - Clodéric Mars
+  #   - Tommy Thompson
   room: amphitheatre
   time:
     start: "09:00"
