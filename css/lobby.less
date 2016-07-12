@@ -2,12 +2,39 @@ section#section-lobby {
     background-color: transparent;
     height: 100%;
     position: relative;
+    .special-talk-entry-wrap {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding-top: 45px;
+        padding-left: 45px;
+        .special-talk-entry {
+            float: left;
+            width: 95px;
+            height: 95px;
+            background-size: cover;
+        }
+        .nuclaiconferencetxt {
+            float: left;
+            margin-top: 8px;
+            margin-left: 40px;
+            font-size: 3.4em;
+        }
+    }
     table, .cell-content { background-color: transparent !important; }
     .break.table { margin: 0; }
     .break { display: none !important; }
     table { background-color: fade(@BLUE, 80%) !important; }
     .track { color: @WHITE !important; }
     .track {font-size: 1.5em; }
+    .track.selected {
+        &.conference-bar {
+            p, span {
+                opacity: 0;
+            }
+
+        }
+    }
     .nuclai-title {
         display: none;
     }
