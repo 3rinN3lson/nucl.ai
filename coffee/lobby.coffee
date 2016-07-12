@@ -71,8 +71,7 @@ $ ->
         else
             $(@).hide()
             $(@).removeClass("selected")
-
-    updateTalkCounter += 1
+    if $(".lobby-break").length > 0 then updateTalkCounter += 1
     setTimeout updateTalk, 1000
 
   sponsorTimeout = 10000
@@ -145,6 +144,8 @@ $ ->
             <div class='nuclaiconferencetxt'>nucl.ai Conference 2016</div>
           </div>
         ")
+      padding = ($(".special-talk-entry-wrap").parent().parent().outerHeight() - 95 ) / 2;
+      $('.special-talk-entry-wrap').css("padding-top", padding + "px")
     else
       $('.special-talk-entry-wrap').remove()
 
