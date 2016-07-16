@@ -109,18 +109,23 @@
 
                 </content>
                 {% if page.name == 'index.html' %}
-
                     {% if site.data.config.current.featured == "call" %}
                         <div class="centered-cell right-cell stream-link">
                         {% include features/featured/call.html %}
                         </div>
                     {% endif %}
-
                 {% endif %}
                 {% if page.name == 'index.html' %}
                     {% if site.data.config.current.featured == "testimonials" %}
                         <div class="centered-cell right-cell">
                         {% include features/featured/testimonials.html %}
+                        </div>
+                    {% endif %}
+                {% endif %}
+                {% if page.name == 'index.html' %}
+                    {% if site.data.config.current.featured == "stream" %}
+                        <div class="centered-cell right-cell">
+                        {% include features/featured/stream.html %}
                         </div>
                     {% endif %}
                 {% endif %}
