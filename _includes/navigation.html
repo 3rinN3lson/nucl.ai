@@ -104,7 +104,7 @@
                                 {% else %}
                                     <div class="table item">
                                 {% endif %}
-                                    <a href="{{ '/tickets/' | prepend: site.baseurl }}"> Get Tickets </a>
+                                    <a class="disabled" href="{{ '/tickets/' | prepend: site.baseurl }}"> Get Tickets </a>
                                 </div>
                                 {% if page.name == 'partner_and_family.html' %}
                                     <div class="table selected item">
@@ -138,9 +138,7 @@
                 {% else %}
                     <item class="">
                 {% endif %}
-
-                    <a href="{{ '/tickets/' | prepend: site.baseurl }}" class="" style=""> Tickets! </a>
-
+                    <a class="disabled" href="{{ '/tickets/' | prepend: site.baseurl }}" class="" style=""> Tickets! </a>
                 </item>
 
                 {% comment %}
