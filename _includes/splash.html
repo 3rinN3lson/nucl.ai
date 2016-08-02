@@ -67,7 +67,6 @@
                         {% comment %}
                         <h2 class="date"> {{site.data.config.edition.to_html}}, Vienna / AUSTRIA. </h2>
                         {% endcomment %}
-                        <h2 class="date"> Conference on Artificial Intelligence in Creative Industries </h2>
                         {% if site.data.config.current.featured %}
 
                             <!-- it's redundant here -->
@@ -128,6 +127,13 @@
                     {% if site.data.config.current.featured == "stream" %}
                         <div class="centered-cell right-cell">
                         {% include features/featured/stream.html %}
+                        </div>
+                    {% endif %}
+                {% endif %}
+                {% if page.name == 'index.html' %}
+                    {% if site.data.config.current.featured == "post" %}
+                        <div class="centered-cell right-cell">
+                        {% include features/featured/post.html %}
                         </div>
                     {% endif %}
                 {% endif %}
