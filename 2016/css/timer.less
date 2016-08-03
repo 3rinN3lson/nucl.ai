@@ -1,0 +1,83 @@
+@clock_size: 105px; //this same vlaue duplicatd in javascript
+@unit_size: 50px;
+
+@clock_size_mobile: 50px;
+@unit_size_mobile: 25px;
+
+
+div.dashboard-wrap { display: none; }
+
+timer-dashboard {
+
+    //display only on wide screens
+    display: block;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { display: none; }
+
+    display: block;
+    width: 100%;
+    text-align: center;
+    h3 {
+        text-align: center;
+        color: @ORANGE;
+        font-size: 2em;
+    }
+    clock {
+        padding-left: 20px;
+        &:first-child { padding-left: 0px; }
+        display: inline-block;
+        margin-bottom: @unit_size;
+        .value-wrap-table, .unit {
+            position: absolute;
+            width: @clock_size;
+            text-align: center;
+        }
+        .value-wrap-table {
+            height: @clock_size;
+            .value {
+                margin: 0;
+                font-size: 2.5em;
+                font-weight: bold;
+            }
+        }
+
+        .unit {
+            margin-top: @clock_size;
+            line-height: @unit_size;
+        }
+    }
+}
+
+/** sizes for mobile time */
+
+.mobile {
+    timer-dashboard {
+        //display only on mobile screens
+        display: none;
+        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { display: block; }
+        h3 {
+            font-size: 1em;    
+        }
+        clock {
+            margin-bottom: @unit_size_mobile;
+            padding-left: 7px;
+            &:first-child { padding-left: 0px; }
+            .value-wrap-table, .unit {
+                width: @clock_size_mobile;
+            }
+            .value-wrap-table {
+                height: @clock_size_mobile;
+                .value {
+                    font-weight: normal;
+                    font-size: 1.5em;
+                }
+            }
+            .unit {
+                font-size: 0.7em;
+                margin-top: @clock_size_mobile;
+                line-height: @unit_size_mobile;
+            }
+        }
+    }
+}
+
+.all-timers-off { display: none; }

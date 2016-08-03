@@ -1,0 +1,53 @@
+section.program {
+    content { 
+        .column(12); 
+        font-size: 1.05em;
+    }
+    h2 {
+        padding: 1.5em 0 0.5em 0;
+    }
+}
+section.program.separator {
+    min-height: 480px !important;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { min-height: 100px !important; }
+}
+section.program.thumbnails-grid {
+    position: relative;
+    z-index: 1;
+    grid {
+        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { padding-bottom: 1em; } 
+    }
+    content {
+        p.message { 
+            opacity: 1.0;
+            color: @LIGHT_BLUE;
+        }
+        div.thumbnails {
+            .row(10);
+            margin-top: 2em;
+            margin-bottom: 3em;
+        }
+    }
+}
+sections.page section.room {
+    content {
+        .column(12);
+        item.text {
+            p {
+                opacity: 0.85;
+                text-align: justify;
+            }
+            p.message { 
+                opacity: 1.0;
+                color: @LIGHT_BLUE;
+            }
+            img { 
+                width: 400px; float: right; 
+                @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                    width: 100%;
+                    padding-bottom: 15px; 
+                }
+            }
+        }
+    }
+}

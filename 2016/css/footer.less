@@ -1,0 +1,52 @@
+footer {
+    display: block;
+    background-color: darken(@DARK_GREY, 5%);
+    color: @DIRTY_WHITE;
+    width: 100%;
+    height: @FOOTER_HEIGHT;
+    padding: 16px 0;
+
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+        padding: 10px 0;
+        height: @FOOTER_HEIGHT_MOBILE;
+        font-size: 0.7em;
+    }
+    * {
+        display: block;
+        text-align: center;
+    }
+
+    content {
+        links {
+            a {
+                &.disabled { 
+                    opacity: 0.3;
+                    cursor: default;
+                };
+                color: @DIRTY_WHITE;
+                cursor: pointer;
+                display: inline-block;
+                margin-right: 20px;
+                text-decoration: none;
+                line-height: 40px;
+                @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                    line-height: 10px;
+                    font-size: 0.8em;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .copyrights {
+            &:extend(.small);
+            opacity: 0.5;
+            padding: 0;
+            margin: 0;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                margin: 0;
+            }
+        }
+    }
+}

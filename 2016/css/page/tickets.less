@@ -1,0 +1,199 @@
+sections.page section.tickets {
+
+    @table_line_height: 86px;
+    @table_line_height_smartphone: 50px;
+    @table_margin: 0.6%; // to overwrite too big semantic.gs margin
+    .cell() {
+        margin: @table_margin;
+        display: table;
+        height: calc(1.2 * @table_line_height);
+        //quick fix for make table keep equal size
+        @media screen and (max-width: 800px) { height: calc(1.5 * @table_line_height); }
+        @media screen and (max-width: 500px) { height: calc(2 * @table_line_height); }
+        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { height: calc(1.3 * @table_line_height_smartphone); }
+    }
+
+    content {
+        .column(12);
+        item.ticket-row {
+            .stars { display: none; }
+            &.extras .stars { display: inline; }
+            width: 100%;
+            float: left;
+            div.name {
+                .column(6);
+                .centered-cell {
+                    text-align: left;
+                    p.name { 
+                        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                            margin: 5px 0px;
+                            font-size: 0.7em;
+                        }
+                    }
+                }
+                &.invisible { background-color: inherit; }
+                width: 49.5%; // because of overwritten semantic.gs margin, we need to make one row bigger to fill up available width
+            }
+            div.all-access {
+                .column(2);
+                text-align: center;
+                color: @LIGHT_BLUE;
+                &.titlerow {
+                    background-color: @MID_BLUE;
+                    color: @WHITE;
+                }
+            }
+            div.conference {
+                .column(2);
+                text-align: center;
+                color: @ORANGE;
+                &.titlerow {
+                    background-color: @DIRTY_ORANGE;
+                    color: @WHITE;
+                }
+            }
+            div.single-day {
+                .column(2);
+                text-align: center;
+                color: darken(@WHITE, 15%);
+                &.titlerow {
+                    background-color: @LIGHT_BLACK;
+                    color: darken(@WHITE, 15%);
+                }
+                /* little hack to keep X tickets available in line */
+            }
+            &.short { 
+                div.table { 
+                    height: @table_line_height;
+                    table-layout: fixed;
+                    @media screen and (max-width: 500px) { height: calc(1.5 * @table_line_height); }
+                    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { height: @table_line_height_smartphone;  }
+                } 
+            }
+            //@TODO do it better please
+            &[name="Access to the Main Amphitheatre"], &[name="Access to the Masterclass Room"], &[name="Access to the Open Laboratory"]  {
+                div.table { 
+                     div.centered-cell.hovered {
+                        background-color: fade(@LIGHT_BLUE, 50%);
+                     }
+                }
+            }
+            div.table { 
+                .cell(); 
+                background-color: @DARK_GREY;
+                &.invisible div.centered-cell {
+                    cursor: default;
+                }
+                &.titlerow div.centered-cell p { 
+                    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) {  font-size: 8px; padding: 1px; }
+                }
+                div.centered-cell {
+                    .transition(background-color 0.3s ease-in-out);
+                    cursor: pointer;
+                    &.hovered {
+                        background-color: fade(white, 11%);
+                    }
+                    p {
+                        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { padding: 0 5px; }
+                        padding: 0 10px; 
+                    }
+                }
+                p.date , span.comment { 
+                    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                        margin: 0;
+                        margin-bottom: 0.2em;
+                    }
+                    color: @GREY;
+                }
+                span.comment { font-size: 0.8em; }
+            }
+            &.extras { div.table { background-color: fade(@DARK_GREY, 60%); } }
+        }
+        div.table-comments {
+            p:extend(.small) {} 
+            margin-top: 0.5em;
+            .column(12);
+            h4 {
+                margin-left: 1ex;
+                font-weight: normal;
+                color: white;
+                font-size: 1.24em;
+                margin-bottom: 0;
+            }
+            ul {
+                opacity: 0.75;
+                font-size: 16px;
+            }
+        }
+        div.ticket-button-wrap {
+            margin-top: 2em;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { margin-top: 1.4em; }
+            width: 100%;
+            float: left;
+            text-align: center;
+            overflow: visible;
+            a {
+                display: inline-block;
+                padding: 1em 2em; 
+                background-color: @DIRTY_ORANGE;
+                color: white;
+                &:hover { color: white !important; }
+                text-decoration: none;
+                @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) {  padding: 0.75em 1.5em; }
+            }
+        }
+    }
+}
+
+section.eventbrite {
+    content {
+        h3 { color: @ORANGE; }
+    }
+}
+
+sections.page section.faq {
+    content {
+        .column(12);
+        item.tickets-review {
+            & > p {
+                opacity: 0.85;
+            }
+            float: left;
+            .table {
+                float: right;
+                padding: 32px 10%;
+                text-align: center;
+                @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                    width: 100%;
+                    padding: 0;
+                    margin-bottom: 10px;
+                    p { margin: 0.4em 0; }
+                }
+                .title {
+                    @media screen and (min-width: (@SMARTPHONE_MAX_PORTRAIT + 1px)) { 
+                        .circular(192px, 100%); 
+                        display: table-cell;
+                    }
+                    background-color: @DIRTY_ORANGE;
+                    vertical-align: middle;
+                    h3 {
+                        padding: 0;
+                    }
+                }
+                &.all-access {
+                    padding-top: 64px;
+                    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                        padding-top: 5px;
+                    }
+                    float: left;
+                    .title {
+                        background-color: @MID_BLUE;
+                    }
+                }
+            }
+        }
+        p.answer {
+            opacity: 0.75;
+        }
+    }
+}

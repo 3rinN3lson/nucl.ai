@@ -1,0 +1,59 @@
+section.call {
+    content {
+        .column(12);
+        h3 {
+            padding-top: 1em;
+            color: @ORANGE;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        p, ul, ol {
+            color: @LIGHT_GREY;
+            &.important {
+                font-weight: bold;
+                text-align: center;
+                color: @ORANGE;
+                padding-top: 1em;
+            }
+        }
+
+        ul, ol {
+            color: @LIGHT_BLUE;
+        }
+
+        img {
+            .column(4,10);
+            float: right;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+
+        div.megaphone-paragraph-wrap {
+            icon.megaphone {
+                background-size: initial;
+                background-position: initial;
+                width: 105px;
+                height: 100px;
+                margin: 30px 0 30px 60px;
+                .transition(transform 0.5s);
+                @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                    .transform(scale(0.5));
+                    margin: -20px;
+                }
+                float: right;
+
+            }
+            &:hover { 
+                icon.megaphone {
+                    @media screen and (min-width: (@SMARTPHONE_MAX_PORTRAIT + 1)) { 
+                        .rotate(+15deg);
+                        background-position-y: -100px;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
