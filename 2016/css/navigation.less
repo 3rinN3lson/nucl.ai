@@ -1,0 +1,181 @@
+@MENU_TRANSITION: 0.6s;
+
+sections {
+    section.navigation {
+        overflow: visible;
+        min-height: @NAVIGATION_HEIGHT;
+        height: @NAVIGATION_HEIGHT;
+        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+            min-height: @NAVIGATION_HEIGHT_MOBILE;
+            height: @NAVIGATION_HEIGHT_MOBILE;
+            font-size: 0.3em;
+        }
+        position: absolute;
+        background-color: @BLUE;
+        z-index: 3;
+        width: 100%;
+        &.sticky {
+            position: fixed;
+            /**
+            * Covers chrome bug
+            * Described for example here http://stackoverflow.com/questions/17068361/chrome-positionfixed-inside-positionabsolute-breaking-with-iframe-video
+            */
+            -webkit-transform: translateZ(0);
+            top: 0;
+            left: 0;
+            //select only if sticky
+            item.selected.nav-logo { background-color: @DIRTY_ORANGE; }
+        }
+        div.layer-color {
+            background-color: fade(@DARK_GREY, 70%);
+        }
+        grid {
+            padding: 0;
+            content {
+                overflow: visible;
+                width: 100%;
+
+                /* link inside item */
+                div.item { width: 100% }
+                item, div.item {
+                    a {
+                        width: inherit;
+                        height: @NAVIGATION_HEIGHT;
+                        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                            height: @NAVIGATION_HEIGHT_MOBILE;
+                        }
+                        display: table-cell;
+                        vertical-align: middle;
+                        text-align: center;
+                        text-decoration: none;
+                        color: @WHITE;
+                        span.long-title { display: inline-block; }
+                        span.short-title {display: none; }
+                        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                            span.long-title { display: none; }
+                            span.short-title {display: inline-block; }
+                        }
+                        /**
+                        * For not implemented yet pages
+                        */
+                        &.disabled {
+                            cursor: default;
+                            color: @GREY !important;
+                        }
+                        &.expanded {
+                            color: @ORANGE;
+                        }
+                    }
+                    &.selected {
+                        //select only if sticky
+                        &.nav-logo { background-color: initial; }
+                        background-color: @DIRTY_ORANGE;
+                        a:hover {
+                            color: inherit;
+                        }
+                        a.expanded {
+                            color: inherit;
+                        }
+                    }
+                    &:not(.selected) {
+                        a:hover {
+                            &:not(.disabled) {
+                                color: @ORANGE;
+                                .transition(@MENU_TRANSITION);
+                            }
+                        }
+                        .icons-wrap:hover {
+                            .logo.orange {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+
+                item {
+                    width: 17%;
+                    //width: 13%;
+                    display: block;
+                    float: left;
+                    text-align: center;
+                    position: relative;
+                    &.nav-logo {
+                        width: 15%;
+                        //width: 9%;
+                        line-height: 1px;
+                    }
+                    div.icons-wrap {
+                        display: inline-block;
+                        position: relative;
+                        width: @NAVIGATION_HEIGHT - 28px;
+                        height: @NAVIGATION_HEIGHT;
+                        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                            width: @NAVIGATION_HEIGHT_MOBILE - 20px;
+                            height: @NAVIGATION_HEIGHT_MOBILE;
+                        }
+                        .logo {
+                            display: block;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            width: 100%;
+                            background-position: center 50%;
+                        }
+                    }
+                    .logo.orange { 
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        opacity: 0;
+                    }
+                    /** drop down menu */
+                    @triangle_size: 15px;
+                    @triangle_size_mobile: 5px;
+                    &.expanded {
+                        .dropdown { 
+                            opacity: 1;
+                            top: initial;
+                            display: block;
+                        }
+                    }
+                    .dropdown {
+                        opacity: 0;
+                        .transition(opacity .3s ease-in);
+                        width: 100%;
+                        position: absolute;
+                        top: -1000px;
+                        margin-top: @triangle_size;
+                        z-index: 2;
+                        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { margin-top: @triangle_size_mobile; }
+                        .triangle {
+                            .triangle(@triangle_size);
+                            margin-top: calc(-@triangle_size);
+                            margin-left: auto;
+                            margin-right: auto;
+                            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                                .triangle(@triangle_size_mobile);
+                                margin-top: calc(-@triangle_size_mobile); 
+                            }
+                            color: @ORANGE;
+                        }
+                        .menu {
+                            background-color: @BLUE;
+                            border: solid 1px @ORANGE;
+                            .border-radius(4px);
+                            .menu-wrap {
+                                background-color: fade(@DARK_GREY, 70%);
+                                .border-radius(4px);
+                                div.table {
+                                    height: initial;
+                                    a {
+                                        width: 100%;
+                                        padding: 0 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

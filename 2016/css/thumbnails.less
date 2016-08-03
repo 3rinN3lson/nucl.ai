@@ -1,0 +1,197 @@
+@THUMBNAIL_SIZE: 80%;
+/** 
+* This value must be replicated it config.coffee. Thumbnail needs to know its final size to listen for transitionEnd if size isn't final 
+*/
+@THUMBNAIL_SIZE_LARGE: 90%;
+
+/****************************/
+@THUMBNAIL_BORDER_SIZE: 0.3em;
+@THUMBNAIL_BORDER_SIZE_SELECTED: 0.3em;
+
+.thumbnails-grid {
+    position: relative;
+    z-index: 1;
+    content {
+
+        /** for small thumbnails */
+        .small-thumbnails() {
+            item.thumbnail {
+                padding-bottom: 0;
+                overflow: visible;
+                .thumbnail-title {
+                    font-size: 16px;
+                    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                        font-size: 0.5em;
+                    }
+                    opacity: 0.75;
+
+                    &.selected.allows-selcted {
+                        display: block;
+                        color: @ORANGE;
+                        opacity: 1.0;
+                    }
+
+                }
+            }
+        }
+        .thumbnails-3-in-row {
+            .small-thumbnails();
+            item.thumbnail {
+                .column(4,12);
+                .thumbnail-title { 
+                    font-size: 18px; 
+                    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { font-size: 0.7em; }
+                }
+            }
+        }
+        .thumbnails-4-in-row {
+            .small-thumbnails();
+            item.thumbnail {
+                .column(3,12);
+            }
+        }
+        .thumbnails-5-in-row {
+            .small-thumbnails();
+            item.thumbnail {
+                .column(2,10);
+            }
+        }
+        .thumbnails-6-in-row {
+            .small-thumbnails();
+            item.thumbnail {
+                .column(2,12);
+                .thumbnail-title { margin-top: 0px; }
+            }
+        }
+
+
+        item.thumbnail {
+            overflow: hidden;
+            padding-bottom: 1em;
+            .column(4);
+            text-align: center;
+            thumbnail-wrap {
+                display: block;
+                text-align: center;
+                overflow: hidden;
+                a.thumbnail {
+                    opacity: 0;
+                    .transition(opacity .7s ease-in);
+                    margin: (100% - @THUMBNAIL_SIZE) / 2;
+                    .circular(@THUMBNAIL_SIZE, 100%);
+                    cursor: pointer;
+                    &.disabled { cursor: default; }
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: inline-block;
+                    box-sizing: border-box;
+                    border: solid @THUMBNAIL_BORDER_SIZE;
+                    border-color: lighten(@GREY, 5%);
+                    .filter(grayscale(100%));
+                    &:hover:not(.disabled), &.selected {
+                        margin: (100% - @THUMBNAIL_SIZE_LARGE) / 2;
+                        .circular(@THUMBNAIL_SIZE_LARGE, 100%);
+                        border: solid @THUMBNAIL_BORDER_SIZE_SELECTED;
+                        border-color: lighten(@BLUE, 25%);
+                        .filter(none);
+                    }
+                    &.selected:not(.disabled) { border-color: @ORANGE; }
+                }
+            }
+            .thumbnail-title {
+                font-weight: bold;
+                color: lighten(white, 25%);
+                margin-top: 0px;
+                @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                    font-weight: normal;
+                    font-size: 0.85em;
+                }
+                &.hover:not(.disabled) { color: lighten(@BLUE, 25%);
+                }
+                &.selected { display: none; }
+            }
+        }
+        item.description {
+            .column(8);
+            .push(2);
+            &.animated { .animation-duration(0.5s); }
+            display: none;
+            text-align: justify;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) {  font-size: 0.8em; }
+            &:not(.last-row) { 
+                padding-bottom: 2.8em; 
+                @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) {  padding-bottom: 1em; }
+            }
+            &.selected { display: block; }
+            color: @LIGHT_GREY;
+            div.thumbnail-title-wrap { 
+                margin: 15px 0 5px;
+                @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { margin: 15px 0 0 0; }
+            }
+            .thumbnail-title {
+                color: @ORANGE;
+                text-align: center;
+                &.column-first { 
+                    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { h2, p { text-align: left; } }
+                }
+                &.column-last { 
+                    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { h2, p { text-align: right; } }
+                }
+                h2 { 
+                    padding: 0.5em 0 0.5em; 
+                    display: block;
+                    float: left;
+                    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                        padding-bottom: 0;
+                        width: 100%; 
+                    }
+                }
+                a {
+                    text-decoration: none;
+                    color: @ORANGE;
+                }
+                p.affiliation {
+                    a { color: @LIGHT_BLUE; }
+                    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                        margin-top: 0;
+                        width: 100%; 
+                    }
+                }
+            }
+            p {
+                @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { line-height: 1.1 }
+                &.note {
+                    color: @GREY;
+                    a {
+                        color: @GREY;
+                        text-decoration: none;
+                    }
+                }
+            }
+            @media screen and (min-width: (@SMARTPHONE_MAX_PORTRAIT + 1px)) {  
+                a.read-more {
+                    float: right;
+                    padding-bottom: 0.5em;
+                    margin-top: 5px;
+                    display: inline-block;
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+            }
+            h3 {
+                margin-bottom: 0;
+                color: @GREY;
+            }
+        }
+    }
+
+    svg {
+        position: absolute !important;
+        z-index: -1;
+        path {
+            stroke: @ORANGE;
+            stroke-width: 1px;
+        }
+    }
+}

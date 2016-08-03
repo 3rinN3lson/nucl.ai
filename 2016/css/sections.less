@@ -1,0 +1,113 @@
+.theme_blue() {
+    background-color: @BLUE;
+    a { color: @LIGHT_BLUE; }
+    a:hover:not(.wip) { color: @ORANGE; }
+}
+
+.theme_grey() {
+    background-color: @DARK_GREY;
+    a { color: @LIGHT_BLUE; }
+    a:hover:not(.wip) { color: @ORANGE; }
+}
+
+section {
+    min-height: calc(~"85vh");
+    overflow: hidden;
+    h2 { 
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    &:nth-child(even) {
+        .theme_blue();
+    }
+    &:nth-child(odd) {
+        .theme_grey();
+    }
+    &:last-child {
+        grid {
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { padding-bottom: 2em; }
+        }
+    }
+
+    // & > h2 { box-shadow: @GRADIENT_GREY; }
+
+    grid {
+        width: @PAGE_WIDHT;
+        max-width: @PAGE_MAX_WIDTH;
+        margin: auto;
+        display: block;
+        padding-bottom: 2em;
+        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { padding-bottom: 1.5em; }
+        .clearfix();
+        content {
+            display: block;
+            overflow: hidden;
+            div.block {
+                float: left;
+                width: 50%;
+                ul {
+                    opacity: 0.85;
+                }
+            }
+        } 
+    }
+    &:last-child {
+        min-height: calc(~"100vh - @{FOOTER_HEIGHT}  - @{NAVIGATION_HEIGHT}");
+    }
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+        &:last-child {
+            min-height: calc(~"100vh - @{FOOTER_HEIGHT_MOBILE}  - @{NAVIGATION_HEIGHT_MOBILE}");
+        }
+    }
+
+    &.inline {
+        /**
+        * For small sections like sponsors, testimonials
+        */
+        content {
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                padding-top: 0.8em;
+                padding-bottom: 0.8em;
+            }
+        }
+    }
+
+} 
+
+section.separator {
+    background-size: cover;
+    min-height: @SEPARATOR_HEIGHT;
+    @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+        min-height: @SEPARATOR_HEIGHT_SMARTPHONE;
+    }
+}
+
+sections.page .page-content-sections section {
+    min-height: 0px;
+    // reveresed color schema for page layout
+    &:nth-child(odd) {
+        .theme_blue();
+    }
+    &:nth-child(even) {
+        .theme_grey();
+    }
+    &:only-child {
+        min-height: calc(~"@{PAGE_FIRST_SECTION_HEIGHT} - @{FOOTER_HEIGHT} - @{NAVIGATION_HEIGHT}");
+    }
+    &.separator:extend(section.separator) {}
+}
+
+section.none { display: none }
+
+/** for nice section enter effect */
+section {
+    content, h2 { 
+        .transition(opacity .5s ease-in-out);
+    }
+}
+
+section.topics {
+    &, section {
+        min-height: 0px;
+    }
+}

@@ -1,0 +1,154 @@
+sections.page .page-content-sections  section.stream {
+    
+    .buttons-wrap {
+        height: 50px;
+        > div {
+            display: inline-block;
+            position: absolute;
+            &.yt-subscribe {
+                margin-top: 2px;
+            }
+            &.tw-follow {
+                margin-left: 150px;
+                a { opacity: 0; }
+            }
+            &.fb-follow-top {
+                margin-left: 355px;
+                margin-top: 4px;
+            }
+        }
+    }
+
+    .subscribe-wrap {
+        margin-bottom: 25px;
+        h2.subscribe-note { padding-top: 0; }
+        div.icons-wrap {
+            display: inline-block;
+            display: block;
+            width: 100%;
+            text-align: center;
+            icons {
+                a {
+                    border: 2px solid @WHITE;
+                }
+                display: inline-block;
+                padding: 0px;
+                display: inline-block;
+            }
+        }
+    }
+
+    &.full-screen {
+        min-height: calc(~"100vh - @{FOOTER_HEIGHT}  - @{NAVIGATION_HEIGHT}");
+    }
+    .timer-color { color: @ORANGE; }
+    content {
+        .column(12);
+        img {   
+            width: 100%;
+            margin: 1em 0 0 0;
+        }
+        .all-timers-off {
+            color: @ORANGE;
+            font-size: 2.5em;
+            padding-bottom: 2em;
+            text-align: center;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                font-size: 1em;
+            }
+        }
+        .credit {
+            margin-top: 0;
+            margin-bottom: 1.5em;
+            text-align: right;
+            color: #808080;
+            a {
+                color: inherit !important;
+            }
+        }
+        #register {
+            color: @ORANGE;
+            text-align: center;
+            font-size: 2em;
+            margin-top: -1em;
+            margin-bottom: 1em;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                font-size: 1em;
+            }
+            a {
+                display: inline-block;
+                padding: 4px 8px;
+                color: @ORANGE;
+                &:hover {
+                    color: @DARK_BLUE;
+                    background-color: @ORANGE;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .stream-wrap-wrap {
+        text-align: center;
+    }
+    .stream-wrap {
+        display: none;
+        width: 100%;
+        margin-top: 2em;
+        .stream-inside {
+            display: inline-block;
+            width: 100%;
+        }
+        iframe {
+            padding-bottom: 4em;
+            float: left;
+            display: block;
+                //height: 1200px;
+                //@media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { height: 800px; }
+        }
+        .buttons-wrap {
+            margin-top: 1em;
+            text-align: left;
+        }
+    }
+
+    &.stream-teaser {
+        padding-top: 1em;
+        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { padding-top: 0em; }
+        &.first {
+            padding-top: 0;
+            margin-top: -28px;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { margin-top: -38px; }
+        }
+    }
+    &.stream-sign-up {
+        .stream-wrap {
+            iframe {
+                padding-bottom: 0em;
+            }
+        }
+    }
+    &.program-schedule {
+        display: none;
+        content > p { display: none; }
+        .day-wrap { margin-bottom: 0em; }
+        .track.break { display: none; }
+        .list-schedule { display: block; }
+        span.room { display: none; }
+        table.talks-list {
+            .track { display: none; }
+            .track[room="amphitheatre"] { display: block; }
+            padding-bottom: 2em;
+        }
+        @media screen and (min-width: (@SMARTPHONE_MAX_PORTRAIT + 1px)) {
+            table.talks-list { margin-top: 0; }
+            table.header-table { padding-bottom: 1em; }
+        }
+    }
+}
+
+section.stream#stream-page {
+    .stream-wrap { 
+        display: block;
+        margin-top: 0px;
+    }
+}

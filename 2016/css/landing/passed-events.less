@@ -1,0 +1,40 @@
+section.passed-events {
+    content { .column(12); }
+    min-height: 0;
+    h2 {
+        a {
+            text-decoration: none;
+            &.go-to-page {
+                &, &:hover { color: @ORANGE; }
+            }
+            &.go-to-recordings {
+                &, &:hover { color: lighten(@PURPLE, 30%); }
+            }
+        }
+    }
+    grid {
+        padding-bottom: 3em;
+        @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+            padding-bottom: 2em;
+        }
+        descriptions {
+            display: none;
+        }
+        content {
+            ul {
+                margin-bottom: 2em;
+            }
+        }
+    }
+
+    ul.regular-attendees {
+        li { 
+            .column(4);
+            display: list-item;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                .column(6);
+                font-size: 12px;
+            }
+        }
+    }
+}
