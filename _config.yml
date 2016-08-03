@@ -4,7 +4,7 @@ email: team@aigamdev.com
 description: >
   The largest worldwide conference about Artificial Intelligence applications
   in interactive media, training & simulations, and digital entertainment.
-baseurl: ""
+baseurl: "/2016/"
 url: "http://nucl.ai"
 twitter_username: aigamedev
 github_username:  aigamedev
