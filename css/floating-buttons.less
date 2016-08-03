@@ -1,0 +1,47 @@
+.thumbnails-grid.floating-buttons {
+    min-height: 0px;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    grid { 
+        margin-top: 0px;
+        margin-bottom: 0px;
+        max-width: 100%;
+        margin: auto;
+        padding-bottom: 5px;
+    }
+    content {
+        item.thumbnail {
+            width: 120px;
+            @media screen and (max-width: @SMARTPHONE_MAX_PORTRAIT) { 
+                width: 70px;
+                font-size: 10px;
+            }
+            margin: 0;
+            float: right;
+            thumbnail-wrap {
+                a.thumbnail {
+                    background-image: none;
+                    text-decoration: none;
+                    font-size: 0.9em;
+                    .transition(none);
+                    &:hover {
+                        font-size: 1.1em;
+                        &#go-to-current {
+                            background-color: @ORANGE;
+                            color: white;
+                            border-color: @ORANGE; 
+                        }
+                        &#go-to-recordings {
+                            background-color: @PURPLE;
+                            color: white;
+                            border-color: @PURPLE; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
